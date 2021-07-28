@@ -122,9 +122,74 @@ checkoutButton.addEventListener("click", event => {
 
 ## Handle events from Fast Checkout
 
-Once the user has clicked the Fast Checkout button, the Fast popup window will have launched and the user can continue with their checkout. While this is going on, you can listen for fast.js `postMessage` events (link coming soon for Events list) if you want to keep up with the status of the order on your frontend.
+Once the user has clicked the Fast Checkout button, the Fast popup window will have launched and the user can continue with their checkout. While this is going on, you can listen for fast.js `postMessage` events if you want to keep up with the status of the order on your frontend.
 
-This is useful if you wish to forward data to your analytics provider, or if you want to do things like redirect to an order complete page after the user has finished their order and closed the Fast window.
+- `Buy Now - Button Clicked` is emited when "Fast Checkout" button clicked on poduct page.
+- `Checkout Cart - Button Clicked` is emited when "Fast Checkout" button clicked on cart page.
+
+Both these events emit:
+
+```json
+{
+  "cart_id": "string",
+  "item_ids": [
+    {
+      "platform_item_id": { "value": "string", "platform": "string" },
+      "platform_variant_id": { "value": "string", "platform": "string" },
+      "platform_product_id": { "value": "string", "platform": "string" },
+      "platform_sku": { "value": "string", "platform": "string" },
+      "quantity": "string",
+      "platform_name": "string",
+      "option_values": [
+        {
+          "option_id": { "value": "string" },
+          "option_value": { "value": "string" }
+        }
+      ]
+    }
+  ]
+}
+```
+
+- `Checkout - Order Cancelled` is emited when the order has been cancelled from inside the Fast checkout window.
+
+Emitted response:
+
+```json
+{
+  "ecommerce": {
+    "purchase": {
+      "actionField": {
+        "id": "string",
+        "affiliation": "string",
+        "revenue": "string",
+        "tax": "string",
+        "shipping": "string",
+        "country_code": "string",
+        "coupon": "string",
+        "checkout_time": "string"
+      },
+      "products": [
+        {
+          "name": "string",
+          "id": "string",
+          "price": "string",
+          "country_code": "string",
+          "quantity": "string",
+          "coupon": "string",
+          "brand": "string",
+          "category": "string",
+          "variant": "string"
+        }
+      ]
+    }
+  }
+}
+```
+
+**Note**: All event properties have the potential to be undefined. You will need to check for undefined properties and values
+
+These events are useful if you wish to forward data to your analytics provider, or if you want to do things like redirect to an order complete page after the user has finished their order and closed the Fast window.
 
 ```jsx
 // You can add an event listener for user_events onto your fast object to listen for any Fast-related events.
