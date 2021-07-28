@@ -1,4 +1,4 @@
-## Add Fast.js to your page
+## Add fast.js to your page
 
 On your product page, load the `fast.js` script:
 
@@ -25,7 +25,7 @@ Properties can be added to allow for integration without JavaScript.
 | **product_options** | Optional | product_options are a set of configurations that further describe the product being ordered. It is a key value map. It must be a valid JSON object. The key is the selection options and value is the choice for that selection. |
 | **variant_id**      | Optional | variant_id represents a unique sub-idenfifier for this product. These are sometimes used to denote size / color, etc.                                                                                                            |
 | **quantity**        | Optional | quantity is the number of items that should be purchased.                                                                                                                                                                        |
-| **currency**        | Optional | currency is the string value of currency for the purchase.                                                                                                                                                                      |
+| **currency**        | Optional | currency is the string value of currency for the purchase.                                                                                                                                                                       |
 | **disabled**        | Optional | disabled will prevent the button from functioning and show a disabled state.                                                                                                                                                     |
 | **dark**            | Optional | dark will use the dark theme. This is best used on darker websites.                                                                                                                                                              |
 
@@ -40,15 +40,13 @@ Properties can be added to allow for integration without JavaScript.
 
 ## Use the Fast Checkout button - Programatic/Advanced Approach
 
-### Open Fast Checkout when the button is clicked
-
 Decide where you want the button to appear on your product page and add a container for it:
 
 ```html
 <fast-checkout-button></fast-checkout-button>
 ```
 
-When the button is clicked, use Fast.js to place an order for the item. Make sure to include any product-specific options:
+When the button is clicked, use fast.js to place an order for the item. Make sure to include any product-specific options:
 
 ```jsx
 // If you have multiple fast-checkout-button elements on a single page, you'll want to use a more specific selector
@@ -122,9 +120,9 @@ checkoutButton.addEventListener("click", event => {
 
 🚨 It is important that you call `fast.checkout` synchronously within the `click` event handler. Many browsers will block new windows like Fast Checkout unless they are clearly connected to a user action such as clicking a button. If you perform asynchronous logic that takes several seconds, or call checkout in code in a different frame or window, the browser will prevent Fast Checkout from opening.
 
-### Handle events from Fast Checkout
+## Handle events from Fast Checkout
 
-Once the user has clicked the Fast Checkout button, the Fast popup window will have launched and the user can continue with their checkout. While this is going on, you can listen for Fast.js `postMessage` events (link coming soon for Events list) if you want to keep up with the status of the order on your frontend.
+Once the user has clicked the Fast Checkout button, the Fast popup window will have launched and the user can continue with their checkout. While this is going on, you can listen for fast.js `postMessage` events (link coming soon for Events list) if you want to keep up with the status of the order on your frontend.
 
 This is useful if you wish to forward data to your analytics provider, or if you want to do things like redirect to an order complete page after the user has finished their order and closed the Fast window.
 
