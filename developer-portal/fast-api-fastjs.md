@@ -16,7 +16,7 @@ Sandbox:
 
 ## Use the Fast Checkout button - Standard Approach
 
-Properties can be added to allow for integration without Javascript.
+Properties can be added to allow for integration without JavaScript.
 
 | Property            | Required | Description                                                                                                                                                                                                                      |
 | ------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
