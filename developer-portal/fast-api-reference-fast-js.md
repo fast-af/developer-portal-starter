@@ -10,8 +10,6 @@ Today, all events have a `name` field that denotes the type of event that fired 
 
 These are all of the events that are currently supported, when they are sent, and what extra properties they contain.
 
-**Event list will soon be available in our API reference docs. Please [subscribe to our product updates mailing list](https://fastdevs.substack.com/) to be notified when this content becomes available.**
-
 # Sample event watching code
 
 Events can be monitored by adding an event listener to the `Fast` object, like so:

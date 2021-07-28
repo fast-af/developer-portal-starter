@@ -20,10 +20,6 @@ nav:
   - label: Documentation
     page: developer-portal/index.md
 
-  - label: Product Updates
-    href: https://updates.fastdevs.co
-    external: true
-
   - label: Fast Account Help
     href: https://help.fast.co/hc/en-us
     external: true
