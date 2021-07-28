@@ -26,7 +26,7 @@ Properties can be added to allow for integration without Javascript.
 | **variant_id**      | Optional | variant_id represents a unique sub-idenfifier for this product. These are sometimes used to denote size / color, etc.                                                                                                            |
 | **quantity**        | Optional | quantity is the number of items that should be purchased.                                                                                                                                                                        |
 | **currency**        | Optional | currency is the string value of currency for the purchased.                                                                                                                                                                      |
-| **disabled**        | Optional | disbaled will prevent the button from fucntioning and show a disbaled state.                                                                                                                                                     |
+| **disabled**        | Optional | disabled will prevent the button from functioning and show a disabled state.                                                                                                                                                     |
 | **dark**            | Optional | dark will use the dark theme. This is best used on darker websites.                                                                                                                                                              |
 
 ```html
