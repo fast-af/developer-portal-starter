@@ -151,9 +151,11 @@ Both these events emit:
 }
 ```
 
+- `Checkout - Order Created` is emited when the order has been submitted through Fast checkout.
+- `Checkout - Order Updated` is emited when the order has changed while inside the Fast checkout window
 - `Checkout - Order Cancelled` is emited when the order has been cancelled from inside the Fast checkout window.
 
-Emitted response:
+These event emit:
 
 ```json
 {
@@ -166,7 +168,7 @@ Emitted response:
         "tax": "string",
         "shipping": "string",
         "country_code": "string",
-        "coupon": "string",
+        "coupon": ["string"],
         "checkout_time": "string"
       },
       "products": [
