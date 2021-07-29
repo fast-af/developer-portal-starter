@@ -124,8 +124,8 @@ checkoutButton.addEventListener("click", event => {
 
 Once the user has clicked the Fast Checkout button, the Fast popup window will have launched and the user can continue with their checkout. While this is going on, you can listen for fast.js `postMessage` events if you want to keep up with the status of the order on your frontend.
 
-- `Buy Now - Button Clicked` is emited when "Fast Checkout" button clicked on poduct page.
-- `Checkout Cart - Button Clicked` is emited when "Fast Checkout" button clicked on cart page.
+- `Buy Now - Button Clicked` is emitted when the "Fast Checkout" button is clicked on the product page.
+- `Checkout Cart - Button Clicked` is emitted when the "Fast Checkout" button is clicked on the cart page.
 
 Both these events emit:
 
@@ -151,11 +151,11 @@ Both these events emit:
 }
 ```
 
-- `Checkout - Order Created` is emited when the order has been submitted through Fast checkout.
-- `Checkout - Order Updated` is emited when the order has changed while inside the Fast checkout window
-- `Checkout - Order Cancelled` is emited when the order has been cancelled from inside the Fast checkout window.
+- `Checkout - Order Created` is emitted when the order has been submitted through Fast Checkout.
+- `Checkout - Order Updated` is emitted when the order has changed while inside the Fast Checkout window.
+- `Checkout - Order Cancelled` is emitted when the order has been canceled from inside the Fast Checkout window.
 
-These event emit:
+These events emit:
 
 ```json
 {
