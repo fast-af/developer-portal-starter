@@ -12,6 +12,7 @@ You'll need a Fast account and sandbox credentials to start integrating.
 
 [**Create a Fast Developer Account →**](https://sdash.sandbox.fast.co/)
 
+
 🚨 Note: Your account will have separate credentials for testing and production use. The sandbox credentials are for your development and test environments and will allow you to try Fast using fake credit cards without any money moving. The separate production credentials should be used for real customers performing real transactions.
 
 You can pick up onboarding anytime, if it's your first time doing this you'll likely need to pause at the "Install Fast Checkout" section of onboarding. We will pick up again in the later steps of this guide.
