@@ -13,7 +13,7 @@ training:
     separatorLine: true
   - separator: Quick Start
   - group: I am on a platform
-    expanded: false
+    expanded: true
     pages:
       - group: BigCommerce
         expanded: false
