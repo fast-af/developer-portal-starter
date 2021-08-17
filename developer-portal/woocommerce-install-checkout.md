@@ -57,8 +57,7 @@ Search the plugin directory for "Fast Checkout" or "Fast Checkout for WooCommerc
 
 If you find success with Fast Checkout for WooCommerce we'd love a review in the plugin directory. If you are not finding success, please reach out to our team—we want to make sure you're taken care of. 
 
-* Account support — [submit ticket](https://help.fast.co/hc/en-us/requests/new)
-* Developer feedback — [email DevRel](mailto:seller-support@fast.co)
+* [Account support](https://help.fast.co/)
 
 ## Activate plugin
 Click Activate Plugin. Essentially this turns the plugin code functionality "on."
