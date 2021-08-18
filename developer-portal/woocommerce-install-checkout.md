@@ -74,7 +74,7 @@ Direct url to your plugin settings is `http://yourwebsite.com/wp-admin/admin.php
 ## Add your App ID
 Copy your App ID from your seller dashboard and enter it into the App ID field in the Fast plugin settings. Click Save Changes at the bottom.
 
-![Configure Fast plugin settings](images/woocommerce/app-info-tab.jpg)
+![Configure Fast plugin settings](images/woocommerce/app-info-tab.png)
 
 *Tip: You can copy & paste your App ID from the seller dashboard to your WordPress website so you don't have to re-type it all. Use your mouse to highlight the text. Navigate to edit in your menu bar, then click Copy. Navigate back to your WordPress admin dashboard and click into the App ID field. Go to edit again, but this time, click Paste.*
 
