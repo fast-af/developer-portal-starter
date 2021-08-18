@@ -97,6 +97,6 @@ You can also edit the default CSS of the Fast button under the Styles tab in the
 ## Promote to production
 Once you have tested the various sections where Fast is integrated, you're ready to turn off test mode! Navigate back to the Fast plugin settings page in your WordPress admin dashboard, scroll below the CSS boxes, then uncheck test mode, and scroll to the bottom and click Save Changes.
 
-![Turn off test mode](images/woocommerce/test-mode-tab.jpg)
+![Turn off test mode](images/woocommerce/test-mode-tab.png)
 
 Once test mode is off, you're ready to enjoy your seller benefits. We're thrilled you're a Fast seller. 

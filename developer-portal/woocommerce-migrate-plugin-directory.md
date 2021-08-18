@@ -61,7 +61,7 @@ When you make plugin changes—updates, removals, etc—you may need to manually
 
 `http://yourwebsite.com/wp-admin/admin.php?page=fast`
 
-![Ensure test mode is disabled](images/woocommerce/test-mode-tab.jpg)
+![Ensure test mode is disabled](images/woocommerce/test-mode-tab.png)
 
 ### You're done!
 That's it. You're back in business. If you need help, you can find us [**over here →**](https://help.fast.co/). 
