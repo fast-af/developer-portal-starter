@@ -6,6 +6,10 @@ The Fast Checkout for WooCommerce plugin has several settings to configure your 
 
 ![App Info](images/woocommerce/app-info-tab.png)
 
+#### App ID
+
+The App Info tab contains the **App ID** setting, which you should set after becoming a seller during the [installation](/developer-portal/woocommerce-install-checkout.md) process.
+
 ## Styles Tab
 
 ![Styles Tab](images/woocommerce/styles-tab.png)
