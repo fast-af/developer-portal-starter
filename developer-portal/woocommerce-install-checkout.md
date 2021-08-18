@@ -59,7 +59,7 @@ Depending on your site setup, you may need to search a bit to find navigation it
 :::
 
 ## Search & install Fast Checkout for WooCommerce
-Search the plugin directory for "Fast Checkout" or "Fast Checkout for WooCommerce." We're really new, so you may need to scroll down a little bit to find us. 
+Search the plugin directory for "Fast Checkout" or "Fast Checkout for WooCommerce."
 
 ![Search Fast Checkout for WooCommerce](images/woocommerce/wp-add-plugins-fast-checkout.png)
 
