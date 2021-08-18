@@ -64,7 +64,7 @@ Select the Test mode option so that only logged-in admin users can see the Fast 
 #### Debug Mode
 Select the Debug Mode option to enable logging in the Fast plugin. The Fast plugin will log messages to the WooCommerce logs while Debug Mode is enabled.
 
-:::warning Use for short durations
+:::info Use for short durations
 
 Debug Mode logs a lot of information, so it should only be used for debugging issues and only for short durations.
 
