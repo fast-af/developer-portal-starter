@@ -4,16 +4,16 @@ The Fast Checkout for WooCommerce plugin has several settings to configure your 
 
 ## App Info Tab
 
-Info about the App Info tab.
+![App Info](images/woocommerce/app-info-tab.png)
 
 ## Styles Tab
 
-Info about the Styles tab.
+![Styles Tab](images/woocommerce/styles-tab.png)
 
 ## Options Tab
 
-Info about the Options tab.
+![Options Tab](images/woocommerce/options-tab.png)
 
 ## Test Mode Tab
 
-Info about the Test Mode tab.
+![Options Tab](images/woocommerce/test-mode-tab.png)
