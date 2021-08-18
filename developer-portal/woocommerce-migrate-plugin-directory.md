@@ -13,7 +13,11 @@ This will walk you through how to uninstall the version our team installed, and 
 ### Login to your WordPress admin dashboard
 Login to the admin side of your WordPress site. The url for this is usually `https://yourwebsite.com/wp-admin` 
 
-*Tip: You must have WordPress admin access in order to install and remove plugins.*
+:::info Tip
+
+You must have WordPress admin access in order to install and remove plugins.
+
+:::
 
 ### View all Plugins
 Click on Plugins in your admin dashboard menu and locate Fast checkout.

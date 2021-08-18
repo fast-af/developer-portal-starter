@@ -41,14 +41,22 @@ Login to the admin side of your WordPress site. The url for this is usually `htt
 
 ![Login to WordPress admin dashboard](images/woocommerce/wordpress-admin-login.png)
 
-*Tip: You must have WordPress admin access in order to install and remove plugins.*
+:::info Tip
+
+You must have WordPress admin access in order to install and remove plugins.
+
+:::
 
 ## Navigate to Plugins, Add New
 In the left hand sidebar of your WordPress admin dashboard, hover over Plugins, then click Add New.
 
 ![Navigate to Plugins, Add New](images/woocommerce/02-plugins-add-new.png)
 
-*Tip: Depending on your site setup, you may need to search a bit to find navigation items. Some themes and plugins alter the appearance of your WordPress admin dashboard.*
+:::info Tip
+
+Depending on your site setup, you may need to search a bit to find navigation items. Some themes and plugins alter the appearance of your WordPress admin dashboard.
+
+:::
 
 ## Search & install Fast Checkout for WooCommerce
 Search the plugin directory for "Fast Checkout" or "Fast Checkout for WooCommerce." We're really new, so you may need to scroll down a little bit to find us. 
@@ -64,7 +72,11 @@ Click Activate Plugin. Essentially this turns the plugin code functionality "on.
 
 ![Activate plugin](images/woocommerce/wp-activate-plugin.png)
 
-*Tip: You can deactivate plugins to troubleshoot website issues. Slowly deactivate them one-by-one, each time checking to see if the error persists. If you find one plugin is the problem, visit their changelog or website for latest news or updates. Also ensure all of your plugins are always up-to-date.*
+:::info Tip
+
+You can deactivate plugins to troubleshoot website issues. Slowly deactivate them one-by-one, each time checking to see if the error persists. If you find one plugin is the problem, visit their changelog or website for latest news or updates. Also ensure all of your plugins are always up-to-date.
+
+:::
 
 ## Configure plugin settings
 Now that you activated the plugin, you can click the Fast plugin link now shown in the left side admin navigation (towards the bottom usually), to navigate to the plugin settings window.
@@ -76,7 +88,11 @@ Copy your App ID from your seller dashboard and enter it into the App ID field i
 
 ![Configure Fast plugin settings](images/woocommerce/app-info-tab.png)
 
-*Tip: You can copy & paste your App ID from the seller dashboard to your WordPress website so you don't have to re-type it all. Use your mouse to highlight the text. Navigate to edit in your menu bar, then click Copy. Navigate back to your WordPress admin dashboard and click into the App ID field. Go to edit again, but this time, click Paste.*
+:::info Tip
+
+You can copy & paste your App ID from the seller dashboard to your WordPress website so you don't have to re-type it all. Use your mouse to highlight the text. Navigate to edit in your menu bar, then click Copy. Navigate back to your WordPress admin dashboard and click into the App ID field. Go to edit again, but this time, click Paste.
+
+:::
 
 ## Test functionality and review appearance of buttons
 Test the following pages and functions of your website to ensure Fast is integrated properly, as well as appears the way you would like it to appear.
