@@ -83,6 +83,8 @@ Now that you activated the plugin, you can click the Fast plugin link now shown 
 
 Direct url to your plugin settings is `http://yourwebsite.com/wp-admin/admin.php?page=fast`
 
+[**Learn more about all Fast Checkout plugin settings**](/developer-portal/woocommerce-settings.md)
+
 ## Add your App ID
 Copy your App ID from your seller dashboard and enter it into the App ID field in the Fast plugin settings. Click Save Changes at the bottom.
 
