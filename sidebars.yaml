@@ -20,7 +20,7 @@ training:
         pages:
         - page: developer-portal/bigcommerce.md
           label: Overview
-        - page: developer-portal/bigcommerce-install-checkout.md
+        - page: developer-portal/sign-up-with-bigcommerce.md
           label: Install Checkout
         - page: developer-portal/bigcommerce-install-checkout-examples.md
           label: Checkout Button Placement
