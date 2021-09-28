@@ -35,7 +35,7 @@ training:
         pages:
           - page: developer-portal/woocommerce.md
             label: Overview
-          - page: developer-portal/sign-up-with-woocommerce.md
+          - page: developer-portal/Sign-Up-With-WooCommerce.md
             label: Install Fast Checkout
           - page: developer-portal/woocommerce-settings.md
             label: Fast Checkout Settings
