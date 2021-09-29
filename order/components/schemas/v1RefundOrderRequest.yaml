@@ -4,6 +4,7 @@ properties:
     $ref: ./v1UUID.yaml
   external_refund_id:
     type: string
+    description: Id provided by the seller to tie back the refund on their end. Should be unique for each refund.
   reason:
     $ref: ./v1RefundReasonCode.yaml
   note:
