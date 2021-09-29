@@ -1,0 +1,26 @@
+apiDefinitions:
+  # a set of named keys and values of entrypoints to OpenAPI definitions.
+  # example
+  # petstore: ./openapi.yaml
+  merchant: /merchant/openapi.yaml
+  order: /order/openapi.yaml
+
+
+
+lint:
+# the lint options
+  extends:
+    - recommended
+
+referenceDocs:
+# the API reference docs options, including theme options.
+  sidebarLinks:
+    
+    label: Test Before Sidebar Link
+    placement: before-info
+    link: https://google.com
+    target: _blank
+
+    #label: Test After Sidebar Link
+    #placement: end
+    #link: https://amazon.com
