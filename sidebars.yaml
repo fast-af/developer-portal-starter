@@ -15,7 +15,8 @@ training:
     separatorLine: true
   - separator: Seller Quickstart
   - group: All Sellers Star Here
-    page: Essential Setup Information for All Fast Sellers
+    page: initial-setup-for-all-fast-sellers.md
+    label: Essential Setup Information for All Fast Sellers
   - group: I am on a Platform
     expanded: true
     pages:
