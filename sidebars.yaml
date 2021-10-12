@@ -13,25 +13,27 @@ training:
   - page: developer-portal/seller-signup.md
     label: Seller Signup
     separatorLine: true
-  - separator: Quick Start
-  - group: I am on a platform
+  - separator: Seller Quickstart
+  - group: All Sellers Star Here
+    page: Essential Setup Information for All Fast Sellers
+  - group: I am on a Platform
     expanded: true
     pages:
       - group: BigCommerce
         expanded: false
         pages:
-        - page: developer-portal/bigcommerce.md
-          label: Overview
-        - page: developer-portal/Sign-Up-With-BigCommerce.md
-          label: Install Checkout
-        - page: developer-portal/bigcommerce-install-checkout-examples.md
-          label: Checkout Button Placement
-        - page: developer-portal/fast-login-bigcommerce.md
-          label: Install Login
-        - page: developer-portal/fast-login-bigcommerce-examples.md
-          label: Login Button Placement
-        - page: developer-portal/bigcommere-checkout-blog-posts.md
-          label: Checkout for Blog Posts
+          - page: developer-portal/bigcommerce.md
+            label: Overview
+          - page: developer-portal/Sign-Up-With-BigCommerce.md
+            label: Install Checkout
+          - page: developer-portal/bigcommerce-install-checkout-examples.md
+            label: Checkout Button Placement
+          - page: developer-portal/fast-login-bigcommerce.md
+            label: Install Login
+          - page: developer-portal/fast-login-bigcommerce-examples.md
+            label: Login Button Placement
+          - page: developer-portal/bigcommere-checkout-blog-posts.md
+            label: Checkout for Blog Posts
       - group: WooCommerce
         expanded: false
         pages:
@@ -43,7 +45,7 @@ training:
             label: Fast Checkout Settings
           - page: developer-portal/woocommerce-migrate-plugin-directory.md
             label: Migrate to Plugin Directory
-  - group: I am on a custom system
+  - group: I am on a Custom System
     expanded: false
     separatorLine: true
     pages:
@@ -58,15 +60,15 @@ training:
       - group: Handle requests
         expanded: false
         pages:
-        - page: developer-portal/fast-api-qs-backend-create.md
-          label: Create requests
-        - page: developer-portal/fast-api-qs-backend-read.md
-          label: Read requests
-        - page: developer-portal/fast-api-qs-backend-update.md
-          label: Update requests
-        - page: developer-portal/fast-api-qs-backend-delete.md
-          label: Delete requests
-      - group: Extended order management
+          - page: developer-portal/fast-api-qs-backend-create.md
+            label: Create requests
+          - page: developer-portal/fast-api-qs-backend-read.md
+            label: Read requests
+          - page: developer-portal/fast-api-qs-backend-update.md
+            label: Update requests
+          - page: developer-portal/fast-api-qs-backend-delete.md
+            label: Delete requests
+      - group: Extended Order Management
         expanded: false
         pages:
           - page: developer-portal/fast-api-qs-backend-extended-oms-intro.md
