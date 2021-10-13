@@ -14,13 +14,23 @@ Note: If the Partner did not previously enter Tax and Bank Details, Sellers will
 
 ### Platform-Specific Information
 
-- Store **Owner** or **Admin** Login Credentials for the Seller’s BigCommerce or WooCommerce Account
-  - Partner must have login credentials for an **owner** or **admin** account on the Seller’s BigCommerce or WooCommerce store platform. This is required in order to authorize Fast to connect to the Seller’s store platform during onboarding
-  - Note: Authorizing Fast’s connection to the Seller’s store is an important step and must be completed within the same onboarding session in order to create valid Fast Seller credentials
+To onboard as a Seller with Fast from an existing eCommerce platform, Fast must be able to access the store on that platform.
 
-**What if the Seller has multiple businesses/stores to onboard?**
+<embed src="../reusables/seller-docs/_platform_supported_ecommerce_platforms.md" />
 
-There can be multiple stores created under a single organization. The first time you create a new Organization, it will ask you to also create a new store. Each subsequent store can then be onboarded under the existing Organization by going to the top right drop-down of the Dashboard at [**fast.co/business/dash/home**](https://fast.co/business/dash/home) and selecting “Create New App/Store” and following the steps in the UI.
+#### BigCommerce Requiremnts
+
+<embed src="../reusables/seller-docs/_platform_bigcommerce_requirements.md" />
+
+#### WooCommerce Requiremnts
+
+<embed src="../reusables/seller-docs/_platform_woocommerce_requirements.md" />
+
+**Please note that authorizing Fast’s connection to the Seller’s store is an important step and must be completed within the same onboarding session in order to create valid Fast Seller credentials.**
+
+## What if the Seller has multiple businesses/stores to onboard?
+
+There can be multiple stores created under a single organization. The first time you create a new Organization, you will be asked to also create a new store. Each subsequent store can then be onboarded under the existing Organization by going to the top right drop-down of the Dashboard at [**fast.co/business/dash/home**](https://fast.co/business/dash/home) and selecting “Create New App/Store” and following the steps in the UI.
 
 ## How to Assign and Transfer Ownership of an Organization
 

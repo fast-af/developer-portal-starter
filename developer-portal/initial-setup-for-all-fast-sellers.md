@@ -18,11 +18,9 @@ Full pricing details can be found on the [Fast Pricing page](https://fast.co/pri
 
 #### Supported Countries for Fast Sellers
 
-As mentioned above, you can confirm that Fast supports Sellers in your country using the [Fast Pricing page](https://fast.co/pricing). If you attempt to [onboard as a Seller](https://v2.fast.co/get-started) from an unsupported country, the Seller onboarding process will terminate and you will receive a message thanking you for you interest (though Fast will follow up at a later date once you are eligible to onboard as a Seller).
+As mentioned above, you can confirm that Fast supports Sellers in your country using the [Fast Pricing page](https://fast.co/pricing). In order to be a Seller with Fast, we must be able to issue a cross-border payment in your country's native currency (more details here: https://stripe.com/docs/connect/cross-border-payouts).
 
-#### Supported Countries for Accepting Cross-Border Payments
-
-Fast accepts payments from many locations around the world. Please refer to https://stripe.com/docs/connect/cross-border-payouts
+If you attempt to [onboard as a Seller](https://v2.fast.co/get-started) from an unsupported country, the Seller onboarding process will terminate and you will receive a message thanking you for your interest (though Fast will follow up at a later date once you are eligible to onboard as a Seller).
 
 #### Supported Currencies
 
