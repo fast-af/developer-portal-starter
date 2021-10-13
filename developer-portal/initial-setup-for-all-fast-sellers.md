@@ -1,8 +1,8 @@
-# New Fast Seller? Start Here
+# Essential Setup Information for All Fast Sellers
 
 ## Find Your Fast Fit
 
-Prior to installing Fast for your site, you should ensure that Fast meets your expectations and that you have gathered the prerequsite information about your business to onboard as a Seller without issue.
+Prior to using Fast with your site, you should ensure that Fast meets your expectations and that you have gathered the prerequsite information about your business to complete Seller onboarding.
 
 ## Get to Know Fast
 
@@ -14,11 +14,11 @@ For U.S.-based sellers, standard pricing is <embed src="../reusables/seller-docs
 
 #### Supported Countries for Fast Sellers
 
-As mentioned above, you can confirm if Fast supports Sellers in your country using the [Fast Pricing page](https://fast.co/pricing). If you attempt to [onboard as a Seller](https://v2.fast.co/get-started) from an unsupported country, the Seller onboarding process will terminate and you will receive a message thanking you for you interest (though we will be sure to follow up via the contact details you provided at a later date once you are eligible to onboard as a Seller).
+As mentioned above, you can confirm that Fast supports Sellers in your country using the [Fast Pricing page](https://fast.co/pricing). If you attempt to [onboard as a Seller](https://v2.fast.co/get-started) from an unsupported country, the Seller onboarding process will terminate and you will receive a message thanking you for you interest (though Fast will follow up at a later date once you are eligible to onboard as a Seller).
 
 ### Supported Countries for Accepting Cross-Border Payments
 
-Fast accepts payments from https://stripe.com/docs/connect/cross-border-payouts
+Fast accepts payments from many locations around the world. Please refer to https://stripe.com/docs/connect/cross-border-payouts
 
 ### Payments
 

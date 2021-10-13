@@ -14,9 +14,8 @@ training:
     label: Seller Signup
     separatorLine: true
   - separator: Seller Quickstart
-  - group: All Sellers Star Here
-    page: developer-portal/initial-setup-for-all-fast-sellers.md
-    label: Essential Setup Information for All Fast Sellers
+  - page: developer-portal/initial-setup-for-all-fast-sellers.md
+    label: New to Fast? Start Here
   - group: I am on a Platform
     expanded: true
     pages:
