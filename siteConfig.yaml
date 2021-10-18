@@ -1,0 +1,67 @@
+meta:
+  title: Fast Docs
+  description: Documentation, resources & support integrating Fast products.
+  siteUrl: https://fast.co/docs
+  keywords: Fast button, Fast install, Fast login, Fast docs
+  lang: en-US
+linkChecker:
+  severity: warning
+  options:
+    CheckExternal: false
+logo:
+  image: ./images/fastDocsLogo.svg
+  altText: Fast Docs
+toc:
+  enable: true
+oasDefinitions:
+  petstore: ./openapi/petstore.yaml
+  # add links to definitions in our API registry by using a fully qualified URL.
+stylesheets:
+  - https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap
+  - ./global-styles.css
+analytics:
+  ga:
+    trackingId: "G-RKYNE4TEVK"
+#scripts:
+#  - ./static/intercom.js
+nav:
+  - label: For Sellers
+    page: developer-portal/for-sellers/features.mdx
+
+  - label: For Shoppers
+    page: developer-portal/for-shoppers/features.mdx
+
+  - label: For Developers
+    page: developer-portal/for-developers/platforms.mdx
+
+  - search: true
+
+footer:
+  copyrightText: Copyright © Fast 2021. All right reserved.
+  columns:
+    - group: Legal
+      items:
+        - label: Terms of Service
+          href: "https://www.fast.co/terms/terms-home"
+        - label: Privacy Notice
+          href: "https://www.fast.co/privacy"
+        - label: Cookie Policy
+          href: "https://www.fast.co/cookie-policy"
+    - group: Company
+      items:
+        - label: Careers
+          href: "https://www.fast.co/careers"
+        - label: Newsroom
+          href: "https://www.fast.co/newsroom/news"
+    - group: Product
+      items:
+        - label: Checkout
+          href: "https://www.fast.co/checkout"
+        - label: Sellers
+          href: "https://www.fast.co/sellers"
+        - label: Partners
+          href: "https://www.fast.co/partners"
+    - group: Support
+      items:
+        - label: Help
+          href: "https://help.fast.co/hc/en-us"

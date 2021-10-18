@@ -1,0 +1,338 @@
+bigcommerce:
+  - page: developer-portal/for-developers/bigcommerce.md
+  - group: Pre install (Required!)
+    expanded: true
+    pages:
+      - label: Gather your docs
+        page: developer-portal/for-developers/bigcommerce/pre-install/gather-your-docs.md
+      - label: Sign up as a seller
+        page: developer-portal/for-developers/bigcommerce/pre-install/sign-up-as-a-seller.md
+      - label: Install Platform App
+        page: developer-portal/for-developers/bigcommerce/pre-install/install-platform-app.md
+  - group: Install Checkout Button
+    expanded: true
+    pages:
+      - label: Test Mode
+        page: developer-portal/for-developers/bigcommerce/install-checkout-button/install-checkout-button-test-mode.md
+      - label: Production Mode
+        page: developer-portal/for-developers/bigcommerce/install-checkout-button/install-checkout-button-production-mode.md
+  - group: Install Login Button
+    expanded: true
+    pages:
+      - label: Test Mode
+        page: developer-portal/for-developers/bigcommerce/install-login-button/install-login-button-test-mode.md
+      - label: Production Mode
+        page: developer-portal/for-developers/bigcommerce/install-login-button/install-login-button-production-mode.md
+  - group: Custom Styling
+    expanded: true
+    pages:
+      - label: Checkout Button
+        page: developer-portal/for-developers/bigcommerce/custom-styling/custom-checkout-button-styling.md
+      - label: Login Button
+        page: developer-portal/for-developers/bigcommerce/custom-styling/custom-login-button-styling.md
+  - group: Adding Fast Button to Blog Posts
+    expanded: true
+    pages:
+      - label: Getting Started
+        page: developer-portal/for-developers/bigcommerce/adding-fast-button-to-blog-posts/getting-started.md
+      - label: Adding Code
+        page: developer-portal/for-developers/bigcommerce/adding-fast-button-to-blog-posts/adding-code.md
+
+custom-integration:
+  - page: developer-portal/for-developers/custom-integration.md
+  - group: Pre install (Required!)
+    expanded: true
+    pages:
+      - label: Gather your docs
+        page: developer-portal/for-developers/custom-integration/pre-install/gather-your-docs.md
+      - label: Sign up as a seller
+        page: developer-portal/for-developers/custom-integration/pre-install/sign-up-as-a-seller.md
+      - label: Install Platform App
+        page: developer-portal/for-developers/custom-integration/pre-install/install-platform-app.md
+  - group: Install Checkout Button
+    expanded: true
+    pages:
+      - label: Test Mode
+        page: developer-portal/for-developers/custom-integration/install-checkout-button/install-checkout-button-test-mode.md
+      - label: Production Mode
+        page: developer-portal/for-developers/custom-integration/install-checkout-button/install-checkout-button-production-mode.md
+  - group: Install Login Button
+    expanded: true
+    pages:
+      - label: Test Mode
+        page: developer-portal/for-developers/custom-integration/install-login-button/install-login-button-test-mode.md
+      - label: Production Mode
+        page: developer-portal/for-developers/custom-integration/install-login-button/install-login-button-production-mode.md
+  - group: Custom Styling
+    expanded: true
+    pages:
+      - label: Checkout Button
+        page: developer-portal/for-developers/custom-integration/custom-styling/custom-checkout-button-styling.md
+      - label: Login Button
+        page: developer-portal/for-developers/custom-integration/custom-styling/custom-login-button-styling.md
+  - group: Adding Fast Button to Blog Posts
+    expanded: true
+    pages:
+      - label: Getting Started
+        page: developer-portal/for-developers/custom-integration/adding-fast-button-to-blog-posts/getting-started.md
+      - label: Adding Code
+        page: developer-portal/for-developers/custom-integration/adding-fast-button-to-blog-posts/adding-code.md
+
+magento:
+  - page: developer-portal/for-developers/magento.md
+  - group: Pre install (Required!)
+    expanded: true
+    pages:
+      - label: Gather your docs
+        page: developer-portal/for-developers/magento/pre-install/gather-your-docs.md
+      - label: Sign up as a seller
+        page: developer-portal/for-developers/magento/pre-install/sign-up-as-a-seller.md
+      - label: Install Platform App
+        page: developer-portal/for-developers/magento/pre-install/install-platform-app.md
+  - group: Install Checkout Button
+    expanded: true
+    pages:
+      - label: Test Mode
+        page: developer-portal/for-developers/magento/install-checkout-button/install-checkout-button-test-mode.md
+      - label: Production Mode
+        page: developer-portal/for-developers/magento/install-checkout-button/install-checkout-button-production-mode.md
+  - group: Install Login Button
+    expanded: true
+    pages:
+      - label: Test Mode
+        page: developer-portal/for-developers/magento/install-login-button/install-login-button-test-mode.md
+      - label: Production Mode
+        page: developer-portal/for-developers/magento/install-login-button/install-login-button-production-mode.md
+  - group: Custom Styling
+    expanded: true
+    pages:
+      - label: Checkout Button
+        page: developer-portal/for-developers/magento/custom-styling/custom-checkout-button-styling.md
+      - label: Login Button
+        page: developer-portal/for-developers/magento/custom-styling/custom-login-button-styling.md
+  - group: Adding Fast Button to Blog Posts
+    expanded: true
+    pages:
+      - label: Getting Started
+        page: developer-portal/for-developers/magento/adding-fast-button-to-blog-posts/getting-started.md
+      - label: Adding Code
+        page: developer-portal/for-developers/magento/adding-fast-button-to-blog-posts/adding-code.md
+
+salesforce:
+  - page: developer-portal/for-developers/salesforce.md
+  - group: Pre install (Required!)
+    expanded: true
+    pages:
+      - label: Gather your docs
+        page: developer-portal/for-developers/salesforce/pre-install/gather-your-docs.md
+      - label: Sign up as a seller
+        page: developer-portal/for-developers/salesforce/pre-install/sign-up-as-a-seller.md
+      - label: Install Platform App
+        page: developer-portal/for-developers/salesforce/pre-install/install-platform-app.md
+  - group: Install Checkout Button
+    expanded: true
+    pages:
+      - label: Test Mode
+        page: developer-portal/for-developers/salesforce/install-checkout-button/install-checkout-button-test-mode.md
+      - label: Production Mode
+        page: developer-portal/for-developers/salesforce/install-checkout-button/install-checkout-button-production-mode.md
+  - group: Install Login Button
+    expanded: true
+    pages:
+      - label: Test Mode
+        page: developer-portal/for-developers/salesforce/install-login-button/install-login-button-test-mode.md
+      - label: Production Mode
+        page: developer-portal/for-developers/salesforce/install-login-button/install-login-button-production-mode.md
+  - group: Custom Styling
+    expanded: true
+    pages:
+      - label: Checkout Button
+        page: developer-portal/for-developers/salesforce/custom-styling/custom-checkout-button-styling.md
+      - label: Login Button
+        page: developer-portal/for-developers/salesforce/custom-styling/custom-login-button-styling.md
+  - group: Adding Fast Button to Blog Posts
+    expanded: true
+    pages:
+      - label: Getting Started
+        page: developer-portal/for-developers/salesforce/adding-fast-button-to-blog-posts/getting-started.md
+      - label: Adding Code
+        page: developer-portal/for-developers/salesforce/adding-fast-button-to-blog-posts/adding-code.md
+
+woocommerce:
+  - page: developer-portal/for-developers/woocommerce.md
+  - group: Pre install (Required!)
+    expanded: true
+    pages:
+      - label: Gather your docs
+        page: developer-portal/for-developers/woocommerce/pre-install/gather-your-docs.md
+      - label: Sign up as a seller
+        page: developer-portal/for-developers/woocommerce/pre-install/sign-up-as-a-seller.md
+      - label: Install Platform App
+        page: developer-portal/for-developers/woocommerce/pre-install/install-platform-app.md
+  - group: Install Checkout Button
+    expanded: true
+    pages:
+      - label: Test Mode
+        page: developer-portal/for-developers/woocommerce/install-checkout-button/install-checkout-button-test-mode.md
+      - label: Production Mode
+        page: developer-portal/for-developers/woocommerce/install-checkout-button/install-checkout-button-production-mode.md
+  - group: Install Login Button
+    expanded: true
+    pages:
+      - label: Test Mode
+        page: developer-portal/for-developers/woocommerce/install-login-button/install-login-button-test-mode.md
+      - label: Production Mode
+        page: developer-portal/for-developers/woocommerce/install-login-button/install-login-button-production-mode.md
+  - group: Custom Styling
+    expanded: true
+    pages:
+      - label: Checkout Button
+        page: developer-portal/for-developers/woocommerce/custom-styling/custom-checkout-button-styling.md
+      - label: Login Button
+        page: developer-portal/for-developers/woocommerce/custom-styling/custom-login-button-styling.md
+  - group: Adding Fast Button to Blog Posts
+    expanded: true
+    pages:
+      - label: Getting Started
+        page: developer-portal/for-developers/woocommerce/adding-fast-button-to-blog-posts/getting-started.md
+      - label: Adding Code
+        page: developer-portal/for-developers/woocommerce/adding-fast-button-to-blog-posts/adding-code.md
+
+forSellersQuickstart:
+  - page: developer-portal/for-sellers/quickstart.md
+  - group: Preinstall
+    expanded: true
+    pages:
+      - label: Will Fast work for me?
+        page: developer-portal/for-sellers/quickstart/preinstall/will-fast-work-for-me.md
+      - label: Gather your docs
+        page: developer-portal/for-sellers/quickstart/preinstall/gather-your-docs.md
+  - group: Onboarding
+    expanded: true
+    pages:
+      - label: Options
+        page: developer-portal/for-sellers/quickstart/onboarding/options.md
+
+forSellersAccountManagement:
+  - page: developer-portal/for-sellers/account-management.md
+  - group: Orders
+    expanded: true
+    pages:
+      - label: Viewing Current Orders
+        page: developer-portal/for-sellers/account-management/orders/viewing-current-orders.md
+      - label: Pending Payments
+        page: developer-portal/for-sellers/account-management/orders/pending-payments.md
+      - label: Cancelled Orders
+        page: developer-portal/for-sellers/account-management/orders/cancelled-orders.md
+      - label: Shipping Options
+        page: developer-portal/for-sellers/account-management/orders/shipping-options.md
+  - group: Post-Order
+    expanded: true
+    pages:
+      - label: How you get paid
+        page: developer-portal/for-sellers/account-management/post-order/how-you-get-paid.md
+      - label: Refunds
+        page: developer-portal/for-sellers/account-management/post-order/refunds.md
+      - label: Chargebacks and disputes
+        page: developer-portal/for-sellers/account-management/post-order/chargebacks-and-disputes.md
+      - label: Zero Fraud Guarantee
+        page: developer-portal/for-sellers/account-management/post-order/zero-fraud-guarantee.md
+  - group: Multi Account Management
+    expanded: true
+    pages:
+      - label: Walkthrough
+        page: developer-portal/for-sellers/account-management/multi-account-management/walkthrough.md
+      - label: Toggling back and forth
+        page: developer-portal/for-sellers/account-management/multi-account-management/toggling-back-and-forth.md
+      - label: Dashboard Management
+        page: developer-portal/for-sellers/account-management/multi-account-management/dashboard-management.md
+      - label: Adding Multiple Accounts
+        page: developer-portal/for-sellers/account-management/multi-account-management/adding-multiple-accounts.md
+  - group: Payouts
+    expanded: true
+    pages:
+      - label: Payouts Process
+        page: developer-portal/for-sellers/account-management/payouts/payouts-process.md
+
+forSellersReporting:
+  - page: developer-portal/for-sellers/reporting.md
+  - group: Exporting Data
+    expanded: true
+    pages:
+      - label: Overview
+        page: developer-portal/for-sellers/reporting/exporting-data/overview.md
+  - group: Weekly Seller Reports
+    expanded: true
+    pages:
+      - label: Overview
+        page: developer-portal/for-sellers/reporting/weekly-seller-reports/overview.md
+
+forSellersPrivacyAndSecurity:
+  - page: developer-portal/for-sellers/privacy-and-security.md
+  - group: Accounts
+    expanded: true
+    pages:
+      - label: Deleting Accounts
+        page: developer-portal/for-sellers/privacy-and-security/accounts/deleting-accounts.md
+
+forShoppersOrders:
+  - page: developer-portal/for-shoppers/orders.md
+  - group: Overview
+    expanded: true
+    pages:
+      - label: login requirements
+        page: developer-portal/for-shoppers/orders/overview/login-requirements.md
+  - group: Payments
+    expanded: true
+    pages:
+      - label: When am I charged?
+        page: developer-portal/for-shoppers/orders/payments/when-am-i-charged.md
+      - label: Promo Codes
+        page: developer-portal/for-shoppers/orders/payments/promo-codes.md
+      - label: Store Credit
+        page: developer-portal/for-shoppers/orders/payments/store-credit.md
+      - label: Gift Cards
+        page: developer-portal/for-shoppers/orders/payments/gift-cards.md
+      - label: Discount Codes
+        page: developer-portal/for-shoppers/orders/payments/discount-codes.md
+  - group: Order Process
+    expanded: true
+    pages:
+      - label: Checkout
+        page: developer-portal/for-shoppers/orders/order-process/checkout.md
+      - label: Emails Related to your order
+        page: developer-portal/for-shoppers/orders/order-process/emails-related-to-your-order.md
+      - label: Editing your order
+        page: developer-portal/for-shoppers/orders/order-process/editing-your-order.md
+
+forShoppersAccount:
+  - page: developer-portal/for-shoppers/account.md
+  - group: Overview
+    expanded: true
+    pages:
+      - label: Where your account is
+        page: developer-portal/for-shoppers/account/overview/where-your-account-is.md
+  - group: Updating your account
+    expanded: true
+    pages:
+      - label: Payment Method
+        page: developer-portal/for-shoppers/account/updating-your-account/payment-method.md
+      - label: Shipping Address
+        page: developer-portal/for-shoppers/account/updating-your-account/shipping-address.md
+      - label: Details
+        page: developer-portal/for-shoppers/account/updating-your-account/details.md
+  - group: Order History
+    expanded: true
+    pages:
+      - label: Tracking Current Orders
+        page: developer-portal/for-shoppers/account/order-history/tracking-current-orders.md
+      - label: Reordering
+        page: developer-portal/for-shoppers/account/order-history/reordering.md
+
+forShoppersPrivacyAndSecurity:
+  - page: developer-portal/for-shoppers/privacy-and-security.md
+  - group: Accounts
+    expanded: true
+    pages:
+      - label: Deleting Accounts
+        page: developer-portal/for-shoppers/privacy-and-security/deleting-accounts.md

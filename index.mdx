@@ -1,0 +1,71 @@
+---
+title: Fast Docs
+description: Documentation for all Fast products
+keywords: Fast Docs home, Fast Docs, Fast AF Docs, Fast Button Docs
+---
+
+import {
+  LandingLayout,
+  Button,
+  Box,
+  FlexSection,
+  Flex,
+  Jumbotron,
+  ThinTile,
+  WideTile,
+  Emphasis,
+  H1,
+  H2,
+  SectionHeader,
+  NavBar,
+} from "@redocly/developer-portal/ui";
+
+import icon1 from "./images/icon1.png";
+import launchFastIcon from "./images/launch-fast.svg";
+import icon3 from "./images/icon3.png";
+
+export default LandingLayout;
+
+<Jumbotron>
+  <NavBar location={props.location} standalone={false} />
+  <H1>
+    Get <Emphasis> Fast </Emphasis>. Fast!
+  </H1>
+  <H2>Documentation, resources, and support integrating Fast products</H2>
+  <Flex p={20} justifyContent="center">
+    {/* <Button size="xlarge" to="https://app.redoc.ly">
+      Redocly app
+    </Button> */}
+    {/* <Button variant="outlined" size="xlarge" to="https://redoc.ly/docs">
+      Docs
+    </Button> */}
+  </Flex>
+</Jumbotron>
+<Box my={25}>
+  <SectionHeader>
+    Choose <Emphasis>Your</Emphasis> adventure.
+  </SectionHeader>
+  <FlexSection justifyContent="space-around" flexWrap="wrap">
+    <ThinTile
+      to="developer-portal/for-sellers/features.mdx"
+      icon={launchFastIcon}
+      header="For Sellers"
+    >
+      You selling stuff? Come on in!
+    </ThinTile>
+    <ThinTile
+      to="developer-portal/for-shoppers/features.mdx"
+      icon={icon3}
+      header="For Shoppers"
+    >
+      You buying stuff? This is it!
+    </ThinTile>
+    <ThinTile
+      to="developer-portal/for-developers/platforms.mdx"
+      icon={icon1}
+      header="For Developers"
+    >
+      Are you tasked with installing stuff? We got you, fam.
+    </ThinTile>
+  </FlexSection>
+</Box>

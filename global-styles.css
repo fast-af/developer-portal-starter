@@ -1,0 +1,27 @@
+/* All the things */
+* {
+  outline-color: #000;
+}
+
+/* Right Side bar section headers */
+ul > div > span {
+  font-weight: 600;
+}
+
+/* Right Side bar TOP section header */
+ul > a > div > span {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+/* Right Side bar nested content */
+ul > ul > a > div > span {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* FIX: top nav content right before mobile breakpoint wrapped wonky */
+nav > ul {
+  display: flex;
+  align-items: center;
+}
