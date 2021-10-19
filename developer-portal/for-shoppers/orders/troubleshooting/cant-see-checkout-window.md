@@ -1,7 +1,7 @@
 ---
 title: Fast Shopper Orders
-description: Fast Orders Fast Checkout
-keywords: fast Orders Fast Checkout
+description: Fast Orders troubleshooting
+keywords: fast Orders troubleshooting
 ---
 
 # Can't see checkout window

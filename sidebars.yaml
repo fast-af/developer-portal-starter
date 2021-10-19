@@ -280,7 +280,7 @@ forShoppersOrders:
   - group: Overview
     expanded: true
     pages:
-      - label: login requirements
+      - label: Login requirements
         page: developer-portal/for-shoppers/orders/overview/login-requirements.md
       - label: What is Fast Checkout?
         page: developer-portal/for-shoppers/orders/overview/fast-checkout.md
@@ -314,6 +314,14 @@ forShoppersOrders:
         page: developer-portal/for-shoppers/orders/order-process/emails-related-to-your-order.md
       - label: Editing your order
         page: developer-portal/for-shoppers/orders/order-process/editing-your-order.md
+      - label: Cancelling orders
+        page: developer-portal/for-shoppers/orders/order-process/cancelling-orders.md
+  - group: Shipping
+    expanded: true
+    pages:
+      - label: Tracking current orders
+        page: developer-portal/for-shoppers/orders/shipping/tracking-current-orders.md
+
   - group: Troubleshooting
     expanded: true
     pages:
@@ -321,11 +329,6 @@ forShoppersOrders:
         page: developer-portal/for-shoppers/orders/troubleshooting/cant-see-checkout-window.md
 forShoppersAccount:
   - page: developer-portal/for-shoppers/account.md
-  - group: Overview
-    expanded: true
-    pages:
-      - label: Where your account is
-        page: developer-portal/for-shoppers/account/overview/where-your-account-is.md
   - group: Updating your account
     expanded: true
     pages:
@@ -333,23 +336,39 @@ forShoppersAccount:
         page: developer-portal/for-shoppers/account/updating-your-account/payment-method.md
       - label: Shipping Address
         page: developer-portal/for-shoppers/account/updating-your-account/shipping-address.md
-      - label: Details
-        page: developer-portal/for-shoppers/account/updating-your-account/details.md
+      - label: Deleting your account
+        page: developer-portal/for-shoppers/account/updating-your-account/deleting-your-account.md
+  - group: Managing your account
+    expanded: true
+    pages:
+      - label: Handling an existing Fast account on a new device
+        page: developer-portal/for-shoppers/account/managing-your-account/new-devices.md
   - group: Order History
     expanded: true
     pages:
       - label: Tracking Current Orders
         page: developer-portal/for-shoppers/account/order-history/tracking-current-orders.md
-      - label: Reordering
-        page: developer-portal/for-shoppers/account/order-history/reordering.md
 
 forShoppersPrivacyAndSecurity:
   - page: developer-portal/for-shoppers/privacy-and-security.md
   - group: Accounts
     expanded: true
     pages:
-      - label: Deleting Accounts
-        page: developer-portal/for-shoppers/privacy-and-security/deleting-accounts.md
+      - label: Deleting your account
+        page: developer-portal/for-shoppers/privacy-and-security/accounts/deleting-your-account.md
+      - label: Hacked Email Accounts
+        page: developer-portal/for-shoppers/privacy-and-security/accounts/hacked-email-accounts.md
+  - group: Data
+    expanded: true
+    pages:
+      - label: How Data is Handled
+        page: developer-portal/for-shoppers/privacy-and-security/data/how-data-is-handled.md
+
+  - group: Compliance
+    expanded: true
+    pages:
+      - label: PCI Compliance
+        page: developer-portal/for-shoppers/privacy-and-security/compliance/pci-compliance.md
 
 oldDocs:
   - separator: Overview

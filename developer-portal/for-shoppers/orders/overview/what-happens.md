@@ -1,6 +1,6 @@
 ---
 title: Fast Shopper Orders
-description: what happens when a customer clicks Fast checkout
+description: What happens when a customer clicks Fast checkout
 keywords: what happens when a customer clicks Fast checkout
 ---
 
