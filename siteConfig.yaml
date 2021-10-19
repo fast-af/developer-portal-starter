@@ -14,11 +14,12 @@ logo:
 toc:
   enable: true
 oasDefinitions:
-  petstore: ./openapi/petstore.yaml
+  order: ./order/openapi.yaml
+  merchant: ./merchant/openapi.yaml
   # add links to definitions in our API registry by using a fully qualified URL.
 stylesheets:
   - https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap
-  - ./global-styles.css
+  - ./static/global-styles.css
 analytics:
   ga:
     trackingId: "G-RKYNE4TEVK"
@@ -61,7 +62,13 @@ footer:
           href: "https://www.fast.co/sellers"
         - label: Partners
           href: "https://www.fast.co/partners"
+        - label: Pricing
+          href: "https://www.fast.co/pricing"
+        - label: Seller Stories
+          href: "https://www.fast.co/stories"
+        - label: Customer Stories
+          href: "https://www.fast.co/stories"
     - group: Support
       items:
         - label: Help
-          href: "https://help.fast.co/hc/en-us"
+          href: "https://help.fast.co/"

@@ -12,64 +12,85 @@ export const theme = {
   //   medium: '900px',
   //   large: '1200px',
   // },
+
   colors: {
-    // tonalOffset: 0.2,
+    tonalOffset: 0.2,
     primary: {
-      main: "#000000",
-      // light: ({ colors }) => lighten(colors.tonalOffset, colors.primary.main),
-      // dark: ({ colors }) => darken(colors.tonalOffset, colors.primary.main),
-      // contrastText: ({ colors }) => readableColor(colors.primary.main),
+      main: ({ colors }) => colors.palette.black,
+      light: ({ colors }) => lighten(colors.tonalOffset, colors.primary.main),
+      dark: ({ colors }) => darken(colors.tonalOffset, colors.primary.main),
+      contrastText: ({ colors }) => readableColor(colors.primary.main),
     },
-    // success: {
-    //   main: '#00aa13',
-    //   light: ({ colors }) => lighten(colors.tonalOffset * 3, colors.success.main),
-    //   dark: ({ colors }) => darken(colors.tonalOffset, colors.success.main),
-    //   contrastText: ({ colors }) => readableColor(colors.success.main),
-    // },
-    // error: {
-    //   main: '#e53935',
-    //   light: ({ colors }) => lighten(colors.tonalOffset * 2, colors.error.main),
-    //   dark: ({ colors }) => darken(colors.tonalOffset, colors.error.main),
-    //   contrastText: ({ colors }) => readableColor(colors.error.main),
-    // },
-    // warning: {
-    //   main: '#d4ad03',
-    //   light: ({ colors }) => lighten(colors.tonalOffset * 2, colors.warning.main),
-    //   dark: ({ colors }) => darken(colors.tonalOffset, colors.warning.main),
-    //   contrastText: ({ colors }) => readableColor(colors.warning.main),
-    // },
-    // info: {
-    //   main: '#4782cb',
-    //   light: ({ colors }) => lighten(colors.tonalOffset * 2, colors.info.main),
-    //   dark: ({ colors }) => darken(colors.tonalOffset, colors.info.main),
-    //   contrastText: ({ colors }) => readableColor(colors.info.main),
-    // },
+    palette: {
+      black: "#000000",
+      grey1: "#424242",
+      grey2: "#828282",
+      grey3: "#BBBBBB",
+      grey4: "#E0E4EA",
+      grey5: "#F0F2F5",
+      white: "#FFFFFF",
+      blue: "#005F69",
+      red: "#EB5757",
+      green: "#24B560",
+      pink: "#F6C5CF",
+    },
+    success: {
+      main: "#00aa13",
+      light: ({ colors }) => lighten(colors.tonalOffset, colors.success.main),
+      dark: ({ colors }) => darken(colors.tonalOffset, colors.success.main),
+      contrastText: ({ colors }) => readableColor(colors.success.main),
+    },
+    error: {
+      main: "#e53935",
+      light: ({ colors }) => lighten(colors.tonalOffset, colors.error.main),
+      dark: ({ colors }) => darken(colors.tonalOffset, colors.error.main),
+      contrastText: ({ colors }) => readableColor(colors.error.main),
+    },
+    warning: {
+      main: "#d4ad03",
+      light: ({ colors }) => lighten(colors.tonalOffset, colors.warning.main),
+      dark: ({ colors }) => darken(colors.tonalOffset, colors.warning.main),
+      contrastText: "#ffffff",
+    },
+    brand: {
+      success: "#e6eef8",
+      warning: "#fcf9e9",
+      danger: "#fce9ed",
+      attention: "#ebfbe9",
+    },
+    fastBrandColorPallete: {
+      black: ({ colors }) => colors.palette.black,
+      white: ({ colors }) => colors.palette.white,
+      blue: ({ colors }) => colors.palette.blue,
+      red: ({ colors }) => colors.palette.red,
+      green: ({ colors }) => colors.palette.green,
+      pink: ({ colors }) => colors.palette.pink,
+    },
+    action: {
+      success: ({ colors }) => colors.palette.green,
+      error: ({ colors }) => colors.palette.red,
+      link: ({ colors }) => colors.palette.blue,
+      inactive: ({ colors }) => colors.palette.grey3,
+      hover: ({ colors }) => colors.palette.grey4,
+      // warning: X
+    },
     text: {
-      primary: "#424242",
-      // secondary: '#4e566d',
+      primary: ({ colors }) => colors.palette.grey1,
+      base: ({ colors }) => colors.palette.grey1,
+      link: ({ colors }) => colors.palette.blue,
+      secondary: ({ colors }) => colors.palette.grey2,
+      inactive: ({ colors }) => colors.action.inactive,
     },
-    // border: {
-    //   dark: 'rgba(0,0,0, 0.15)',
-    //   light: '#ffffff',
-    // },
-    // responses: {
-    //   success: {
-    //     color: ({ colors }) => colors.success.main,
-    //     backgroundColor: ({ colors }) => transparentize(0.9, colors.success.main),
-    //   },
-    //   error: {
-    //     color: ({ colors }) => colors.error.main,
-    //     backgroundColor: ({ colors }) => transparentize(0.9, colors.error.main),
-    //   },
-    //   redirect: {
-    //     color: ({ colors }) => colors.warning.main,
-    //     backgroundColor: ({ colors }) => transparentize(0.9, colors.responses.redirect.color),
-    //   },
-    //   info: {
-    //     color: ({ colors }) => colors.info.main,
-    //     backgroundColor: ({ colors }) => transparentize(0.9, colors.responses.info.color),
-    //   },
-    // },
+    icon: {
+      background: ({ colors }) => colors.palette.grey5,
+      inactive: ({ colors }) => colors.action.inactive,
+      actionable: ({ colors }) => colors.action.link,
+      base: ({ colors }) => colors.text.base,
+      hover: ({ colors }) => colors.action.hover,
+    },
+    background: {
+      flush: ({ colors }) => colors.palette.grey5,
+    },
     http: {
       get: "#6bbd5b",
       post: "#248fb2",
@@ -81,25 +102,22 @@ export const theme = {
       link: "#31bbb6",
       head: "#c167e4",
     },
-    // navbar: {
-    //   main: ({ colors }) => colors.primary.main,
-    //   gradient: ({ colors }) => darken(colors.tonalOffset / 2, colors.navbar.main),
-    //   contrastText: 'white'
-    // },
-    // footer: {
-    // main: ({ colors }) => colors.primary.main,
-    // contrastText: 'white'
-    // },
   },
+
+  // navbar: {
+  //   main: ({ colors }) => colors.primary.main,
+  //   gradient: ({ colors }) => darken(colors.tonalOffset / 2, colors.navbar.main),
+  //   contrastText: 'white'
+  // },
+  // footer: {
+  // main: ({ colors }) => colors.primary.main,
+  // contrastText: 'white'
+  // },
 
   sidebar: {
     backgroundColor: "#fafafa",
     width: "260px",
   },
-  // tocPanel: {
-  //   width: '240px',
-  // },
-
   typography: {
     fontSize: "16px",
     lineHeight: "1.5em",
@@ -107,13 +125,45 @@ export const theme = {
     fontWeightBold: "600",
     fontWeightLight: "300",
     fontFamily: '"Inter", sans-serif',
-    headings: {
-      fontFamily: '"Inter", sans-serif',
-      fontWeight: "600",
+
+    //fontSize: '1rem',
+    //lineHeight: '1.5rem',
+    //fontFamily: 'Inter',
+    fontWeight: {
+      bold: "600",
+      semibold: "500",
+      regular: "400",
+      light: "300",
     },
+    heading: {
+      fontFamily: ({ typography }) => typography.fontFamily,
+      lineHeight: "80px",
+      large: {
+        fontSize: "60",
+        fontWeight: ({ typography }) => typography.fontWeight.bold,
+        fontFamily: ({ typography }) => typography.heading.fontFamily,
+        lineHeight: ({ typography }) => typography.heading.lineHeight,
+      },
+      medium: {
+        fontSize: "60",
+        fontWeight: ({ typography }) => typography.fontWeight.semibold,
+        fontFamily: ({ typography }) => typography.heading.fontFamily,
+        lineHeight: ({ typography }) => typography.heading.lineHeight,
+      },
+      small: {
+        fontSize: "60",
+        fontWeight: ({ typography }) => typography.fontWeight.semibold,
+        fontFamily: ({ typography }) => typography.heading.fontFamily,
+        lineHeight: ({ typography }) => typography.heading.lineHeight,
+      },
+    },
+    //headings: {
+    //fontFamily: ({ typography }) => typography.fontFamily,
+    //fontWeight: "600",
+    //},
     heading1: {
       fontSize: "1.85714em",
-      fontWeight: "600",
+      fontWeight: ({ typography }) => typography.fontWeightBold,
       fontFamily: ({ typography }) => typography.headings.fontFamily,
       lineHeight: ({ typography }) => typography.lineHeight,
       color: ({ colors }) => colors.primary.main,
@@ -121,7 +171,7 @@ export const theme = {
     },
     heading2: {
       fontSize: "1.57143em",
-      fontWeight: "600",
+      fontWeight: ({ typography }) => typography.fontWeightBold,
       color: ({ colors }) => colors.text.primary,
       fontFamily: ({ typography }) => typography.headings.fontFamily,
       lineHeight: ({ typography }) => typography.lineHeight,
@@ -129,7 +179,7 @@ export const theme = {
     },
     heading3: {
       fontSize: "1.27em",
-      fontWeight: "600",
+      fontWeight: ({ typography }) => typography.fontWeightBold,
       color: ({ colors }) => colors.text.primary,
       fontFamily: ({ typography }) => typography.headings.fontFamily,
       lineHeight: ({ typography }) => typography.lineHeight,
@@ -144,18 +194,82 @@ export const theme = {
     heading6: {
       // ...
     },
+
+    body: {
+      fontFamily: ({ typography }) => typography.fontFamily,
+      large: {
+        fontSize: "1.5rem",
+        fontWeight: ({ typography }) => typography.body.normal.fontWeight,
+        fontFamily: ({ typography }) => typography.body.normal.fontFamily,
+        lineHeight: "1.75rem",
+      },
+      normal: {
+        fontSize: "1.3333rem",
+        fontWeight: ({ typography }) => typography.fontWeight.regular,
+        fontFamily: ({ typography }) => typography.body.fontFamily,
+        lineHeight: "2rem",
+      },
+      normalBold: {
+        fontSize: ({ typography }) => typography.body.normal.fontSize,
+        fontWeight: ({ typography }) => typography.fontWeight.bold,
+        fontFamily: ({ typography }) => typography.body.normal.fontFamily,
+        lineHeight: ({ typography }) => typography.body.normal.lineHeight,
+      },
+    },
+    label: {
+      fontFamily: ({ typography }) => typography.fontFamily,
+      regular: {
+        fontSize: "1.1667rem",
+        fontWeight: ({ typography }) => typography.fontWeight.regular,
+        fontFamily: ({ typography }) => typography.label.fontFamily,
+        lineHeight: "1.6667rem",
+      },
+      semibold: {
+        fontSize: ({ typography }) => typography.label.regular.fontSize,
+        fontWeight: ({ typography }) => typography.fontWeight.semibold,
+        fontFamily: ({ typography }) => typography.label.regular.fontFamily,
+        lineHeight: ({ typography }) => typography.label.regular.lineHeight,
+      },
+      italics: {
+        fontSize: ({ typography }) => typography.label.regular.fontSize,
+        fontWeight: ({ typography }) => typography.label.regular.fontWeight,
+        fontFamily: ({ typography }) => typography.label.regular.fontFamily,
+        lineHeight: ({ typography }) => typography.label.regular.lineHeight,
+        fontStyle: "italic",
+      },
+      caption: {
+        fontSize: "1rem",
+        fontWeight: ({ typography }) => typography.fontWeight.regular,
+        fontFamily: ({ typography }) => typography.label.fontFamily,
+        lineHeight: "1.3333rem",
+      },
+      captionBold: {
+        fontSize: ({ typography }) => typography.label.caption.fontSize,
+        fontWeight: ({ typography }) => typography.fontWeight.semibold,
+        fontFamily: ({ typography }) => typography.label.caption.fontFamily,
+        lineHeight: ({ typography }) => typography.label.caption.lineHeight,
+      },
+      inputCaption: {
+        fontSize: "0.8333rem",
+        fontWeight: ({ typography }) => typography.fontWeight.regular,
+        fontFamily: ({ typography }) => typography.label.fontFamily,
+        lineHeight: "1rem",
+      },
+    },
     code: {
       fontSize: "13px",
       fontFamily: '"Source Code Pro", sans-serif',
       // fontWeight: ({ typography }) => typography.fontWeightRegular,
+      // fontWeight: ({ typography }) => typography.fontWeight.regular,
       color: "#e53935",
       backgroundColor: "rgba(38, 50, 56, 0.04)",
       wrap: false,
     },
     links: {
-      color: ({ colors }) => colors.primary.main,
+      color: "#4c86a8",
       visited: ({ typography }) => typography.links.color,
-      hover: ({ typography }) => lighten(0.2, typography.links.color),
+      hover: ({ typography, colors }) =>
+        lighten(colors.tonalOffset, typography.links.color),
     },
   },
   rightPanel: {
