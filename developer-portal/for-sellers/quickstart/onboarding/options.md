@@ -1,5 +1,5 @@
 ---
-title: Fast For Sellers Docs
+title: Fast Seller Quickstart
 description: Fast install options for sellers.
 keywords: Fast For Sellers Quickstart options.
 ---

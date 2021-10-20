@@ -1,3 +1,9 @@
+---
+title: Fast Seller Current Orders
+description: Fast languages supported
+keywords: Fast languages supported
+---
+
 # Languages Supported
 
 At this time, we currently support English as our primary language. We are looking to support other languages soon!
