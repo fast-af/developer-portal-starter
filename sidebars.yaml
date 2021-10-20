@@ -224,32 +224,49 @@ forSellersOrders:
         page: developer-portal/for-sellers/orders/current-orders/pending-payments.md
       - label: Cancelled Orders
         page: developer-portal/for-sellers/orders/current-orders/cancelled-orders.md
+      - label: Languages Supported
+        page: developer-portal/for-sellers/orders/current-orders/languages-supported.md
+      - label: Currencies Supported
+        page: developer-portal/for-sellers/orders/current-orders/currencies-supported.md
+      - label: Credit Cards Supported
+        page: developer-portal/for-sellers/orders/current-orders/credit-cards-supported.md
       - label: Shipping Options
         page: developer-portal/for-sellers/orders/current-orders/shipping-options.md
-  - group: Post-Order
+      - label: Countries Supported
+        page: developer-portal/for-sellers/orders/current-orders/countries-supported.md
+  - group: Payments
     expanded: true
     pages:
       - label: How you get paid
-        page: developer-portal/for-sellers/orders/post-order/how-you-get-paid.md
+        page: developer-portal/for-sellers/orders/payments/how-you-get-paid.md
       - label: Refunds
-        page: developer-portal/for-sellers/orders/post-order/refunds.md
+        page: developer-portal/for-sellers/orders/payments/refunds.md
+      - label: International Refunds
+        page: developer-portal/for-sellers/orders/payments/international-refunds.md
+      - label: Store Credit
+        page: developer-portal/for-sellers/orders/payments/store-credit.md
+  - group: Order Support
+    expanded: true
+    pages:
       - label: Chargebacks and disputes
-        page: developer-portal/for-sellers/orders/post-order/chargebacks-and-disputes.md
+        page: developer-portal/for-sellers/orders/order-support/chargebacks-and-disputes.md
+      - label: Returns
+        page: developer-portal/for-sellers/orders/order-support/returns.md
       - label: Zero Fraud Guarantee
-        page: developer-portal/for-sellers/orders/post-order/zero-fraud-guarantee.md
+        page: developer-portal/for-sellers/orders/order-support/zero-fraud-guarantee.md
 
 forSellersAccountManagement:
   - page: developer-portal/for-sellers/account-management.md
   - group: Overview
-    extended: true
+    expanded: true
     pages:
+      - label: Seller Dashboard
+        page: developer-portal/for-sellers/account-management/overview/the-seller-dashboard.md
       - label: Account Permissions
         page: developer-portal/for-sellers/account-management/overview/account-permissions.md
   - group: Multi Account Management
     expanded: true
     pages:
-      - label: Walkthrough
-        page: developer-portal/for-sellers/account-management/multi-account-management/walkthrough.md
       - label: Toggling back and forth
         page: developer-portal/for-sellers/account-management/multi-account-management/toggling-back-and-forth.md
       - label: Dashboard Management
@@ -274,6 +291,10 @@ forSellersReporting:
     pages:
       - label: Overview
         page: developer-portal/for-sellers/reporting/weekly-seller-reports/overview.md
+      - label: Subscribing
+        page: developer-portal/for-sellers/reporting/weekly-seller-reports/subscribing.md
+      - label: Troubleshooting
+        page: developer-portal/for-sellers/reporting/weekly-seller-reports/troubleshooting.md
 
 forSellersPrivacyAndSecurity:
   - page: developer-portal/for-sellers/privacy-and-security.md

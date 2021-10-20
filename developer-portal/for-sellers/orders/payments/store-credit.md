@@ -5,3 +5,5 @@ keywords: Fast Store Credit
 ---
 
 # Store Credit
+
+We don’t currently accept store credit for purchases.
