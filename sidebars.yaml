@@ -220,10 +220,16 @@ forSellersOrders:
     pages:
       - label: Viewing Current Orders
         page: developer-portal/for-sellers/orders/current-orders/viewing-current-orders.md
+      - label: Purchasing multiple items
+        page: developer-portal/for-sellers/orders/current-orders/purchasing-multiple-items.md
+      - label: Promo Codes
+        page: developer-portal/for-sellers/orders/current-orders/promo-codes.md
       - label: Pending Payments
         page: developer-portal/for-sellers/orders/current-orders/pending-payments.md
       - label: Cancelled Orders
         page: developer-portal/for-sellers/orders/current-orders/cancelled-orders.md
+      - label: Subscriptions Support
+        page: developer-portal/for-sellers/orders/current-orders/subscriptions-support.md
       - label: Languages Supported
         page: developer-portal/for-sellers/orders/current-orders/languages-supported.md
       - label: Currencies Supported
@@ -281,7 +287,7 @@ forSellersAccountManagement:
 
 forSellersReporting:
   - page: developer-portal/for-sellers/reporting.md
-  - group: Exporting Data
+  - group: Exporting Payment Data
     expanded: true
     pages:
       - label: Overview
@@ -303,6 +309,11 @@ forSellersPrivacyAndSecurity:
     pages:
       - label: Deleting Accounts
         page: developer-portal/for-sellers/privacy-and-security/accounts/deleting-accounts.md
+  - group: Compliance
+    expanded: true
+    pages:
+      - label: PCI Compliance
+        page: developer-portal/for-sellers/privacy-and-security/compliance/pci-compliance.md
 
 forShoppersOrders:
   - page: developer-portal/for-shoppers/orders.md

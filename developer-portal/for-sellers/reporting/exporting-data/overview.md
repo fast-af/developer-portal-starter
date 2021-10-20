@@ -1,10 +1,10 @@
 ---
 title: Fast Seller Docs
-description: Exporting data from Fast for Sellers
+description: Exporting Payment data from Fast for Sellers
 keywords: Fast export data
 ---
 
-# Exporting data overview
+# Exporting Payment data overview
 
 You can view your payout history and download a file for each payout containing a detailed transaction-level report on your Seller Dashboard!
 
