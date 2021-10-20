@@ -4,4 +4,4 @@ description: Gather your required business docs to get started with Fast as a Se
 keywords: Fast For Sellers Quickstart Required Docs
 ---
 
-# GATHER YO DOCS
+# Gather your Documents to begin

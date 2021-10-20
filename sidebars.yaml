@@ -213,30 +213,33 @@ forSellersQuickstart:
       - label: Options
         page: developer-portal/for-sellers/quickstart/onboarding/options.md
 
-forSellersAccountManagement:
-  - page: developer-portal/for-sellers/account-management.md
-  - group: Orders
+forSellersOrders:
+  - page: developer-portal/for-sellers/orders.md
+  - group: Current Orders
     expanded: true
     pages:
       - label: Viewing Current Orders
-        page: developer-portal/for-sellers/account-management/orders/viewing-current-orders.md
+        page: developer-portal/for-sellers/orders/current-orders/viewing-current-orders.md
       - label: Pending Payments
-        page: developer-portal/for-sellers/account-management/orders/pending-payments.md
+        page: developer-portal/for-sellers/orders/current-orders/pending-payments.md
       - label: Cancelled Orders
-        page: developer-portal/for-sellers/account-management/orders/cancelled-orders.md
+        page: developer-portal/for-sellers/orders/current-orders/cancelled-orders.md
       - label: Shipping Options
-        page: developer-portal/for-sellers/account-management/orders/shipping-options.md
+        page: developer-portal/for-sellers/orders/current-orders/shipping-options.md
   - group: Post-Order
     expanded: true
     pages:
       - label: How you get paid
-        page: developer-portal/for-sellers/account-management/post-order/how-you-get-paid.md
+        page: developer-portal/for-sellers/orders/post-order/how-you-get-paid.md
       - label: Refunds
-        page: developer-portal/for-sellers/account-management/post-order/refunds.md
+        page: developer-portal/for-sellers/orders/post-order/refunds.md
       - label: Chargebacks and disputes
-        page: developer-portal/for-sellers/account-management/post-order/chargebacks-and-disputes.md
+        page: developer-portal/for-sellers/orders/post-order/chargebacks-and-disputes.md
       - label: Zero Fraud Guarantee
-        page: developer-portal/for-sellers/account-management/post-order/zero-fraud-guarantee.md
+        page: developer-portal/for-sellers/orders/post-order/zero-fraud-guarantee.md
+
+forSellersAccountManagement:
+  - page: developer-portal/for-sellers/account-management.md
   - group: Multi Account Management
     expanded: true
     pages:
