@@ -240,6 +240,11 @@ forSellersOrders:
 
 forSellersAccountManagement:
   - page: developer-portal/for-sellers/account-management.md
+  - group: Overview
+    extended: true
+    pages:
+      - label: Account Permissions
+        page: developer-portal/for-sellers/account-management/overview/account-permissions.md
   - group: Multi Account Management
     expanded: true
     pages:
