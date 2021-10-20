@@ -167,15 +167,13 @@ woocommerce:
         page: developer-portal/for-developers/woocommerce/pre-install/gather-your-docs.md
       - label: Sign up as a seller
         page: developer-portal/for-developers/woocommerce/pre-install/sign-up-as-a-seller.md
-      - label: Install Platform App
-        page: developer-portal/for-developers/woocommerce/pre-install/install-platform-app.md
-  - group: Install Checkout Button
+
+  - group: Install
     expanded: true
     pages:
-      - label: Test Mode
-        page: developer-portal/for-developers/woocommerce/install-checkout-button/install-checkout-button-test-mode.md
-      - label: Production Mode
-        page: developer-portal/for-developers/woocommerce/install-checkout-button/install-checkout-button-production-mode.md
+      - label: Steps
+        page: developer-portal/for-developers/woocommerce/install/steps.md
+
   - group: Install Login Button
     expanded: true
     pages:
