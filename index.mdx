@@ -1,10 +1,11 @@
 ---
-title: Fast Documentation
+title: Fast Docs
+description: Documentation for all Fast products
+keywords: Fast Docs home, Fast Docs, Fast AF Docs, Fast Button Docs
 ---
 
-import { LandingLayout } from "@redocly/ui";
-
 import {
+  LandingLayout,
   Button,
   Box,
   FlexSection,
@@ -15,10 +16,9 @@ import {
   Emphasis,
   H1,
   H2,
-  SectionHeader
-} from "@redocly/ui";
-
-import { NavBar } from "@redocly/ui";
+  SectionHeader,
+  NavBar,
+} from "@redocly/developer-portal/ui";
 
 import icon1 from "./images/icon1.png";
 import launchFastIcon from "./images/launch-fast.svg";
@@ -39,29 +39,44 @@ export default LandingLayout;
 
 <Jumbotron>
   <NavBar location={props.location} standalone={false} />
-  <H1>Developer Portal</H1>
-  <H2>Documentation, resources & support integrating Fast products</H2>
+  <H1>
+    Get *Fast*. Fast!
+  </H1>
+  <H2>Documentation, resources, and support integrating Fast products</H2>
   <Flex p={20} justifyContent="center">
-    <Button inversed transparent large to="developer-portal/index.md">
-      Visit Our Docs
-    </Button>
+
   </Flex>
 </Jumbotron>
 <Box my={25}>
   <SectionHeader>
-    Dive into <Emphasis> Fast </Emphasis> resources
+    Choose *Your* adventure.
   </SectionHeader>
   <FlexSection justifyContent="space-around" flexWrap="wrap">
-    <ThinTile to="developer-portal/index.md" icon={docs} header="Docs & Guides">
-      Dive into our documentation & guides for integrating Fast with your
-      platform.
+    <ThinTile
+      to="developer-portal/for-sellers/features.mdx"
+      icon={launchFastIcon}
+      header="For Sellers"
+    >
+      You selling stuff? Come on in!
     </ThinTile>
     <ThinTile
-      to="https://help.fast.co/hc/en-us"
-      icon={help}
-      header="Account Help"
+      to="developer-portal/for-shoppers/features.mdx"
+      icon={icon3}
+      header="For Shoppers"
     >
-      Obtain help from our customer success team with your seller account.
+      You buying stuff? This is it!
+    </ThinTile>
+    <ThinTile
+      to="developer-portal/for-developers/platforms.mdx"
+      icon={icon1}
+      header="For Developers"
+    >
+      Are you tasked with installing stuff? We got you, fam.
+    </ThinTile>
+    <ThinTile
+      to="developer-portal/index.md" icon={docs} header="Old Docs & Guides"
+    >
+      Dive into our documentation & guides for integrating Fast with your platform.
     </ThinTile>
   </FlexSection>
 </Box>
