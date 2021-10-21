@@ -69,8 +69,11 @@ keywords: Fast BigCommerce Installing Fast Buttons
 
 <img src="./images/image21.png"/>
 
-- If it looks good, go to the next section
-- If you want to adjust how it looks, like make it bigger or less stretched out, follow the steps in the section, Styling the Buttons. Then go to the next section.
+:::info Check Styling
+
+If you want to adjust how it looks, like make it bigger or less stretched out, follow the steps in the section, [Styling Fast Buttons](/developer-portal/for-developers/bigcommerce/customization/custom-styling/). Then go to the next section.
+
+:::
 
 ## Installing Checkout Button to Cart Preview Page
 
@@ -127,8 +130,12 @@ keywords: Fast BigCommerce Installing Fast Buttons
 
 5. Go to the Checkout page on your online store and make sure that the Fast Checkout button, which appears there now, looks good to you. (You may have to refresh the page a few times before the Fast Checkout button appears.)
    <img src="./images/image34.png"/>
-   - If it looks good, go to the next section
-   - If you want to adjust how it looks, like make it bigger or less stretched out, follow the steps in the section, Styling the Buttons. Then go to the next section.
+
+:::info Check Styling
+
+If you want to adjust how it looks, like make it bigger or less stretched out, follow the steps in the section, [Styling Fast Buttons](/developer-portal/for-developers/bigcommerce/customization/custom-styling/). Then go to the next section.
+
+:::
 
 ## Installing Checkout Button to Mini Cart Page
 
@@ -175,8 +182,12 @@ keywords: Fast BigCommerce Installing Fast Buttons
    > Note: The page might say “Save & apply file” instead of “Save File.” If that is the case, click “Save & apply file.”
 5. Go to the Mini Cart page on your online store and make sure that the Fast Checkout button, which appears there now, looks good to you. (You may have to refresh the page a few times before the Fast Checkout button appears.)
    <img src="./images/image14.png"/>
-   - If it looks good, go to the next section
-   - If you want to adjust how it looks, like make it bigger or less stretched out, follow the steps in the section, Styling the Buttons. Then go to the next section.
+
+:::info Check Styling
+
+If you want to adjust how it looks, like make it bigger or less stretched out, follow the steps in the section, [Styling Fast Buttons](/developer-portal/for-developers/bigcommerce/customization/custom-styling/). Then go to the next section.
+
+:::
 
 ## Installing Checkout Button to Cart Page
 
@@ -253,8 +264,12 @@ keywords: Fast BigCommerce Installing Fast Buttons
 
 5. Go to the Cart page on your online store and make sure that the Fast Checkout button, which appears there now, looks good to you. (You may have to refresh the page a few times before the Fast Checkout button appears.)
    <img src="./images/image37.png"/>
-   - If it looks good, go to the next section
-   - If you want to adjust how it looks, like make it bigger or less stretched out, follow the steps in the section, Styling the Buttons. Then go to the next section.
+
+:::info Check Styling
+
+If you want to adjust how it looks, like make it bigger or less stretched out, follow the steps in the section, [Styling Fast Buttons](/developer-portal/for-developers/bigcommerce/customization/custom-styling/). Then go to the next section.
+
+:::
 
 ## Installing Checkout Button to Checkout Page
 
@@ -360,8 +375,11 @@ keywords: Fast BigCommerce Installing Fast Buttons
 11. Go to the Checkout page on your online store and make sure that the Fast Checkout button, which appears there now, looks good to you. (You may have to refresh the page a few times before the Fast Checkout button appears.)
     <img src="./images/image7.png"/>
 
-    - If it looks good, go to the next section
-    - If you want to adjust how it looks, like make it bigger or less stretched out, follow the steps in the section, Styling the Buttons. Then go to the next section.
+:::info Check Styling
+
+If you want to adjust how it looks, like make it bigger or less stretched out, follow the steps in the section, [Styling Fast Buttons](/developer-portal/for-developers/bigcommerce/customization/custom-styling/). Then go to the next section.
+
+:::
 
 ## Installing Login Button to Login Page
 
@@ -424,8 +442,12 @@ keywords: Fast BigCommerce Installing Fast Buttons
 
 5. Go to the Login page on your online store and make sure that the Fast Login button, which appears there now, looks good to you. (You may have to refresh the page a few times before the Fast Login button appears.)
    <img src="./images/image27.png"/>
-   - If it looks good, go to the next section
-   - If you want to adjust how it looks, like make it bigger or less stretched out, follow the steps in the section, Styling the Buttons. Then go to the next section.
+
+:::info Check Styling
+
+If you want to adjust how it looks, like make it bigger or less stretched out, follow the steps in the section, [Styling Fast Buttons](/developer-portal/for-developers/bigcommerce/customization/custom-styling/). Then go to the next section.
+
+:::
 
 ## Installing Login Button to Create Account Page
 
@@ -484,5 +506,9 @@ keywords: Fast BigCommerce Installing Fast Buttons
    > Note: The page might say “Save & apply file” instead of “Save File.” If that is the case, click “Save & apply file.”
 5. Go to the Create Account page on your online store and make sure that the Fast Login button, which appears there now, looks good to you. (You may have to refresh the page a few times before the Fast Login button appears.)
    <img src="./images/image36.png"/>
-   - If it looks good, go to the next section
-   - If you want to adjust how it looks, like make it bigger or less stretched out, follow the steps in the section, Styling the Buttons. Then go to the next section.
+
+:::info Check Styling
+
+If you want to adjust how it looks, like make it bigger or less stretched out, follow the steps in the section, [Styling Fast Buttons](/developer-portal/for-developers/bigcommerce/customization/custom-styling/). Then go to the next section.
+
+:::
