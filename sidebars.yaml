@@ -21,19 +21,16 @@ bigcommerce:
         page: developer-portal/for-developers/bigcommerce/install/steps.md
       - label: "Step 4: Production Mode"
         page: developer-portal/for-developers/bigcommerce/install/production-mode.md
-  - group: Custom Styling
+  - group: Customization
     expanded: true
     pages:
-      - label: Checkout Button
-        page: developer-portal/for-developers/bigcommerce/custom-styling/custom-checkout-button-styling.md
-      - label: Login Button
-        page: developer-portal/for-developers/bigcommerce/custom-styling/custom-login-button-styling.md
-  - group: Adding Fast Button to Blog Posts
+      - label: Custom Styling
+        page: developer-portal/for-developers/bigcommerce/customization/custom-styling.md
+
+  - group: BigCommerce Blog Posts
     expanded: true
     pages:
-      - label: Getting Started
-        page: developer-portal/for-developers/bigcommerce/adding-fast-button-to-blog-posts/getting-started.md
-      - label: Adding Code
+      - label: Adding Fast Buttons
         page: developer-portal/for-developers/bigcommerce/adding-fast-button-to-blog-posts/adding-code.md
 
 custom-integration:

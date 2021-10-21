@@ -18,6 +18,10 @@ li {
 li li {
   margin: 12px 0;
 }
+/* Navigation list items  */
+nav li {
+  margin: 0;
+}
 
 /* Right Side bar section headers */
 ul > div > span {
