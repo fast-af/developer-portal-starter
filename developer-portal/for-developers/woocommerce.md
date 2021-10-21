@@ -6,7 +6,7 @@ keywords: Fast WooCommerce, Fast WooCommerce install
 
 # WooCommerce
 
-[![Fast Checkout](images/fast-product-preview.jpg)](https://wordpress.org/plugins/fast-checkout-for-woocommerce/)
+<img width="100%" style="max-height: 100%;" src="images/fast-product-preview.jpg"/>
 
 ## One smart move for your business.
 
