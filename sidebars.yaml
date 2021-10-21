@@ -174,20 +174,14 @@ woocommerce:
       - label: Steps
         page: developer-portal/for-developers/woocommerce/install/steps.md
 
-  - group: Install Login Button
+  - group: Customization
     expanded: true
     pages:
-      - label: Test Mode
-        page: developer-portal/for-developers/woocommerce/install-login-button/install-login-button-test-mode.md
-      - label: Production Mode
-        page: developer-portal/for-developers/woocommerce/install-login-button/install-login-button-production-mode.md
-  - group: Custom Styling
-    expanded: true
-    pages:
-      - label: Checkout Button
-        page: developer-portal/for-developers/woocommerce/custom-styling/custom-checkout-button-styling.md
-      - label: Login Button
-        page: developer-portal/for-developers/woocommerce/custom-styling/custom-login-button-styling.md
+      - label: Styling
+        page: developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling.md
+      - label: Settings
+        page: developer-portal/for-developers/woocommerce/customization/custom-settings.md
+
   - group: Adding Fast Button to Blog Posts
     expanded: true
     pages:
