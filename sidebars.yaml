@@ -179,13 +179,6 @@ woocommerce:
         page: developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling.md
       - label: Settings
         page: developer-portal/for-developers/woocommerce/customization/custom-settings.md
-  - group: Adding Fast Button to Blog Posts
-    expanded: true
-    pages:
-      - label: Getting Started
-        page: developer-portal/for-developers/woocommerce/adding-fast-button-to-blog-posts/getting-started.md
-      - label: Adding Code
-        page: developer-portal/for-developers/woocommerce/adding-fast-button-to-blog-posts/adding-code.md
   - group: Fast Wordpress Plugin
     expanded: true
     pages:
