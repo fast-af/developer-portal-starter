@@ -7,6 +7,7 @@ bigcommerce:
         page: developer-portal/for-developers/bigcommerce/pre-install/gather-your-docs.md
       - label: Sign up as a seller
         page: developer-portal/for-developers/bigcommerce/pre-install/sign-up-as-a-seller.md
+
       - label: Install Platform App
         page: developer-portal/for-developers/bigcommerce/pre-install/install-platform-app.md
   - group: Install Checkout Button
@@ -14,15 +15,14 @@ bigcommerce:
     pages:
       - label: Test Mode
         page: developer-portal/for-developers/bigcommerce/install-checkout-button/install-checkout-button-test-mode.md
-      - label: Production Mode
-        page: developer-portal/for-developers/bigcommerce/install-checkout-button/install-checkout-button-production-mode.md
-  - group: Install Login Button
+
+  - group: Install
     expanded: true
     pages:
       - label: Test Mode
-        page: developer-portal/for-developers/bigcommerce/install-login-button/install-login-button-test-mode.md
-      - label: Production Mode
-        page: developer-portal/for-developers/bigcommerce/install-login-button/install-login-button-production-mode.md
+        page: developer-portal/for-developers/bigcommerce/install/test-mode.md
+      - label: Steps
+        page: developer-portal/for-developers/bigcommerce/install/steps.md
   - group: Custom Styling
     expanded: true
     pages:

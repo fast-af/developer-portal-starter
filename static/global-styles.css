@@ -3,6 +3,13 @@
   outline-color: #000;
 }
 
+/* All images  */
+
+img {
+  display: block;
+  max-height: 300px;
+}
+
 /* Right Side bar section headers */
 ul > div > span {
   font-weight: 600;
