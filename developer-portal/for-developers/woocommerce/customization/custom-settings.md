@@ -37,7 +37,7 @@ We recommend you uncheck “Display Fast Login Button in Footer” under the “
 
 However, if you really want non-logged in users to see the Fast Login Button in the footer and you can do styling to make it look good, then keep this checked.
 
-To adjust this styling, follow the steps in the section, [Styling the Buttons](/developer-portal/for-developers/woocommerce/custom-styling/custom-checkout-button-styling/), and apply the styling changes to the “Login button style” textbox in WooCommerce.
+To adjust this styling, follow the steps in the section, [Styling the Buttons](/developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling), and apply the styling changes to the “Login button style” textbox in WooCommerce.
 
 ![cart](images/woocommerce-install21.png)
 ![cart](images/woocommerce-install22.png)

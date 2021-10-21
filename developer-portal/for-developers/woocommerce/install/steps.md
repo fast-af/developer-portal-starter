@@ -65,30 +65,30 @@ Decide which layout you want for your store and click that layout. Then click â€
 
 ![options-tab](images/woocommerce-install7.png)
 
-5. See if you like the way the Fast button looks or if you want to change something else about it like the width or the length. If you want to further adjust the styling, follow the steps in the section, [Styling the Buttons](/developer-portal/for-developers/woocommerce/custom-styling/custom-checkout-button-styling/).
+5. See if you like the way the Fast button looks or if you want to change something else about it like the width or the length. If you want to further adjust the styling, follow the steps in the section, [Styling the Buttons](/developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling/).
 
 6. Add the product to your cart.
 
 ### Cart
 
-Go to the cart page of your online store and see how the Fast button looks. If you want to adjust the styling, follow the steps in the section, [Styling the Buttons](/developer-portal/for-developers/woocommerce/custom-styling/custom-checkout-button-styling/).
+Go to the cart page of your online store and see how the Fast button looks. If you want to adjust the styling, follow the steps in the section, [Styling the Buttons](/developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling/).
 
 ![cart](images/woocommerce-install8.png)
 
 ### Mini Cart
 
-Go to the mini cart page of your online store and see how the Fast button looks. If you want to adjust the styling, follow the steps in the section, [Styling the Buttons](/developer-portal/for-developers/woocommerce/custom-styling/custom-checkout-button-styling/).
+Go to the mini cart page of your online store and see how the Fast button looks. If you want to adjust the styling, follow the steps in the section, [Styling the Buttons](/developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling/).
 
 ![cart](images/woocommerce-install9.png)
 
 ### Checkout Page
 
-Go to the checkout page of your online store and see how the Fast button looks. If you want to adjust the styling, follow the steps in the section, [Styling the Buttons](/developer-portal/for-developers/woocommerce/custom-styling/custom-checkout-button-styling/).
+Go to the checkout page of your online store and see how the Fast button looks. If you want to adjust the styling, follow the steps in the section, [Styling the Buttons](/developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling/).
 
 ![cart](images/woocommerce-install10.png)
 
 ### Login Page
 
-Go to the login page of your online store and see how the Fast button looks. If you want to adjust the styling, follow the steps in the section, [Styling the Buttons](/developer-portal/for-developers/woocommerce/custom-styling/custom-checkout-button-styling/).
+Go to the login page of your online store and see how the Fast button looks. If you want to adjust the styling, follow the steps in the section, [Styling the Buttons](/developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling/).
 
 ![cart](images/woocommerce-install11.png)
