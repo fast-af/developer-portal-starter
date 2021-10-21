@@ -167,36 +167,25 @@ woocommerce:
         page: developer-portal/for-developers/woocommerce/pre-install/gather-your-docs.md
       - label: Sign up as a seller
         page: developer-portal/for-developers/woocommerce/pre-install/sign-up-as-a-seller.md
-      - label: Install Platform App
-        page: developer-portal/for-developers/woocommerce/pre-install/install-platform-app.md
-  - group: Install Checkout Button
+  - group: Install
     expanded: true
     pages:
-      - label: Test Mode
-        page: developer-portal/for-developers/woocommerce/install-checkout-button/install-checkout-button-test-mode.md
-      - label: Production Mode
-        page: developer-portal/for-developers/woocommerce/install-checkout-button/install-checkout-button-production-mode.md
-  - group: Install Login Button
+      - label: Steps
+        page: developer-portal/for-developers/woocommerce/install/steps.md
+  - group: Customization
     expanded: true
     pages:
-      - label: Test Mode
-        page: developer-portal/for-developers/woocommerce/install-login-button/install-login-button-test-mode.md
-      - label: Production Mode
-        page: developer-portal/for-developers/woocommerce/install-login-button/install-login-button-production-mode.md
-  - group: Custom Styling
+      - label: Styling
+        page: developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling.md
+      - label: Settings
+        page: developer-portal/for-developers/woocommerce/customization/custom-settings.md
+  - group: Fast Wordpress Plugin
     expanded: true
     pages:
-      - label: Checkout Button
-        page: developer-portal/for-developers/woocommerce/custom-styling/custom-checkout-button-styling.md
-      - label: Login Button
-        page: developer-portal/for-developers/woocommerce/custom-styling/custom-login-button-styling.md
-  - group: Adding Fast Button to Blog Posts
-    expanded: true
-    pages:
-      - label: Getting Started
-        page: developer-portal/for-developers/woocommerce/adding-fast-button-to-blog-posts/getting-started.md
-      - label: Adding Code
-        page: developer-portal/for-developers/woocommerce/adding-fast-button-to-blog-posts/adding-code.md
+      - label: How to Find
+        page: developer-portal/for-developers/woocommerce/wordpress-plugin/location.md
+      - label: Migrating to New Plugin Directory Version (Early Sellers)
+        page: developer-portal/for-developers/woocommerce/wordpress-plugin/migrating.md
 
 forSellersQuickstart:
   - page: developer-portal/for-sellers/quickstart.md
