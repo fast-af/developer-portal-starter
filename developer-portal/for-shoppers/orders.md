@@ -5,3 +5,5 @@ keywords: Fast For Buyers Quickstart
 ---
 
 # Orders
+
+Fast handles a lot of orders. Find your info here!
