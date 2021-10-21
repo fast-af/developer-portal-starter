@@ -7,9 +7,6 @@ bigcommerce:
         page: developer-portal/for-developers/bigcommerce/pre-install/gather-your-docs.md
       - label: Sign up as a seller
         page: developer-portal/for-developers/bigcommerce/pre-install/sign-up-as-a-seller.md
-
-      - label: Install Platform App
-        page: developer-portal/for-developers/bigcommerce/pre-install/install-platform-app.md
   - group: Install
     expanded: true
     pages:
@@ -26,7 +23,6 @@ bigcommerce:
     pages:
       - label: Custom Styling
         page: developer-portal/for-developers/bigcommerce/customization/custom-styling.md
-
   - group: BigCommerce Blog Posts
     expanded: true
     pages:
