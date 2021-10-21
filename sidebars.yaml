@@ -167,13 +167,11 @@ woocommerce:
         page: developer-portal/for-developers/woocommerce/pre-install/gather-your-docs.md
       - label: Sign up as a seller
         page: developer-portal/for-developers/woocommerce/pre-install/sign-up-as-a-seller.md
-
   - group: Install
     expanded: true
     pages:
       - label: Steps
         page: developer-portal/for-developers/woocommerce/install/steps.md
-
   - group: Customization
     expanded: true
     pages:
@@ -181,7 +179,6 @@ woocommerce:
         page: developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling.md
       - label: Settings
         page: developer-portal/for-developers/woocommerce/customization/custom-settings.md
-
   - group: Adding Fast Button to Blog Posts
     expanded: true
     pages:
@@ -189,6 +186,13 @@ woocommerce:
         page: developer-portal/for-developers/woocommerce/adding-fast-button-to-blog-posts/getting-started.md
       - label: Adding Code
         page: developer-portal/for-developers/woocommerce/adding-fast-button-to-blog-posts/adding-code.md
+  - group: Fast Wordpress Plugin
+    expanded: true
+    pages:
+      - label: How to Find
+        page: developer-portal/for-developers/woocommerce/wordpress-plugin/location.md
+      - label: Migrating to New Plugin Directory Version (Early Sellers)
+        page: developer-portal/for-developers/woocommerce/wordpress-plugin/migrating.md
 
 forSellersQuickstart:
   - page: developer-portal/for-sellers/quickstart.md
