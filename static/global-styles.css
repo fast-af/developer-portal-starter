@@ -10,6 +10,15 @@ img {
   max-height: 300px;
 }
 
+/* All list items  */
+li {
+  margin: 32px 0;
+}
+/* All nested list items  */
+li li {
+  margin: 12px 0;
+}
+
 /* Right Side bar section headers */
 ul > div > span {
   font-weight: 600;

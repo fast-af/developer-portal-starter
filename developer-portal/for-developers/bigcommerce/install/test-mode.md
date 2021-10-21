@@ -1,14 +1,14 @@
 ---
 title: Fast BigCommerce Docs
-description: Getting Started with Fast on BigCommerce! Quickstart
-keywords: Fast BigCommerce Quickstart
+description: Getting Started with Fast on BigCommerce! Test mode
+keywords: Fast BigCommerce test mode
 ---
 
 # BigCommerce test mode setup
 
 ## Overview
 
-This **test mode** process is for testing the buttons on your website. In test mode, only you can see the Fast buttons on your website. They are not yet visible to shoppers or the general public. We advise doing test mode first so you can see for yourself how the buttons look and function. However, if you prefer to dive straight in and use the buttons in a public setting, then do this process in production mode. You can see that other version of the process [here](https://docs.google.com/document/d/1I6Fc7_PBk2ZZwNm757TmLDSPaDjufKtIrnWnH1pI8Es/edit#).
+This **test mode** process is for testing the buttons on your website. In test mode, only you can see the Fast buttons on your website. They are not yet visible to shoppers or the general public. We advise doing test mode first so you can see for yourself how the buttons look and function.
 
 ## Steps to set up test mode
 
@@ -27,4 +27,4 @@ This **test mode** process is for testing the buttons on your website. In test m
 
    <img src="./images/image32.png"/>
 
-Stay logged into this account throughout the rest of the install process.
+Stay logged into this account throughout the rest of the [install process](/developer-portal/for-developers/bigcommerce/install/steps/).
