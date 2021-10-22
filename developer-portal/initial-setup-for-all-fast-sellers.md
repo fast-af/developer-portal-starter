@@ -30,4 +30,4 @@ If you attempt to [onboard as a Seller](https://v2.fast.co/get-started) from an 
 
 ## Collect Your Required Business Information
 
-<embed src="../reusables/for-developers/_required-seller-information.md" />
+<embed src="../reusables/for-developers/_gather-your-docs.md" />
