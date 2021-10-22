@@ -1,7 +1,7 @@
 ---
 title: Fast BigCommerce Docs
-description: Getting Started with Fast on BigCommerce! Quickstart
-keywords: Fast BigCommerce Quickstart
+description: Styling Fast Buttons on BigCommerce
+keywords: Styling Fast Buttons on BigCommerce
 ---
 
 # Styling Fast Buttons

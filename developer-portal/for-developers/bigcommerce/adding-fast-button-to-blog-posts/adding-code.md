@@ -1,7 +1,7 @@
 ---
 title: Fast BigCommerce Docs
-description: Getting Started with Fast on BigCommerce! Quickstart
-keywords: Fast BigCommerce Quickstart
+description: Adding Fast Buttons to BigCommerce Blog Posts
+keywords: Adding Fast Buttons to BigCommerce Blog Posts
 ---
 
 # Adding Fast Button to BigCommerce Blog Posts
