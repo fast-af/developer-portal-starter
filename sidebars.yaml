@@ -3,9 +3,11 @@ bigcommerce:
   - group: Pre install (Required!)
     expanded: true
     pages:
-      - label: Gather your docs
+      - label: "Step 1: Gather your Docs"
         page: developer-portal/for-developers/bigcommerce/pre-install/gather-your-docs.md
-      - label: Sign up as a seller
+      - label: "Step 2: Requirements"
+        page: developer-portal/for-developers/bigcommerce/pre-install/requirements.md
+      - label: "Step 3: Onboard as a Seller"
         page: developer-portal/for-developers/bigcommerce/pre-install/sign-up-as-a-seller.md
   - group: Install
     expanded: true
@@ -34,12 +36,11 @@ custom-integration:
   - group: Pre install (Required!)
     expanded: true
     pages:
-      - label: Gather your docs
+      - label: "Step 1: Gather your Docs"
         page: developer-portal/for-developers/custom-integration/pre-install/gather-your-docs.md
-      - label: Sign up as a seller
+      - label: "Step 2: Onboard as a Seller"
         page: developer-portal/for-developers/custom-integration/pre-install/sign-up-as-a-seller.md
-      - label: Install Platform App
-        page: developer-portal/for-developers/custom-integration/pre-install/install-platform-app.md
+
   - group: Install Checkout Button
     expanded: true
     pages:
@@ -74,12 +75,12 @@ magento:
   - group: Pre install (Required!)
     expanded: true
     pages:
-      - label: Gather your docs
+      - label: "Step 1: Gather your Docs"
         page: developer-portal/for-developers/magento/pre-install/gather-your-docs.md
-      - label: Sign up as a seller
+      - label: "Step 2: Requirements"
+        page: developer-portal/for-developers/magento/pre-install/requirements.md
+      - label: "Step 3: Onboard as a Seller"
         page: developer-portal/for-developers/magento/pre-install/sign-up-as-a-seller.md
-      - label: Install Platform App
-        page: developer-portal/for-developers/magento/pre-install/install-platform-app.md
   - group: Install Checkout Button
     expanded: true
     pages:
@@ -114,12 +115,13 @@ salesforce:
   - group: Pre install (Required!)
     expanded: true
     pages:
-      - label: Gather your docs
+      - label: "Step 1: Gather your Docs"
         page: developer-portal/for-developers/salesforce/pre-install/gather-your-docs.md
-      - label: Sign up as a seller
+      - label: "Step 2: Requirements"
+        page: developer-portal/for-developers/salesforce/pre-install/requirements.md
+      - label: "Step 3: Onboard as a Seller"
         page: developer-portal/for-developers/salesforce/pre-install/sign-up-as-a-seller.md
-      - label: Install Platform App
-        page: developer-portal/for-developers/salesforce/pre-install/install-platform-app.md
+
   - group: Install Checkout Button
     expanded: true
     pages:
@@ -154,9 +156,11 @@ woocommerce:
   - group: Pre install (Required!)
     expanded: true
     pages:
-      - label: Gather your docs
+      - label: "Step 1: Gather your Docs"
         page: developer-portal/for-developers/woocommerce/pre-install/gather-your-docs.md
-      - label: Sign up as a seller
+      - label: "Step 2: Requirements"
+        page: developer-portal/for-developers/woocommerce/pre-install/requirements.md
+      - label: "Step 3: Onboard as a Seller"
         page: developer-portal/for-developers/woocommerce/pre-install/sign-up-as-a-seller.md
   - group: Install
     expanded: true
@@ -185,7 +189,7 @@ forSellersQuickstart:
     pages:
       - label: Will Fast work for me?
         page: developer-portal/for-sellers/quickstart/preinstall/will-fast-work-for-me.md
-      - label: Gather your docs
+      - label: Gather your Docs
         page: developer-portal/for-sellers/quickstart/preinstall/gather-your-docs.md
   - group: Onboarding
     expanded: true
@@ -405,8 +409,10 @@ oldDocs:
   - page: developer-portal/seller-signup.md
     label: Seller Signup
     separatorLine: true
-  - separator: Quick Start
-  - group: I am on a platform
+  - separator: Seller Quickstart
+  - page: developer-portal/initial-setup-for-all-fast-sellers.md
+    label: New to Fast? Start Here
+  - group: I am on a Platform
     expanded: true
     pages:
       - group: BigCommerce
@@ -435,7 +441,7 @@ oldDocs:
             label: Fast Checkout Settings
           - page: developer-portal/woocommerce-migrate-plugin-directory.md
             label: Migrate to Plugin Directory
-  - group: I am on a custom system
+  - group: I am on a Custom System
     expanded: false
     separatorLine: true
     pages:
@@ -458,7 +464,7 @@ oldDocs:
             label: Update requests
           - page: developer-portal/fast-api-qs-backend-delete.md
             label: Delete requests
-      - group: Extended order management
+      - group: Extended Order Management
         expanded: false
         pages:
           - page: developer-portal/fast-api-qs-backend-extended-oms-intro.md

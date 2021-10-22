@@ -1,7 +1,7 @@
 ---
 title: Fast Magento Docs
-description: Getting Started with Fast on Magento! Quickstart
-keywords: Fast Magento Quickstart
+description: Getting Started with Fast on Magento! Onboard as a Seller
+keywords: Fast Magento Onboard as a Seller
 ---
 
-# sign up as a seller
+# Onboard as a Seller

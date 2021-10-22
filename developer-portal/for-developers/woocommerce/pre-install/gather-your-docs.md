@@ -4,4 +4,4 @@ description: Getting Started with Fast on Woocommerce! Quickstart
 keywords: Fast Woocommerce Quickstart
 ---
 
-# gather your docs
+<embed src="/reusables/for-developers/_gather-your-docs.md" />

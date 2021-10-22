@@ -1,7 +1,7 @@
 ---
-title: Fast Salesforce Docs
-description: Getting Started with Fast on Salesforce! Quickstart
-keywords: Fast Salesforce Quickstart
+title: Fast SalesForce Docs
+description: Getting Started with Fast on SalesForce! Onboard as a Seller.
+keywords: Fast SalesForce Onboard as a Seller.
 ---
 
-# sign up as a seller
+# Onboard as a Seller

@@ -1,7 +1,7 @@
 ---
 title: Fast BigCommerce Docs
-description: Getting Started with Fast on BigCommerce! Quickstart
-keywords: Fast BigCommerce Quickstart
+description: Getting Started with Fast on BigCommerce! Gather your docs
+keywords: Fast BigCommerce docs
 ---
 
-# gather your docs
+<embed src="/reusables/for-developers/_gather-your-docs.md" />

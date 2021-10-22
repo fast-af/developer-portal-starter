@@ -12,12 +12,9 @@ img {
 
 /* All list items  */
 li {
-  margin: 32px 0;
+  margin: 16px 0;
 }
-/* All nested list items  */
-li li {
-  margin: 12px 0;
-}
+
 /* Navigation list items  */
 nav li {
   margin: 0;

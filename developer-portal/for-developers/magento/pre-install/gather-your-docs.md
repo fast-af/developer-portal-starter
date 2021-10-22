@@ -1,7 +1,7 @@
 ---
 title: Fast Magento Docs
-description: Getting Started with Fast on Magento! Quickstart
-keywords: Fast Magento Quickstart
+description: Getting Started with Fast on Magento! Gather your Docs.
+keywords: Fast Magento Gather your Docs.
 ---
 
-# gather your docs
+<embed src="/reusables/for-developers/_gather-your-docs.md" />
