@@ -4,13 +4,11 @@ description: Getting Started with Fast on Magento! Quickstart
 keywords: Fast Magento Quickstart
 ---
 
-# gather your docs
-
-## Required Seller Information
+## Required Seller Information You Will Need
 
 ### General Business Information
 
-<embed src="/reusables/for-developers/_required-seller-information.md" />
+<embed src="/reusables/for-developers/_gather-your-docs.md" />
 
 ### Platform-Specific Information
 

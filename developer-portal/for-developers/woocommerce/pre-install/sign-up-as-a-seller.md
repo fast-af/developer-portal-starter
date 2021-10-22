@@ -4,7 +4,7 @@ description: Getting Started with Fast on Woocommerce! Quickstart
 keywords: Fast Woocommerce Quickstart
 ---
 
-# Sign Up as a Seller with WooCommerce
+# Onboard as a Seller with WooCommerce
 
 ## Prerequisites
 

@@ -3,9 +3,11 @@ bigcommerce:
   - group: Pre install (Required!)
     expanded: true
     pages:
-      - label: Gather your docs
+      - label: "Step 1: Gather your Docs"
         page: developer-portal/for-developers/bigcommerce/pre-install/gather-your-docs.md
-      - label: Sign up as a seller
+      - label: "Step 2: Requirements"
+        page: developer-portal/for-developers/bigcommerce/pre-install/requirements.md
+      - label: "Step 3: Onboard as a Seller"
         page: developer-portal/for-developers/bigcommerce/pre-install/sign-up-as-a-seller.md
   - group: Install
     expanded: true
@@ -34,9 +36,9 @@ custom-integration:
   - group: Pre install (Required!)
     expanded: true
     pages:
-      - label: Gather your docs
+      - label: Gather your Docs
         page: developer-portal/for-developers/custom-integration/pre-install/gather-your-docs.md
-      - label: Sign up as a seller
+      - label: Onboard as a Seller
         page: developer-portal/for-developers/custom-integration/pre-install/sign-up-as-a-seller.md
       - label: Install Platform App
         page: developer-portal/for-developers/custom-integration/pre-install/install-platform-app.md
@@ -74,9 +76,9 @@ magento:
   - group: Pre install (Required!)
     expanded: true
     pages:
-      - label: Gather your docs
+      - label: Gather your Docs
         page: developer-portal/for-developers/magento/pre-install/gather-your-docs.md
-      - label: Sign up as a seller
+      - label: Onboard as a Seller
         page: developer-portal/for-developers/magento/pre-install/sign-up-as-a-seller.md
       - label: Install Platform App
         page: developer-portal/for-developers/magento/pre-install/install-platform-app.md
@@ -114,9 +116,9 @@ salesforce:
   - group: Pre install (Required!)
     expanded: true
     pages:
-      - label: Gather your docs
+      - label: Gather your Docs
         page: developer-portal/for-developers/salesforce/pre-install/gather-your-docs.md
-      - label: Sign up as a seller
+      - label: Onboard as a Seller
         page: developer-portal/for-developers/salesforce/pre-install/sign-up-as-a-seller.md
       - label: Install Platform App
         page: developer-portal/for-developers/salesforce/pre-install/install-platform-app.md
@@ -154,9 +156,11 @@ woocommerce:
   - group: Pre install (Required!)
     expanded: true
     pages:
-      - label: Gather your docs
+      - label: "Step 1: Gather your Docs"
         page: developer-portal/for-developers/woocommerce/pre-install/gather-your-docs.md
-      - label: Sign up as a seller
+      - label: "Step 2: Requirements"
+        page: developer-portal/for-developers/woocommerce/pre-install/requirements.md
+      - label: "Step 3: Onboard as a Seller"
         page: developer-portal/for-developers/woocommerce/pre-install/sign-up-as-a-seller.md
   - group: Install
     expanded: true
@@ -185,7 +189,7 @@ forSellersQuickstart:
     pages:
       - label: Will Fast work for me?
         page: developer-portal/for-sellers/quickstart/preinstall/will-fast-work-for-me.md
-      - label: Gather your docs
+      - label: Gather your Docs
         page: developer-portal/for-sellers/quickstart/preinstall/gather-your-docs.md
   - group: Onboarding
     expanded: true
