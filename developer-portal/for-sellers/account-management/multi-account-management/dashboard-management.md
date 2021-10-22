@@ -4,4 +4,4 @@ description: Fast Seller Dashboard management
 keywords: Fast Seller Dashboard management
 ---
 
-# dashboard management
+# Dashboard Management
