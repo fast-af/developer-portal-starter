@@ -116,12 +116,13 @@ salesforce:
   - group: Pre install (Required!)
     expanded: true
     pages:
-      - label: Gather your Docs
+      - label: "Step 1: Gather your Docs"
         page: developer-portal/for-developers/salesforce/pre-install/gather-your-docs.md
-      - label: Onboard as a Seller
+      - label: "Step 2: Requirements"
+        page: developer-portal/for-developers/salesforce/pre-install/requirements.md
+      - label: "Step 3: Onboard as a Seller"
         page: developer-portal/for-developers/salesforce/pre-install/sign-up-as-a-seller.md
-      - label: Install Platform App
-        page: developer-portal/for-developers/salesforce/pre-install/install-platform-app.md
+
   - group: Install Checkout Button
     expanded: true
     pages:
