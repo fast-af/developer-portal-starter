@@ -10,7 +10,7 @@ Prior to using Fast with your site, you should ensure that Fast meets your expec
 
 For U.S.-based sellers, standard pricing is:
 
-<embed src="../reusables/seller-docs/_standard-seller-pricing.md" />
+<embed src="../reusables/for-developers/_standard-seller-pricing.md" />
 
 Full pricing details can be found on the [Fast Pricing page](https://fast.co/pricing). The pricing page also provides a breakdown of pricing for all countries where Fast supports Sellers.
 
@@ -30,4 +30,4 @@ If you attempt to [onboard as a Seller](https://v2.fast.co/get-started) from an 
 
 ## Collect Your Required Business Information
 
-<embed src="../reusables/seller-docs/_required-seller-information.md" />
+<embed src="../reusables/for-developers/_required-seller-information.md" />

@@ -10,14 +10,14 @@ keywords: Fast BigCommerce Quickstart
 
 ### General Business Information
 
-<embed src="/reusables/seller-docs/_required-seller-information.md" />
+<embed src="/reusables/for-developers/_required-seller-information.md" />
 
 ### Platform-Specific Information
 
-<embed src="/reusables/seller-docs/_platform_ecommerce_all_fast_access_requirement.md" />
+<embed src="/reusables/for-developers/_platform_ecommerce_all_fast_access_requirement.md" />
 
 #### BigCommerce Requiremnts
 
-<embed src="/reusables/seller-docs/_platform_bigcommerce_requirements.md" />
+<embed src="/reusables/for-developers/_platform_bigcommerce_requirements.md" />
 
-<embed src="/reusables/seller-docs/_platform_attention_seller_onboarding_credentials_same_session_requirement.md" />
+<embed src="/reusables/for-developers/_platform_attention_seller_onboarding_credentials_same_session_requirement.md" />
