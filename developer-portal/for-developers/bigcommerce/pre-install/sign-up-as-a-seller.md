@@ -1,7 +1,7 @@
 ---
 title: Fast BigCommerce Docs
-description: Getting Started with Fast on BigCommerce! Quickstart
-keywords: Fast BigCommerce Quickstart
+description: Getting Started with Fast on BigCommerce! Onboard as a Seller
+keywords: Fast BigCommerce Onboard as a Seller
 ---
 
 # Onboard as a Seller

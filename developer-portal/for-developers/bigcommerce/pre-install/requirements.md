@@ -1,3 +1,9 @@
+---
+title: Fast Custom Integration Docs
+description: Getting Started with Fast on Custom Integration! BigCommerce Requirements
+keywords: Fast Custom Integration bigcommerce requirements
+---
+
 # BigCommerce Requirements
 
 <embed src="/reusables/for-developers/_platform_ecommerce_all_fast_access_requirement.md" />
