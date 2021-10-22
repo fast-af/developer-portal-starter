@@ -4,7 +4,7 @@ description: Toggling back and forth between different Fast Seller Accounts
 keywords: Fast Seller toggle between accounts
 ---
 
-# Toggling back and forth
+# Toggling Back and Forth
 
 Click the dropdown in the upper right corner. You may need to scroll down if you have more than one store!
 

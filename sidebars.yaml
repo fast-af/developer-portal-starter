@@ -264,7 +264,7 @@ forSellersAccountManagement:
   - group: Multi Account Management
     expanded: true
     pages:
-      - label: Toggling back and forth
+      - label: Toggling Back and Forth
         page: developer-portal/for-sellers/account-management/multi-account-management/toggling-back-and-forth.md
       - label: Dashboard Management
         page: developer-portal/for-sellers/account-management/multi-account-management/dashboard-management.md

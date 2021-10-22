@@ -5,3 +5,5 @@ keywords: Fast For Sellers Quickstart Required Docs
 ---
 
 # Gather your Documents to begin
+
+<embed src="/reusables/for-developers/_gather-your-docs.md" />
