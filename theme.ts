@@ -257,7 +257,7 @@ export const theme = {
       },
     },
     code: {
-      fontSize: "13px",
+      fontSize: "16px",
       fontFamily: '"Source Code Pro", sans-serif',
       // fontWeight: ({ typography }) => typography.fontWeightRegular,
       // fontWeight: ({ typography }) => typography.fontWeight.regular,

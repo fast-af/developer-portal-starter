@@ -40,7 +40,6 @@ custom-integration:
         page: developer-portal/for-developers/custom-integration/pre-install/gather-your-docs.md
       - label: "Step 2: Onboard as a Seller"
         page: developer-portal/for-developers/custom-integration/pre-install/sign-up-as-a-seller.md
-
   - group: Install Checkout Button
     expanded: true
     pages:
@@ -69,7 +68,15 @@ custom-integration:
         page: developer-portal/for-developers/custom-integration/adding-fast-button-to-blog-posts/getting-started.md
       - label: Adding Code
         page: developer-portal/for-developers/custom-integration/adding-fast-button-to-blog-posts/adding-code.md
-
+  - group: Fast API
+    expanded: true
+    pages:
+      - label: Overview
+        page: developer-portal/for-developers/custom-integration/fast-api/overview.md
+      - label: Fast --> Seller
+        page: developer-portal/for-developers/custom-integration/fast-api/fast-to-seller.md
+      - label: Seller --> Fast
+        page: developer-portal/for-developers/custom-integration/fast-api/seller-to-fast.md
 magento:
   - page: developer-portal/for-developers/magento.md
   - group: Pre install (Required!)
