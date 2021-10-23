@@ -4,7 +4,7 @@ description: Fast Checkout Emails related to your order
 keywords: fast checkout emails related to your order
 ---
 
-# Emails related to your order
+# Emails Related To Your Order
 
 ## Email types + related emails
 

@@ -345,26 +345,26 @@ forShoppersOrders:
     pages:
       - label: Checkout
         page: developer-portal/for-shoppers/orders/order-process/checkout.md
-      - label: Emails Related to your order
+      - label: Emails Related To Your Order
         page: developer-portal/for-shoppers/orders/order-process/emails-related-to-your-order.md
-      - label: Editing your order
+      - label: Editing Your Order
         page: developer-portal/for-shoppers/orders/order-process/editing-your-order.md
-      - label: Cancelling orders
+      - label: Cancelling Orders
         page: developer-portal/for-shoppers/orders/order-process/cancelling-orders.md
   - group: Shipping
     expanded: true
     pages:
-      - label: Tracking current orders
+      - label: Tracking Current Orders
         page: developer-portal/for-shoppers/orders/shipping/tracking-current-orders.md
 
   - group: Troubleshooting
     expanded: true
     pages:
-      - label: Can't see checkout window
+      - label: Can't See Checkout Window
         page: developer-portal/for-shoppers/orders/troubleshooting/cant-see-checkout-window.md
 forShoppersAccount:
   - page: developer-portal/for-shoppers/account.md
-  - group: Updating your account
+  - group: Updating Your Account
     expanded: true
     pages:
       - label: Payment Method
@@ -373,7 +373,7 @@ forShoppersAccount:
         page: developer-portal/for-shoppers/account/updating-your-account/shipping-address.md
       - label: Deleting your account
         page: developer-portal/for-shoppers/account/updating-your-account/deleting-your-account.md
-  - group: Managing your account
+  - group: Managing Your Account
     expanded: true
     pages:
       - label: Handling an existing Fast account on a new device
@@ -389,7 +389,7 @@ forShoppersPrivacyAndSecurity:
   - group: Accounts
     expanded: true
     pages:
-      - label: Deleting your account
+      - label: Deleting Your Account
         page: developer-portal/for-shoppers/privacy-and-security/accounts/deleting-your-account.md
       - label: Hacked Email Accounts
         page: developer-portal/for-shoppers/privacy-and-security/accounts/hacked-email-accounts.md
