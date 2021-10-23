@@ -1,9 +1,9 @@
 bigcommerce:
   - page: developer-portal/for-developers/bigcommerce.md
-  - group: Pre install (Required!)
+  - group: Pre Install (Required!)
     expanded: true
     pages:
-      - label: "Step 1: Gather your Docs"
+      - label: "Step 1: Gather Your Docs"
         page: developer-portal/for-developers/bigcommerce/pre-install/gather-your-docs.md
       - label: "Step 2: Requirements"
         page: developer-portal/for-developers/bigcommerce/pre-install/requirements.md
@@ -33,10 +33,10 @@ bigcommerce:
 
 custom-integration:
   - page: developer-portal/for-developers/custom-integration.md
-  - group: Pre install (Required!)
+  - group: Pre Install (Required!)
     expanded: true
     pages:
-      - label: "Step 1: Gather your Docs"
+      - label: "Step 1: Gather Your Docs"
         page: developer-portal/for-developers/custom-integration/pre-install/gather-your-docs.md
       - label: "Step 2: Onboard as a Seller"
         page: developer-portal/for-developers/custom-integration/pre-install/sign-up-as-a-seller.md
@@ -79,50 +79,47 @@ custom-integration:
         page: developer-portal/for-developers/custom-integration/fast-api/seller-to-fast.md
 magento:
   - page: developer-portal/for-developers/magento.md
-  - group: Pre install (Required!)
+  - group: Pre Install (Required!)
     expanded: true
     pages:
-      - label: "Step 1: Gather your Docs"
+      - label: "Step 1: Gather Your Docs"
         page: developer-portal/for-developers/magento/pre-install/gather-your-docs.md
       - label: "Step 2: Requirements"
         page: developer-portal/for-developers/magento/pre-install/requirements.md
       - label: "Step 3: Onboard as a Seller"
         page: developer-portal/for-developers/magento/pre-install/sign-up-as-a-seller.md
-  - group: Install Checkout Button
+  - group: Install
     expanded: true
     pages:
-      - label: Test Mode
-        page: developer-portal/for-developers/magento/install-checkout-button/install-checkout-button-test-mode.md
-      - label: Production Mode
-        page: developer-portal/for-developers/magento/install-checkout-button/install-checkout-button-production-mode.md
-  - group: Install Login Button
-    expanded: true
-    pages:
-      - label: Test Mode
-        page: developer-portal/for-developers/magento/install-login-button/install-login-button-test-mode.md
-      - label: Production Mode
-        page: developer-portal/for-developers/magento/install-login-button/install-login-button-production-mode.md
-  - group: Custom Styling
-    expanded: true
-    pages:
-      - label: Checkout Button
-        page: developer-portal/for-developers/magento/custom-styling/custom-checkout-button-styling.md
-      - label: Login Button
-        page: developer-portal/for-developers/magento/custom-styling/custom-login-button-styling.md
-  - group: Adding Fast Button to Blog Posts
-    expanded: true
-    pages:
-      - label: Getting Started
-        page: developer-portal/for-developers/magento/adding-fast-button-to-blog-posts/getting-started.md
-      - label: Adding Code
-        page: developer-portal/for-developers/magento/adding-fast-button-to-blog-posts/adding-code.md
+      - label: Overview
+        page: developer-portal/for-developers/magento/install/overview.md
+      - label: "Step 1: Acquire Extension"
+        page: developer-portal/for-developers/magento/install/acquire-extension.md
+      - label: "Step 2: Enable Fast Checkout"
+        page: developer-portal/for-developers/magento/install/enable-fast-checkout.md
+      - label: "Step 3: Specify Products"
+        page: developer-portal/for-developers/magento/install/specify-products.md
+      - label: "Step 4: Activate Storefront"
+        page: developer-portal/for-developers/magento/install/activate-storefront.md
 
+  - group: Customization
+    expanded: true
+    pages:
+      - label: Settings
+        page: developer-portal/for-developers/magento/customization/settings.md
+  - group: Resources
+    expanded: true
+    pages:
+      - label: "Fulfillments"
+        page: developer-portal/for-developers/magento/resources/enable-fulfillment.md
+      - label: "External Payments"
+        page: developer-portal/for-developers/magento/resources/external-payments.md
 salesforce:
   - page: developer-portal/for-developers/salesforce.md
-  - group: Pre install (Required!)
+  - group: Pre Install (Required!)
     expanded: true
     pages:
-      - label: "Step 1: Gather your Docs"
+      - label: "Step 1: Gather Your Docs"
         page: developer-portal/for-developers/salesforce/pre-install/gather-your-docs.md
       - label: "Step 2: Requirements"
         page: developer-portal/for-developers/salesforce/pre-install/requirements.md
@@ -160,10 +157,10 @@ salesforce:
 
 woocommerce:
   - page: developer-portal/for-developers/woocommerce.md
-  - group: Pre install (Required!)
+  - group: Pre Install (Required!)
     expanded: true
     pages:
-      - label: "Step 1: Gather your Docs"
+      - label: "Step 1: Gather Your Docs"
         page: developer-portal/for-developers/woocommerce/pre-install/gather-your-docs.md
       - label: "Step 2: Requirements"
         page: developer-portal/for-developers/woocommerce/pre-install/requirements.md
@@ -196,7 +193,7 @@ forSellersQuickstart:
     pages:
       - label: Will Fast work for me?
         page: developer-portal/for-sellers/quickstart/preinstall/will-fast-work-for-me.md
-      - label: Gather your Docs
+      - label: Gather Your Docs
         page: developer-portal/for-sellers/quickstart/preinstall/gather-your-docs.md
   - group: Onboarding
     expanded: true
@@ -245,7 +242,7 @@ forSellersOrders:
   - group: Order Support
     expanded: true
     pages:
-      - label: Chargebacks and disputes
+      - label: Chargebacks and Disputes
         page: developer-portal/for-sellers/orders/order-support/chargebacks-and-disputes.md
       - label: Returns
         page: developer-portal/for-sellers/orders/order-support/returns.md

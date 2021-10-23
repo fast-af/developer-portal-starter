@@ -4,6 +4,4 @@ description: Gather your required business docs to get started with Fast as a Se
 keywords: Fast For Sellers Quickstart Required Docs
 ---
 
-# Gather your Documents to begin
-
 <embed src="/reusables/for-developers/_gather-your-docs.md" />
