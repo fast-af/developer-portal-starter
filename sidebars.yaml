@@ -1,9 +1,9 @@
 bigcommerce:
   - page: developer-portal/for-developers/bigcommerce.md
-  - group: Pre install (Required!)
+  - group: Pre Install (Required!)
     expanded: true
     pages:
-      - label: "Step 1: Gather your Docs"
+      - label: "Step 1: Gather Your Docs"
         page: developer-portal/for-developers/bigcommerce/pre-install/gather-your-docs.md
       - label: "Step 2: Requirements"
         page: developer-portal/for-developers/bigcommerce/pre-install/requirements.md
@@ -33,10 +33,10 @@ bigcommerce:
 
 custom-integration:
   - page: developer-portal/for-developers/custom-integration.md
-  - group: Pre install (Required!)
+  - group: Pre Install (Required!)
     expanded: true
     pages:
-      - label: "Step 1: Gather your Docs"
+      - label: "Step 1: Gather Your Docs"
         page: developer-portal/for-developers/custom-integration/pre-install/gather-your-docs.md
       - label: "Step 2: Onboard as a Seller"
         page: developer-portal/for-developers/custom-integration/pre-install/sign-up-as-a-seller.md
@@ -79,10 +79,10 @@ custom-integration:
         page: developer-portal/for-developers/custom-integration/fast-api/seller-to-fast.md
 magento:
   - page: developer-portal/for-developers/magento.md
-  - group: Pre install (Required!)
+  - group: Pre Install (Required!)
     expanded: true
     pages:
-      - label: "Step 1: Gather your Docs"
+      - label: "Step 1: Gather Your Docs"
         page: developer-portal/for-developers/magento/pre-install/gather-your-docs.md
       - label: "Step 2: Requirements"
         page: developer-portal/for-developers/magento/pre-install/requirements.md
@@ -116,10 +116,10 @@ magento:
         page: developer-portal/for-developers/magento/resources/external-payments.md
 salesforce:
   - page: developer-portal/for-developers/salesforce.md
-  - group: Pre install (Required!)
+  - group: Pre Install (Required!)
     expanded: true
     pages:
-      - label: "Step 1: Gather your Docs"
+      - label: "Step 1: Gather Your Docs"
         page: developer-portal/for-developers/salesforce/pre-install/gather-your-docs.md
       - label: "Step 2: Requirements"
         page: developer-portal/for-developers/salesforce/pre-install/requirements.md
@@ -157,10 +157,10 @@ salesforce:
 
 woocommerce:
   - page: developer-portal/for-developers/woocommerce.md
-  - group: Pre install (Required!)
+  - group: Pre Install (Required!)
     expanded: true
     pages:
-      - label: "Step 1: Gather your Docs"
+      - label: "Step 1: Gather Your Docs"
         page: developer-portal/for-developers/woocommerce/pre-install/gather-your-docs.md
       - label: "Step 2: Requirements"
         page: developer-portal/for-developers/woocommerce/pre-install/requirements.md
@@ -193,7 +193,7 @@ forSellersQuickstart:
     pages:
       - label: Will Fast work for me?
         page: developer-portal/for-sellers/quickstart/preinstall/will-fast-work-for-me.md
-      - label: Gather your Docs
+      - label: Gather Your Docs
         page: developer-portal/for-sellers/quickstart/preinstall/gather-your-docs.md
   - group: Onboarding
     expanded: true
@@ -242,7 +242,7 @@ forSellersOrders:
   - group: Order Support
     expanded: true
     pages:
-      - label: Chargebacks and disputes
+      - label: Chargebacks and Disputes
         page: developer-portal/for-sellers/orders/order-support/chargebacks-and-disputes.md
       - label: Returns
         page: developer-portal/for-sellers/orders/order-support/returns.md
