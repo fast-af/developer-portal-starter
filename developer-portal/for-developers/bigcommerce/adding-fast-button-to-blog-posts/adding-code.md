@@ -27,9 +27,9 @@ To add Fast Checkout to your blog posts, you will need to:
 
    > You will need to assign a unique identifier to the `fast-checkout-button id` section. The button also needs to be enclosed in a form field:
 
-   ```
+   ```html
    <form>
-           <fast-checkout-button id="{INSERT-UNIQUE-ID}"></fast-checkout-button>
+     <fast-checkout-button id="{INSERT-UNIQUE-ID}"></fast-checkout-button>
    </form>
    ```
 
@@ -53,85 +53,85 @@ To access your theme's source code, you will complete the following:
 
 5. Navigate to `templates/components/blog/post.html` and paste the following JavaScript to the bottom of your `post.html` page
 
-```
+```javascript
 {{#if settings.request.absolute_path '===' '/blog/di-test/'}}
-    <script>
-        // If you have multiple fast-checkout-button elements on a single page, you'll want to use a more specific selector
-        // here, such as giving each button an id attribute and selecting based off of that.
-        var {INSERT-BUTTON-NAME} = document.querySelector('{INSERT-UNIQUE-ID}');
-        {INSERT-BUTTON-NAME}.addEventListener('click', (event) => {
-            Fast.checkout(
-            {
-                    // Required. appId is your Fast app ID that you were provided during seller onboarding.
-                    appId: '{INSERT-APP-ID}',
+<script>
+  // If you have multiple fast-checkout-button elements on a single page, you'll want to use a more specific selector
+  // here, such as giving each button an id attribute and selecting based off of that.
+  var {INSERT-BUTTON-NAME} = document.querySelector('{INSERT-UNIQUE-ID}');
+  {INSERT-BUTTON-NAME}.addEventListener('click', (event) => {
+      Fast.checkout(
+      {
+              // Required. appId is your Fast app ID that you were provided during seller onboarding.
+              appId: '{INSERT-APP-ID}',
 
-              // Required. buttonId is the id attribute of the button that was clicked
-              // after an order was placed or canceled, as well as let you identify which button was clicked when listening for
-              // postMessage events.
-              // If you gave your fast-checkout-button an id attribute, then you can just use event.target.id here.
-              buttonId: event.target.id,
+        // Required. buttonId is the id attribute of the button that was clicked
+        // after an order was placed or canceled, as well as let you identify which button was clicked when listening for
+        // postMessage events.
+        // If you gave your fast-checkout-button an id attribute, then you can just use event.target.id here.
+        buttonId: event.target.id,
 
-              // Either cartId or products must be provided. If both or neither are provided, an error will be thrown before
-              // checkout is opened.
+        // Either cartId or products must be provided. If both or neither are provided, an error will be thrown before
+        // checkout is opened.
 
-                    // When performing a cart checkout, you only need to provide buttonId and cartId.
-              // cartId is a unique identifier for a user's cart.
-              cartId: 'my-unique-cart-id',
+              // When performing a cart checkout, you only need to provide buttonId and cartId.
+        // cartId is a unique identifier for a user's cart.
+        cartId: 'my-unique-cart-id',
 
-                    // When performing a products checkout, you only need to provide buttonId and products. You can also optionally
-                    // provide couponCode and affiliateInfo
-              // products is a list of products the user is ordering.
-              products: [
-                {
-                  // Each product has an identifier, a variant identifier, and, optionally, a set of configurations (called
-                            // options) that are used to describe the exact product being ordered.
-                  // You can think of the id as the product SKU, the variant ID as a sub-identifier to the product, and the
-                            // options as things like color, size, etc. Or, if your product identifiers already define exactly one
-                            // product, you can just use id and forgo providing options.
-                  // The data provided here is what will reach your backend, so describe your products however makes the most
-                  // sense to you.
-                  // Required. id is an identifier for the product being ordered
-                  id: '{INSERT-PRODUCT-ID}',
-                            // Optional. variantId represents a unique sub-idenfifier for this product. These are sometimes used to
-                            // denote size / color, etc.
-                            variantId: 'my-large-product-variant-id',
-                  // Optional. options is a set of configurations that further describe the product being ordered (e.g. color
-                  // and size).
-                  options: [
-                    {
-                      // Required. id is the name of the option.
-                      id: 'color',
-                      // Required. value is the value of the option.
-                      value: 'blue',
-                    }
-                  ],
-                  // Required. quantity is the number of this product with these configurations being ordered.
-                  quantity: 1,
-                }
-              ],
-                  // Optional. couponCode is a coupon that the user might have entered that you would like to pass on to your
-              // backend.
-              couponCode: '10OFF',
-                    // Optional. affiliateInfo contains information about affiliates that you would like to attribute this purchase
-                    // with on your backend.
-                    affiliateInfo: {
-                        // affiliateInfo contains a single field named affiliates, that is an array of affiliate objects.
-                        affiliates: [
-                            // An affiliate object contains a single field named id, which is a unique identifier associated with this
-                            // affiliate. This ID can be whatever string your system is prepared to interpret.
-                            id: 'my-affiliate'
-                        ]
-                    }
-            }
-          );
-        });
-    </script>
+              // When performing a products checkout, you only need to provide buttonId and products. You can also optionally
+              // provide couponCode and affiliateInfo
+        // products is a list of products the user is ordering.
+        products: [
+          {
+            // Each product has an identifier, a variant identifier, and, optionally, a set of configurations (called
+                      // options) that are used to describe the exact product being ordered.
+            // You can think of the id as the product SKU, the variant ID as a sub-identifier to the product, and the
+                      // options as things like color, size, etc. Or, if your product identifiers already define exactly one
+                      // product, you can just use id and forgo providing options.
+            // The data provided here is what will reach your backend, so describe your products however makes the most
+            // sense to you.
+            // Required. id is an identifier for the product being ordered
+            id: '{INSERT-PRODUCT-ID}',
+                      // Optional. variantId represents a unique sub-idenfifier for this product. These are sometimes used to
+                      // denote size / color, etc.
+                      variantId: 'my-large-product-variant-id',
+            // Optional. options is a set of configurations that further describe the product being ordered (e.g. color
+            // and size).
+            options: [
+              {
+                // Required. id is the name of the option.
+                id: 'color',
+                // Required. value is the value of the option.
+                value: 'blue',
+              }
+            ],
+            // Required. quantity is the number of this product with these configurations being ordered.
+            quantity: 1,
+          }
+        ],
+            // Optional. couponCode is a coupon that the user might have entered that you would like to pass on to your
+        // backend.
+        couponCode: '10OFF',
+              // Optional. affiliateInfo contains information about affiliates that you would like to attribute this purchase
+              // with on your backend.
+              affiliateInfo: {
+                  // affiliateInfo contains a single field named affiliates, that is an array of affiliate objects.
+                  affiliates: [
+                      // An affiliate object contains a single field named id, which is a unique identifier associated with this
+                      // affiliate. This ID can be whatever string your system is prepared to interpret.
+                      id: 'my-affiliate'
+                  ]
+              }
+      }
+    );
+  });
+</script>
 {{/if}}
 ```
 
 Same code snippet, but without the comments:
 
-```
+```javascript
 {{#if settings.request.absolute_path '===' '/blog/di-test/'}}
     <script>
         var {INSERT-BUTTON-NAME} = document.querySelector('{INSERT-UNIQUE-ID}');
@@ -169,7 +169,7 @@ Same code snippet, but without the comments:
 
 Same code snippet, but without the optional fields:
 
-```
+```javascript
 {{#if settings.request.absolute_path '===' '/blog/di-test/'}}
     <script>
     	(function () {

@@ -12,7 +12,7 @@ Go into **each theme file** described in the [previous step](/developer-portal/f
 
 1. Use command-F to find where it says
 
-   ```
+   ```javascript
        {{#if customer.name '===' 'Fast Testing'}}
    ```
 
