@@ -1,5 +1,5 @@
 ---
-title: Fast Seller Current Support
+title: Fast Shopper Current Support
 description: Fast credit cards supported
 keywords: Fast credit cards supported
 ---

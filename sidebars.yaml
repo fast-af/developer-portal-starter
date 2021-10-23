@@ -405,6 +405,23 @@ forShoppersPrivacyAndSecurity:
       - label: PCI Compliance
         page: developer-portal/for-shoppers/privacy-and-security/compliance/pci-compliance.md
 
+forShoppersCurrentSupport:
+  - page: developer-portal/for-shoppers/current-support.md
+  - group: Payments
+    expanded: true
+    pages:
+      - label: Currencies Supported
+        page: developer-portal/for-shoppers/current-support/payments/currencies-supported.md
+      - label: Credit Cards Supported
+        page: developer-portal/for-shoppers/current-support/payments/credit-cards-supported.md
+  - group: International
+    expanded: true
+    pages:
+      - label: Countires Supported
+        page: developer-portal/for-shoppers/current-support/international/countries-supported.md
+      - label: Languages Supported
+        page: developer-portal/for-shoppers/current-support/international/languages-supported.md
+
 oldDocs:
   - separator: Overview
   - page: developer-portal/index.md

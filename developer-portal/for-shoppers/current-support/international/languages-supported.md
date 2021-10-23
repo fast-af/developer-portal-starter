@@ -1,5 +1,5 @@
 ---
-title: Fast Seller Current Support
+title: Fast Shopper Current Support
 description: Fast languages supported
 keywords: Fast languages supported
 ---
