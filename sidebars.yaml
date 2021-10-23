@@ -201,21 +201,22 @@ forSellersQuickstart:
       - label: Options
         page: developer-portal/for-sellers/quickstart/onboarding/options.md
 
-forSellersCurrentSupport
+forSellersCurrentSupport:
   - page: developer-portal/for-sellers/current-support.md
-  - group: International
-    expanded: true 
-    pages:
-      - label: Countries Supported
-        page: developer-portal/for-sellers/current-support/international/countries-supported.md
-      - label: Languages Supported
-        page: developer-portal/for-sellers/current-support/international/languages-supported.md
   - group: Payments
-    expanded: true 
+    expanded: true
+    pages:
       - label: Currencies Supported
         page: developer-portal/for-sellers/current-support/payments/currencies-supported.md
       - label: Credit Cards Supported
         page: developer-portal/for-sellers/current-support/payments/credit-cards-supported.md
+  - group: International
+    expanded: true
+    pages:
+      - label: Countires Supported
+        page: developer-portal/for-sellers/current-support/international/countries-supported.md
+      - label: Languages Supported
+        page: developer-portal/for-sellers/current-support/international/languages-supported.md
 
 forSellersOrders:
   - page: developer-portal/for-sellers/orders.md
@@ -271,8 +272,6 @@ forSellersAccountManagement:
     pages:
       - label: Toggling Back and Forth
         page: developer-portal/for-sellers/account-management/multi-account-management/toggling-back-and-forth.md
-      - label: Dashboard Management
-        page: developer-portal/for-sellers/account-management/multi-account-management/dashboard-management.md
       - label: Adding Multiple Accounts
         page: developer-portal/for-sellers/account-management/multi-account-management/adding-multiple-accounts.md
   - group: Payouts

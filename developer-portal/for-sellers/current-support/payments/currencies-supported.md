@@ -1,5 +1,5 @@
 ---
-title: Fast Seller Current Orders
+title: Fast Current Support
 description: Fast currencies supported
 keywords: Fast currencies supported
 ---
