@@ -1,9 +1,9 @@
 ---
-title: Fast Seller Current Orders
+title: Fast Shopper Current Support
 description: Fast currencies supported
 keywords: Fast currencies supported
 ---
 
 # Currencies Supported
 
-We support 100+ currencies - https://stripe.com/docs/currencies
+<embed src="/reusables/for-sellers/_currencies-supported.md" />

@@ -4,7 +4,7 @@ description: Fast Tracking Orders
 keywords: fast order tracking
 ---
 
-# tracking current orders
+# Tracking Current Orders
 
 <img src="./images/tracking-order.png"/>
 
