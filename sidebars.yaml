@@ -191,7 +191,7 @@ forSellersQuickstart:
   - group: Preinstall
     expanded: true
     pages:
-      - label: Will Fast work for me?
+      - label: Will Fast Work For Me?
         page: developer-portal/for-sellers/quickstart/preinstall/will-fast-work-for-me.md
       - label: Gather Your Docs
         page: developer-portal/for-sellers/quickstart/preinstall/gather-your-docs.md
