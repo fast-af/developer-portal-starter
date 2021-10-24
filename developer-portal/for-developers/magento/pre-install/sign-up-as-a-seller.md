@@ -1,10 +1,10 @@
 ---
-title: Fast Magento Docs
+title: "Fast Magento Docs: Onboard as a Seller"
 description: Getting Started with Fast on Magento! Onboard as a Seller
 keywords: Fast Magento Onboard as a Seller
 ---
 
-# Onboard as a Seller
+# Pre Install Step 3: Onboard as a Seller
 
 :::info Pro tip
 

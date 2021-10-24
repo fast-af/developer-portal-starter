@@ -1,5 +1,5 @@
 ---
-title: Fast Shopper Orders
+title: "Fast Shopper Docs: Checkout"
 description: Fast Checkout Order Process
 keywords: fast Checkout Order process
 ---

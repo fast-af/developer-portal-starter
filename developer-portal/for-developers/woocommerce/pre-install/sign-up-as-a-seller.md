@@ -1,10 +1,10 @@
 ---
-title: Fast Woocommerce Docs
-description: Getting Started with Fast on Woocommerce! Quickstart
-keywords: Fast Woocommerce Quickstart
+title: "Fast WooCommerce Docs: Onboard as a Seller"
+description: Getting Started with Fast on Woocommerce!
+keywords: Fast Woocommerce onboarding
 ---
 
-# Onboard as a Seller with WooCommerce
+# Pre Install Step 3: Onboard as a Seller with WooCommerce
 
 ## Prerequisites
 

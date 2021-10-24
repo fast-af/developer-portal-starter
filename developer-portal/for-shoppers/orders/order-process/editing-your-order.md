@@ -1,5 +1,5 @@
 ---
-title: Fast Shopper Orders
+title: "Fast Shopper Docs: Editing Your Order"
 description: Fast Checkout Editing an order
 keywords: fast Checkout editing an order
 ---

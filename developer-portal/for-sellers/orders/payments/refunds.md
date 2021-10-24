@@ -1,7 +1,7 @@
 ---
-title: Fast Seller Docs
-description: Refunds
-keywords: Fast refunds
+title: "Fast Seller Docs: Refunds"
+description: Refunds as a Fast Seller
+keywords: Fast Seller payment
 ---
 
 # Refunds

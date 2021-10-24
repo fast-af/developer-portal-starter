@@ -183,7 +183,7 @@ woocommerce:
     pages:
       - label: How to Find
         page: developer-portal/for-developers/woocommerce/wordpress-plugin/location.md
-      - label: Migrating to New Plugin Directory Version (Early Sellers)
+      - label: Migrating to New Plugin Directory Version (for Early Sellers)
         page: developer-portal/for-developers/woocommerce/wordpress-plugin/migrating.md
 
 forSellersQuickstart:

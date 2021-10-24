@@ -1,5 +1,5 @@
 ---
-title: Fast Seller Docs
+title: "Fast Shopper Docs: Updating your Shipping Address"
 description: How to update Fast shipping address
 keywords: update Fast shipping address
 ---

@@ -1,6 +1,6 @@
 ---
-title: Fast Seller Current Support
-description: Fast languages supported
+title: "Fast Seller Docs: Languages Supported"
+description: Fast supports a lot of languages! Come see if you are included!
 keywords: Fast languages supported
 ---
 

@@ -1,10 +1,10 @@
 ---
-title: Fast Magento Docs
+title: "Fast Magento Docs: Enabling Fast Checkout"
 description: Getting Started with Fast on Magento! Enable Fast Checkout.
 keywords: Magento enable fast checkout
 ---
 
-# Step 2: Enable Fast Checkout on Magento
+# Install Step 2: Enable Fast Checkout on Magento
 
 The module includes the necessary code for Fast buttons to appear and work on the following pages without requiring any changes:
 

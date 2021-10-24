@@ -1,5 +1,5 @@
 ---
-title: Fast Magento Docs
+title: "Fast Magento Docs: External Payments"
 description: Getting Started with Fast on Magento! Capturing Payments Outside of Magento.
 keywords: Capturing Payments Outside of Magento Fast
 ---

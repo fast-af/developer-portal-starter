@@ -1,5 +1,3 @@
-# Gather Your Docs
-
 In order to onboard quickly, you will need to have all of your business information ready. Gather documents that contain the following information:
 
 - **Seller Organization Name**

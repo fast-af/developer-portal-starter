@@ -1,5 +1,5 @@
 ---
-title: Fast Seller Docs
+title: "Fast Seller Docs: Deleting Accounts"
 description: Deleting accounts on Fast
 keywords: Fast delete account
 ---

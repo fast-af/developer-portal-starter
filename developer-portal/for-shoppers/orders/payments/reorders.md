@@ -1,5 +1,5 @@
 ---
-title: Fast Shopper Orders
+title: "Fast Shopper Docs: Reorders"
 description: Fast Orders reorders
 keywords: fast orders reorders
 ---

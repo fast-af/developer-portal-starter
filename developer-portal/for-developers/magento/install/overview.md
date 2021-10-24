@@ -1,5 +1,5 @@
 ---
-title: Fast Magento Docs
+title: "Fast Magento Docs: Intall Overview"
 description: Getting Started with Fast on Magento!
 keywords: install fast magento
 ---

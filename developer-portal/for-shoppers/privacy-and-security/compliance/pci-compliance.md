@@ -1,5 +1,5 @@
 ---
-title: Fast Shopper Docs
+title: "Fast Shopper Docs: PCI compliance"
 description: Is Fast PCI compliant?
 keywords: is Fast PCI compliant
 ---

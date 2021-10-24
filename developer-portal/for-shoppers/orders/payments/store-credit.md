@@ -1,5 +1,5 @@
 ---
-title: Fast Shopper Orders
+title: "Fast Shopper Docs: Store Credit"
 description: Fast Orders Store Credit
 keywords: fast orders Store Credit
 ---

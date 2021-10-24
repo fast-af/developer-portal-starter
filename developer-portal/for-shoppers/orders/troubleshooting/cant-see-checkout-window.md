@@ -1,5 +1,5 @@
 ---
-title: Fast Shopper Orders
+title: "Fast Shopper Docs: Troubleshooting"
 description: Fast Orders troubleshooting
 keywords: fast Orders troubleshooting
 ---

@@ -1,6 +1,6 @@
 ---
-title: Fast Shopper Orders
-description: Fast Orders Fast Checkout
+title: "Fast Shopper Docs: Fast Checkout"
+description: What is Fast Checkout?
 keywords: fast Orders Fast Checkout
 ---
 

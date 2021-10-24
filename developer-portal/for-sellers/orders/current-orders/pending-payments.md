@@ -1,5 +1,5 @@
 ---
-title: Fast Seller Docs
+title: "Fast Seller Docs: Pending Payments"
 description: Fast Seller pending payments information
 keywords: Fast Seller pending payments information
 ---

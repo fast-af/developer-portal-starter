@@ -1,5 +1,5 @@
 ---
-title: Fast Shopper Account Management
+title: "Fast Shopper Docs: Account Management"
 description: Fast account management for Shoppers.
 keywords: Fast For Shoppers account management.
 ---

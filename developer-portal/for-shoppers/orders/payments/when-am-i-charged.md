@@ -1,5 +1,5 @@
 ---
-title: Fast Shopper Orders
+title: "Fast Shopper Docs: When am I Charged?"
 description: Fast Orders When am I Charged?
 keywords: fast orders When am I Charged?
 ---

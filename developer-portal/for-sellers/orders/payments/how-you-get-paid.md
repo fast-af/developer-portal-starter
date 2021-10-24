@@ -1,5 +1,5 @@
 ---
-title: Fast Seller Docs
+title: "Fast Seller Docs: How You Get Paid"
 description: How you get paid as a Fast Seller
 keywords: Fast Seller payment
 ---

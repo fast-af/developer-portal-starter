@@ -1,10 +1,10 @@
 ---
-title: Fast Shopper Orders
+title: "Fast Shopper Docs: Discount Codes"
 description: Fast Checkout Discount codes
 keywords: fast checkout discount codes
 ---
 
-# discount codes
+# Discount Codes
 
 ## How will I know if the discount code applied?
 
