@@ -1,10 +1,10 @@
 ---
-title: Fast Woocommerce Docs
-description: Getting Started with Fast on Woocommerce! Quickstart
-keywords: Fast Woocommerce Quickstart
+title: "Fast WooCommerce Docs: Custom Button Styling"
+description: Getting Started with Fast on WooCommerce! Quickstart
+keywords: Fast WooCommerce Quickstart
 ---
 
-# Custom checkout button styling
+# Custom Button Styling
 
 1. On your online store, control-click/right-click the Fast button and click “Inspect.”
 

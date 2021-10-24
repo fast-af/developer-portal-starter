@@ -1,5 +1,5 @@
 ---
-title: Fast Magento Docs
+title: "Fast Magento Docs: Custom Settings"
 description: Getting Started with Fast on Magento! Quickstart
 keywords: Fast Magento Quickstart
 ---

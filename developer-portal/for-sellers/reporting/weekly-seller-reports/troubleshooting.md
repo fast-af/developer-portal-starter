@@ -1,10 +1,10 @@
 ---
-title: Fast Seller Docs
+title: "Fast Seller Docs: Weekly Seller Reports Troubleshooting"
 description: Weekly Seller Reports troubleshooting
 keywords: Fast Weekly Seller Reports troubleshooting
 ---
 
-# Weekly seller reports troubleshooting
+# Weekly Seller Reports Troubleshooting
 
 ## I have not received the Weekly Seller Report, what should I do?
 

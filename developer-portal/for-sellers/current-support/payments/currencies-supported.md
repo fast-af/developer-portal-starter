@@ -1,7 +1,7 @@
 ---
-title: Fast Seller Current Support
-description: Fast currencies supported
-keywords: Fast currencies supported
+title: "Fast Seller Docs: Currencies Supported"
+description: Fast supports a lot of Currencies! Come take a look!
+keywords: Fast Currencies supported
 ---
 
 # Currencies Supported

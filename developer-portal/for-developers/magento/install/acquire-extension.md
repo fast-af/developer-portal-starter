@@ -1,10 +1,10 @@
 ---
-title: Acquiring the Fast Magento Extension
+title: "Fast Magento Docs: Acquiring Fast Extension"
 description: Acquiring the Fast Magento Extension
 keywords: fast magento extension
 ---
 
-# Step 1: Acquiring the Fast Magento Extension
+# Install Step 1: Acquiring the Fast Magento Extension
 
 Using [Composer](https://getcomposer.org/), in your Magento webroot, issue the following commands:
 

@@ -1,4 +1,10 @@
-# Steps
+---
+title: "Fast WooCommerce Docs: Installation Steps"
+description: Getting Started with Fast on WooCommerce!
+keywords: fast woocommerce install
+---
+
+# Install Steps
 
 ## Part 1: Install Fast Plugin
 

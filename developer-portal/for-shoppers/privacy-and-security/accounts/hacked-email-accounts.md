@@ -1,5 +1,5 @@
 ---
-title: Fast Shopper Docs
+title: "Fast Shopper Docs: Hacked Email Accounts"
 description: How Fast handles hacked email accounts.
 keywords: how Fast handles hacked email accounts.
 ---

@@ -1,5 +1,5 @@
 ---
-title: Fast Seller Docs
+title: "Fast Seller Docs: Chargebacks and Disputes"
 description: Fast Seller Chargebacks and Disputes
 keywords: Fast Seller Chargebacks and Disputes
 ---

@@ -1,10 +1,10 @@
 ---
-title: Fast BigCommerce Docs
+title: "Fast BigCommerce Docs: Production Mode"
 description: Fast BigCommerce Production Mode
 keywords: Fast BigCommerce Production Mode
 ---
 
-# Entering Production Mode
+# Install Step 4: Entering Production Mode
 
 Once you feel comfortable with the look of the test buttons, you can let your shoppers and the public see the buttons. To do this, you need to update each theme file you worked with during this process.
 

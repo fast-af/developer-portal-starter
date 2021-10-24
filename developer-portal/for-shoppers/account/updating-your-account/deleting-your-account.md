@@ -1,7 +1,7 @@
 ---
-title: Fast Shopper Account Management
-description: How to update Fast account details
-keywords: update Fast account details
+title: "Fast Shopper Docs: Deleting Your Account"
+description: How to remove your Fast account
+keywords: delete Fast account
 ---
 
 # Deleting your account

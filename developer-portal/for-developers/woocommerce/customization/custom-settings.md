@@ -1,7 +1,7 @@
 ---
-title: Fast Woocommerce Docs
-description: Getting Started with Fast on Woocommerce! Quickstart
-keywords: Fast Woocommerce Quickstart
+title: "Fast WooCommerce Docs: Custom Settings"
+description: Getting Started with Fast on WooCommerce! Custom Settings
+keywords: Fast WooCommerce Custom Settings
 ---
 
 # Custom settings

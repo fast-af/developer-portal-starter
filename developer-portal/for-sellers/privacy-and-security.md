@@ -1,7 +1,7 @@
 ---
-title: Fast Seller Privacy and Security
-description: Fast Seller Privacy & Security
-keywords: Fast Seller Privacy & Security
+title: "Fast Seller Docs: Privacy and Security"
+description: Fast takes privacy and security seriously.
+keywords: Fast Seller Privacy and Security
 ---
 
 # Privacy and Security

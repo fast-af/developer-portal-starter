@@ -1,10 +1,10 @@
 ---
-title: Fast BigCommerce Docs
+title: "Fast BigCommerce Docs: Installing Fast Buttons"
 description: Fast BigCommerce Installing Fast Buttons
 keywords: Fast BigCommerce Installing Fast Buttons
 ---
 
-# Installing Fast Buttons on BigCommerce
+# Install Step 3: Installing Fast Buttons on BigCommerce
 
 ## Installing Checkout Button to Product Page
 

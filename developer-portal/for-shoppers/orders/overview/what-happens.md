@@ -1,10 +1,10 @@
 ---
-title: Fast Shopper Orders
+title: "Fast Shopper Docs: What Happens When You Click Fast Checkout"
 description: What happens when a customer clicks Fast checkout
 keywords: what happens when a customer clicks Fast checkout
 ---
 
-# What happens when a customer clicks Fast checkout
+# What Happens When a Customer Clicks Fast Checkout?
 
 When a customer clicks Fast checkout a pop-up window will appear and a customer will either login to their Fast account or create a new account.
 

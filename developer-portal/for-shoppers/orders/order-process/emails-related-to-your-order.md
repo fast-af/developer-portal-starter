@@ -1,5 +1,5 @@
 ---
-title: Fast Shopper Orders
+title: "Fast Shopper Docs: Emails Related To Your Order"
 description: Fast Checkout Emails related to your order
 keywords: fast checkout emails related to your order
 ---

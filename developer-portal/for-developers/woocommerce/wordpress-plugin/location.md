@@ -1,5 +1,5 @@
 ---
-title: Fast Woocommerce Docs
+title: "Fast WooCommerce Docs: WooCommerce Fast Plugin"
 description: Fast Woocommerce Plugin
 keywords: Fast Woocommerce Plugin
 ---

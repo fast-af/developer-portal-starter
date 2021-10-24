@@ -1,10 +1,10 @@
 ---
-title: Fast Shopper Orders
+title: "Fast Shopper Docs: Updating Your Card Information"
 description: Fast Orders Changing Card information
 keywords: fast Orders changing card info
 ---
 
-# Changing your card information
+# Updating Your Card Information
 
 ## Adding a card
 

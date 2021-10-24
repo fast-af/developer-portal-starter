@@ -1,5 +1,5 @@
 ---
-title: Fast Seller Docs
+title: "Fast Seller Docs: Zero Fraud Guarantee"
 description: Fast Zero Fraud Guarantee Policy
 keywords: Fast Zero Fraud Guarantee
 ---

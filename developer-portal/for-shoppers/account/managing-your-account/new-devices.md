@@ -1,5 +1,5 @@
 ---
-title: Fast Shopper Account Management
+title: "Fast Shopper Docs: Handling New Devices"
 description: How to manage fast account on new device
 keywords: manage fast account on new device
 ---

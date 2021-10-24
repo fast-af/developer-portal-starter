@@ -1,10 +1,10 @@
 ---
-title: Fast BigCommerce Docs
+title: "Fast BigCommerce Docs: Test Mode Set up"
 description: Getting Started with Fast on BigCommerce! Test mode
 keywords: Fast BigCommerce test mode
 ---
 
-# BigCommerce test mode setup
+# Install Step 1: BigCommerce Test Mode Setup
 
 ## Overview
 

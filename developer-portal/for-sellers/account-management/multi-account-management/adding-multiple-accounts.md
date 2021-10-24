@@ -1,10 +1,10 @@
 ---
-title: Fast Seller Docs
+title: "Fast Seller Docs: Adding Multiple Accounts"
 description: Managing several Fast Seller Accounts.
 keywords: multi Fast Seller account management,
 ---
 
-# Adding multiple accounts
+# Adding Multiple Accounts
 
 1. Login to your Fast Seller Dashboard at fast.co/business.
 2. Navigate to the Team tab

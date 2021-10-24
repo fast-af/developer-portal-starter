@@ -8,6 +8,8 @@ Partners will need to collect the following information from Sellers in order to
 
 ### General Business Information
 
+#### Gather your docs
+
 <embed src="../reusables/for-developers/_gather-your-docs.md" />
 
 Note: If the Partner did not previously enter Tax and Bank Details, Sellers will be able to complete onboarding via the “Finish Onboarding” CTA at the top of their Dashboard Home Page ([**fast.co/business**](https://www.fast.co/business/dash/home)).

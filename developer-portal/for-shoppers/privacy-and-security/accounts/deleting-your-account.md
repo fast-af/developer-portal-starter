@@ -1,5 +1,5 @@
 ---
-title: Fast Shopper Privacy and Security
+title: "Fast Shopper Docs: Deleting Your Account"
 description: Fast Shopper Deleting your account
 keywords: Fast Shopper Deleting your account
 ---

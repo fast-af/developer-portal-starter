@@ -1,10 +1,10 @@
 ---
-title: Fast Magento Docs
+title: "Fast Magento Docs: Activating Your Storefront"
 description: Getting Started with Fast on Magento! Activate your storefront.
 keywords: Fast Magento Activate storefront
 ---
 
-# Activate your Storefront
+# Install Step 4: Activate your Storefront
 
 When you activate your Magento store, this will update Fast with information about your store so that customers can checkout.
 

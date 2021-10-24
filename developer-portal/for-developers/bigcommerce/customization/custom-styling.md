@@ -1,5 +1,5 @@
 ---
-title: Fast BigCommerce Docs
+title: "Fast BigCommerce Docs: Styling Buttons"
 description: Styling Fast Buttons on BigCommerce
 keywords: Styling Fast Buttons on BigCommerce
 ---

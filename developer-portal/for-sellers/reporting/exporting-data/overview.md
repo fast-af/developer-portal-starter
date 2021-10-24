@@ -1,5 +1,5 @@
 ---
-title: Fast Seller Docs
+title: "Fast Seller Docs: Exporting Payment Data"
 description: Exporting Payment data from Fast for Sellers
 keywords: Fast export data
 ---

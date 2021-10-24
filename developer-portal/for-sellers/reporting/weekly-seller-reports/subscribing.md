@@ -1,5 +1,5 @@
 ---
-title: Fast Seller Docs
+title: "Fast Seller Docs: Subscribing to Weekly Seller Reports"
 description: Weekly Seller Reports for Sellers Subscription
 keywords: Fast Weekly Seller Reports subscription,
 ---

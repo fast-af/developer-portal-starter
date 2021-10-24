@@ -1,5 +1,5 @@
 ---
-title: Fast Seller Docs
+title: "Fast Seller Docs: The Seller Dashboard"
 description: Fast Seller multi account manangement walkthrough
 keywords: Fast Seller multi account manangement walkthrough
 ---

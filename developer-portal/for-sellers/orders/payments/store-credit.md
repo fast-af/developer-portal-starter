@@ -1,5 +1,5 @@
 ---
-title: Fast Seller Docs
+title: "Fast Seller Docs: Store Credit"
 description: Handling Store Credit with Fast
 keywords: Fast Store Credit
 ---

@@ -1,6 +1,6 @@
 ---
-title: Fast BigCommerce Docs
-description: Adding Fast Buttons to BigCommerce Blog Posts
+title: "Fast BigCommerce Docs: Adding Fast Buttons to Blog Posts"
+description: Adding Fast Buttons to BigCommerce Blog Posts.
 keywords: Adding Fast Buttons to BigCommerce Blog Posts
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Fast Seller Docs
+title: "Fast Seller Docs: Payouts Process"
 description: Fast Seller Payouts Process
 keywords: Fast Seller Payouts Process
 ---

@@ -1,10 +1,10 @@
 ---
-title: Fast Seller Docs
+title: "Fast Seller Docs: Weekly Seller Reports"
 description: Weekly Seller Reports for Sellers
 keywords: Fast Weekly Seller Reports
 ---
 
-# Weekly seller reports overview
+# Weekly Seller Reports Overview
 
 ## What is the Weekly Seller Report?
 

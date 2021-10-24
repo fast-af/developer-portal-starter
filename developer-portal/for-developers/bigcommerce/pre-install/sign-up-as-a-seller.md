@@ -4,7 +4,7 @@ description: Getting Started with Fast on BigCommerce! Onboard as a Seller
 keywords: Fast BigCommerce Onboard as a Seller
 ---
 
-# Onboard as a Seller
+# Pre Install Step 3: Onboard as a Seller
 
 ## Prerequisites
 

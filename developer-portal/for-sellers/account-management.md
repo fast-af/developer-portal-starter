@@ -1,7 +1,7 @@
 ---
-title: Fast Seller Account Management
+title: "Fast Seller Docs: Account Management"
 description: Fast account management for Sellers.
 keywords: Fast For Sellers account management.
 ---
 
-# Account management
+# Account Management

@@ -1,3 +1,9 @@
+---
+title: "Fast Seller Docs: Account Permissions"
+description: Detailing all user permissions on Fast.
+keywords: fast seller permissions, fast account permissions
+---
+
 # Account Permissions
 
 | Feature Description                                   | Owner | Admin | Developer | Customer Support | Analyst | View Only |

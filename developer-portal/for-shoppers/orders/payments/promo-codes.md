@@ -1,5 +1,5 @@
 ---
-title: Fast Shopper Orders
+title: "Fast Shopper Docs: Promo Codes"
 description: Fast Checkout Promo Codes
 keywords: fast checkout promo codes
 ---

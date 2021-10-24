@@ -1,5 +1,5 @@
 ---
-title: Fast Seller Current Orders
+title: "Fast Seller Docs: Cancelled Orders"
 description: Fast Cancelled orders information
 keywords: Fast cancelled orders
 ---

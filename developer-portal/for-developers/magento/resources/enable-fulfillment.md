@@ -1,5 +1,5 @@
 ---
-title: Fast Magento Docs
+title: "Fast Magento Docs: Fulfillments"
 description: Getting Started with Fast on Magento! Enable Fulfillment for Fast Orders
 keywords: Magento enable fast checkout
 ---

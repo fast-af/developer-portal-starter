@@ -1,10 +1,10 @@
 ---
-title: Fast Seller Docs
+title: "Fast Seller Docs: Viewing Current Orders"
 description: Viewing current orders as a seller
 keywords: Fast Seller current orders
 ---
 
-# Viewing current orders
+# Viewing Current Orders
 
 ## On your Fast Seller Dashboard
 

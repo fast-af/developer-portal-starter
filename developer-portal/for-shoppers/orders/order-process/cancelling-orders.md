@@ -1,5 +1,5 @@
 ---
-title: Fast Shopper Orders
+title: "Fast Shopper Docs: Cancelling Orders"
 description: Fast Checkout Cancelling orders
 keywords: fast Checkout Cancelling orders
 ---

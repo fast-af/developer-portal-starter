@@ -1,5 +1,5 @@
 ---
-title: Fast Shopper Orders
+title: "Fast Shopper Docs: Gift Cards"
 description: Fast Checkout Gift Cards
 keywords: fast checkout gift cards
 ---

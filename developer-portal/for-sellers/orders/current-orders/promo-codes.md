@@ -1,5 +1,5 @@
 ---
-title: Fast Seller Docs
+title: "Fast Seller Docs: Promo Codes"
 description: Fast Seller promo codes information
 keywords: Fast Seller promo codes information
 ---
