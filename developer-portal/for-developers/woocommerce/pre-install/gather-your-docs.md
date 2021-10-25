@@ -16,7 +16,7 @@ keywords: Fast Woocommerce Quickstart
 
 <embed src="/reusables/seller-docs/_platform_ecommerce_all_fast_access_requirement.md" />
 
-#### WooCommerce Requiremnts
+#### WooCommerce Requirements
 
 <embed src="/reusables/seller-docs/_platform_woocommerce_requirements.md" />
 

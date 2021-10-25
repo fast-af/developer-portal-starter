@@ -16,7 +16,7 @@ keywords: Fast Salesforcee Quickstart
 
 <embed src="/reusables/seller-docs/_platform_ecommerce_all_fast_access_requirement.md" />
 
-#### SalesForce Commerce Cloud (SFCC) Requiremnts
+#### SalesForce Commerce Cloud (SFCC) Requirements
 
 <embed src="/reusables/seller-docs/_platform_sfcc_requirements.md" />
 

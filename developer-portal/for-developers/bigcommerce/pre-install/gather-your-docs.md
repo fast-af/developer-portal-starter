@@ -16,7 +16,7 @@ keywords: Fast BigCommerce Quickstart
 
 <embed src="/reusables/seller-docs/_platform_ecommerce_all_fast_access_requirement.md" />
 
-#### BigCommerce Requiremnts
+#### BigCommerce Requirements
 
 <embed src="/reusables/seller-docs/_platform_bigcommerce_requirements.md" />
 

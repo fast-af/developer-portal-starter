@@ -16,7 +16,7 @@ keywords: Fast Magento Quickstart
 
 <embed src="/reusables/seller-docs/_platform_ecommerce_all_fast_access_requirement.md" />
 
-#### Magento Requiremnts
+#### Magento Requirements
 
 <embed src="/reusables/seller-docs/_platform_magento_requirements.md" />
 

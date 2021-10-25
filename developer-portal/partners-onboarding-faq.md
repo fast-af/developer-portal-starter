@@ -10,7 +10,11 @@ Partners will need to collect the following information from Sellers in order to
 
 <embed src="../reusables/seller-docs/_required-seller-information.md" />
 
-Note: If the Partner did not previously enter Tax and Bank Details, Sellers will be able to complete onboarding via the “Finish Onboarding” CTA at the top of their Dashboard Home Page ([**fast.co/business**](https://www.fast.co/business/dash/home)).
+:::info Finishing Onboarding from the Seller Dashboard at a Later Time
+
+If the Partner did not previously enter Tax and Bank Details, Sellers will be able to complete onboarding via the “Finish Onboarding” CTA at the top of their Dashboard Home Page ([**fast.co/business**](https://www.fast.co/business/dash/home)).
+
+:::
 
 ### Platform-Specific Information
 
@@ -18,11 +22,11 @@ To onboard as a Seller with Fast from an existing eCommerce platform, Fast must 
 
 <embed src="../reusables/seller-docs/_platform_supported_ecommerce_platforms.md" />
 
-#### BigCommerce Requiremnts
+#### BigCommerce Requirements
 
 <embed src="../reusables/seller-docs/_platform_bigcommerce_requirements.md" />
 
-#### WooCommerce Requiremnts
+#### WooCommerce Requirements
 
 <embed src="../reusables/seller-docs/_platform_woocommerce_requirements.md" />
 
