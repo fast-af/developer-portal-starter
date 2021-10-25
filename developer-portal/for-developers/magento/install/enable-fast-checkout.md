@@ -10,8 +10,6 @@ The module includes the necessary code for Fast buttons to appear and work on th
 
 - Simple PDP
 - Configurable PDP
-- Virtual PDP
-- Downloadable PDP
 - Minicart
 - Cart
 

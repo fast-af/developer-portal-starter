@@ -6,6 +6,8 @@
 /* All images  */
 
 img {
+  width: auto;
+  height: auto;
   display: block;
   max-height: 300px;
 }

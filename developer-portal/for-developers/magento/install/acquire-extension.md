@@ -6,7 +6,7 @@ keywords: fast magento extension
 
 # Install Step 1: Acquiring the Fast Magento Extension
 
-Using [Composer](https://getcomposer.org/), in your Magento webroot, issue the following commands:
+Using [Composer](https://getcomposer.org/), in your [Magento](https://github.com/fast-af/magento2) webroot, issue the following commands:
 
 ```bash
 composer require fast/module-checkout
