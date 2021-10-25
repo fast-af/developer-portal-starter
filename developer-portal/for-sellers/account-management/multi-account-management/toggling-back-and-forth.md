@@ -8,6 +8,6 @@ keywords: Fast Seller toggle between accounts
 
 Click the dropdown in the upper right corner. You may need to scroll down if you have more than one store!
 
-<img src="./images/toggle1.png"/>
+<img alt="store dropdown menu" src="./images/toggle1.png"/>
 
-<img src="./images/toggle2.png"/>
+<img alt="switch to seller view menu" src="./images/toggle2.png"/>

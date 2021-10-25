@@ -14,7 +14,7 @@ To add a card, log into Buyer Dashboard and click on the Payments icon found in 
 
 During the 5-minute checkout process you have the ability to update your payment method to a different option that is listed on in your dashboard or you can add a new one during this window. If a payment option is not added or selected, the payment method chosen will be your "default" card in your dashboard.
 
-<img src="./images/payment-methods.png"/>
+<img alt="payment method side bar option" src="./images/payment-methods.png"/>
 
 It's important to mention that updating your credit card information is only reflected on future orders. Payment methods can not be updated on current orders, if you need to update your payment details on a current order please contact the merchant directly.
 

@@ -22,21 +22,21 @@ To refund a customer, use BigCommerce to refund on a specific order entry. See s
 
 > Note: Status must be “Awaiting Fulfillment” to process a refund. If you have Cancelled the order, you will need to manually change the status to “Awaiting Fulfillment” before you can refund the order
 
-<img src="./images/bigcommercerefund1.png" />
+<img alt="clicking on ... button" src="./images/bigcommercerefund1.png" />
 
 2. Enter refund details (entire order or individual items or custom amount)
 
-<img src="./images/bigcommercerefund2.png" />
+<img alt="entering refund details" src="./images/bigcommercerefund2.png" />
 
 3. Select "Refund customer through third party provider", enter reason, and confirm refund
 
-<img src="./images/bigcommercerefund3.png" />
+<img alt="selecting 'refund customer through third party provider'" src="./images/bigcommercerefund3.png" />
 
 4. You're all done! The order will show as "Refunded" or "Partially refunded", depending on how much you refunded
 
 > Note: Status will change to “Refunded” after you have completed the refund. To prevent order fulfillment for a Cancelled order, you will need to manually change the status to “Cancelled” after refunding
 
-<img src="./images/bigcommercerefund4.png" />
+<img alt="order displaying as refunded on your dashboard" src="./images/bigcommercerefund4.png" />
 
 ## WooCommerce Refunds
 
@@ -48,14 +48,14 @@ To refund a customer, use WooCommerce to refund on a specific order entry. See s
 
 1. Locate the order, and click on the “Refund” button to initiate a refund.
 
-<img src="./images/woocommercerefund1.png" />
+<img alt="clicking the refund button to initate a refund" src="./images/woocommercerefund1.png" />
 
 2. Enter the refund amounts and reason.
 
-<img src="./images/woocommercerefund2.png" />
+<img alt="entering refund amounts and reason" src="./images/woocommercerefund2.png" />
 
 > Note: You will see a warning that "this refund will be manually processed by your payment gateway" under the Refund manually button; this is normal and indicates that the refund will be processed by Fast.
 
 3. Click OK on the confirmation pop-up.
 
-<img src="./images/woocommercerefund3.png" />
+<img alt="confirmation pop-up" src="./images/woocommercerefund3.png" />

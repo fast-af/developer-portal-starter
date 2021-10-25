@@ -18,4 +18,4 @@ You can view your payout history and download a file for each payout containing 
 
 The file contains a column for the BigCommerce / WooCommerce order ID, which you can use to match with BigCommerce / WooCommerce orders.
 
-<img src="./images/report.png"/>
+<img alt="report pop up" src="./images/report.png"/>
