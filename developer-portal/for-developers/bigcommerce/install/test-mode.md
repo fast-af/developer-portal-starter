@@ -19,12 +19,12 @@ This **test mode** process is for testing the buttons on your website. In test m
    - **The last name “Testing”**
    - **Any password you like**
 
-   <img src="./images/image12.png"/>
+   <img alt="account form" src="./images/image12.png"/>
 
 2. **Log into the “Fast Testing” account** using the email address and password associated with the name “Fast Testing.”
 
 > For example, if in the previous step, you used the email address “alex.swift@fast.co” and the password “fastracecar&” then use that email address and password when logging in now.
 
-   <img src="./images/image32.png"/>
+   <img alt="login form" src="./images/image32.png"/>
 
 Stay logged into this account throughout the rest of the [install process](/developer-portal/for-developers/bigcommerce/install/steps/).

@@ -8,9 +8,9 @@ keywords: Fast BigCommerce Installing Fast Buttons
 
 ## Installing Checkout Button to Product Page
 
-1. Click “templates” → “components” → “products” → “add to cart.html.”
+1. Click “templates” → “components” → “products” → “add-to-cart.html.”
 
-<img src="./images/image24.png"/>
+<img alt="add-to-cart.html file" src="./images/image24.png"/>
 
 2. Use command-F to find the line:
    ```javascript
@@ -67,7 +67,7 @@ keywords: Fast BigCommerce Installing Fast Buttons
    > Note: The page might say “Save & apply file” instead of “Save File.” If that is the case, click “Save & apply file.”
 6. Go to the Product page on your online store and make sure that the Fast Checkout button, which appears there now, looks good to you. (You may have to refresh the page a few times before the Fast Checkout button appears.)
 
-<img src="./images/image21.png"/>
+<img alt="product page" src="./images/image21.png"/>
 
 :::info Check Styling
 
@@ -79,7 +79,7 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
 
 1. In the theme files, click “templates” → “components” → “cart” → “preview.html.”
 
-<img src="./images/image19.png"/>
+<img alt="preview.html file" src="./images/image19.png"/>
 
 2.Use command-F to find the line:
 
@@ -132,7 +132,7 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
    > Note: The page might say “Save & apply file” instead of “Save File.” If that is the case, click “Save & apply file.”
 
 5. Go to the Checkout page on your online store and make sure that the Fast Checkout button, which appears there now, looks good to you. (You may have to refresh the page a few times before the Fast Checkout button appears.)
-   <img src="./images/image34.png"/>
+   <img alt="product page" src="./images/image34.png"/>
 
 :::info Check Styling
 
@@ -145,7 +145,7 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
 > Note: If your store doesn’t have a mini cart page, you can skip this entire section and go to the section, Installing Checkout Button to Cart Page.
 
 1. In the theme files, click “templates” → “components” → “common” → “cart-preview.html.”
-   <img src="./images/image3.png"/>
+   <img alt="cart-preview.html file" src="./images/image3.png"/>
 2. Use command-F to find the line:
    ```javascript
    <div class="previewCartAction">
@@ -187,7 +187,7 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
 4. Click “Save File.”
    > Note: The page might say “Save & apply file” instead of “Save File.” If that is the case, click “Save & apply file.”
 5. Go to the Mini Cart page on your online store and make sure that the Fast Checkout button, which appears there now, looks good to you. (You may have to refresh the page a few times before the Fast Checkout button appears.)
-   <img src="./images/image14.png"/>
+   <img alt="mini cart" src="./images/image14.png"/>
 
 :::info Check Styling
 
@@ -198,7 +198,7 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
 ## Installing Checkout Button to Cart Page
 
 1. In the theme files, click “templates” → “pages” → “cart.html.”
-   <img src="./images/image22.png"/>
+   <img alt="cart.html file" src="./images/image22.png"/>
 
 2. Use command-F to find the line:
 
@@ -272,7 +272,7 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
    > Note: The page might say “Save & apply file” instead of “Save File.” If that is the case, click “Save & apply file.”
 
 5. Go to the Cart page on your online store and make sure that the Fast Checkout button, which appears there now, looks good to you. (You may have to refresh the page a few times before the Fast Checkout button appears.)
-   <img src="./images/image37.png"/>
+   <img alt="cart page" src="./images/image37.png"/>
 
 :::info Check Styling
 
@@ -283,7 +283,7 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
 ## Installing Checkout Button to Checkout Page
 
 1. In the theme files, click “templates” → “pages” → “checkout.html.”
-   <img src="./images/image11.png"/>
+   <img alt="checkout.html file" src="./images/image11.png"/>
 2. Use command-F to find the line:
    `{{{ checkout.checkout_content }}}`
 3. **ABOVE this line**, copy and paste the following code. When you do this, replace REPLACE-WITH-YOUR-APP-ID with your app ID.
@@ -371,9 +371,9 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
    > Note: The page might say “Save & apply file” instead of “Save File.” If that is the case, click “Save & apply file.”
 5. Go to the homepage of your BigCommerce account.
 6. On the sidebar, click “Storefront” → “Script Manager.”
-   <img src="./images/image9.png"/>
+   <img alt="selecting script manager in the storefront sidebar" src="./images/image9.png"/>
 7. Click “Create a Script.”
-   <img src="./images/imag31.png"/>
+   <img alt="clicking create a script button" src="./images/image31.png"/>
 8. Fill out the script with the following fields:
    - **Name of Script**: Fast Checkout Placement
    - (Leave the description blank)
@@ -381,14 +381,14 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
    - **Select pages where script will be added**: Checkout
    - **Script category**: Essential
    - **Script type**: Script
-     <img src="./images/image5.png"/>
+     <img alt="script form" src="./images/image5.png"/>
 9. Copy and paste this script into the section, “Script Contents.”
    ```javascript
    <script type="text/javascript"> const oldOnload = window.onload; window.onload = () => { if (typeof oldOnload == 'function') { oldOnload(); } const fw = document.getElementsByClassName("fast-wrapper")[0]; const lm = document.getElementsByClassName("layout-main")[0]; if (typeof fw !== 'undefined') { lm.prepend(fw); } } </script>
    ```
 10. Click “Save.”
 11. Go to the Checkout page on your online store and make sure that the Fast Checkout button, which appears there now, looks good to you. (You may have to refresh the page a few times before the Fast Checkout button appears.)
-    <img src="./images/image7.png"/>
+    <img alt="checkout page" src="./images/image7.png"/>
 
 :::info Check Styling
 
@@ -399,7 +399,7 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
 ## Installing Login Button to Login Page
 
 1. In the theme files, click “templates” → “pages” → “auth” → “login.html.”
-   <img src="./images/image6.png"/>
+   <img alt="login.html file" src="./images/image6.png"/>
 2. Use command-F to find the line:
 
 ```html
@@ -456,7 +456,7 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
    > Note: The page might say “Save & apply file” instead of “Save File.” If that is the case, click “Save & apply file.”
 
 5. Go to the Login page on your online store and make sure that the Fast Login button, which appears there now, looks good to you. (You may have to refresh the page a few times before the Fast Login button appears.)
-   <img src="./images/image27.png"/>
+   <img alt="login page" src="./images/image27.png"/>
 
 :::info Check Styling
 
@@ -467,7 +467,7 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
 ## Installing Login Button to Create Account Page
 
 1. In the theme files, click “templates” → “pages” → “auth” → “create-account.html.”
-   <img src="./images/image15.png"/>
+   <img alt="create-account.html file" src="./images/image15.png"/>
 2. Use command-F to find the line:
    ```javascript
    <h1 class="page-heading">{{lang 'create_account.heading' }}</h1>
@@ -520,7 +520,7 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
 4. Click “Save File.”
    > Note: The page might say “Save & apply file” instead of “Save File.” If that is the case, click “Save & apply file.”
 5. Go to the Create Account page on your online store and make sure that the Fast Login button, which appears there now, looks good to you. (You may have to refresh the page a few times before the Fast Login button appears.)
-   <img src="./images/image36.png"/>
+   <img alt="create account page" src="./images/image36.png"/>
 
 :::info Check Styling
 

@@ -193,6 +193,6 @@ Same code snippet, but without the optional fields:
 ```
 
 6. Make sure to update the `/blog/di-test/` within the script above with the blog url path found on blog post under SEO:
-   ![Blog post sample](images/blog_post_url.png)
+   ![Blog post url sample](images/blog_post_url.png)
 
 7. Click on `Save & apply file`.
