@@ -4,7 +4,7 @@ description: Fast Checkout Gift Cards
 keywords: fast checkout gift cards
 ---
 
-# gift cards
+# Gift Cards
 
 Visa and Mastercard gift cards are accepted, but **the amount given on the gift card must be able to cover the entire purchase** as we do not allow multiple cards to be used when making a purchase.
 

@@ -8,7 +8,7 @@ keywords: update Fast shipping address
 
 ## In your Dashboard
 
-<img src="./images/shipping-address.png"/>
+<img alt="shipping address sidebar option" src="./images/shipping-address.png"/>
 
 To add or edit shipping addresses for _future_ purchases with Fast:
 

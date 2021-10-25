@@ -17,8 +17,9 @@ If, for any specific products, you want to hide the Fast button"
 3.  Add in as many products as you want.
 4.  click “Save Changes.”
 
-![cart](images/woocommerce-install17.png)
-![cart](images/woocommerce-install18.png)
+![options tab in your woocommerce dashboard](images/woocommerce-install17.png)
+
+![checkout redirect page in your woocommerce dashboard](images/woocommerce-install18.png)
 
 ## Redirects
 
@@ -28,8 +29,8 @@ Normally, after a shopper checks out using the Fast button, they are NOT redirec
 2. Enter which page you want customers to be redirected to in the “Checkout Redirect Page” textbox. For example, if you want shoppers to be brought to an order confirmation page after they use the Fast button, type in “Order Confirmation page” here.
 3. Click “Save Changes.”
 
-![cart](images/woocommerce-install19.png)
-![cart](images/woocommerce-install20.png)
+![options tab in your woocommerce dashboard](images/woocommerce-install19.png)
+![checkout redirect page selections in your woocommerce dashboard](images/woocommerce-install20.png)
 
 ## Display Fast Login Button in Footer
 
@@ -39,5 +40,5 @@ However, if you really want non-logged in users to see the Fast Login Button in 
 
 To adjust this styling, follow the steps in the section, [Styling the Buttons](/developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling), and apply the styling changes to the “Login button style” textbox in WooCommerce.
 
-![cart](images/woocommerce-install21.png)
-![cart](images/woocommerce-install22.png)
+![options tab in your woocommerce dashboard](images/woocommerce-install21.png)
+![display login in footer option in your woocommerce dashboard](images/woocommerce-install22.png)

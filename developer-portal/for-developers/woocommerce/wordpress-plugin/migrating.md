@@ -54,7 +54,7 @@ Now that the plugin is deactivated, it's time to delete the plugin. Remember, yo
 
 Search the plugin directory for "Fast Checkout" or "Fast Checkout for WooCommerce." We're really new, so you may need to scroll down a little bit to find us.
 
-![Search Fast Checkout for WooCommerce](images/wp-add-plugins-fast-checkout.png)
+![Searching for Fast Checkout for WooCommerce](images/wp-add-plugins-fast-checkout.png)
 
 ### Activate plugin
 

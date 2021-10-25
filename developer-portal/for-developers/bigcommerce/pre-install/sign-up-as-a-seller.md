@@ -15,12 +15,12 @@ Before you begin this process, you’ll need an online store hosted by BigCommer
    - Your preferred email address (You can add additional email addresses for access later.)
    - Your first name and your last name (If your business has multiple employees, you can add more people later and give those people various levels of access and permissions.)
 
-     ![Get-Started-As-A-Seller-box](images/both1.png)
+     ![Get Started As A Seller box](images/both1.png)
 
 2. Fast will now send a PIN number to your email inbox. Open your email to find this PIN number and enter it here on Fast.
    **Note**: Fast doesn’t use passwords. We use PIN numbers instead.
 
-   ![PIN-number-box](images/both2.png)
+   ![PIN number box](images/both2.png)
 
 3. On the Org Details page, enter the following information and click “Next”:
 
@@ -29,18 +29,18 @@ Before you begin this process, you’ll need an online store hosted by BigCommer
    - Your company phone number
    - Your referral number if you were referred to Fast through a partner (This is optional.)
 
-     ![Org-details-page](images/both3.png)
+     ![Org details page](images/both3.png)
 
 4. On the Store Details page, enter the following information and click “Next”:
 
    - Your website domain
    - Your company name
    - The country where your business is registered
-     ![Store-details-page](images/both4.png)
+     ![Store details page](images/both4.png)
 
 5. On the Platform Page, click “BigCommerce.” Then click “Next.”
 
-   ![Platform-page](images/big1.png)
+   ![Platform page](images/big1.png)
 
 6. On the page that says “Connect to BigCommerce,” click “Connect.”
 
@@ -48,7 +48,7 @@ Before you begin this process, you’ll need an online store hosted by BigCommer
    **Note**: You need BigCommerce Store Owner access to do this.
    **Note**: When you reach this specific step, you’ll need to complete the step immediately, without clicking the back button. Otherwise, you’ll have to restart this process from the beginning. This rule does not apply to other steps.
 
-   ![Bigcommerce-Login](images/big22.png)
+   ![Bigcommerce Login](images/big22.png)
 
 8. Click the checkbox and click “Confirm.”
    ![Confirm](images/big3.png)
@@ -62,16 +62,16 @@ Before you begin this process, you’ll need an online store hosted by BigCommer
 10. Click “Next.”
 11. Click “Continue account setup.”
 
-    ![Business-verification](images/both6.png)
+    ![Business verification](images/both6.png)
 
 12. Enter your tax ID, such as your EIN or the equivalent depending on your region. Then click “Continue.”
 
-    ![Business-details](images/both7.png)
+    ![Business EIN details](images/both7.png)
 
 13) Wait several seconds while Stripe verifies your business. If this verification is unsuccessful, contact customer success at seller-support@fast.co. Otherwise, move onto step 14.
     **Note**: If you operate under a DBA, you will need to click the pencil icon in order to enter your legal name that correlates with your tax ID.
 
-    ![Stripe](images/both8.png)
+    ![Fast partners with Stripe notification](images/both8.png)
 
 14. On the Bank Details page, enter the following information and click “Finalize Application:”
 
@@ -81,8 +81,8 @@ Before you begin this process, you’ll need an online store hosted by BigCommer
     - The applicable bank account details depending on your region
       **Note**: Which settlement currency you can use depends on which country your business is registered in. And which bank account details you see depends on what settlement currency you use. See [this article](https://stripe.com/docs/connect/bank-debit-card-payouts#supported-settlement) for more information.
 
-      ![Bank-details](images/both9.png)
+      ![Bank details](images/both9.png)
 
 15. Click “Continue to Dashboard.”
 
-    ![Finish](images/both10.png)
+    ![continue to dashboard pop up](images/both10.png)

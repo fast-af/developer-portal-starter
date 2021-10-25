@@ -6,7 +6,7 @@ keywords: Fast BigCommerce, Fast BigCommerce install
 
 # One-click checkout on BigCommerce.
 
-<img width="100%" style="max-height: 100%;" src="images/fast-product-preview.jpg"/>
+<img alt="Fast Checkout button on a product page"  width="100%" style="max-height: 100%;" src="images/fast-product-preview.jpg"/>
 
 ## One smart move for your business.
 

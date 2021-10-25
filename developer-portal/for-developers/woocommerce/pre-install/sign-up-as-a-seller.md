@@ -19,12 +19,12 @@ Before you begin this process, you’ll need an online store hosted by WooCommer
    - **Your preferred email address** (You can add additional email addresses for access later.)
    - **Your first name and your last name** (If your business has multiple employees, you can add more people later and give those people various levels of access and permissions.)
 
-     ![Get-Started-As-A-Seller-box](images/woocommerce-signup-1.png)
+     ![Get Started As A Seller box](images/woocommerce-signup-1.png)
 
 2. Fast will now send a PIN number to your email inbox. Open your email to find this PIN number and enter it here on Fast.
    **Note**: Fast doesn’t use passwords. We use PIN numbers instead.
 
-   ![PIN-number-box](images/woocommerce-signup-2.png)
+   ![PIN number box](images/woocommerce-signup-2.png)
 
 ## Fill Out Your Profile
 
@@ -35,7 +35,7 @@ Before you begin this process, you’ll need an online store hosted by WooCommer
    - Your company phone number
    - Your referral number if you were referred to Fast through a partner (this is optional)
 
-     ![Org-details-page](images/woocommerce-signup-3.png)
+     ![Org details page](images/woocommerce-signup-3.png)
 
 2. On the Store Details page, enter the following information and then click “Next”:
 
@@ -43,17 +43,17 @@ Before you begin this process, you’ll need an online store hosted by WooCommer
    - Your company name
    - The country where your business is registered
 
-     ![Store-details-page](images/woocommerce-signup-4.png)
+     ![Store details page](images/woocommerce-signup-4.png)
 
 3. On the Platform Page, click “WooCommerce.” Then click “Next.”
 
-   ![Platform-page](images/woocommerce-signup-5.png)
+   ![Platform page](images/woocommerce-signup-5.png)
 
 ## Connect to WooCommerce
 
 1. On the page that says “Connect to WooCommerce,” click “Connect.”
 
-   ![Connect](images/woocommerce-signup-6.png)
+   ![Connect to WooCommerce pop up](images/woocommerce-signup-6.png)
 
 2. Enter your username and password from your WooCommerce store account.
 
@@ -61,30 +61,30 @@ Before you begin this process, you’ll need an online store hosted by WooCommer
 
    > **Note**: When you reach this specific step, you’ll need to complete the step immediately without clicking the back button. Otherwise, you will have to restart this process from the beginning. This rule does not apply to other steps.
 
-   ![Login](images/woocommerce-signup-7.png)
+   ![WooCommerce Login form](images/woocommerce-signup-7.png)
 
 3. Click “Approve.”
-   ![Approve](images/woocommerce-signup-8.png)
+   ![Approve Fast connecting to your store](images/woocommerce-signup-8.png)
 
 4. If you want to, you can click “Request professional installation.” You don’t have to do this step. If you do this step, then also click the X in the pop-up that appears and continue to the next step. If you choose not to do this step, simply go straight to the next step.
 
-   ![Install](images/woocommerce-signup-9.png)
+   ![request professional install form](images/woocommerce-signup-9.png)
 
-   ![Request-Received](images/woocommerce-signup-10.png)
+   ![Request Received pop up](images/woocommerce-signup-10.png)
 
 5. Click “Next.”
 6. Click “Continue account setup.”
 
-   ![Business-verification](images/woocommerce-signup-11.png)
+   ![Continue to account set up pop up](images/woocommerce-signup-11.png)
 
 7. Enter your tax ID, such as your EIN or the equivalent depending on your region. Then click “Continue.”
 
-   ![Business-details](images/woocommerce-signup-12.png)
+   ![Business details EIN form](images/woocommerce-signup-12.png)
 
 8. Wait several seconds while Stripe verifies your business. If this verification is unsuccessful, contact customer success at seller-support@fast.co. Otherwise, move onto step 14.
    **Note**: If you operate under a DBA, you will need to click the pencil icon in order to enter your legal name that correlates with your tax ID..
 
-   ![Stripe](images/woocommerce-signup-13.png)
+   ![review your details form](images/woocommerce-signup-13.png)
 
 9. On the Bank Details page, enter the following information and click “Finalize Application:”
 
@@ -94,8 +94,8 @@ Before you begin this process, you’ll need an online store hosted by WooCommer
    - The applicable bank account details depending on your region
      **Note**: Which settlement currency you can use depends on which country your business is registered in. And which bank account details you see depends on what settlement currency you use. See [this article](https://stripe.com/docs/connect/bank-debit-card-payouts#supported-settlement) for more information.
 
-     ![Bank-details](images/woocommerce-signup-14.png)
+     ![Bank details form](images/woocommerce-signup-14.png)
 
 10. Click “Continue to Dashboard.”
 
-    ![Finish](images/woocommerce-signup-15.png)
+    ![continue to dashboard pop up](images/woocommerce-signup-15.png)

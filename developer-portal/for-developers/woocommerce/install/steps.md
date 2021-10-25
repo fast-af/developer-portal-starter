@@ -13,15 +13,15 @@ keywords: fast woocommerce install
 
    > Note: When you went through the [Sign Up for Fast with WooCommerce process](/developer-portal/for-developers/woocommerce/pre-install/sign-up-as-a-seller/), this plugin was installed.
 
-   <img src="./images/woocommerce-install1.png"/>
+   <img alt="fast plugin in your sidebar" src="./images/woocommerce-install1.png"/>
 
 3. While keeping the WooCommerce page open, in a separate window, go to https://www.fast.co/business/dash/install and copy the app ID you see there.
 
-   ![app-id](images/woocommerce-install2.png)
+   ![app id](images/woocommerce-install2.png)
 
 4. Go back to the WooCommerce store window and paste the app ID into the textbox. Then click “Save Changes.”
 
-   ![app-id](images/woocommerce-install3.png)
+   ![app id form in your woocommerce store dashboard](images/woocommerce-install3.png)
 
 ## Part 2: Test Mode
 
@@ -36,11 +36,11 @@ keywords: fast woocommerce install
 | **Debug Mode**                     | Enables you to log messages within the Fast plugin. If you are a developer looking to troubleshoot issues, you can check the debug mode checkbox to do that. If you check this, click “Save Changes” afterwards.                                                                             |
 | **Disabled Multicurrency Support** | Can be used to disable multicurrency support. This is only necessary if you do not need to support multicurrency in the Fast checkout process and the store uses a third-party multicurrency plugin to handle multicurrency in WooCommerce. If you check this, click “Save Changes” afterwar |
 
-![test-mode](images/woocommerce-install4.png)
+![test mode tab in your woocommerce store dashboard](images/woocommerce-install4.png)
 
 ## Part 3: Options
 
-![options-tab](images/woocommerce-install5.png)
+![options tab in your woocommerce store dashboard](images/woocommerce-install5.png)
 
 On the screen are several possible layouts for how the Fast button can look on the product page of your online store.
 
@@ -65,11 +65,11 @@ Decide which layout you want for your store and click that layout. Then click �
 
 2. Go to a product page.
 
-![options-tab](images/woocommerce-install6.png)
+![visit site pop up](images/woocommerce-install6.png)
 
 3. Make sure that the Fast button is located in a place on the page that looks good. If you want to change the location of the Fast button, repeat the previous step.
 
-![options-tab](images/woocommerce-install7.png)
+![product page](images/woocommerce-install7.png)
 
 5. See if you like the way the Fast button looks or if you want to change something else about it like the width or the length. If you want to further adjust the styling, follow the steps in the section, [Styling the Buttons](/developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling/).
 
@@ -77,13 +77,13 @@ Decide which layout you want for your store and click that layout. Then click �
 
 ### Cart
 
-Go to the cart page of your online store and see how the Fast button looks. If you want to adjust the styling, follow the steps in the section, [Styling the Buttons](/developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling/).
+Go to the cart page of your online store and see how the Fast button looks. If you want to adjust the styling, follow the steps in the section, [cart page](/developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling/).
 
 ![cart](images/woocommerce-install8.png)
 
 ### Mini Cart
 
-Go to the mini cart page of your online store and see how the Fast button looks. If you want to adjust the styling, follow the steps in the section, [Styling the Buttons](/developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling/).
+Go to the mini cart page of your online store and see how the Fast button looks. If you want to adjust the styling, follow the steps in the section, [mini cart](/developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling/).
 
 ![cart](images/woocommerce-install9.png)
 
@@ -91,10 +91,10 @@ Go to the mini cart page of your online store and see how the Fast button looks.
 
 Go to the checkout page of your online store and see how the Fast button looks. If you want to adjust the styling, follow the steps in the section, [Styling the Buttons](/developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling/).
 
-![cart](images/woocommerce-install10.png)
+![checkout page](images/woocommerce-install10.png)
 
 ### Login Page
 
 Go to the login page of your online store and see how the Fast button looks. If you want to adjust the styling, follow the steps in the section, [Styling the Buttons](/developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling/).
 
-![cart](images/woocommerce-install11.png)
+![login page](images/woocommerce-install11.png)
