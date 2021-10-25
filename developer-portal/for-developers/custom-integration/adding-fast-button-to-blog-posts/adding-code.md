@@ -1,5 +1,5 @@
 ---
-title: Fast Custom Integration Docs
+title: "Fast BigCommerce Docs: Custom Integration"
 description: Getting Started with Fast on Custom Integration! Quickstart
 keywords: Fast Custom Integration Quickstart
 ---

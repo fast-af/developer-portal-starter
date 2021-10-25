@@ -1,19 +1,9 @@
 ---
 title: Fast Custom Integration Docs
-description: Getting Started with Fast on Custom Integration! Quickstart
-keywords: Fast Custom Integration Quickstart
+description: Getting Started with Fast on Custom Integration! Gather your Docs.
+keywords: Fast Custom Integration docs
 ---
 
-# gather your docs
+# Gather your Docs
 
-## Required Seller Information
-
-### General Business Information
-
-<embed src="/reusables/seller-docs/_required-seller-information.md" />
-
-### Additional Information Required for Custom Integrations
-
-<embed src="/reusables/seller-docs/_platform_custom-integration_requirements.md" />
-
-<embed src="/reusables/seller-docs/_platform_attention_seller_onboarding_credentials_same_session_requirement.md" />
+<embed src="/reusables/for-developers/_gather-your-docs.md" />

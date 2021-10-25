@@ -116,7 +116,7 @@ export const theme = {
 
   sidebar: {
     backgroundColor: "#fafafa",
-    width: "260px",
+    width: "300px",
   },
   typography: {
     fontSize: "16px",
@@ -257,7 +257,7 @@ export const theme = {
       },
     },
     code: {
-      fontSize: "13px",
+      fontSize: "16px",
       fontFamily: '"Source Code Pro", sans-serif',
       // fontWeight: ({ typography }) => typography.fontWeightRegular,
       // fontWeight: ({ typography }) => typography.fontWeight.regular,

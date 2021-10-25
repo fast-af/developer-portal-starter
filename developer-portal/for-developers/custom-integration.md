@@ -4,4 +4,4 @@ description: Documentation for Fast on Custom Integration
 keywords: Fast Custom Integration, Fast Custom Integration install
 ---
 
-# Custom Integration
+# One-click checkout custom integration

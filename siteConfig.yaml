@@ -35,6 +35,9 @@ nav:
   - label: For Developers
     page: developer-portal/for-developers/platforms.mdx
 
+  - label: Fast API
+    page: developer-portal/for-developers/custom-integration/fast-api/overview.md
+
   - search: true
 
 footer:

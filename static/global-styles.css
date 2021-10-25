@@ -3,6 +3,25 @@
   outline-color: #000;
 }
 
+/* All images  */
+
+img {
+  width: auto;
+  height: auto;
+  display: block;
+  max-height: 300px;
+}
+
+/* All list items  */
+li {
+  margin: 16px 0;
+}
+
+/* Navigation list items  */
+nav li {
+  margin: 0;
+}
+
 /* Right Side bar section headers */
 ul > div > span {
   font-weight: 600;

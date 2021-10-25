@@ -1,23 +1,9 @@
 ---
-title: Fast Magento Docs
-description: Getting Started with Fast on Magento! Quickstart
-keywords: Fast Magento Quickstart
+title: "Fast Magento Docs: Gather Your Docs"
+description: Getting Started with Fast on Magento! Gather your Docs.
+keywords: Fast Magento Gather your Docs.
 ---
 
-# gather your docs
+# Pre Install Step 1: Gather Your Docs
 
-## Required Seller Information
-
-### General Business Information
-
-<embed src="/reusables/seller-docs/_required-seller-information.md" />
-
-### Platform-Specific Information
-
-<embed src="/reusables/seller-docs/_platform_ecommerce_all_fast_access_requirement.md" />
-
-#### Magento Requirements
-
-<embed src="/reusables/seller-docs/_platform_magento_requirements.md" />
-
-<embed src="/reusables/seller-docs/_platform_attention_seller_onboarding_credentials_same_session_requirement.md" />
+<embed src="/reusables/for-developers/_gather-your-docs.md" />
