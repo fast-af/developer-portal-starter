@@ -6,7 +6,6 @@ In order to onboard quickly, you will need to have all of your business informat
 - **Seller Business/Store Name**
   - Also need to collect legal registered business name if it’s different than their customer-facing “doing-business-as” (DBA) name
 - **Seller Store URL** (must use **https://**)
-  > NOTE: Authorizing Fast’s connection to the Seller’s store is an important step and must be completed within the same onboarding session in order to create valid Fast Seller credentials.
 - **Seller Business Country of Registration**
 - **Tax ID for the Seller’s Registered Business**
   - Employer Identification Number (EIN)) for US companies

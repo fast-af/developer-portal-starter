@@ -44,4 +44,4 @@ We recommend that you first sign up on https://sdash.sandbox.fast.co/ to create 
 
 ## Contact Support
 
-At this point we ask you to contact **solutions@fast.co** so we can finish your set up.
+At this point we ask you to reach out to Fast to continue to the process at **solutions@fast.co**.

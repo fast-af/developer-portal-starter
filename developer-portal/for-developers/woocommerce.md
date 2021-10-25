@@ -4,7 +4,7 @@ description: Documentation for Fast on WooCommerce
 keywords: Fast WooCommerce, Fast WooCommerce install
 ---
 
-# WooCommerce
+# One-click checkout on WooCommerce
 
 <img alt="Fast Checkout button on a product page" width="100%" style="max-height: 100%;" src="images/fast-product-preview.jpg"/>
 
