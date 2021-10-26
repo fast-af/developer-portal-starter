@@ -21,13 +21,13 @@ We recommend that you first sign up on https://sdash.sandbox.fast.co/ to create 
      > If your business has multiple employees, the person signing up can add other sellers to the Fast account, later, and give other employees permissions.
    - **Your last name**
 2. click “Next"
-   <img alt="fast login pop up" src="./images/image1.png"/>
+   !["fast login pop up"]("./images/image1.png")
 
 3. Fast will now send a PIN number to your email inbox. Open your email to find this PIN number and enter it here on Fast.
 
    > Note: Fast doesn’t use passwords. We use PIN numbers instead.
 
-   <img alt="fast pin pop up" src="./images/image6.png"/>
+   !["fast pin pop up"]("./images/image6.png")
 
 ## Fill Out Your Profile
 
@@ -37,7 +37,7 @@ We recommend that you first sign up on https://sdash.sandbox.fast.co/ to create 
    - **Your company address**
    - **Your company phone number**
    - **Your referral number** if you were referred to Fast through a partner (This is optional.)
-     <img alt="org details form" src="./images/image7.png"/>
+     !["org details form"]("./images/image7.png")
 
 2. On the Store Details page, enter the following information and click “Next”:
    - **Your website domain**
