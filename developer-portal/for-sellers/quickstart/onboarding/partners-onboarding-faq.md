@@ -8,33 +8,39 @@ Partners will need to collect the following information from Sellers in order to
 
 #### Gather Your Docs
 
-<embed src="../reusables/for-developers/_gather-your-docs.md" />
+<embed src="/reusables/for-developers/_gather-your-docs.md" />
 
-:::info NoteIf the Partner did not previously enter Tax and Bank Details, Sellers will be able to complete onboarding via the “Finish Onboarding” CTA at the top of their Dashboard Home Page ([**fast.co/business**](https://www.fast.co/business/dash/home)).
+:::info Note
+
+If the Partner did not previously enter Tax and Bank Details, Sellers will be able to complete onboarding via the “Finish Onboarding” CTA at the top of their Dashboard Home Page ([**fast.co/business**](https://www.fast.co/business/dash/home)).
+
+:::
 
 ### Platform-Specific Information
 
-<embed src="../reusables/for-developers/\_platform_ecommerce_all_fast_access_requirement.md />
+<embed src="/reusables/for-developers/_platform_ecommerce_all_fast_access_requirement.md" />
 
-<embed src="../reusables/for-developers/_platform_supported_ecommerce_platforms.md" />
+<embed src="/reusables/for-developers/_platform_supported_ecommerce_platforms.md" />
 
 #### BigCommerce Requiremnts
 
-<embed src="../reusables/for-developers/_platform_bigcommerce_requirements.md" />
+<embed src="/reusables/for-developers/_platform_bigcommerce_requirements.md" />
+
+<embed src="/reusables/for-developers/_platform_attention_seller_onboarding_credentials_same_session_requirement.md" />
 
 #### WooCommerce Requiremnts
 
-<embed src="../reusables/for-developers/_platform_woocommerce_requirements.md" />
+<embed src="/reusables/for-developers/_platform_woocommerce_requirements.md" />
 
-**Please note that authorizing Fast’s connection to the Seller’s store is an important step and must be completed within the same onboarding session in order to create valid Fast Seller credentials.**
+<embed src="/reusables/for-developers/_platform_attention_seller_onboarding_credentials_same_session_requirement.md" />
 
 #### Magento Requirements
 
-<embed src="../reusables/for-developers/_platform_magento_requirements.md" />
+<embed src="/reusables/for-developers/_platform_magento_requirements.md" />
 
 #### Salesforce Commerce Cloud (SFCC) Requirements
 
-<embed src="../reusables/for-developers/_platform_sfcc_requirements.md" />
+<embed src="/reusables/for-developers/_platform_sfcc_requirements.md" />
 
 ## What if the Seller has multiple businesses/stores to onboard?
 

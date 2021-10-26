@@ -200,6 +200,8 @@ forSellersQuickstart:
     pages:
       - label: Options
         page: developer-portal/for-sellers/quickstart/onboarding/options.md
+      - label: Partner Onboarding FAQs
+        page: developer-portal/for-sellers/quickstart/onboarding/partners-onboarding-faq.md
 
 forSellersCurrentSupport:
   - page: developer-portal/for-sellers/current-support.md
@@ -213,7 +215,7 @@ forSellersCurrentSupport:
   - group: International
     expanded: true
     pages:
-      - label: Countires Supported
+      - label: Countries Supported
         page: developer-portal/for-sellers/current-support/international/countries-supported.md
       - label: Languages Supported
         page: developer-portal/for-sellers/current-support/international/languages-supported.md
@@ -417,7 +419,7 @@ forShoppersCurrentSupport:
   - group: International
     expanded: true
     pages:
-      - label: Countires Supported
+      - label: Countries Supported
         page: developer-portal/for-shoppers/current-support/international/countries-supported.md
       - label: Languages Supported
         page: developer-portal/for-shoppers/current-support/international/languages-supported.md
@@ -432,14 +434,9 @@ oldDocs:
     label: Checkout
   - page: developer-portal/fast-login-how-it-works.md
     label: Login
-  - page: developer-portal/partners-onboarding-faq.md
-    label: Partner Onboarding FAQs
   - page: developer-portal/seller-signup.md
     label: Seller Signup
     separatorLine: true
-  - separator: Seller Quickstart
-  - page: developer-portal/initial-setup-for-all-fast-sellers.md
-    label: New to Fast? Start Here
   - group: I am on a Platform
     expanded: true
     pages:
