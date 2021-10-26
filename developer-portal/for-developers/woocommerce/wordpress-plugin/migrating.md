@@ -6,7 +6,7 @@ keywords: Migrating Fast to New Plugin Directory Version (Early Sellers)
 
 # Migrating Fast to New Plugin Directory Version (for Early Sellers)
 
-Fast Checkout for WooCommerce is officially live in the WordPress plugin directory.
+**Fast Checkout for WooCommerce is officially live in the WordPress plugin directory!**
 
 [**View our plugin in the plugin directory →**](https://wordpress.org/plugins/fast-checkout-for-woocommerce/)
 
@@ -14,72 +14,58 @@ Our early sellers were onboarded by our customer success team when our plugin wa
 
 This will walk you through how to uninstall the version our team installed, and install the plugin directory version, making it easier to keep your plugin up-to-date.
 
-## Migrate to the plugin directory version
+## Requirements
 
-### Login to your WordPress admin dashboard
+You must have WordPress admin access.
 
-Login to the admin side of your WordPress site. The url for this is usually `https://yourwebsite.com/wp-admin`
+## Steps to Migrate to the plugin directory version
 
-:::info Tip
-
-You must have WordPress admin access in order to install and remove plugins.
-
+:::info heads up
+**Fast Checkout will be temporarily unavailable while you are completing these steps.** Have no fear, your plugin settings will remain intact as those are stored in your database, not the plugin code itself.
 :::
 
-### View all Plugins
+1. **Login to the admin side of your WordPress site.**
 
-Click on Plugins in your admin dashboard menu and locate Fast checkout.
+   > The url for this is usually `https://yourwebsite.com/wp-admin`
 
-`https://yourwebsite.com/wp-admin/plugins.php? `
+2. **Click on Plugins in your admin dashboard menu and locate Fast checkout**.
 
-### Deactivate Fast Checkout
+   > ex: `https://yourwebsite.com/wp-admin/plugins.php? `
 
-**Fast Checkout will be temporarily unavailable while you are completing this step.** Have no fear, your plugin settings will remain intact as those are stored in your database, not the plugin code itself.
+3. **Click the box near the Fast Checkout title**.
 
-Click the box near the Fast Checkout title.
+   ![Select Fast Checkout plugin](images/select-fast-checkout-plugin.png)
 
-![Select Fast Checkout plugin](images/select-fast-checkout-plugin.png)
+4. Scroll to the very top of the list, or the bottom, and click the Bulk action select box. **Choose Deactivate**.
 
-Scroll to the very top of the list, or the bottom, and click the Bulk action select box. Choose Deactivate.
+   ![Deactivate Fast Checkout plugin](images/deactivate-fast-checkout-plugin.png)
 
-![Deactivate Fast Checkout plugin](images/deactivate-fast-checkout-plugin.png)
+5. Now that the plugin is deactivated, it's time to **delete the plugin**. Remember, your plugin settings will remain intact as those are stored in your database, not the plugin code itself. You can either click delete near the title, or follow the same checkbox method as previously, choosing Delete.
 
-### Delete Fast Checkout
+   ![Delete Fast Checkout plugin](images/delete-fast-checkout-plugin.png)
 
-Now that the plugin is deactivated, it's time to delete the plugin. Remember, your plugin settings will remain intact as those are stored in your database, not the plugin code itself. You can either click delete near the title, or follow the same checkbox method as previously, choosing Delete.
+6. **Search the plugin directory for "Fast Checkout" or "Fast Checkout for WooCommerce"**. We're really new, so you may need to scroll down a little bit to find us.
 
-![Delete Fast Checkout plugin](images/delete-fast-checkout-plugin.png)
+   ![Searching for Fast Checkout for WooCommerce](images/wp-add-plugins-fast-checkout.png)
 
-### Search & re-install Fast Checkout for WooCommerce
+7. **Click Activate**. Essentially this turns the plugin code functionality "on."
 
-Search the plugin directory for "Fast Checkout" or "Fast Checkout for WooCommerce." We're really new, so you may need to scroll down a little bit to find us.
+   ![Activate plugin](images/wp-activate-plugin.png)
 
-![Searching for Fast Checkout for WooCommerce](images/wp-add-plugins-fast-checkout.png)
+8. **Test the following pages and functions of your website** to ensure everything is still working as expected with the plugin code swap we just made.
 
-### Activate plugin
+   - Product page `https://yourwebsite.com/product/PRODUCT-NAME`
+   - Cart page `https://yourwebsite.com/cart`
+   - Checkout page `https://yourwebsite.com/checkout`
+   - Mini cart `varies depending on theme`
+   - Login page `https://yourwebsite.com/my-account`
 
-Click Activate. Essentially this turns the plugin code functionality "on."
+9. When you make plugin changes—updates, removals, etc—you may need to manually turn test mode off again.**Navigate to Fast Checkout settings. Scroll to the bottom and ensure test mode is unchecked**.
 
-![Activate plugin](images/wp-activate-plugin.png)
+   > ex: `http://yourwebsite.com/wp-admin/admin.php?page=fast`
 
-### Test Fast button functionality
+   ![Ensure test mode is disabled](images/test-mode-tab.png)
 
-Test the following pages and functions of your website to ensure everything is still working as expected with the plugin code swap we just made.
-
-- Product page `https://yourwebsite.com/product/PRODUCT-NAME`
-- Cart page `https://yourwebsite.com/cart`
-- Checkout page `https://yourwebsite.com/checkout`
-- Mini cart `varies depending on theme`
-- Login page `https://yourwebsite.com/my-account`
-
-### Ensure your site is not in test mode
-
-When you make plugin changes—updates, removals, etc—you may need to manually turn test mode off again. Navigate to Fast Checkout settings. Scroll to the bottom and ensure test mode is unchecked.
-
-`http://yourwebsite.com/wp-admin/admin.php?page=fast`
-
-![Ensure test mode is disabled](images/test-mode-tab.png)
-
-### You're done!
-
+:::info YAY
 That's it. You're back in business.
+:::
