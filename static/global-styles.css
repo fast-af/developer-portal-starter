@@ -3,15 +3,6 @@
   outline-color: #000;
 }
 
-/* All images  */
-
-img {
-  width: auto;
-  height: auto;
-  display: block;
-  max-height: 300px;
-}
-
 /* All list items  */
 li {
   margin: 16px 0;
