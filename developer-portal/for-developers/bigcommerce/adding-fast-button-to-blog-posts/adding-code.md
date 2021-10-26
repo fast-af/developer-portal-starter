@@ -6,9 +6,14 @@ keywords: Adding Fast Buttons to BigCommerce Blog Posts
 
 # Adding Fast Button to BigCommerce Blog Posts
 
-This guide will tell you how to implement Fast Checkout on your blog posts for your eCommerce site hosted on
-BigCommerce. This guide assumes you have an existing eCommerce site on BigCommerce with Fast Checkout on your product
-pages already and want to write code to integrate Fast into your website's blog posts. See our
+You can implement Fast Checkout on your blog posts for your eCommerce site hosted on
+BigCommerce! This guide assumes you:
+
+- Have an existing eCommerce site on BigCommerce with Fast Checkout on your product
+  pages already
+- Want to write code to integrate Fast into your website's blog posts.
+
+See our
 [**other documentation**](https://fast.co/docs) for more detailed information on integrating Fast with
 BigCommerce, WooCommerce, and other platforms without needing to write code.
 
@@ -23,7 +28,7 @@ To add Fast Checkout to your blog posts, you will need to:
 
 ## Adding Code to Your Blog Post
 
-1. In your newly created blog post, add the following code snippet to it.
+1. In your newly created blog post, **add the following code snippet to it**.
 
    > You will need to assign a unique identifier to the `fast-checkout-button id` section. The button also needs to be enclosed in a form field:
 
@@ -33,15 +38,15 @@ To add Fast Checkout to your blog posts, you will need to:
    </form>
    ```
 
-2. In the blog post text editor section, click on `</>` and paste the code snippet here:
+2. In the blog post text editor section, **click on `</>` and paste the code snippet here**:
    ![Blog post sample](images/blog_post1.png)
 
-3. Save. When you save the blog post,`<p>` tags will automatically appear around the `fast-checkout-button' line.
+3. **Save**. When you save the blog post,`<p>` tags will automatically appear around the `fast-checkout-button' line.
    ![Blog post sample](images/blog_post2.png)
 
 ## Adding Code to your Theme Files
 
-To access your theme's source code, you will complete the following:
+To access your theme's source code, **you will complete the following**:
 
 1. From **Storefront**, click on **My Themes**
 
@@ -51,7 +56,7 @@ To access your theme's source code, you will complete the following:
 
 4. Click on **Edit Theme Files** .This will open **Stencil Editor**, which is where you can edit your theme's source code and where you will add the Fast Checkout code snippets.
 
-5. Navigate to `templates/components/blog/post.html` and paste the following JavaScript to the bottom of your `post.html` page
+5. Navigate to `templates/components/blog/post.html` and **paste the following JavaScript to the bottom of your `post.html` page**:
 
 ```javascript
 {{#if settings.request.absolute_path '===' '/blog/di-test/'}}
@@ -192,7 +197,7 @@ Same code snippet, but without the optional fields:
 {{/if}}
 ```
 
-6. Make sure to update the `/blog/di-test/` within the script above with the blog url path found on blog post under SEO:
+6. **Make sure to update the `/blog/di-test/` within the script above with the blog url path found on blog post under SEO**:
    ![Blog post url sample](images/blog_post_url.png)
 
-7. Click on `Save & apply file`.
+7. **Click on "Save & apply file"**.

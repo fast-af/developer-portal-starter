@@ -16,9 +16,11 @@ bigcommerce:
         page: developer-portal/for-developers/bigcommerce/install/test-mode.md
       - label: "Step 2: Set up Theme Files"
         page: developer-portal/for-developers/bigcommerce/install/theme-files.md
-      - label: "Step 3: Install Buttons"
-        page: developer-portal/for-developers/bigcommerce/install/steps.md
-      - label: "Step 4: Production Mode"
+      - label: "Step 3: Install Checkout Buttons"
+        page: developer-portal/for-developers/bigcommerce/install/install-checkout-buttons.md
+      - label: "Step 4: Install Login Buttons"
+        page: developer-portal/for-developers/bigcommerce/install/install-login-buttons.md
+      - label: "Step 5: Production Mode"
         page: developer-portal/for-developers/bigcommerce/install/production-mode.md
   - group: Customization
     expanded: true
@@ -169,8 +171,14 @@ woocommerce:
   - group: Install
     expanded: true
     pages:
-      - label: Steps
-        page: developer-portal/for-developers/woocommerce/install/steps.md
+      - label: "Step 1: Install Fast Plugin"
+        page: developer-portal/for-developers/woocommerce/install/install-plugin.md
+      - label: "Step 2: Test Mode"
+        page: developer-portal/for-developers/woocommerce/install/test-mode.md
+      - label: "Step 3: Options"
+        page: developer-portal/for-developers/woocommerce/install/options.md
+      - label: "Step 4: Verify Setup"
+        page: developer-portal/for-developers/woocommerce/install/verify-setup.md
   - group: Customization
     expanded: true
     pages:

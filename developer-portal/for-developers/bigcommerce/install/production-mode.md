@@ -10,14 +10,16 @@ Once you feel comfortable with the look of the test buttons, you can let your sh
 
 Go into **each theme file** described in the [previous step](/developer-portal/for-developers/bigcommerce/install/steps/) and do the following:
 
-1. Use command-F to find where it says
+1. **Use command-F** to find where it says
 
    ```javascript
        {{#if customer.name '===' 'Fast Testing'}}
    ```
 
-2. delete that line.
-3. Use command-F to find where it says `{{/if}}` directly below the Fast button code and delete that line.
-4. Click “Save File” or “Save & apply file” each time you finish editing each theme file.
+2. **Delete that line**.
+3. **Use command-F** to find where it says `{{/if}}` directly below the Fast button code and delete that line.
+4. **Click “Save File” or “Save & apply file” each time you finish editing each theme file**.
 
-Now everyone can see the Fast Buttons.
+:::info Heads up
+That's it! Everyone can now see the Fast Buttons and use them.
+:::
