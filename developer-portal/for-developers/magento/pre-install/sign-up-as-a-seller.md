@@ -24,8 +24,10 @@ We recommend that you first sign up on https://sdash.sandbox.fast.co/ to create 
    <img alt="fast login pop up" src="./images/image1.png"/>
 
 3. Fast will now send a PIN number to your email inbox. Open your email to find this PIN number and enter it here on Fast.
+
    > Note: Fast doesn’t use passwords. We use PIN numbers instead.
-   > <img alt="fast pin pop up" src="./images/image6.png"/>
+
+   <img alt="fast pin pop up" src="./images/image6.png"/>
 
 ## Fill Out Your Profile
 

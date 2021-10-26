@@ -6,8 +6,6 @@
 /* All images  */
 
 img {
-  width: auto !important; /* overwriting odd redoc.ly styles not seen on local */
-  height: auto !important; /* overwriting odd redoc.ly styles not seen on local */
   display: block;
   max-height: 300px;
 }
