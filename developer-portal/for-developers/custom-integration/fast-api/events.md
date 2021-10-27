@@ -19,7 +19,6 @@ Both these events emit:
   "item_ids": [
     {
       "platform_item_id": { "value": "string", "platform": "string" },
-      "platform_variant_id": { "value": "string", "platform": "string" },
       "platform_product_id": { "value": "string", "platform": "string" },
       "platform_sku": { "value": "string", "platform": "string" },
       "quantity": "string",

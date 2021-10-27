@@ -5,13 +5,13 @@
 ### Production script:
 
 ```jsx
-<script src="https://js.fast.co/fast.js"></script>
+<script src="https://js.fast.co/fast-api"></script>
 ```
 
 ### Sandbox script:
 
 ```jsx
-<script src="https://js.sandbox.fast.co/fast.js"></script>
+<script src="https://js.sandbox.fast.co/fast-api"></script>
 ```
 
 ## Part 1: Use the Fast Checkout Button
@@ -133,4 +133,4 @@ checkoutButton.addEventListener("click", (event) => {
 
 **Once the user has clicked the Fast Checkout button, the Fast popup window will have launched and the user can continue with their checkout**. While this is going on, you can listen for fast.js `postMessage` events if you want to keep up with the status of the order on your frontend.
 
-You can read more about about fast.js events in the [fast.js documenation](/developer-portal/for-developers/custom-integration/fast.js/overview/).
+You can read more about about fast.js events in the [fast.js documenation](/developer-portal/for-developers/custom-integration/fast-api/overview/).

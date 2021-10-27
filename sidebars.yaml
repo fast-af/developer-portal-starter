@@ -60,23 +60,23 @@ custom-integration:
     pages:
       - label: Custom Styling
         page: developer-portal/for-developers/custom-integration/customization/custom-styling.md
-  - group: Fast.js
+  - group: Fast API
     expanded: true
     pages:
       - label: Overview
-        page: developer-portal/for-developers/custom-integration/fast.js/overview.md
+        page: developer-portal/for-developers/custom-integration/fast-api/overview.md
       - label: High Level API diagrams
-        page: developer-portal/for-developers/custom-integration/fast.js/high-level-diagrams.md
+        page: developer-portal/for-developers/custom-integration/fast-api/high-level-diagrams.md
       - label: Backend Requests
-        page: developer-portal/for-developers/custom-integration/fast.js/requests.md
+        page: developer-portal/for-developers/custom-integration/fast-api/requests.md
       - label: Order Management
-        page: developer-portal/for-developers/custom-integration/fast.js/order-management.md
+        page: developer-portal/for-developers/custom-integration/fast-api/order-management.md
       - label: Events
-        page: developer-portal/for-developers/custom-integration/fast.js/events.md
+        page: developer-portal/for-developers/custom-integration/fast-api/events.md
       - label: Seller --> Fast
-        page: developer-portal/for-developers/custom-integration/fast.js/seller-to-fast-api/docs.page.yaml
+        page: developer-portal/for-developers/custom-integration/fast-api/seller-to-fast-api/docs.page.yaml
       - label: Fast -> Seller API
-        page: developer-portal/for-developers/custom-integration/fast.js/fast-to-seller-api/docs.page.yaml
+        page: developer-portal/for-developers/custom-integration/fast-api/fast-to-seller-api/docs.page.yaml
   - group: Developer Tools
     expanded: true
     pages:
