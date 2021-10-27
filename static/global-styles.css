@@ -8,8 +8,22 @@ li {
   margin: 16px 0;
 }
 
+/* Home page icons */
 #home-page-features img {
   width: 176px !important;
+}
+
+/* Platforms page icon areas*/
+#platforms-page a {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#platforms-page a > div {
+  width: auto;
+}
+#platforms-page a > div > img {
+  height: 42px;
 }
 
 /* Navigation list items  */
