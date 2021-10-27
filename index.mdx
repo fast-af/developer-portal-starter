@@ -20,9 +20,9 @@ import {
   NavBar,
 } from "@redocly/developer-portal/ui";
 
-import icon1 from "./images/icon1.png";
-import launchFastIcon from "./images/launch-fast.svg";
-import icon3 from "./images/icon3.png";
+import forSellersImg from "./images/1-1.svg";
+import forShoppersImg from "./images/4.svg";
+import forDevelopersImg from "./images/2.svg";
 
 export default LandingLayout;
 
@@ -36,28 +36,28 @@ export default LandingLayout;
 
   </Flex>
 </Jumbotron>
-<Box my={25}>
+<Box id="home-page-features" my={25}>
   <SectionHeader>
     Choose *Your* adventure.
   </SectionHeader>
   <FlexSection justifyContent="space-around" flexWrap="wrap">
     <ThinTile
       to="developer-portal/for-sellers/features.mdx"
-      icon={launchFastIcon}
+      icon={forSellersImg}
       header="For Sellers"
     >
       You selling stuff? Come on in!
     </ThinTile>
     <ThinTile
       to="developer-portal/for-shoppers/features.mdx"
-      icon={icon3}
+      icon={forShoppersImg}
       header="For Shoppers"
     >
       You buying stuff? This is it!
     </ThinTile>
     <ThinTile
       to="developer-portal/for-developers/platforms.mdx"
-      icon={icon1}
+      icon={forDevelopersImg}
       header="For Developers"
     >
       Are you tasked with installing stuff? We got you, fam.

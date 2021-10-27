@@ -8,6 +8,10 @@ li {
   margin: 16px 0;
 }
 
+#home-page-features img {
+  width: 176px !important;
+}
+
 /* Navigation list items  */
 nav li {
   margin: 0;
