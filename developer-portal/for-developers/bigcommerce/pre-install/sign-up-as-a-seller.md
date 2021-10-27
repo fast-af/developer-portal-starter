@@ -6,9 +6,9 @@ keywords: Fast BigCommerce Onboard as a Seller
 
 # Pre Install Step 3: Onboard as a Seller
 
-## Prerequisites
-
-Before you begin this process, you’ll need an online store hosted by BigCommerce. See [Fast Overview and Prerequisites](Fast-Overview-and-Prerequisites.md) for more information about this and other prerequisites. If you need help at any point, contact customer success at seller-support@fast.co.
+:::info heads up
+If you need help at any point, contact customer success at seller-support@fast.co.
+:::
 
 1. On [fast.co/business](https://www.fast.co/business), **enter the following information and click “Next:**”
 

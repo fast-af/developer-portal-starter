@@ -19,7 +19,7 @@ Sometimes our default button styles are overwritten by page styles and needs to 
 <img alt="inspecting element on the Fast button on a product page" src="./images/image33.png"/>
 
 2. In the code that appears, **click `<div class="fast-wrapper">` or one of the lines below that line**.
-3. Then, in the styling box below, **make adjustments to the width or font size or anything else you need to change in order to make the button look more like our [3 button style variants](/developer-portal/for-developers/bigcommerce/customization/custom-styling/#button-padding-options)**.
+3. Then, in the styling box below, **make adjustments to the width or font size or anything else you need to change in order to make the button look more like our [3 button style variants](/developer-portal/for-developers/bigcommerce/customization/custom-styling/#button-style-variants)**.
    > Keep adjusting until the Fast button and the other elements around it appear exactly how they need to.
 
 <img alt="html and css in the browser" src="./images/image38.png"/>

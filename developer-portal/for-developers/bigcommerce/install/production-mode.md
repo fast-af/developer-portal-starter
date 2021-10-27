@@ -8,7 +8,7 @@ keywords: Fast BigCommerce Production Mode
 
 Once you feel comfortable with the look of the test buttons, you can let your shoppers and the public see the buttons. To do this, you need to update each theme file you worked with during this process.
 
-Go into **each theme file** described in the [previous step](/developer-portal/for-developers/bigcommerce/install/steps/) and do the following:
+Go into **each theme file** described in the [previous step](/developer-portal/for-developers/bigcommerce/install/install-login-buttons/) and do the following:
 
 1. **Use command-F** to find where it says
 

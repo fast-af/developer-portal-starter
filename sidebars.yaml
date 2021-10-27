@@ -35,50 +35,79 @@ bigcommerce:
 
 custom-integration:
   - page: developer-portal/for-developers/custom-integration.md
-  - group: Pre Install (Required!)
+  - group: Pre Setup (Required!)
     expanded: true
     pages:
       - label: "Step 1: Gather Your Docs"
-        page: developer-portal/for-developers/custom-integration/pre-install/gather-your-docs.md
+        page: developer-portal/for-developers/custom-integration/pre-setup/gather-your-docs.md
       - label: "Step 2: Onboard as a Seller"
-        page: developer-portal/for-developers/custom-integration/pre-install/sign-up-as-a-seller.md
-  - group: Install Checkout Button
+        page: developer-portal/for-developers/custom-integration/pre-setup/sign-up-as-a-seller.md
+  - group: Setup
     expanded: true
     pages:
-      - label: Test Mode
-        page: developer-portal/for-developers/custom-integration/install-checkout-button/install-checkout-button-test-mode.md
-      - label: Production Mode
-        page: developer-portal/for-developers/custom-integration/install-checkout-button/install-checkout-button-production-mode.md
-  - group: Install Login Button
+      - label: Overview
+        page: developer-portal/for-developers/custom-integration/setup/overview.md
+      - label: "Step 1: Authentication"
+        page: developer-portal/for-developers/custom-integration/setup/authenticate.md
+      - label: "Step 2: Add Fast.js to Page"
+        page: developer-portal/for-developers/custom-integration/setup/add-fast-js-to-page.md
+      - label: "Step 3: Backend"
+        page: developer-portal/for-developers/custom-integration/setup/backend.md
+      - label: "Step 4: Backend Requests"
+        page: developer-portal/for-developers/custom-integration/setup/requests.md
+  - group: Customization
     expanded: true
     pages:
-      - label: Test Mode
-        page: developer-portal/for-developers/custom-integration/install-login-button/install-login-button-test-mode.md
-      - label: Production Mode
-        page: developer-portal/for-developers/custom-integration/install-login-button/install-login-button-production-mode.md
-  - group: Custom Styling
-    expanded: true
-    pages:
-      - label: Checkout Button
-        page: developer-portal/for-developers/custom-integration/custom-styling/custom-checkout-button-styling.md
-      - label: Login Button
-        page: developer-portal/for-developers/custom-integration/custom-styling/custom-login-button-styling.md
-  - group: Adding Fast Button to Blog Posts
-    expanded: true
-    pages:
-      - label: Getting Started
-        page: developer-portal/for-developers/custom-integration/adding-fast-button-to-blog-posts/getting-started.md
-      - label: Adding Code
-        page: developer-portal/for-developers/custom-integration/adding-fast-button-to-blog-posts/adding-code.md
+      - label: Custom Styling
+        page: developer-portal/for-developers/custom-integration/customization/custom-styling.md
   - group: Fast API
     expanded: true
     pages:
       - label: Overview
         page: developer-portal/for-developers/custom-integration/fast-api/overview.md
-      - label: Fast --> Seller
-        page: developer-portal/for-developers/custom-integration/fast-api/fast-to-seller.md
+      - label: High Level API diagrams
+        page: developer-portal/for-developers/custom-integration/fast-api/high-level-diagrams.md
+      - label: Backend Requests
+        page: developer-portal/for-developers/custom-integration/fast-api/requests.md
+      - label: Order Management
+        page: developer-portal/for-developers/custom-integration/fast-api/order-management.md
+      - label: Events
+        page: developer-portal/for-developers/custom-integration/fast-api/events.md
       - label: Seller --> Fast
-        page: developer-portal/for-developers/custom-integration/fast-api/seller-to-fast.md
+        page: developer-portal/for-developers/custom-integration/fast-api/seller-to-fast-api/docs.page.yaml
+      - label: Fast -> Seller API
+        page: developer-portal/for-developers/custom-integration/fast-api/fast-to-seller-api/docs.page.yaml
+  - group: Developer Tools
+    expanded: true
+    pages:
+      - label: Reference Implementation
+        page: developer-portal/for-developers/custom-integration/developer-tools/reference-implementation.md
+      - label: Test Suite CLI
+        page: developer-portal/for-developers/custom-integration/developer-tools/test-suite-cli.md
+  - group: Resources
+    expanded: true
+    pages:
+      - label: Authentication
+        page: developer-portal/for-developers/custom-integration/resources/authentication.md
+      - label: Checkout Origins
+        page: developer-portal/for-developers/custom-integration/resources/checkout-origins.md
+      - label: Configurable & Direct Capture
+        page: developer-portal/for-developers/custom-integration/resources/configurable.md
+      - label: Error Codes
+        page: developer-portal/for-developers/custom-integration/resources/error-codes.md
+      - label: Finantial Values
+        page: developer-portal/for-developers/custom-integration/resources/finantial-values.md
+      - label: Order Batching
+        page: developer-portal/for-developers/custom-integration/resources/order-batching.md
+      - label: Order Lifecycle
+        page: developer-portal/for-developers/custom-integration/resources/order-lifecyle.md
+      - label: Order Statuses
+        page: developer-portal/for-developers/custom-integration/resources/order-statuses.md
+      - label: Product Item Identification
+        page: developer-portal/for-developers/custom-integration/resources/product-item-identification.md
+      - label: Sequence Diagrams
+        page: developer-portal/for-developers/custom-integration/resources/sequence-diagrams.md
+
 magento:
   - page: developer-portal/for-developers/magento.md
   - group: Pre Install (Required!)
@@ -431,122 +460,3 @@ forShoppersCurrentSupport:
         page: developer-portal/for-shoppers/current-support/international/countries-supported.md
       - label: Languages Supported
         page: developer-portal/for-shoppers/current-support/international/languages-supported.md
-
-oldDocs:
-  - separator: Overview
-  - page: developer-portal/index.md
-    label: Introduction
-  - page: developer-portal/Fast-Overview-and-Prerequisites.md
-    label: Overview & Prerequisites
-  - page: developer-portal/fast-checkout-how-it-works.md
-    label: Checkout
-  - page: developer-portal/fast-login-how-it-works.md
-    label: Login
-  - page: developer-portal/seller-signup.md
-    label: Seller Signup
-    separatorLine: true
-  - group: I am on a Platform
-    expanded: true
-    pages:
-      - group: BigCommerce
-        expanded: false
-        pages:
-          - page: developer-portal/bigcommerce.md
-            label: Overview
-          - page: developer-portal/Sign-Up-With-BigCommerce.md
-            label: Install Checkout
-          - page: developer-portal/bigcommerce-install-checkout-examples.md
-            label: Checkout Button Placement
-          - page: developer-portal/fast-login-bigcommerce.md
-            label: Install Login
-          - page: developer-portal/fast-login-bigcommerce-examples.md
-            label: Login Button Placement
-          - page: developer-portal/bigcommere-checkout-blog-posts.md
-            label: Checkout for Blog Posts
-      - group: WooCommerce
-        expanded: false
-        pages:
-          - page: developer-portal/woocommerce.md
-            label: Overview
-          - page: developer-portal/Sign-Up-With-WooCommerce.md
-            label: Install Fast Checkout
-          - page: developer-portal/woocommerce-settings.md
-            label: Fast Checkout Settings
-          - page: developer-portal/woocommerce-migrate-plugin-directory.md
-            label: Migrate to Plugin Directory
-  - group: I am on a Custom System
-    expanded: false
-    separatorLine: true
-    pages:
-      - page: developer-portal/fast-api.md
-        label: Overview
-      - page: developer-portal/fast-api-reference-authentication.md
-        label: Authenticate
-      - page: developer-portal/fast-api-fastjs.md
-        label: Setup Fast.js
-      - page: developer-portal/fast-api-qs-backend.md
-        label: Connect your backend
-      - group: Handle requests
-        expanded: false
-        pages:
-          - page: developer-portal/fast-api-qs-backend-create.md
-            label: Create requests
-          - page: developer-portal/fast-api-qs-backend-read.md
-            label: Read requests
-          - page: developer-portal/fast-api-qs-backend-update.md
-            label: Update requests
-          - page: developer-portal/fast-api-qs-backend-delete.md
-            label: Delete requests
-      - group: Extended Order Management
-        expanded: false
-        pages:
-          - page: developer-portal/fast-api-qs-backend-extended-oms-intro.md
-            label: Intro
-          - page: developer-portal/fast-api-qs-backend-extended-oms-cancel-order.md
-            label: Cancel Orders
-          - page: developer-portal/fast-api-qs-backend-extended-oms-refund-order.md
-            label: Refund Orders
-          - page: developer-portal/fast-api-qs-backend-extended-oms-business-event.md
-            label: Business Eventing
-      - page: developer-portal/fast-api-dev-tools.md
-        label: Developer Tools
-  - separator: Custom Integration API Specifications
-  - page: /merchant/merchant.page.yaml
-    label: Fast -> Seller API
-  - page: /order/order.page.yaml
-    label: Seller -> Fast API
-  - separatorLine: true
-  - separator: Custom Integration Developer Tools
-  - page: developer-portal/fast-api-reference-implementation.md
-    label: Reference Implementation
-  - page: developer-portal/fast-api-test-suite-cli.md
-    label: Test Suite CLI
-  - separatorLine: true
-  - separator: Custom Integration Guides
-  - page: developer-portal/fast-api-guides-batching.md
-    label: How batching works
-  - separatorLine: true
-  - separator: Custom Integration Resources
-  - page: developer-portal/fast-api-reference-authentication.md
-    label: Authentication
-  - page: developer-portal/fast-api-reference-batching.md
-    label: Batching
-  - page: developer-portal/fast-api-reference-configuration.md
-    label: Configuration
-  - page: developer-portal/fast-api-reference-error-codes.md
-    label: Error codes
-  - page: developer-portal/fast-api-reference-checkout-origin.md
-    label: Checkout Origin
-  - page: developer-portal/fast-api-reference-fast-js.md
-    label: Fast.js
-  - page: developer-portal/fast-api-reference-financial-values.md
-    label: Financial Values
-  - page: developer-portal/fast-api-reference-order-lifecycle.md
-    label: Order Lifecycle
-  - page: developer-portal/fast-api-reference-order-statuses.md
-    label: Order Statuses
-  - page: developer-portal/fast-api-reference-products.md
-    label: Products
-  - page: developer-portal/fast-api-reference-sequences.md
-    label: Sequence Diagrams
-    separatorLine: true

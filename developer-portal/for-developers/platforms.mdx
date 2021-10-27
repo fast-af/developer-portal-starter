@@ -13,24 +13,32 @@ import {
   SectionHeader,
   NavBar,
 } from "@redocly/developer-portal/ui";
+import woo from "./images/woocommerce.svg";
+import magento from "./images/magento.svg";
+import bigCommerce from "./images/bigcommerce.svg";
+import salesforce from "./images/salesforce.svg";
 
 # Fast For Developers: Pick a Platform
 
-<Box>
+<Box id="platforms-page">
   <FlexSection justifyContent="space-around" flexWrap="wrap">
     <WideTile
+      icon={woo}
       to="/developer-portal/for-developers/woocommerce"
       header="WooCommerce"
     ></WideTile>
     <WideTile
+      icon={bigCommerce}
       to="/developer-portal/for-developers/bigcommerce"
       header="BigCommerce"
     ></WideTile>
     <WideTile
+      icon={magento}
       to="/developer-portal/for-developers/magento"
       header="Magento"
     ></WideTile>
     <WideTile
+      icon={salesforce}
       to="/developer-portal/for-developers/salesforce"
       header="Salesforce Cloud"
     ></WideTile>
