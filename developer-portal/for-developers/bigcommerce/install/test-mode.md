@@ -27,4 +27,4 @@ This **test mode** process is for testing the buttons on your website. In test m
 
    <img alt="login form" src="./images/image32.png"/>
 
-Stay logged into this account throughout the rest of the [install process](/developer-portal/for-developers/bigcommerce/install/steps/).
+Stay logged into this account throughout the rest of the install process!

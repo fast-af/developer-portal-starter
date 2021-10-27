@@ -94,7 +94,7 @@ Your logs should look something like this:
 !["Docker Compose Startup Logs"](./images/docker-compose-startup-logs.png)
 
 Make sure that the log for localtunnel that says `your url is: https://direferenceimplementation2.loca.lt` matches the url you put in the Rest API URL while onboarding.
-If it does not match please navigate to [step 1](#1-setup-env-file) to review how it's done.
+If it does not match please navigate to [step 1](/developer-portal/for-developers/custom-integration/developer-tools/reference-implementation/#1-clone-repo) to review how it's done.
 
 ### 5. Setup Fast Test Suite CLI
 
