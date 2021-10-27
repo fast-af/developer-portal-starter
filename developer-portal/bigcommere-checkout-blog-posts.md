@@ -1,23 +1,21 @@
 # Fast Checkout for BigCommerce Blog Posts
 
-This guide will tell you how to implement Fast Checkout on your blog posts for your eCommerce site hosted on
-BigCommerce. This guide assumes you have an existing eCommerce site on BigCommerce with Fast Checkout on your product
-pages already and want to write code to integrate Fast into your website's blog posts. See our
-[**other documentation**](https://fast.co/docs) for more detailed information on integrating Fast with
-BigCommerce, WooCommerce, and other platforms without needing to write code.
+Beyond the standard option of [integrating directly with a supported platform](/developer-portal/for-developers/platforms/) without needing to write code, it is possible to write code that will integrate Fast Checkout into your site's blog posts.
 
+To follow the steps below, you must have an existing eCommerce site hosted by BigCommerce, and must already be using Fast Checkout on your product pages.
 
 ## Getting Started
+
 To add Fast Checkout to your blog posts, you will need to:
 
 1. Log into to your BigCommerce store account
 2. Click on **Storefront**
 3. Click on **Blog**
-4. Click on the *plus sign button* to start a new blog post
-
+4. Click on the _plus sign button_ to start a new blog post
 
 ## Adding Code to Your Blog Post
-In your newly created blog post, you will need to add the following code snippet to it. You will need to assign a unique
+
+In your newly created blog post, you will need to add the following code snippet and assign a unique
 identifier to the `fast-checkout-button id` section. The button also needs to be enclosed in a form field:
 
 ```
@@ -25,22 +23,19 @@ identifier to the `fast-checkout-button id` section. The button also needs to be
 		<fast-checkout-button id="{INSERT-UNIQUE-ID}"></fast-checkout-button>
 </form>
 ```
+
 In the blog post text editor section, click on `</>` and paste the code snippet here:
 ![Blog post sample](images/bigcommerce/blog_post1.png)
-
 
 When you save the blog post,`<p>` tags will automatically appear around the `fast-checkout-button' line.
 ![Blog post sample](images/bigcommerce/blog_post2.png)
 
 ## Adding Code to your Theme Files
-To access your theme's source code, you will complete the following:
-2. From **Storefront**, click on **My Themes**
-3. In your **My Themes** page, you will see your *Current Theme*
-4. Click on the **Advanced** dropdown menu
-5. Click on **Edit Theme Files**
-6. This will open **Stencil Editor**, which is where you can edit your theme's source code and where you will add the Fast Checkout code snippets.
+
+To access your theme's source code, you will complete the following: 2. From **Storefront**, click on **My Themes** 3. In your **My Themes** page, you will see your _Current Theme_ 4. Click on the **Advanced** dropdown menu 5. Click on **Edit Theme Files** 6. This will open **Stencil Editor**, which is where you can edit your theme's source code and where you will add the Fast Checkout code snippets.
 
 Navigate to `templates/components/blog/post.html` and paste the following JavaScript to the bottom of your `post.html` page
+
 ```
 {{#if settings.request.absolute_path '===' '/blog/di-test/'}}
     <script>
@@ -116,7 +111,9 @@ Navigate to `templates/components/blog/post.html` and paste the following JavaSc
     </script>
 {{/if}}
 ```
+
 Same code snippet, but without the comments:
+
 ```
 {{#if settings.request.absolute_path '===' '/blog/di-test/'}}
     <script>
@@ -152,7 +149,9 @@ Same code snippet, but without the comments:
     </script>
 {{/if}}
 ```
+
 Same code snippet, but without the optional fields:
+
 ```
 {{#if settings.request.absolute_path '===' '/blog/di-test/'}}
     <script>

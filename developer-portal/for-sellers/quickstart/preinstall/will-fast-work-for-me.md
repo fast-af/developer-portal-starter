@@ -10,7 +10,7 @@ Here is a comprehensive list of things to consider before installing Fast:
 
 ## Pricing Information
 
-Pricing information can be found at fast.co/pricing, or you can contact our team for more information at hi@fast.co
+<embed src="/reusables/for-sellers/_standard-seller-pricing.md" />
 
 ## Countries Supported
 
@@ -46,4 +46,4 @@ Fast can co-exist with your existing payment gateway or Fast can be your exclusi
 
 ## Does Fast support delayed captures?
 
-Yes! Fast does support delayed captures.
+Yes! Fast supports delayed captures.
