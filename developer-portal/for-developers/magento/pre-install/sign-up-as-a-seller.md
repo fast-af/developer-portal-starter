@@ -4,7 +4,11 @@ description: Getting Started with Fast on Magento! Onboard as a Seller
 keywords: Fast Magento Onboard as a Seller
 ---
 
-# Pre Install Step 3: Onboard as a Seller
+# Pre-Install Step 3: Onboard as a Seller with Magento
+
+## Prerequisites
+
+Before you begin this process, you’ll need an online store hosted by Magento.
 
 :::info Pro tip
 
@@ -12,32 +16,35 @@ We recommend that you first sign up on https://sdash.sandbox.fast.co/ to create 
 
 :::
 
+**If you need help at any point, contact customer success at [seller-support@fast.co](mailto:seller-support@fast.co).**
+
 ## Pin Validation
 
-1. On [fast.co/business](https://www.fast.co/business), **enter the following information**:”
+1. On [fast.co/business](https://www.fast.co/business), enter the following information and click "Next":
    - **Your company email address**
-     > if you enter in a personal email address or a different email than what you want to use, you can change this later
+     - If you enter in a personal email address or another type of non-company email address, you can change this later.
+     - You can add additional email addresses for access later.
    - **Your first name**
      > If your business has multiple employees, the person signing up can add other sellers to the Fast account, later, and give other employees permissions.
    - **Your last name**
-2. **Click “Next"**
-   <img alt="fast login pop up" src="./images/image1.png"/>
+2. click “Next"
+   ![fast login pop up](/images/image1.png)
 
-3. **Fast will now send a PIN number to your email inbox**. Open your email to find this PIN number and enter it here on Fast.
+3. Fast will now send a PIN number to your email inbox. Open your email to find this PIN number and enter it here on Fast.
    > Note: Fast doesn’t use passwords. We use PIN numbers instead.
-   > <img alt="fast pin pop up" src="./images/image6.png"/>
+   > ![fast pin pop up](/images/image6.png)
 
 ## Fill Out Your Profile
 
-1. On the Org Details page, **enter the following information and click “Next”**:
+1. On the Org Details page, enter the following information and click “Next”:
 
    - **Your company name**
    - **Your company address**
    - **Your company phone number**
    - **Your referral number** if you were referred to Fast through a partner (This is optional.)
-     <img alt="org details form" src="./images/image7.png"/>
+     ![org details form](/images/image7.png)
 
-2. On the Store Details page, **enter the following information and click “Next”**:
+2. On the Store Details page, enter the following information and click “Next”:
    - **Your website domain**
    - **Your company name**
    - **The country where your business is registered**

@@ -2,6 +2,12 @@
 title: "Fast BigCommerce Docs: Adding Fast Buttons to Blog Posts"
 description: Adding Fast Buttons to BigCommerce Blog Posts.
 keywords: Adding Fast Buttons to BigCommerce Blog Posts
+
+redirectFrom:
+  - bigcommere-checkout-blog-posts
+  - bigcommerce-checkout-blog-posts
+  - fast-login-bigcommerce-examples
+  - bigcommerce-install-checkout-examples
 ---
 
 # Adding Fast Button to BigCommerce Blog Posts
@@ -28,9 +34,9 @@ To add Fast Checkout to your blog posts, you will need to:
 
 ## Adding Code to Your Blog Post
 
-1. In your newly created blog post, **add the following code snippet to it**.
+1. In your newly created blog post, add the following code snippet.
 
-   > You will need to assign a unique identifier to the `fast-checkout-button id` section. The button also needs to be enclosed in a form field:
+   > You will need to assign a unique identifier (`id="{INSERT-UNIQUE-ID}"`) to the button (`fast-checkout-button`), enclosed within a form field.
 
    ```html
    <form>
@@ -58,7 +64,7 @@ To access your theme's source code, **you will complete the following**:
 
 5. Navigate to `templates/components/blog/post.html` and **paste the following JavaScript to the bottom of your `post.html` page**:
 
-```javascript
+```javascript code with full comments
 {{#if settings.request.absolute_path '===' '/blog/di-test/'}}
 <script>
   // If you have multiple fast-checkout-button elements on a single page, you'll want to use a more specific selector
@@ -134,9 +140,7 @@ To access your theme's source code, **you will complete the following**:
 {{/if}}
 ```
 
-Same code snippet, but without the comments:
-
-```javascript
+```javascript code without comments
 {{#if settings.request.absolute_path '===' '/blog/di-test/'}}
     <script>
         var {INSERT-BUTTON-NAME} = document.querySelector('{INSERT-UNIQUE-ID}');
@@ -172,9 +176,7 @@ Same code snippet, but without the comments:
 {{/if}}
 ```
 
-Same code snippet, but without the optional fields:
-
-```javascript
+```javascript code without optional fields
 {{#if settings.request.absolute_path '===' '/blog/di-test/'}}
     <script>
     	(function () {

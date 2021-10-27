@@ -1,5 +1,5 @@
 ---
-title: "Fast Shopper Docs: Updating your Shipping Address"
+title: "Fast Shopper Docs: Updating Your Shipping Address"
 description: How to update Fast shipping address
 keywords: update Fast shipping address
 ---
@@ -8,15 +8,21 @@ keywords: update Fast shipping address
 
 ## In your Dashboard
 
-<img alt="shipping address sidebar option" src="./images/shipping-address.png"/>
+![shipping address sidebar option](/images/shipping-address.png)
 
 To add or edit shipping addresses for _future_ purchases with Fast:
 
-1. log into Buyer Dashboard
-2. click on the Address icon found in the left navigation panel.
-3. click the "add address" button to add in your details.
+1. Log in to the Fast Buyer Dashboard at [fast.co/profile](https://www.fast.co/profile).
+2. Click on the [Address](https://www.fast.co/profile/address) icon found in the left navigation panel.
+3. Click the "Add address" button to add in your new shipping address.
 
-If you want to keep several addresses on file, you are able to do this once you have selected a "default" option. Once you have selected your "default" shipping address, you are able to delete additional addresses on file.
+If you want to keep several addresses on file, you must first select a "default" shipping address. Once you have selected a "default" option, you can add, edit, or delete other addresses on file.
+
+:::warning Cannot Delete Default Address
+
+You cannot delete a default shipping address from your profile (i.e. you will need to have another address on file, make it your default option, and then delete the previous default shipping address from your profile).
+
+:::
 
 ## During the 5 minute checkout window
 

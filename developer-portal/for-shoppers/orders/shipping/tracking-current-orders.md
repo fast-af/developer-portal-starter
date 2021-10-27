@@ -6,7 +6,7 @@ keywords: fast order tracking
 
 # Tracking Current Orders
 
-<img alt="current order on your dashboard"  src="./images/tracking-order.png"/>
+![current order on your dashboard](/images/tracking-order.png)
 
 You can find your tracking information in your Buyer Dashboard.
 
