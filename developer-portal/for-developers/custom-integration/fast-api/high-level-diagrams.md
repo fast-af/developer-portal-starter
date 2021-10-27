@@ -1,13 +1,5 @@
 # High Level Fast.js Diagrams
 
-:::info heads up
-This product is in Early Access
-:::
-
-Welcome! You will find useful information regarding the design and specifications of Fast.js's API.
-
-Got questions? Concerns? Contact Fast at **devrel@fast.co**.
-
 ## New Buyer Clicks Fast Checkout
 
 This diagram covers the high level flow for when a new buyer clicks the Fast checkout button.
