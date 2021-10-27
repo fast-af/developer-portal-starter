@@ -65,6 +65,8 @@ custom-integration:
     pages:
       - label: Overview
         page: developer-portal/for-developers/custom-integration/fast.js/overview.md
+      - label: High Level API diagrams
+        page: developer-portal/for-developers/custom-integration/fast.js/high-level-diagrams.md
       - label: Backend Requests
         page: developer-portal/for-developers/custom-integration/fast.js/requests.md
       - label: Order Management

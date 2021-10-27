@@ -1,4 +1,4 @@
-# Install Step 2: Use fast.js
+# Setup Step 2: Use Fast.js
 
 ## Part 1: Add a fast.js to Your Product Page
 

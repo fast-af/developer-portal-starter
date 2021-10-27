@@ -4,7 +4,7 @@ description: Getting Started with Fast on Custom Integration! Quickstart
 keywords: Fast Custom Integration Quickstart
 ---
 
-# Install Step 1: All Things Authentication
+# Setup Step 1: All Things Authentication
 
 ## Onboarding Overview of Terms
 

@@ -1,4 +1,4 @@
-# Handle order creation in your backend
+# Setup Step 3: Handle order creation in your backend
 
 Now we will set up your server to communicate with Fast Checkout.
 
