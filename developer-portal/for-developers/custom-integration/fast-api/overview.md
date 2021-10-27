@@ -10,6 +10,6 @@ keywords: Fast.js
 This product is in Early Access
 :::
 
-Welcome! You will find useful information regarding the design and specifications of Fast.js's API.
+Welcome! You will find useful information regarding the design and specifications of Fast's API.
 
 Got questions? Concerns? Contact Fast at **devrel@fast.co**.
