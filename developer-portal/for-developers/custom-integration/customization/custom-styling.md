@@ -4,4 +4,8 @@ description: Getting Started with Fast on Custom Integration! Quickstart
 keywords: Fast Custom Integration Quickstart
 ---
 
-# custom login button styling
+# Styling Fast Buttons
+
+## Button Style Variants
+
+<embed src="/reusables/customization/_button-styles.md" />
