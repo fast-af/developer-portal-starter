@@ -42,43 +42,70 @@ custom-integration:
         page: developer-portal/for-developers/custom-integration/pre-install/gather-your-docs.md
       - label: "Step 2: Onboard as a Seller"
         page: developer-portal/for-developers/custom-integration/pre-install/sign-up-as-a-seller.md
-  - group: Install Checkout Button
-    expanded: true
-    pages:
-      - label: Test Mode
-        page: developer-portal/for-developers/custom-integration/install-checkout-button/install-checkout-button-test-mode.md
-      - label: Production Mode
-        page: developer-portal/for-developers/custom-integration/install-checkout-button/install-checkout-button-production-mode.md
-  - group: Install Login Button
-    expanded: true
-    pages:
-      - label: Test Mode
-        page: developer-portal/for-developers/custom-integration/install-login-button/install-login-button-test-mode.md
-      - label: Production Mode
-        page: developer-portal/for-developers/custom-integration/install-login-button/install-login-button-production-mode.md
-  - group: Custom Styling
-    expanded: true
-    pages:
-      - label: Checkout Button
-        page: developer-portal/for-developers/custom-integration/custom-styling/custom-checkout-button-styling.md
-      - label: Login Button
-        page: developer-portal/for-developers/custom-integration/custom-styling/custom-login-button-styling.md
-  - group: Adding Fast Button to Blog Posts
-    expanded: true
-    pages:
-      - label: Getting Started
-        page: developer-portal/for-developers/custom-integration/adding-fast-button-to-blog-posts/getting-started.md
-      - label: Adding Code
-        page: developer-portal/for-developers/custom-integration/adding-fast-button-to-blog-posts/adding-code.md
-  - group: Fast API
+  - group: Setup
     expanded: true
     pages:
       - label: Overview
-        page: developer-portal/for-developers/custom-integration/fast-api/overview.md
-      - label: Fast --> Seller
-        page: developer-portal/for-developers/custom-integration/fast-api/fast-to-seller.md
+        page: developer-portal/for-developers/custom-integration/setup/overview.md
+      - label: "Step 1: Authentication"
+        page: developer-portal/for-developers/custom-integration/setup/authenticate.md
+      - label: "Step 2: Fast.js"
+        page: developer-portal/for-developers/custom-integration/setup/add-fast-js-to-page.md
+      - label: "Step 3: Backend"
+        page: developer-portal/for-developers/custom-integration/setup/backend.md
+      - label: "Step 4: Requests"
+        page: developer-portal/for-developers/custom-integration/setup/requests.md
+  - group: Customization
+    expanded: true
+    pages:
+      - label: Custom Styling
+        page: developer-portal/for-developers/custom-integration/customization/custom-styling.md
+  - group: Fast.js
+    expanded: true
+    pages:
+      - label: Overview
+        page: developer-portal/for-developers/custom-integration/fast.js/overview.md
+      - label: Backend Requests
+        page: developer-portal/for-developers/custom-integration/fast.js/requests.md
+      - label: Order Management
+        page: developer-portal/for-developers/custom-integration/fast.js/order-management.md
+      - label: Events
+        page: developer-portal/for-developers/custom-integration/fast.js/events.md
       - label: Seller --> Fast
-        page: developer-portal/for-developers/custom-integration/fast-api/seller-to-fast.md
+        page: developer-portal/for-developers/custom-integration/fast.js/seller-to-fast-api/docs.page.yaml
+      - label: Fast -> Seller API
+        page: developer-portal/for-developers/custom-integration/fast.js/fast-to-seller-api/docs.page.yaml
+  - group: Developer Tools
+    expanded: true
+    pages:
+      - label: Reference Implementation
+        page: developer-portal/for-developers/custom-integration/developer-tools/reference-implementation.md
+      - label: Test Suite CLI
+        page: developer-portal/for-developers/custom-integration/developer-tools/test-suite-cli.md
+  - group: Resources
+    expanded: true
+    pages:
+      - label: Authentication
+        page: developer-portal/for-developers/custom-integration/resources/authentication.md
+      - label: Checkout Origins
+        page: developer-portal/for-developers/custom-integration/resources/checkout-origins.md
+      - label: Configurable & Direct Capture
+        page: developer-portal/for-developers/custom-integration/resources/configurable.md
+      - label: Error Codes
+        page: developer-portal/for-developers/custom-integration/resources/error-codes.md
+      - label: Finantial Values
+        page: developer-portal/for-developers/custom-integration/resources/finantial-values.md
+      - label: Order Batching
+        page: developer-portal/for-developers/custom-integration/resources/order-batching.md
+      - label: Order Lifecycle
+        page: developer-portal/for-developers/custom-integration/resources/order-lifecyle.md
+      - label: Order Statuses
+        page: developer-portal/for-developers/custom-integration/resources/order-statuses.md
+      - label: Product Item Identification
+        page: developer-portal/for-developers/custom-integration/resources/product-item-identification.md
+      - label: Sequence Diagrams
+        page: developer-portal/for-developers/custom-integration/resources/sequence-diagrams.md
+
 magento:
   - page: developer-portal/for-developers/magento.md
   - group: Pre Install (Required!)
@@ -481,37 +508,37 @@ oldDocs:
     expanded: false
     separatorLine: true
     pages:
-      - page: developer-portal/fast-api.md
+      - page: developer-portal/fast.js.md
         label: Overview
-      - page: developer-portal/fast-api-reference-authentication.md
+      - page: developer-portal/fast.js-reference-authentication.md
         label: Authenticate
-      - page: developer-portal/fast-api-fastjs.md
+      - page: developer-portal/fast.js-fastjs.md
         label: Setup Fast.js
-      - page: developer-portal/fast-api-qs-backend.md
+      - page: developer-portal/fast.js-qs-backend.md
         label: Connect your backend
       - group: Handle requests
         expanded: false
         pages:
-          - page: developer-portal/fast-api-qs-backend-create.md
+          - page: developer-portal/fast.js-qs-backend-create.md
             label: Create requests
-          - page: developer-portal/fast-api-qs-backend-read.md
+          - page: developer-portal/fast.js-qs-backend-read.md
             label: Read requests
-          - page: developer-portal/fast-api-qs-backend-update.md
+          - page: developer-portal/fast.js-qs-backend-update.md
             label: Update requests
-          - page: developer-portal/fast-api-qs-backend-delete.md
+          - page: developer-portal/fast.js-qs-backend-delete.md
             label: Delete requests
       - group: Extended Order Management
         expanded: false
         pages:
-          - page: developer-portal/fast-api-qs-backend-extended-oms-intro.md
+          - page: developer-portal/fast.js-qs-backend-extended-oms-intro.md
             label: Intro
-          - page: developer-portal/fast-api-qs-backend-extended-oms-cancel-order.md
+          - page: developer-portal/fast.js-qs-backend-extended-oms-cancel-order.md
             label: Cancel Orders
-          - page: developer-portal/fast-api-qs-backend-extended-oms-refund-order.md
+          - page: developer-portal/fast.js-qs-backend-extended-oms-refund-order.md
             label: Refund Orders
-          - page: developer-portal/fast-api-qs-backend-extended-oms-business-event.md
+          - page: developer-portal/fast.js-qs-backend-extended-oms-business-event.md
             label: Business Eventing
-      - page: developer-portal/fast-api-dev-tools.md
+      - page: developer-portal/fast.js-dev-tools.md
         label: Developer Tools
   - separator: Custom Integration API Specifications
   - page: /merchant/merchant.page.yaml
@@ -520,36 +547,36 @@ oldDocs:
     label: Seller -> Fast API
   - separatorLine: true
   - separator: Custom Integration Developer Tools
-  - page: developer-portal/fast-api-reference-implementation.md
+  - page: developer-portal/fast.js-reference-implementation.md
     label: Reference Implementation
-  - page: developer-portal/fast-api-test-suite-cli.md
+  - page: developer-portal/fast.js-test-suite-cli.md
     label: Test Suite CLI
   - separatorLine: true
   - separator: Custom Integration Guides
-  - page: developer-portal/fast-api-guides-batching.md
+  - page: developer-portal/fast.js-guides-batching.md
     label: How batching works
   - separatorLine: true
   - separator: Custom Integration Resources
-  - page: developer-portal/fast-api-reference-authentication.md
+  - page: developer-portal/fast.js-reference-authentication.md
     label: Authentication
-  - page: developer-portal/fast-api-reference-batching.md
+  - page: developer-portal/fast.js-reference-batching.md
     label: Batching
-  - page: developer-portal/fast-api-reference-configuration.md
+  - page: developer-portal/fast.js-reference-configuration.md
     label: Configuration
-  - page: developer-portal/fast-api-reference-error-codes.md
+  - page: developer-portal/fast.js-reference-error-codes.md
     label: Error codes
-  - page: developer-portal/fast-api-reference-checkout-origin.md
+  - page: developer-portal/fast.js-reference-checkout-origin.md
     label: Checkout Origin
-  - page: developer-portal/fast-api-reference-fast-js.md
+  - page: developer-portal/fast.js-reference-fast-js.md
     label: Fast.js
-  - page: developer-portal/fast-api-reference-financial-values.md
+  - page: developer-portal/fast.js-reference-financial-values.md
     label: Financial Values
-  - page: developer-portal/fast-api-reference-order-lifecycle.md
+  - page: developer-portal/fast.js-reference-order-lifecycle.md
     label: Order Lifecycle
-  - page: developer-portal/fast-api-reference-order-statuses.md
+  - page: developer-portal/fast.js-reference-order-statuses.md
     label: Order Statuses
-  - page: developer-portal/fast-api-reference-products.md
+  - page: developer-portal/fast.js-reference-products.md
     label: Products
-  - page: developer-portal/fast-api-reference-sequences.md
+  - page: developer-portal/fast.js-reference-sequences.md
     label: Sequence Diagrams
     separatorLine: true
