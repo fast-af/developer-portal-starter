@@ -237,6 +237,8 @@ forSellersQuickstart:
     pages:
       - label: Options
         page: developer-portal/for-sellers/quickstart/onboarding/options.md
+      - label: Partner Onboarding FAQs
+        page: developer-portal/for-sellers/quickstart/onboarding/partners-onboarding-faq.md
 
 forSellersCurrentSupport:
   - page: developer-portal/for-sellers/current-support.md
@@ -250,7 +252,7 @@ forSellersCurrentSupport:
   - group: International
     expanded: true
     pages:
-      - label: Countires Supported
+      - label: Countries Supported
         page: developer-portal/for-sellers/current-support/international/countries-supported.md
       - label: Languages Supported
         page: developer-portal/for-sellers/current-support/international/languages-supported.md
@@ -454,7 +456,7 @@ forShoppersCurrentSupport:
   - group: International
     expanded: true
     pages:
-      - label: Countires Supported
+      - label: Countries Supported
         page: developer-portal/for-shoppers/current-support/international/countries-supported.md
       - label: Languages Supported
         page: developer-portal/for-shoppers/current-support/international/languages-supported.md

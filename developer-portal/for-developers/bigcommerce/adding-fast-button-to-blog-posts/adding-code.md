@@ -6,16 +6,9 @@ keywords: Adding Fast Buttons to BigCommerce Blog Posts
 
 # Adding Fast Button to BigCommerce Blog Posts
 
-You can implement Fast Checkout on your blog posts for your eCommerce site hosted on
-BigCommerce! This guide assumes you:
+Beyond the standard option of [integrating directly with a supported platform](/developer-portal/for-developers/platforms/) without needing to write code, it is possible to write code that will integrate Fast Checkout into your site's blog posts.
 
-- Have an existing eCommerce site on BigCommerce with Fast Checkout on your product
-  pages already
-- Want to write code to integrate Fast into your website's blog posts.
-
-See our
-[**other documentation**](https://fast.co/docs) for more detailed information on integrating Fast with
-BigCommerce, WooCommerce, and other platforms without needing to write code.
+To follow the steps below, you must have an existing eCommerce site hosted by BigCommerce, and must already be using Fast Checkout on your product pages.
 
 ## Getting Started
 
@@ -28,9 +21,8 @@ To add Fast Checkout to your blog posts, you will need to:
 
 ## Adding Code to Your Blog Post
 
-1. In your newly created blog post, **add the following code snippet to it**.
-
-   > You will need to assign a unique identifier to the `fast-checkout-button id` section. The button also needs to be enclosed in a form field:
+1. In your newly created blog post, add the following code snippet.
+   > You will need to assign a unique identifier (`id="{INSERT-UNIQUE-ID}"`) to the button (`fast-checkout-button`), enclosed within a form field.
 
    ```html
    <form>
