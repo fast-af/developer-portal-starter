@@ -2,13 +2,11 @@
 
 Fast gives you the ability to directly work with orders! The functionality described in this section is entirely optional.
 
-| REST VERB | API_URL                                                                   | Link                                                                                      |
-| --------- | ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| POST      | https://sandbox.fast.co/fast/v1/external/orders/{order_id}                | [Cancel Orders](/developer-portal/fast-api-qs-backend-extended-oms-cancel-order.md)       |
-| POST      | https://sandbox.fast.co/fast/v1/external/orders/{order_id}/refund         | [Refund Orders](/developer-portal/fast-api-qs-backend-extended-oms-refund-order.md)       |
-| POST      | https://sandbox.fast.co/fast/v1/external/orders/{order_id}/business_event | [Business Eventing](/developer-portal/fast-api-qs-backend-extended-oms-business-event.md) |
-
 ## Canceling Orders
+
+| REST VERB | API_URL                                                    |
+| --------- | ---------------------------------------------------------- |
+| POST      | https://sandbox.fast.co/fast/v1/external/orders/{order_id} |
 
 Enables the seller to cancel the order in the event of fast<->seller system failures.
 
@@ -25,9 +23,17 @@ Enables the seller to cancel the order in the event of fast<->seller system fail
 
 ## Refunding Orders
 
+| REST VERB | API_URL                                                           |
+| --------- | ----------------------------------------------------------------- |
+| POST      | https://sandbox.fast.co/fast/v1/external/orders/{order_id}/refund |
+
 Enables the seller to refund an order for several reasons.
 
 ## Business Eventing
+
+| REST VERB | API_URL                                                                   |
+| --------- | ------------------------------------------------------------------------- |
+| POST      | https://sandbox.fast.co/fast/v1/external/orders/{order_id}/business_event |
 
 This section covers several different types of events that a seller can signal to Fast.
 

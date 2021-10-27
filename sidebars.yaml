@@ -35,13 +35,13 @@ bigcommerce:
 
 custom-integration:
   - page: developer-portal/for-developers/custom-integration.md
-  - group: Pre Install (Required!)
+  - group: Pre Setup (Required!)
     expanded: true
     pages:
       - label: "Step 1: Gather Your Docs"
-        page: developer-portal/for-developers/custom-integration/pre-install/gather-your-docs.md
+        page: developer-portal/for-developers/custom-integration/pre-setup/gather-your-docs.md
       - label: "Step 2: Onboard as a Seller"
-        page: developer-portal/for-developers/custom-integration/pre-install/sign-up-as-a-seller.md
+        page: developer-portal/for-developers/custom-integration/pre-setup/sign-up-as-a-seller.md
   - group: Setup
     expanded: true
     pages:

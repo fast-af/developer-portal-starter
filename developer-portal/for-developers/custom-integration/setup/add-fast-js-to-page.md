@@ -1,4 +1,4 @@
-# Setup Step 2: Use Fast.js
+# Setup Step 2: Add Fast.js
 
 ## Part 1: Add a fast.js to Your Product Page
 
@@ -18,8 +18,8 @@
 
 You have 2 different opptions for this section:
 
-- [The Standard approach](/developer-portal/for-developers/custom-integration/install/add-fast-js-to-page/#use-the-fast-checkout-button---the-standard-approach)
-- [The Programatic/Advanced Approach approach](/developer-portal/for-developers/custom-integration/install/add-fast-js-to-page/#use-the-fast-checkout-button---programaticadvanced-approach)
+- [The Standard approach](/developer-portal/for-developers/custom-integration/setup/add-fast-js-to-page/#use-the-fast-checkout-button---the-standard-approach)
+- [The Programatic/Advanced Approach approach](/developer-portal/for-developers/custom-integration/setup/add-fast-js-to-page/#use-the-fast-checkout-button---programaticadvanced-approach)
 
 ### Use the Fast Checkout Button - The Standard Approach
 
