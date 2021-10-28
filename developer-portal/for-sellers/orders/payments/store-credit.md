@@ -6,4 +6,4 @@ keywords: Fast Store Credit
 
 # Store Credit
 
-We don’t currently accept store credit for purchases.
+We don’t currently accept store credit for purchases. Shoppers should reach out directly to seller regarding store credit options.

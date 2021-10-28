@@ -6,8 +6,14 @@ keywords: Fast Seller toggle between accounts
 
 # Toggling Back and Forth
 
-Click the dropdown in the upper right corner. You may need to scroll down if you have more than one store!
+## Toggle Between Your Stores
 
-<img alt="store dropdown menu" src="./images/toggle1.png"/>
+You can toggle between your stores on the **upper left hand corner menu**.
 
-<img alt="switch to seller view menu" src="./images/toggle2.png"/>
+!["Change Store menu"](/images/change-stores.png)
+
+## Toggle Between Store and Shopper View
+
+You can toggle between your store and your shopper view on the **upper right hand corner menu**.
+
+!["Change to Shopper View menu"](/images/to-seller-view.png)

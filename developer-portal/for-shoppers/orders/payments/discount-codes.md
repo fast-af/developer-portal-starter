@@ -10,4 +10,4 @@ keywords: fast checkout discount codes
 
 The discount code will be reflected in the final sale price.
 
-Existing users will receive an email immediately (before a promo code is entered) to confirm.
+Existing users will receive an email immediately with all of their purchase's information.
