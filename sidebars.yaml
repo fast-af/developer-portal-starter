@@ -354,18 +354,18 @@ forShoppersOrders:
   - group: Overview
     expanded: true
     pages:
-      - label: Login requirements
-        page: developer-portal/for-shoppers/orders/overview/login-requirements.md
       - label: What is Fast Checkout?
         page: developer-portal/for-shoppers/orders/overview/fast-checkout.md
       - label: What is Fast Login?
         page: developer-portal/for-shoppers/orders/overview/fast-login.md
       - label: What Happens when you click Fast Checkout?
         page: developer-portal/for-shoppers/orders/overview/what-happens.md
+      - label: Login Requirements
+        page: developer-portal/for-shoppers/orders/overview/login-requirements.md
   - group: Payments
     expanded: true
     pages:
-      - label: When am I charged?
+      - label: When Am I Charged?
         page: developer-portal/for-shoppers/orders/payments/when-am-i-charged.md
       - label: Promo Codes
         page: developer-portal/for-shoppers/orders/payments/promo-codes.md
@@ -386,10 +386,6 @@ forShoppersOrders:
         page: developer-portal/for-shoppers/orders/order-process/checkout.md
       - label: Emails Related To Your Order
         page: developer-portal/for-shoppers/orders/order-process/emails-related-to-your-order.md
-      - label: Editing Your Order
-        page: developer-portal/for-shoppers/orders/order-process/editing-your-order.md
-      - label: Cancelling Orders
-        page: developer-portal/for-shoppers/orders/order-process/cancelling-orders.md
   - group: Shipping
     expanded: true
     pages:

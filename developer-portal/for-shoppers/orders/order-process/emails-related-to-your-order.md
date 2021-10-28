@@ -10,7 +10,7 @@ keywords: fast checkout emails related to your order
 
 Thanks for using Fast to place an order! Depending on the status of your order (successful or cancelled), you will receive several emails with subject lines as follows:
 
-### Successful order Emails
+### Successful Order Emails
 
 1. Fast Order Processing
 2. Fast Product Added

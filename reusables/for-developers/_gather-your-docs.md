@@ -4,7 +4,7 @@ In order to onboard quickly, you will need to have all of your business informat
 - **Seller Organization Address**
 - **Seller Organization Phone Number**
 - **Seller Business/Store Name**
-  - Also need to collect legal registered business name if it’s different than their customer-facing “doing-business-as” (DBA) name
+  > You also need to collect your **legal registered business name** if it’s different than your customer-facing “doing-business-as” (DBA) name.
 - **Seller Store URL** (must use **https://**)
 - **Seller Business Country of Registration**
 - **Tax ID for the Seller’s Registered Business**

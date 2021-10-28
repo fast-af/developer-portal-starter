@@ -8,7 +8,7 @@ keywords: Fast Seller current orders
 
 ## On your Fast Seller Dashboard
 
-You can go to your Fast Seller Dashboard and see payouts to your accounts by logging into fast.co/business
+You can go to your Fast Seller Dashboard and see payments to your accounts by logging into fast.co/business.
 
 ## On your platform
 
