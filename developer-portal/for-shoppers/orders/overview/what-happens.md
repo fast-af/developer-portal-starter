@@ -10,7 +10,7 @@ When a customer clicks Fast checkout a pop-up window will appear and a customer 
 
 ## New Fast Account
 
-If you are new to Fast you will be asked to sign up with email, name, phone number, address, payment (image of form fields)
+If you are new to Fast you will be asked to sign up with email, name, phone number, address, payment (image of form fields).
 
 ## Existing Account
 

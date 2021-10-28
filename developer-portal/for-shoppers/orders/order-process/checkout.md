@@ -18,9 +18,14 @@ This is a confirmation page where customers can confirm their details on their F
 
 Fast will default to the cheapest shipping option available. Also, if a customer places another order with the same merchant/seller within the 5-min checkout window, they will not be charged again for shipping!
 
-## Things you can do
+## Things you can do (during the 5 minute checkout window)
 
-The customer can cancel their order during this time or press done. If nothing is done and the 5 minutes expires, the order will begin processing. Customers will receive an email confirmation once the button is clicked, and a cancellation email if the order is cancelled within the 5 minute window.
+You can
+
+- **Cancel your order** during this time.
+- **End the 5 minute checkout window early**.
+- **Press Done**.
+- **Do nothing**. If nothing is done and the 5 minutes expires, the order will begin processing. Customers will receive an email confirmation once the button is clicked, and a cancellation email if the order is cancelled within the 5 minute window.
 
 ## Once the 5 minutes have passed
 
