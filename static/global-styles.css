@@ -15,7 +15,7 @@ li {
 
 /* Search Results styles */
 ul > a > div > span {
-  font-size: 16px;
+  font-size: 16px !important;
 }
 
 /* Platforms page icon areas*/
@@ -29,6 +29,7 @@ ul > a > div > span {
 }
 #platforms-page a > div > img {
   height: 42px;
+  max-width: 174px;
 }
 
 /* Navigation list items  */
