@@ -145,6 +145,7 @@ magento:
         page: developer-portal/for-developers/magento/resources/enable-fulfillment.md
       - label: "External Payments"
         page: developer-portal/for-developers/magento/resources/external-payments.md
+
 salesforce:
   - page: developer-portal/for-developers/salesforce.md
   - group: Pre Install (Required!)
@@ -157,34 +158,19 @@ salesforce:
       - label: "Step 3: Onboard as a Seller"
         page: developer-portal/for-developers/salesforce/pre-install/sign-up-as-a-seller.md
 
-  - group: Install Checkout Button
+  - group: Install
     expanded: true
     pages:
-      - label: Test Mode
-        page: developer-portal/for-developers/salesforce/install-checkout-button/install-checkout-button-test-mode.md
-      - label: Production Mode
-        page: developer-portal/for-developers/salesforce/install-checkout-button/install-checkout-button-production-mode.md
-  - group: Install Login Button
-    expanded: true
-    pages:
-      - label: Test Mode
-        page: developer-portal/for-developers/salesforce/install-login-button/install-login-button-test-mode.md
-      - label: Production Mode
-        page: developer-portal/for-developers/salesforce/install-login-button/install-login-button-production-mode.md
-  - group: Custom Styling
-    expanded: true
-    pages:
-      - label: Checkout Button
-        page: developer-portal/for-developers/salesforce/custom-styling/custom-checkout-button-styling.md
-      - label: Login Button
-        page: developer-portal/for-developers/salesforce/custom-styling/custom-login-button-styling.md
-  - group: Adding Fast Button to Blog Posts
-    expanded: true
-    pages:
-      - label: Getting Started
-        page: developer-portal/for-developers/salesforce/adding-fast-button-to-blog-posts/getting-started.md
-      - label: Adding Code
-        page: developer-portal/for-developers/salesforce/adding-fast-button-to-blog-posts/adding-code.md
+      - label: Overview
+        page: developer-portal/for-developers/salesforce/install/overview.md
+      - label: "Step 1: Acquire Extension"
+        page: developer-portal/for-developers/salesforce/install/acquire-extension.md
+      - label: "Step 2: Enable Fast Checkout"
+        page: developer-portal/for-developers/salesforce/install/enable-fast-checkout.md
+      - label: "Step 3: Specify Products"
+        page: developer-portal/for-developers/salesforce/install/specify-products.md
+      - label: "Step 4: Activate Storefront"
+        page: developer-portal/for-developers/salesforce/install/activate-storefront.md
 
 woocommerce:
   - page: developer-portal/for-developers/woocommerce.md
