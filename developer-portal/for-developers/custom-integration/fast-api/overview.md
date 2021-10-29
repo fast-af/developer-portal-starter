@@ -1,7 +1,7 @@
 ---
-title: Fast.js Docs
-description: Getting Started with Fast with Fast.js
-keywords: Fast.js
+title: fast.js Docs
+description: Getting Started with Fast with fast.js
+keywords: fast.js
 ---
 
 # One-click checkout with Fast API.

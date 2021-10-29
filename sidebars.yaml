@@ -49,7 +49,7 @@ custom-integration:
         page: developer-portal/for-developers/custom-integration/setup/overview.md
       - label: "Step 1: Authentication"
         page: developer-portal/for-developers/custom-integration/setup/authenticate.md
-      - label: "Step 2: Add Fast.js to Page"
+      - label: "Step 2: Add fast.js to Page"
         page: developer-portal/for-developers/custom-integration/setup/add-fast-js-to-page.md
       - label: "Step 3: Backend"
         page: developer-portal/for-developers/custom-integration/setup/backend.md
