@@ -32,6 +32,11 @@ ul > a > div > span {
   max-width: 174px;
 }
 
+/* All Code */
+code {
+  font-family: Courier, monospace !important;
+}
+
 /* Navigation list items  */
 nav li {
   margin: 0;

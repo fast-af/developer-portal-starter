@@ -1,3 +1,9 @@
+---
+title: "Fast Custom Integration Docs: Configurable and Direct Capture"
+description: Getting Started with Fast with a Custom Integration!
+keywords: Fast direct capture
+---
+
 # Configurable & Direct Capture
 
 > _Configurable & Direct Capture: the ability to control payment capture timing via the API._

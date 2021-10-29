@@ -1,3 +1,9 @@
+---
+title: "Fast Custom Integration Docs: Fast Order Statuses"
+description: Learn what each order status means.
+keywords: Fast order statuses
+---
+
 # Fast Order Statuses
 
 | Status Name                        | Description                                                                                                                               | Notes                                                       |

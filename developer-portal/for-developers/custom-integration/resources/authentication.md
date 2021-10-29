@@ -1,3 +1,9 @@
+---
+title: "Fast Custom Integration Docs: Authentication"
+description: Getting Started with Fast with a Custom Integration! Learn about authentication.
+keywords: Fast authentication
+---
+
 # Fast Custom Integration Authentication
 
 Fast's Custom Integration is intended for merchants who have custom built their own eCommerce site and want to use Fast checkout to eliminate the friction around checkout for their users and reduce cart abandonment!

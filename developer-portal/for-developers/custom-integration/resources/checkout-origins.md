@@ -1,4 +1,10 @@
-# Types of checkout origins
+---
+title: "Fast Custom Integration Docs: Types of Checkout Origins"
+description: Getting Started with Fast with a Custom Integration!
+keywords: Fast authentication
+---
+
+# Types of Checkout Origins
 
 1. **Product page checkout (PDP)**
    - A checkout that occurs from a single product.

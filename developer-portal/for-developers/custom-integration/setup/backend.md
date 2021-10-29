@@ -1,4 +1,10 @@
-# Setup Step 3: Handle order creation in your backend
+---
+title: "Fast Custom Integration Docs: Handle Order Creation"
+description: Now we will set up your server to communicate with Fast Checkout.While users interact with the Fast Checkout application, Fast will send requests to your server for processing.
+keywords: Fast Custom Integration Handle Order Creation
+---
+
+# Setup Step 3: Handle Order Creation
 
 Now we will set up your server to communicate with Fast Checkout.
 

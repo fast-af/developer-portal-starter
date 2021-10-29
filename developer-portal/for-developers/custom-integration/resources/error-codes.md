@@ -1,3 +1,9 @@
+---
+title: "Fast Custom Integration Docs: Error Codes"
+description: Getting Started with Fast with a Custom Integration!
+keywords: Fast error codes
+---
+
 # Error Codes
 
 Fast uses the standard well known error codes for many behaviors.
