@@ -259,7 +259,8 @@ They are:
 
 This code will make sure that the minimum size of the fast button is 150px.
 
-```
-<div style="display:inline-block; min-width:150px"><fast-button></div>
-
+```html
+<div style="display:inline-block; min-width:150px">
+  <fast-checkout-button></fast-checkout-button>
+</div>
 ```
