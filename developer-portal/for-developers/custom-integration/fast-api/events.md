@@ -37,6 +37,7 @@ Both these events emit:
 
 - `Checkout - Order Created` is emitted when the order has been submitted through Fast Checkout.
 - `Checkout - Order Updated` is emitted when the order has changed while inside the Fast Checkout window.
+- `Checkout - Order Completed` is emitted when the order has finalized while inside the Fast Checkout window. This occurs when the timer window reaches zero naturally or is ended manually.
 - `Checkout - Order Cancelled` is emitted when the order has been canceled from inside the Fast Checkout window.
 
 These events emit:
