@@ -4,9 +4,16 @@ description: Documentation for Fast on Salesforce
 keywords: Fast Salesforce, Fast Salesforce install
 ---
 
+<!------import { OpenApiResponse } from "@redocly/developer-portal/ui";---->
+
 # One-click checkout on Salesforce Commerce Cloud
 
-<img alt="Fast Checkout button on a product page" width="100%" style="max-height: 100%;" src="images/fast-product-preview.jpg"/>
+<img
+  alt="Fast Checkout button on a product page"
+  width="100%"
+  style="max-height: 100%;"
+  src="images/fast-product-preview.jpg"
+/>
 
 ## One smart move for your business.
 
@@ -30,8 +37,9 @@ When a customer purchases a product from your store using Fast Checkout, Fast ac
 
 ### Refunds
 
-Need to refund a customer? Use your Magento admin to start the refund and Fast will take care of the rest.
-Please see [**How do I make refunds with Fast?**](https://help.fast.co/hc/en-us/articles/360055253814-How-do-I-refund-a-customer-)
+Need to refund a customer? You can leverage the [Seller -> Fast API to Refund an order](/developer-portal/for-developers/custom-integration/fast-api/fast-to-seller-api/docs/#operation/ExternalOrderManagementService_RefundOrder).
+
+<!----<OpenApiResponse definitionId="order" pointer="/developer-portal/for-developers/custom-integration/fast-api/seller-to-fast-api/paths/v1@external@orders@{order_id.value}@refund.yaml"/>----->
 
 ### Order Tracking
 
