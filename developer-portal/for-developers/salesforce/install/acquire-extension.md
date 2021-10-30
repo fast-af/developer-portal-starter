@@ -19,9 +19,9 @@ The Fast Salesforce Reference Architecture (SFRA) Cartridge should be available 
 
 ### How to Find the Fast Cartridge
 
-- [The Fast Cartridge Github repository](<(https://github.com/SalesforceCommerceCloud/link_fastcheckout)>) associated with the Marketplace version of the Fast Cartridge
+- [The Fast Cartridge Github repository](https://github.com/SalesforceCommerceCloud/link_fastcheckout) associated with the Marketplace version of the Fast Cartridge
 - [Fast's SFCC Integration Github Repository](https://github.com/fast-af/sfcc-integration/) (e.g. for site admins who want to try development builds in Sandbox).
-- A Fast team member can also provide the Cartridge as a ZIP file incorporating the [additional details you provided prior to starting the installation process](../pre-install/requirements).
+- A Fast team member can also provide the Cartridge as a ZIP file incorporating the [additional details you provided prior to starting the installation process](../pre-install/requirements.md).
 
 ## Upload the Cartridge to Your Storefront
 

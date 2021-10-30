@@ -13,24 +13,20 @@ The cartridge includes the necessary code for Fast buttons to appear and work on
 
 :::info Requirement
 
-Before proceeding with storefront configuration, ensure you have already [downloaded the Fast Cartridge for SFCC and uploaded it to your storefront](./acquire-extension).
+Before proceeding with storefront configuration, ensure you have already [downloaded the Fast Cartridge for SFCC and uploaded it to your storefront](./acquire-extension.md).
 
 :::
 
 ## Configuration
 
-1. **Install the Cartridge Sandbox environment** with credentials Fast will provide
-   Select theme appropriate for store-front design (default or dark)
-   Select Products to enable Fast Checkout
-
-2. **Log in to your Commerce Cloud site** with your Business Manager credentials.
-3. Activate the previously uploaded `int_fast_sfra` Cartridge to the site by adding it to your storefront's **Effective Cartridge Path**.
+1. **Log in to your Commerce Cloud site** with your Business Manager credentials.
+2. Activate the previously uploaded `int_fast_sfra` Cartridge to the site by adding it to your storefront's **Effective Cartridge Path**.
    - **Navigate to**: <br />
      Administration → Sites → Manage Sites → {site_id} → Settings
    - In the Settings tab, **add `int_fast_sfra` to the Effective Cartridge Path** (e.g. `int_fast_sfra:app_storefront_base`, as Cartridge names must be provided as a colon-separated list)
      ![cartridge path](./images/cartridge_path.png)
    - **Click "Apply"**
-4. **Import Fast's metadata XML file** to enable custom attributes set up to support Fast payments.
+3. **Import Fast's metadata XML file** to enable custom attributes that support Fast payments.
    - **Navigate to**: Administration → Site Development → Import & Export → Manage Import Files
      - Find the `system-objecttype-extensions.xml` under `/metadata/fast-meta-import/meta`
        > For reference, this is the location of the file in [Fast's SFCC Integration Github repository](https://github.com/fast-af/sfcc-integration/tree/master/sfcc_cartridge/metadata/fast-meta-import/meta).
@@ -49,7 +45,7 @@ Please limit changes to Sandbox configuration settings so that Fast can evaluate
    - **Select Context**: Global (organization-wide)
      ![Configuration Form](./images/ocapi-settings.png)
    - **Paste in the OCAPI configuration file** (provided in JSON format) provided to you by Fast
-     > Be sure to update `"client_id":"<<client_id>>"` with the [Client ID you obtained prior to starting the installation process](../pre-install/requirements).)
+     > Be sure to update `"client_id":"<<client_id>>"` with the [Client ID you obtained prior to starting the installation process](../pre-install/requirements)
 
 5. Open **Fast configuration** settings
 

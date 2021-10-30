@@ -20,8 +20,8 @@ In order to create a Fast App ID (`app_id`) for your Salesforce Commerce Cloud (
   Please note that Salesforce requires updating the password for a Business Manager account every 90 days.
   :::
 
-- **OCAPI (Salesfoce Open Commerce API) URL** for the API client
-- OCAPI **client ID** and **passowrd**
+- **OCAPI (Salesforce Open Commerce API) URL** for the API client
+- OCAPI **client ID** and **password**
   - If you don't already have an API Client set up, you can do so from [Salesforce B2C Account Manager](https://account.demandware.com/)
 - **Host API URL** (where we will be sending API requests)
 
