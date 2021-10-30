@@ -1,5 +1,5 @@
 ---
-title: "Fast SalesForce Docs: Enabling Fast Checkout"
+title: "Fast Salesforce Docs: Enabling Fast Checkout"
 description: Getting Started with Fast on Salesforce Commerce Cloud.
 keywords: SFCC enable fast checkout
 ---
@@ -24,7 +24,7 @@ Before proceeding with storefront configuration, ensure you have already [downlo
    Select Products to enable Fast Checkout
 
 2. **Log in to your Commerce Cloud site** with your Business Manager credentials.
-3. Activate the previously uploaded `int_fast_sfra` Cartridge to the site by adding it to your strorefont's **Effective Cartridge Path**.
+3. Activate the previously uploaded `int_fast_sfra` Cartridge to the site by adding it to your storefront's **Effective Cartridge Path**.
    - **Navigate to**: <br />
      Administration → Sites → Manage Sites → {site_id} → Settings
    - In the Settings tab, **add `int_fast_sfra` to the Effective Cartridge Path** (e.g. `int_fast_sfra:app_storefront_base`, as Cartridge names must be provided as a colon-separated list)
@@ -48,7 +48,7 @@ Please limit changes to Sandbox configuration settings so that Fast can evaluate
    - **Select Type**: Shop
    - **Select Context**: Global (organization-wide)
      ![Configuration Form](./images/ocapi-settings.png)
-   - **Paste in the OCAPI configutation file** (provided in JSON format) provided to you by fast
+   - **Paste in the OCAPI configuration file** (provided in JSON format) provided to you by Fast
      > Be sure to update `"client_id":"<<client_id>>"` with the [Client ID you obtained prior to starting the installation process](../pre-install/requirements).)
 
 5. Open **Fast configuration** settings
@@ -68,7 +68,7 @@ Please limit changes to Sandbox configuration settings so that Fast can evaluate
    - Set **Is Fast Enabled** option to “Enabled”
      > This is a store-level configuration setting that allows you to quickly enable or disable Fast.
    - Set **Fast App ID**
-     > Enter the Sandbox App ID (`app_id`) prodivded to you previously by Fast
+     > Enter the Sandbox App ID (`app_id`) provided to you previously by Fast
      > You will not obtain a production `app_id` until your Sandbox setup has been validated by Fast
    - Set **Fast Theme**
      > **ProTip**: Select dark theme if your site has a dark/black background.
@@ -79,7 +79,7 @@ Please limit changes to Sandbox configuration settings so that Fast can evaluate
 
 8. **Implement Custom Code to Display the Fast Checkout Button**
 
-   - **Add custom code (proivided by Fast)** to your storefront's Base ISML files
+   - **Add custom code (provided by Fast)** to your storefront's Base ISML files
      > The default storefront Cartridge is normally `app_storefront_base`
    - To **view the current versions of these ISML files**, **Navigate to**: <br />
      Administration → Site Development → Development Setup → {Code Version} → {Cartridge: `app_storefront_base`} → cartridge templates default

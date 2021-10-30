@@ -1,7 +1,7 @@
 ---
 title: "Fast WooCommerce Docs: Onboard as a Seller"
-description: Getting Started with Fast on Woocommerce! Onboard as a Seller
-keywords: Fast Woocommerce onboarding
+description: Getting Started with Fast on WooCommerce! Onboard as a Seller
+keywords: Fast WooCommerce onboarding
 redirectFrom:
   - /developer-portal/sign-up-with-woocommerce/
   - /developer-portal/Sign-Up-with-WooCommerce/

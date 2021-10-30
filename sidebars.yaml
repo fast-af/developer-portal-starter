@@ -35,7 +35,7 @@ bigcommerce:
 
 custom-integration:
   - page: developer-portal/for-developers/custom-integration.md
-  - group: Pre Setup (Required!)
+  - group: Pre-Setup (Required!)
     expanded: true
     pages:
       - label: "Step 1: Gather Your Docs"
@@ -95,7 +95,7 @@ custom-integration:
         page: developer-portal/for-developers/custom-integration/resources/configurable.md
       - label: Error Codes
         page: developer-portal/for-developers/custom-integration/resources/error-codes.md
-      - label: Finantial Values
+      - label: Financial Values
         page: developer-portal/for-developers/custom-integration/resources/finantial-values.md
       - label: Order Batching
         page: developer-portal/for-developers/custom-integration/resources/order-batching.md
@@ -211,7 +211,7 @@ woocommerce:
 
 forSellersQuickstart:
   - page: developer-portal/for-sellers/quickstart.md
-  - group: Preinstall
+  - group: Pre-Install
     expanded: true
     pages:
       - label: Will Fast Work For Me?

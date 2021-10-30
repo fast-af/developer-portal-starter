@@ -1,5 +1,5 @@
 ---
-title: "Fast SalesForce Docs: Acquiring Fast Extension"
+title: "Fast Salesforce Docs: Acquiring Fast Extension"
 description: Getting Started with Fast on Salesforce Commerce Cloud.
 keywords: fast sfcc extension
 ---
