@@ -124,7 +124,7 @@ magento:
     pages:
       - label: Overview
         page: developer-portal/for-developers/magento/install/overview.md
-      - label: "Step 1: Acquire Extension"
+      - label: "Step 1: Acquire Module"
         page: developer-portal/for-developers/magento/install/acquire-extension.md
       - label: "Step 2: Enable Fast Checkout"
         page: developer-portal/for-developers/magento/install/enable-fast-checkout.md
