@@ -1,6 +1,6 @@
 bigcommerce:
   - page: developer-portal/for-developers/bigcommerce.md
-  - group: Pre Install (Required!)
+  - group: Pre-Install (Required!)
     expanded: true
     pages:
       - label: "Step 1: Gather Your Docs"
@@ -110,7 +110,7 @@ custom-integration:
 
 magento:
   - page: developer-portal/for-developers/magento.md
-  - group: Pre Install (Required!)
+  - group: Pre-Install (Required!)
     expanded: true
     pages:
       - label: "Step 1: Gather Your Docs"
@@ -148,7 +148,7 @@ magento:
 
 salesforce:
   - page: developer-portal/for-developers/salesforce.md
-  - group: Pre Install (Required!)
+  - group: Pre-Install (Required!)
     expanded: true
     pages:
       - label: "Step 1: Gather Your Docs"
@@ -174,7 +174,7 @@ salesforce:
 
 woocommerce:
   - page: developer-portal/for-developers/woocommerce.md
-  - group: Pre Install (Required!)
+  - group: Pre-Install (Required!)
     expanded: true
     pages:
       - label: "Step 1: Gather Your Docs"

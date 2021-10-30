@@ -7,7 +7,7 @@ redirectFrom:
   - /developer-portal/sign-up-with-bigcommerce
 ---
 
-# Pre Install Step 3: Onboard as a Seller with BigCommerce
+# Pre-Install Step 3: Onboard as a Seller with BigCommerce
 
 ## Prerequisites
 
