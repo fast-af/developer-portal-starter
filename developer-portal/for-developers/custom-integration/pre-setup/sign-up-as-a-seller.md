@@ -1,5 +1,5 @@
 ---
-title: Fast Custom Integration Docs
+title: "Fast Custom Integration Docs: Onboard as a Seller"
 description: Getting Started with Fast with a Custom Integration! Onboard as a Seller.
 keywords: Fast Custom Integration Onboard as a Seller
 ---

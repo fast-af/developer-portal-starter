@@ -1,20 +1,26 @@
-# Setup Step 2: Add Fast.js
+---
+title: "Fast Custom Integration Docs: Add fast.js"
+description: Getting Started with Fast with a Custom Integration! Add fast.js to your page.
+keywords: add fast.js to a page
+---
 
-## Part 1: Add a fast.js to Your Product Page
+# Setup Step 2: Add fast.js
+
+## Part 1: Add fast.js to Your Product Page
 
 ### Production script:
 
 ```jsx
-<script src="https://js.fast.co/fast-api"></script>
+<script src="https://js.fast.co/fast.js"></script>
 ```
 
 ### Sandbox script:
 
 ```jsx
-<script src="https://js.sandbox.fast.co/fast-api"></script>
+<script src="https://js.sandbox.fast.co/fast.js"></script>
 ```
 
-## Part 1: Use the Fast Checkout Button
+## Part 2: Use the Fast Checkout Button
 
 You have 2 different opptions for this section:
 
@@ -45,7 +51,7 @@ Properties can be added to allow for integration without JavaScript.
 ></fast-checkout-button>
 ```
 
-## Use the Fast Checkout Button - Programatic/Advanced Approach
+### Use the Fast Checkout Button - Programatic/Advanced Approach
 
 Decide where you want the button to appear on your product page and add a container for it:
 
@@ -118,7 +124,7 @@ checkoutButton.addEventListener("click", (event) => {
       affiliates: [
         // An affiliate object contains a single field named id, which is a unique identifier associated with this
         // affiliate. This ID can be whatever string your system is prepared to interpret.
-        (id: "my-affiliate"),
+        { id: "my-affiliate" },
       ],
     },
   });
@@ -126,11 +132,11 @@ checkoutButton.addEventListener("click", (event) => {
 ```
 
 :::info heads up
-🚨 It is important that you call `fast.checkout` synchronously within the `click` event handler. Many browsers will block new windows like Fast Checkout unless they are clearly connected to a user action such as clicking a button. If you perform asynchronous logic that takes several seconds, or call checkout in code in a different frame or window, the browser will prevent Fast Checkout from opening.
+🚨 It is important that you call `Fast.checkout` synchronously within the `click` event handler. Many browsers will block new windows like Fast Checkout unless they are clearly connected to a user action such as clicking a button. If you perform asynchronous logic that takes several seconds, or call checkout in code in a different frame or window, the browser will prevent Fast Checkout from opening.
 :::
 
 ## Handle events from Fast Checkout
 
 **Once the user has clicked the Fast Checkout button, the Fast popup window will have launched and the user can continue with their checkout**. While this is going on, you can listen for fast.js `postMessage` events if you want to keep up with the status of the order on your frontend.
 
-You can read more about about fast.js events in the [fast.js documenation](/developer-portal/for-developers/custom-integration/fast-api/overview/).
+You can read more about about fast.js events in the [fast.js documenation](/developer-portal/for-developers/custom-integration/fast-api/events/).

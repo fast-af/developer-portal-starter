@@ -1,4 +1,4 @@
-# High Level Fast.js Diagrams
+# High Level fast.js API Diagrams
 
 ## New Buyer Clicks Fast Checkout
 

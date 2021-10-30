@@ -1,3 +1,9 @@
+---
+title: "Fast Custom Integration Docs: Finantial Values"
+description: Learn how we handle finantial values.
+keywords: Fast finantial values,
+---
+
 # Internal financial values representation
 
 To avoid floating point arithmetic issues and to provide for exactness in calculations across many currencies, **Fast uses the [google.protobuf.Money](https://github.com/googleapis/googleapis/blob/master/google/type/money.proto) data schema internally to represent financial values.** Fast internally uses _no rounding in the backend_, however our checkout UI does round values to (2,3,4) digits for display.

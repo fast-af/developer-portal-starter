@@ -1,3 +1,9 @@
+---
+title: "Fast Custom Integration Docs: Order Batching"
+description: What is "Batching"?
+keywords: Fast finantial values,
+---
+
 # Order Batching
 
 ## What is "Batching"?
