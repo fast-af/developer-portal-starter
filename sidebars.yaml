@@ -96,7 +96,7 @@ custom-integration:
       - label: Error Codes
         page: developer-portal/for-developers/custom-integration/resources/error-codes.md
       - label: Financial Values
-        page: developer-portal/for-developers/custom-integration/resources/finantial-values.md
+        page: developer-portal/for-developers/custom-integration/resources/financial-values.md
       - label: Order Batching
         page: developer-portal/for-developers/custom-integration/resources/order-batching.md
       - label: Order Lifecycle

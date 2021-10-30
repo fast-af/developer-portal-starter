@@ -21,7 +21,7 @@ The Fast Salesforce Reference Architecture (SFRA) Cartridge should be available 
 
 - [The Fast Cartridge Github repository](<(https://github.com/SalesforceCommerceCloud/link_fastcheckout)>) associated with the Marketplace version of the Fast Cartridge
 - [Fast's SFCC Integration Github Repository](https://github.com/fast-af/sfcc-integration/) (e.g. for site admins who want to try development builds in Sandbox).
-- A Fast team member can also provide the Cartridge as a ZIP file incorporating the [additional details you provdided prior to starting the installation process](../pre-install/requirements).
+- A Fast team member can also provide the Cartridge as a ZIP file incorporating the [additional details you provided prior to starting the installation process](../pre-install/requirements).
 
 ## Upload the Cartridge to Your Storefront
 
@@ -42,7 +42,7 @@ This can be accomplished several ways, including the following 3 options:
 }
 ```
 
-**Upload Option 2**: Using the [Prophet Degugger VS Code plugin](https://marketplace.visualstudio.com/items?itemName=SqrTT.prophet)
+**Upload Option 2**: Using the [Prophet Debugger VS Code plugin](https://marketplace.visualstudio.com/items?itemName=SqrTT.prophet)
 
 > this method also requires setting up a `dw.json` file to connect to your site
 

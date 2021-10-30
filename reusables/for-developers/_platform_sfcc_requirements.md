@@ -1,5 +1,3 @@
-## Salesforce Commerce Cloud (SFCC) Requirements
-
 To use Salesforce Commerce Cloud (SFCC) with Fast, you will need:
 
 - **Salesforce B2C Commerce Enterprise**.
@@ -7,7 +5,7 @@ To use Salesforce Commerce Cloud (SFCC) with Fast, you will need:
   > SFRA is necessary to leverage Fast's pre-built front-end integration, as Fast's SFCC front-end templates are built with SFRA version v6.0.0. Contact [seller-support@fast.co](mailto:seller-support@fast.co) if you are still using the legacy SiteGenesis (SG) storefront framework.
 - Fast integration **built based on Open Commerce API (OCAPI) version 21.9**.
 
-## Fast App ID Requirements
+<br/>
 
 In order to create a Fast App ID (`app_id`) for your Salesforce Commerce Cloud (SFCC) store, Fast requires the following details:
 

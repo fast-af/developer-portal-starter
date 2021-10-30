@@ -1,7 +1,7 @@
 ---
-title: "Fast Custom Integration Docs: Finantial Values"
-description: Learn how we handle finantial values.
-keywords: Fast finantial values,
+title: "Fast Custom Integration Docs: Financial Values"
+description: Learn how we handle financial values.
+keywords: Fast financial values,
 ---
 
 # Internal financial values representation

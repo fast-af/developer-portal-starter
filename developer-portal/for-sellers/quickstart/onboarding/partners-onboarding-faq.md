@@ -22,13 +22,13 @@ If the Partner did not previously enter Tax and Bank Details, Sellers will be ab
 
 <embed src="/reusables/for-developers/_platform_supported_ecommerce_platforms.md" />
 
-#### BigCommerce Requiremnts
+#### BigCommerce Requirements
 
 <embed src="/reusables/for-developers/_platform_bigcommerce_requirements.md" />
 
 <embed src="/reusables/for-developers/_platform_attention_seller_onboarding_credentials_same_session_requirement.md" />
 
-#### WooCommerce Requiremnts
+#### WooCommerce Requirements
 
 <embed src="/reusables/for-developers/_platform_woocommerce_requirements.md" />
 
