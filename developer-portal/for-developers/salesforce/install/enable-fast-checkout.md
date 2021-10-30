@@ -13,13 +13,13 @@ The cartridge includes the necessary code for Fast buttons to appear and work on
 
 :::info Requirement
 
-Before proceeding with storefront configuration, ensure you have already [downloaded the Fast Cartidge for SFCC and uploaded it to your storefront](./acquire-extension).
+Before proceeding with storefront configuration, ensure you have already [downloaded the Fast Cartridge for SFCC and uploaded it to your storefront](./acquire-extension).
 
 :::
 
 ## Configuration
 
-1. **Install the Cartidge Sandbox environment** with credentials Fast will provide
+1. **Install the Cartridge Sandbox environment** with credentials Fast will provide
    Select theme appropriate for store-front design (default or dark)
    Select Products to enable Fast Checkout
 
