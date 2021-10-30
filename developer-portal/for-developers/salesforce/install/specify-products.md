@@ -1,6 +1,6 @@
 ---
-title: "Fast Magento Docs: Specifying Elgible Products."
-description: Getting Started with Fast on Magento! Specify Fast Eligible Product(s)
+title: "Fast SalesForce Docs: Specifying Elgible Products."
+description: Getting Started with Fast on Salesforce Commerce Cloud.
 keywords: install fast magento, specify fast eligible products
 ---
 

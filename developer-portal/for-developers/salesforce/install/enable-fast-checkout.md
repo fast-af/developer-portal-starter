@@ -1,6 +1,6 @@
 ---
-title: "Fast SFCC Docs: Enabling Fast Checkout"
-description: Getting Started with Fast on SFCC! Enable Fast Checkout.
+title: "Fast SalesForce Docs: Enabling Fast Checkout"
+description: Getting Started with Fast on Salesforce Commerce Cloud.
 keywords: SFCC enable fast checkout
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: "Fast SFCC Docs: Activating Your Storefront"
-description: Getting Started with Fast on SFCC! Activate your storefront.
+title: "Fast SalesForce Docs: Activating Your Storefront"
+description: Getting Started with Fast on Salesforce Commerce Cloud.
 keywords: Fast SFCC Activate storefront
 ---
 
