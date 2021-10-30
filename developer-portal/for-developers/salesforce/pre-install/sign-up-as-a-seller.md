@@ -4,7 +4,7 @@ description: Getting Started with Fast on Salesforce Commerce Cloud.
 keywords: Fast SalesForce Onboard as a Seller.
 ---
 
-# Onboard as a Seller
+# Onboard as a Seller with Salesforce
 
 Before you begin this process, you’ll need an online store hosted by Salesforce Commerce Cloud (SFCC).
 
