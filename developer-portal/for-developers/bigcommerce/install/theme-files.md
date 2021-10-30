@@ -10,9 +10,9 @@ keywords: Setting up BigCommerce Theme Files for Fast Buttons
 
    <img alt="fast app id" src="./images/image28.png"/>
 
-2.**Log into your BigCommerce store** at [https://login.bigcommerce.com/login](https://login.bigcommerce.com/login). 3. On the sidebar, **click “Storefront” → “My Themes”**.
-<img alt="finding my themes in the storefront sidebar" src="./images/image10.png"/> 4. Under “Current Theme,” **click “Advanced” → “Make a copy**.”
-<img alt="making a copy" src="./images/image2.png"/> 5. **Type in the name of your copy and click “Save a Copy”**. This copy is specifically to have as a back-up. You can name it whatever you want, like “My Backup copy”.
+2. **Log into your BigCommerce store** at [https://login.bigcommerce.com/login](https://login.bigcommerce.com/login). 3. On the sidebar, **click “Storefront” → “My Themes”**.
+   <img alt="finding my themes in the storefront sidebar" src="./images/image10.png"/> 4. Under “Current Theme,” **click “Advanced” → “Make a copy**.”
+   <img alt="making a copy" src="./images/image2.png"/> 5. **Type in the name of your copy and click “Save a Copy”**. This copy is specifically to have as a back-up. You can name it whatever you want, like “My Backup copy”.
 
 <img alt="naming your copy" src="./images/image13.png"/>
 

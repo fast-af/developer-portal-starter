@@ -141,9 +141,9 @@ magento:
   - group: Resources
     expanded: true
     pages:
-      - label: "Fulfillments"
+      - label: Fulfillments
         page: developer-portal/for-developers/magento/resources/enable-fulfillment.md
-      - label: "External Payments"
+      - label: External Payments
         page: developer-portal/for-developers/magento/resources/external-payments.md
 
 salesforce:
@@ -163,7 +163,7 @@ salesforce:
     pages:
       - label: Overview
         page: developer-portal/for-developers/salesforce/install/overview.md
-      - label: "Step 1: Acquire Extension"
+      - label: "Step 1: Acquire Cartridge"
         page: developer-portal/for-developers/salesforce/install/acquire-extension.md
       - label: "Step 2: Enable Fast Checkout"
         page: developer-portal/for-developers/salesforce/install/enable-fast-checkout.md

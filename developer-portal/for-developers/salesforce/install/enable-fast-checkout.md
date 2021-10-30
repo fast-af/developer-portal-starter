@@ -27,10 +27,10 @@ Before proceeding with storefront configuration, ensure you have already [downlo
 3. Activate the previously uploaded `int_fast_sfra` Cartridge to the site by adding it to your strorefont's **Effective Cartridge Path**.
    - **Navigate to**: <br />
      Administration → Sites → Manage Sites → {site_id} → Settings
-   - In the Setting tab, **add `int_fast_sfra` to the Effective Cartridge Path** (e.g. `int_fast_sfra:app_storefront_base`, as Cartridge names must be provided as a colon-separated list)
+   - In the Settings tab, **add `int_fast_sfra` to the Effective Cartridge Path** (e.g. `int_fast_sfra:app_storefront_base`, as Cartridge names must be provided as a colon-separated list)
      ![cartridge path](./images/cartridge_path.png)
    - **Click "Apply"**
-4. **Import a Fast's metadata XML file** to enable custom attributes set up to support Fast payments.
+4. **Import Fast's metadata XML file** to enable custom attributes set up to support Fast payments.
    - **Navigate to**: Administration → Site Development → Import & Export → Manage Import Files
      - Find the `system-objecttype-extensions.xml` under `/metadata/fast-meta-import/meta`
        > For reference, this is the location of the file in [Fast's SFCC Integration Github repository](https://github.com/fast-af/sfcc-integration/tree/master/sfcc_cartridge/metadata/fast-meta-import/meta).
