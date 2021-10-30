@@ -1,6 +1,6 @@
 ---
-title: Fast Custom Integration Docs
-description: Getting Started with Fast on Custom Integration! SalesForce Requirements
+title: "Fast SalesForce Docs: Requirements"
+description: Getting Started with Fast on Salesforce Commerce Cloud.
 keywords: Fast Custom Integration SalesForce requirements
 ---
 

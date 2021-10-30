@@ -4,7 +4,7 @@ description: Getting Started with Fast on WooCommerce! Satisfying WooCommerce re
 keywords: Fast WooCommerce WooCommerce requirements
 ---
 
-# Pre Install Step 2: WooCommerce Requirements
+# Pre-Install Step 2: WooCommerce Requirements
 
 <embed src="/reusables/for-developers/_platform_ecommerce_all_fast_access_requirement.md" />
 
