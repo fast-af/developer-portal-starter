@@ -23,13 +23,13 @@ The Fast Salesforce Reference Architecture (SFRA) Cartridge should be available 
 - [Fast's SFCC Integration Github Repository](https://github.com/fast-af/sfcc-integration/) (e.g. for site admins who want to try development builds in Sandbox).
 - A Fast team member can also provide the Cartridge as a ZIP file incorporating the [additional details you provdided prior to starting the installation process](../pre-install/requirements).
 
-## Upload the Cartridge to You Storefront
+## Upload the Cartridge to Your Storefront
 
 Once you have the Cartridge downloaded, **you will need to upload it to your Storefront Reference Architecture (SFRA) storefront**.
 
 This can be accomplished several ways, including the following 3 options:
 
-**Option 1**: Using the [SFRA command-line upload tool](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/content/b2c_commerce/topics/sfra/b2c_adding_custom_cartridges.html)
+**Upload Option 1**: Using the [SFRA command-line upload tool](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/content/b2c_commerce/topics/sfra/b2c_adding_custom_cartridges.html)
 
 > This method will require setting up a `dw.json` file to connect to your site
 
@@ -42,7 +42,7 @@ This can be accomplished several ways, including the following 3 options:
 }
 ```
 
-**Option 2**: Using the [Prophet Degugger VS Code plugin](https://marketplace.visualstudio.com/items?itemName=SqrTT.prophet)
+**Upload Option 2**: Using the [Prophet Degugger VS Code plugin](https://marketplace.visualstudio.com/items?itemName=SqrTT.prophet)
 
 > this method also requires setting up a `dw.json` file to connect to your site
 
@@ -55,7 +55,7 @@ This can be accomplished several ways, including the following 3 options:
 }
 ```
 
-**Option 3**: Using [Salesforce UX Studio (legacy software)](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/LegacyDevDoc/UploadCartridges.html)
+**Upload Option 3**: Using [Salesforce UX Studio (legacy software)](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/LegacyDevDoc/UploadCartridges.html)
 
 - File > Import > General > Existing Projects into Workspace.
 
