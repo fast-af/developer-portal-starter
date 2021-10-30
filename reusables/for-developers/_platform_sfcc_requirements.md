@@ -1,34 +1,31 @@
+## Salesforce Commerce Cloud (SFCC) Requirements
+
 To use Salesforce Commerce Cloud (SFCC) with Fast, you will need:
 
-- Salesforce B2C Commerce Enterprise
-- A SFCC eCommerce storefront built using Commerce Cloud **Storefront Reference Architecture (SFRA)**.
-  - SFRA is necessary to leverage Fast's pre-built front-end integration, as Fast's SFCC front-end templates are built with SFRA version v6.0.0.
-  - Contact [seller-support@fast.co](mailto:seller-support@fast.co) if you are still using the legacy SiteGenesis (SG) storefront framework.
-- Fast integration built based on Open Commerce API (OCAPI) version 21.9
+- **Salesforce B2C Commerce Enterprise**.
+- A SFCC eCommerce storefront **built using Commerce Cloud Storefront Reference Architecture (SFRA)**.
+  > SFRA is necessary to leverage Fast's pre-built front-end integration, as Fast's SFCC front-end templates are built with SFRA version v6.0.0. Contact [seller-support@fast.co](mailto:seller-support@fast.co) if you are still using the legacy SiteGenesis (SG) storefront framework.
+- Fast integration **built based on Open Commerce API (OCAPI) version 21.9**.
+
+## Fast App ID Requirements
 
 In order to create a Fast App ID (`app_id`) for your Salesforce Commerce Cloud (SFCC) store, Fast requires the following details:
 
 - **Site URL**
 - **Site ID** for the site being integrated
-- Commerce Cloud **Business Manager** credentials
+- Commerce Cloud **Business Manager credentials**, which include username and password.
 
-  - username and password
-  - It is helpful to create a common email for this (e.g. fast-integration-user@yourcompany.com): <br/>
-    In Business Manager, Navigate to Administration → Organization → Users and Create a New user
-    :::info Updating Your Business Manager Password
+  > It is helpful to create a common email for this (e.g. fast-integration-user@yourcompany.com): <br/>
+  > In Business Manager, Navigate to Administration → Organization → Users and Create a New user
 
-    Please note that Salesforce requires updating the password for a Business Manager account every 90 days.
-
-    :::
+  :::info Updating Your Business Manager Password
+  Please note that Salesforce requires updating the password for a Business Manager account every 90 days.
+  :::
 
 - **OCAPI (Salesfoce Open Commerce API) URL** for the API client
 - OCAPI **client ID** and **passowrd**
   - If you don't already have an API Client set up, you can do so from [Salesforce B2C Account Manager](https://account.demandware.com/)
 - **Host API URL** (where we will be sending API requests)
-
-:::info Heads up
-If you need help at any point, contact customer success at [**seller-support@fast.co**](mailto:seller-support@fast.co).
-:::
 
 For your convenience below is a summary of the required details in table form:
 
