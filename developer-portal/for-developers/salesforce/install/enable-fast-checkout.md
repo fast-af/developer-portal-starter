@@ -45,7 +45,7 @@ Please limit changes to Sandbox configuration settings so that Fast can evaluate
    - **Select Context**: Global (organization-wide)
      ![Configuration Form](./images/ocapi-settings.png)
    - **Paste in the OCAPI configuration file** (provided in JSON format) provided to you by Fast
-     > Be sure to update `"client_id":"<<client_id>>"` with the [Client ID you obtained prior to starting the installation process](../pre-install/requirements)
+     > Be sure to update `"client_id":"<<client_id>>"` with the [Client ID you obtained prior to starting the installation process](../pre-install/requirements.md)
 
 5. Open **Fast configuration** settings
 
