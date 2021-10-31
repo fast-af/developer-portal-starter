@@ -2,6 +2,10 @@
 title: "Fast Custom Integration Docs: Types of Checkout Origins"
 description: Getting Started with Fast with a Custom Integration!
 keywords: Fast authentication
+
+enableToc: true
+redirectFrom:
+- /docs/developer-portal/fast-api-reference-checkout-origin/
 ---
 
 # Types of Checkout Origins

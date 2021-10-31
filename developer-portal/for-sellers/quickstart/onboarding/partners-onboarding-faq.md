@@ -1,3 +1,10 @@
+---
+title: Partner Onboarding FAQs
+enableToc: true
+redirectFrom:
+- /docs/developer-portal/partners-onboarding-faq/
+---
+
 # Partner Onboarding FAQs
 
 ## How to Onboard

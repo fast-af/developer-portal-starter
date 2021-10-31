@@ -2,6 +2,10 @@
 title: "Fast Shopper Docs: Fast Login"
 description: What is Fast Login?
 keywords: fast Orders Fast login
+
+enableToc: true
+redirectFrom:
+- /docs/developer-portal/fast-login-how-it-works/
 ---
 
 # What is Fast Login?

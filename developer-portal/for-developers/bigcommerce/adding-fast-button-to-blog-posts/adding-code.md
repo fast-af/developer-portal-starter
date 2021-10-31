@@ -2,6 +2,10 @@
 title: "Fast BigCommerce Docs: Adding Fast Buttons to Blog Posts"
 description: Adding Fast Buttons to BigCommerce Blog Posts.
 keywords: Adding Fast Buttons to BigCommerce Blog Posts
+
+enableToc: true
+redirectFrom:
+- /docs/developer-portal/bigcommere-checkout-blog-posts/
 ---
 
 # Adding Fast Button to BigCommerce Blog Posts

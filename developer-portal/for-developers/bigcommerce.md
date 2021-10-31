@@ -2,6 +2,10 @@
 title: Fast BigCommerce Docs
 description: Documentation for Fast on BigCommerce
 keywords: Fast BigCommerce, Fast BigCommerce install
+
+enableToc: true
+redirectFrom:
+- /docs/developer-portal/bigcommerce/
 ---
 
 # One-click checkout on BigCommerce.

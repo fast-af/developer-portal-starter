@@ -2,6 +2,10 @@
 title: "Fast Woocommerce Docs: Migrating to New Plugin Directory Version (for Early Sellers)"
 description: Migrating Fast to New Plugin Directory Version (for Early Sellers)
 keywords: Migrating Fast to New Plugin Directory Version (Early Sellers)
+
+enableToc: true
+redirectFrom:
+- /docs/developer-portal/woocommerce-migrate-plugin-directory/
 ---
 
 # Migrating Fast to New Plugin Directory Version (for Early Sellers)

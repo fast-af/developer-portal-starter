@@ -2,6 +2,10 @@
 title: "Fast WooCommerce Docs: Installation Steps"
 description: Getting Started with Fast on WooCommerce! Installing the Fast Plugin.
 keywords: fast woocommerce install plugin
+
+enableToc: true
+redirectFrom:
+- /docs/developer-portal/woocommerce-settings/
 ---
 
 # Step 1: Install Fast Plugin

@@ -2,6 +2,10 @@
 title: "Fast BigCommerce Docs: Test Mode Set up"
 description: Getting Started with Fast on BigCommerce! Test mode
 keywords: Fast BigCommerce test mode
+
+enableToc: true
+redirectFrom:
+- /docs/developer-portal/bigcommerce-install-checkout-examples/
 ---
 
 # Install Step 1: BigCommerce Test Mode Setup

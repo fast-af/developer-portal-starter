@@ -1,7 +1,11 @@
 ---
-title: "Fast Custom Integration Docs: Finantial Values"
-description: Learn how we handle finantial values.
-keywords: Fast finantial values,
+title: "Fast Custom Integration Docs: Financial Values"
+description: Learn how we handle financial values.
+keywords: Fast financial values,
+
+enableToc: true
+redirectFrom:
+- /docs/developer-portal/fast-api-reference-financial-values/
 ---
 
 # Internal financial values representation

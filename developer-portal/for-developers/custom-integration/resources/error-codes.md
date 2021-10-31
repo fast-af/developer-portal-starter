@@ -2,6 +2,10 @@
 title: "Fast Custom Integration Docs: Error Codes"
 description: Getting Started with Fast with a Custom Integration!
 keywords: Fast error codes
+
+enableToc: true
+redirectFrom:
+- /docs/developer-portal/fast-api-reference-error-codes/
 ---
 
 # Error Codes

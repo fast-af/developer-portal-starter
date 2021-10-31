@@ -2,6 +2,10 @@
 title: fast.js Docs
 description: Getting Started with Fast with fast.js
 keywords: fast.js
+
+enableToc: true
+redirectFrom:
+- /docs/developer-portal/fast-api/
 ---
 
 # One-click checkout with Fast API.

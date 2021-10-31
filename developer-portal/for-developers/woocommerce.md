@@ -2,6 +2,10 @@
 title: Fast WooCommerce Docs
 description: Documentation for Fast on WooCommerce
 keywords: Fast WooCommerce, Fast WooCommerce install
+
+enableToc: true
+redirectFrom:
+- /docs/developer-portal/woocommerce/
 ---
 
 # One-click checkout on WooCommerce

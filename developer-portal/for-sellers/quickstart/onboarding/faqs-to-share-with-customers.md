@@ -1,3 +1,10 @@
+---
+title: Fast Checkout
+enableToc: true
+redirectFrom:
+- /docs/developer-portal/fast-checkout-how-it-works/
+---
+
 > This is a template page for you to copy and paste into a page on your site to inform your customers what Fast Checkout is.
 
 # Fast Checkout

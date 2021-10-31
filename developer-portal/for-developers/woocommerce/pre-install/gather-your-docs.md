@@ -2,6 +2,10 @@
 title: "Fast WooCommerce Docs: Gather Your Docs"
 description: Getting Started with Fast on WooCommerce! Quickstart
 keywords: Fast WooCommerce Quickstart
+
+enableToc: true
+redirectFrom:
+- /docs/developer-portal/sign-up-with-woocommerce/
 ---
 
 # Pre-Install Step 1: Gather Your Docs

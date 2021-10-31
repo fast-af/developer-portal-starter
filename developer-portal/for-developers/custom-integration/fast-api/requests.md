@@ -1,3 +1,13 @@
+---
+title: Backend Requests
+enableToc: true
+redirectFrom:
+- /docs/developer-portal/fast-api-qs-backend-create/
+- /docs/developer-portal/fast-api-qs-backend-read/
+- /docs/developer-portal/fast-api-qs-backend-update/
+- /docs/developer-portal/fast-api-qs-backend-delete/
+---
+
 # Backend Requests
 
 Fast uses a non-standard, polymorphic API. As our product grows and changes, many new features will be added to the API. As such, we have built it in such a way that customer's may opt-in to new features with minimal friction.
@@ -114,7 +124,7 @@ Fast uses a non-standard, polymorphic API. As our product grows and changes, man
 
 # Update Response
 
-**The update API is able to update several different top level components of the order.** In the request we send to your server we will supply _only_ the incremental data. If we send you data you should check that the item being updated/added is not being duplicated accidentally. We provide unique ids on each item.  
+**The update API is able to update several different top level components of the order.** In the request we send to your server we will supply _only_ the incremental data. If we send you data you should check that the item being updated/added is not being duplicated accidentally. We provide unique ids on each item.
 We also use the update endpoint to update the status of an order (i.e from a cart to an order, from pending to pending fulfillment, etc.)
 
 ## Example 1: Update existing item quantity

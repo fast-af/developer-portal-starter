@@ -2,6 +2,10 @@
 title: "Fast Custom Integration Docs: Authentication"
 description: Getting Started with Fast with a Custom Integration! Learn about authentication.
 keywords: Fast authentication
+
+enableToc: true
+redirectFrom:
+- /docs/developer-portal/fast-api-reference-authentication/
 ---
 
 # Fast Custom Integration Authentication
