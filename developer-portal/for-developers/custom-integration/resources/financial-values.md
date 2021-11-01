@@ -5,7 +5,7 @@ keywords: Fast financial values,
 
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/fast-api-reference-financial-values/
+  - /docs/developer-portal/fast-api-reference-financial-values/
 ---
 
 # Internal financial values representation

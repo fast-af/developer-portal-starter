@@ -257,7 +257,7 @@ They are:
 
 ### Sample Fast Button Parent Container Code
 
-This code will make sure that the minimum size of the fast button is 150px.
+This code will make sure that the minimum size of the Fast button is 150px.
 
 ```html
 <div style="display:inline-block; min-width:150px">
