@@ -1,5 +1,5 @@
 ---
-title: "Fast Salesforce Docs: Activating Your Storefront"
+title: "Fast SalesForce Docs: Activating Your Storefront"
 description: Getting Started with Fast on Salesforce Commerce Cloud.
 keywords: Fast SFCC Activate storefront
 ---
