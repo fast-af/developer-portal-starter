@@ -1,5 +1,5 @@
 ---
-title: "Fast SalesForce Docs: Specifying Elgible Products."
+title: "Fast Salesforce Docs: Specifying Elgible Products."
 description: Getting Started with Fast on Salesforce Commerce Cloud.
 keywords: install fast magento, specify fast eligible products
 ---

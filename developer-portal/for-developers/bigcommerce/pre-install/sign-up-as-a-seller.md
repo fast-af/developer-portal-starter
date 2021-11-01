@@ -27,7 +27,7 @@ Before you begin this process, you’ll need an online store hosted by BigCommer
    **Note**: You need BigCommerce Store Owner access to do this.
    **Note**: When you reach this specific step, you’ll need to complete the step immediately, without clicking the back button. Otherwise, you’ll have to restart this process from the beginning. This rule does not apply to other steps.
 
-   ![Bigcommerce Login](images/big22.png)
+   ![BigCommerce Login](images/big22.png)
 
 3. Click the checkbox and click “Confirm.”
    ![Confirm](images/big3.png)

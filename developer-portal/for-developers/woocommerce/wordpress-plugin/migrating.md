@@ -1,5 +1,5 @@
 ---
-title: "Fast Woocommerce Docs: Migrating to New Plugin Directory Version (for Early Sellers)"
+title: "Fast WooCommerce Docs: Migrating to New Plugin Directory Version (for Early Sellers)"
 description: Migrating Fast to New Plugin Directory Version (for Early Sellers)
 keywords: Migrating Fast to New Plugin Directory Version (Early Sellers)
 ---
@@ -60,7 +60,7 @@ You must have WordPress admin access.
    - Mini cart `varies depending on theme`
    - Login page `https://yourwebsite.com/my-account`
 
-9. When you make plugin changes—updates, removals, etc—you may need to manually turn test mode off again.**Navigate to Fast Checkout settings. Scroll to the bottom and ensure test mode is unchecked**.
+9. When you make plugin changes (e.g. updates, removals, etc.) you may need to manually turn test mode off again. **Navigate to Fast Checkout settings. Scroll to the bottom and ensure test mode is unchecked**.
 
    > ex: `http://yourwebsite.com/wp-admin/admin.php?page=fast`
 

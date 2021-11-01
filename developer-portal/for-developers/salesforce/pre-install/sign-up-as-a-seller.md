@@ -1,7 +1,7 @@
 ---
-title: "Fast SalesForce Docs: Onboard as a Seller"
+title: "Fast Salesforce Docs: Onboard as a Seller"
 description: Getting Started with Fast on Salesforce Commerce Cloud.
-keywords: Fast SalesForce Onboard as a Seller.
+keywords: Fast Salesforce Onboard as a Seller.
 ---
 
 # Onboard as a Seller with Salesforce

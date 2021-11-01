@@ -1,5 +1,5 @@
 ---
-title: "Fast SalesForce Docs: Intall Overview"
+title: "Fast Salesforce Docs: Install Overview"
 description: Getting Started with Fast on Salesforce Commerce Cloud.
 keywords: install fast sfcc
 ---

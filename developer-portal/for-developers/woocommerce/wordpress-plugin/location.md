@@ -1,7 +1,7 @@
 ---
 title: "Fast WooCommerce Docs: WooCommerce Fast Plugin"
-description: Fast Woocommerce Plugin
-keywords: Fast Woocommerce Plugin
+description: Fast WooCommerce Plugin
+keywords: Fast WooCommerce Plugin
 ---
 
 # How to Find the Fast Wordpress Plugin

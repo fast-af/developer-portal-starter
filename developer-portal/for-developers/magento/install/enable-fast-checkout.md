@@ -15,17 +15,17 @@ The module includes the necessary code for Fast buttons to appear and work on th
 
 ## Configuration
 
-1. **Log in to your admin panel**.
-2. **Navigate to Stores → Configuration**.
-3. **Navigate to Services → Fast Checkout**.
+1. **Log in** to your admin panel.
+2. **Navigate to** Stores → Configuration.
+3. **Navigate to** Services → Fast Checkout.
 4. **Fast Checkout Integration** -->
 
-<img alt="configuration link in the admin panel"  src="./images/image3.png"/>
-<img alt="services links" src="./images/image5.png"/>
+   <img alt="configuration link in the admin panel"  src="./images/image3.png"/>
+   <img alt="services links" src="./images/image5.png"/>
 
 5. **Enter your configuration details** as appropriate
 
-<img alt="configuration form" src="./images/image4.png"/>
+   <img alt="configuration form" src="./images/image4.png"/>
 
 6. **Set the module to “enabled” on the appropriate store(s)**. This is a store-level configuration setting that allows you to quickly enable or disable Fast.
 7. **Enter your Access Token and App ID given to you from Fast**. This should be the sandbox credentials for initial testing.
