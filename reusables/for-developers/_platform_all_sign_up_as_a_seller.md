@@ -8,7 +8,7 @@ We recommend that you first sign up on https://sdash.sandbox.fast.co/ to create 
 
 ## Pin Validation
 
-1.  On [fast.co/business](https://www.fast.co/business), enter the following information and click "Next":
+1.  On [fast.co/business](https://www.fast.co/business), **enter the following information and click "Next"**:
     - **Your company email address**
       > If you enter in a personal email address or another type of non-company email address, you can change this later.
       > You can add additional email addresses for access later.
