@@ -5,7 +5,7 @@ keywords: Fast BigCommerce docs
 
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/sign-up-with-bigcommerce/
+  - /developer-portal/sign-up-with-bigcommerce/
 ---
 
 # Pre-Install Step 1: Gather Your Docs

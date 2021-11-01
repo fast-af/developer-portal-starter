@@ -5,7 +5,7 @@ keywords: fast woocommerce install plugin
 
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/woocommerce-settings/
+  - /developer-portal/woocommerce-settings/
 ---
 
 # Step 1: Install Fast Plugin

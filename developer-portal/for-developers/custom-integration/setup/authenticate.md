@@ -5,7 +5,7 @@ keywords: Fast Custom Integration Quickstart
 
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/fast-api-reference-authentication/
+  - /developer-portal/fast-api-reference-authentication/
 ---
 
 # Setup Step 1: All Things Authentication

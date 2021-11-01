@@ -2,10 +2,10 @@
 title: Backend Requests
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/fast-api-qs-backend-create/
-- /docs/developer-portal/fast-api-qs-backend-read/
-- /docs/developer-portal/fast-api-qs-backend-update/
-- /docs/developer-portal/fast-api-qs-backend-delete/
+  - /developer-portal/fast-api-qs-backend-create/
+  - /developer-portal/fast-api-qs-backend-read/
+  - /developer-portal/fast-api-qs-backend-update/
+  - /developer-portal/fast-api-qs-backend-delete/
 ---
 
 # Backend Requests

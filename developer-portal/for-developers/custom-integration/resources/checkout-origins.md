@@ -5,7 +5,7 @@ keywords: Fast authentication
 
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/fast-api-reference-checkout-origin/
+  - /developer-portal/fast-api-reference-checkout-origin/
 ---
 
 # Types of Checkout Origins

@@ -2,10 +2,10 @@
 title: Order Management
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/fast-api-qs-backend-extended-oms-intro/
-- /docs/developer-portal/fast-api-qs-backend-extended-oms-cancel-order/
-- /docs/developer-portal/fast-api-qs-backend-extended-oms-refund-order/
-- /docs/developer-portal/fast-api-qs-backend-extended-oms-business-event/
+  - /developer-portal/fast-api-qs-backend-extended-oms-intro/
+  - /developer-portal/fast-api-qs-backend-extended-oms-cancel-order/
+  - /developer-portal/fast-api-qs-backend-extended-oms-refund-order/
+  - /developer-portal/fast-api-qs-backend-extended-oms-business-event/
 ---
 
 # Orders

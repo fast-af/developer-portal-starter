@@ -5,7 +5,7 @@ keywords: Fast authentication
 
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/fast-api-reference-authentication/
+  - /developer-portal/fast-api-reference-authentication/
 ---
 
 # Fast Custom Integration Authentication

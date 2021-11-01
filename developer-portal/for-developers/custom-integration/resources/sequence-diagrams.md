@@ -5,7 +5,7 @@ keywords: Fast sequence diagrams
 
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/fast-api-reference-sequences/
+  - /developer-portal/fast-api-reference-sequences/
 ---
 
 # Sequence Diagrams

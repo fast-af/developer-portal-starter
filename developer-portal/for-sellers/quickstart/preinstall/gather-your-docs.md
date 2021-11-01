@@ -5,7 +5,7 @@ keywords: Fast For Sellers Quickstart Required Docs
 
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/seller-signup/
+  - /developer-portal/seller-signup/
 ---
 
 # Gather Your Docs

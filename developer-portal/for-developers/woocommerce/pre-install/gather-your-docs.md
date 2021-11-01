@@ -5,7 +5,7 @@ keywords: Fast WooCommerce Quickstart
 
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/sign-up-with-woocommerce/
+  - /developer-portal/sign-up-with-woocommerce/
 ---
 
 # Pre-Install Step 1: Gather Your Docs

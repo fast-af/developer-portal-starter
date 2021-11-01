@@ -5,7 +5,7 @@ keywords: Fast order statuses
 
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/fast-api-reference-order-statuses/
+  - /developer-portal/fast-api-reference-order-statuses/
 ---
 
 # Fast Order Statuses

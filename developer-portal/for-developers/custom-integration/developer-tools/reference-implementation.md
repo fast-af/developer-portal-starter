@@ -2,8 +2,8 @@
 title: Reference Implementation
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/fast-api-dev-tools/
-- /developer-portal/fast-api-reference-implementation/
+  - /developer-portal/fast-api-dev-tools/
+  - /developer-portal/fast-api-reference-implementation/
 ---
 
 # Reference Implementation

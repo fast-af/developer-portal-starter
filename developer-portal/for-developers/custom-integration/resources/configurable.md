@@ -5,7 +5,7 @@ keywords: Fast direct capture
 
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/fast-api-reference-configuration/
+  - /developer-portal/fast-api-reference-configuration/
 ---
 
 # Configurable & Direct Capture

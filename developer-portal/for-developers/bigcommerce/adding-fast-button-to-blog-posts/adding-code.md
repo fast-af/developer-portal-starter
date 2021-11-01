@@ -5,7 +5,7 @@ keywords: Adding Fast Buttons to BigCommerce Blog Posts
 
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/bigcommere-checkout-blog-posts/
+  - /developer-portal/bigcommere-checkout-blog-posts/
 ---
 
 # Adding Fast Button to BigCommerce Blog Posts
@@ -26,6 +26,7 @@ To add Fast Checkout to your blog posts, you will need to:
 ## Adding Code to Your Blog Post
 
 1. In your newly created blog post, add the following code snippet.
+
    > You will need to assign a unique identifier (`id="{INSERT-UNIQUE-ID}"`) to the button (`fast-checkout-button`), enclosed within a form field.
 
    ```html

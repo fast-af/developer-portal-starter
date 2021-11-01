@@ -5,7 +5,7 @@ keywords: Fast Custom Integration Handle Order Creation
 
 enableToc: true
 redirectFrom:
--/docs/developer-portal/fast-api-qs-backend/
+  - /developer-portal/fast-api-qs-backend/
 ---
 
 # Setup Step 3: Handle Order Creation

@@ -5,7 +5,7 @@ keywords: Fast BigCommerce, Fast BigCommerce install
 
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/bigcommerce/
+  - /developer-portal/bigcommerce/
 ---
 
 # One-click checkout on BigCommerce.

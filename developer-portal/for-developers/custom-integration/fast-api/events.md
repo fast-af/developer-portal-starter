@@ -2,7 +2,7 @@
 title: "fast.js Events"
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/fast-api-reference-fast-js/
+  - /developer-portal/fast-api-reference-fast-js/
 ---
 
 # fast.js Events

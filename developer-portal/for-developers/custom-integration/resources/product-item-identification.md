@@ -5,7 +5,7 @@ keywords: Fast checkout diagram
 
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/fast-api-reference-products/
+  - /developer-portal/fast-api-reference-products/
 ---
 
 # Product Item Identification

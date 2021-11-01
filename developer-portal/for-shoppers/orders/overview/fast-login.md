@@ -5,7 +5,7 @@ keywords: fast Orders Fast login
 
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/fast-login-how-it-works/
+  - /developer-portal/fast-login-how-it-works/
 ---
 
 # What is Fast Login?

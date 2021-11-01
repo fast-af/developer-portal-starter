@@ -5,7 +5,7 @@ keywords: Fast BigCommerce test mode
 
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/bigcommerce-install-checkout-examples/
+  - /developer-portal/bigcommerce-install-checkout-examples/
 ---
 
 # Install Step 1: BigCommerce Test Mode Setup

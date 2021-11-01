@@ -5,7 +5,7 @@ keywords: Fast WooCommerce, Fast WooCommerce install
 
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/woocommerce/
+  - /developer-portal/woocommerce/
 ---
 
 # One-click checkout on WooCommerce

@@ -5,7 +5,7 @@ keywords: Fast checkout diagram
 
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/fast-api-reference-order-lifecycle/
+  - /developer-portal/fast-api-reference-order-lifecycle/
 ---
 
 # Fast Order Lifecycle

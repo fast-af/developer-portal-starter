@@ -5,7 +5,7 @@ keywords: Migrating Fast to New Plugin Directory Version (Early Sellers)
 
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/woocommerce-migrate-plugin-directory/
+  - /developer-portal/woocommerce-migrate-plugin-directory/
 ---
 
 # Migrating Fast to New Plugin Directory Version (for Early Sellers)

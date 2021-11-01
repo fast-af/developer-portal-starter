@@ -2,7 +2,7 @@
 title: Fast Test Suit CLI
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/fast-api-test-suite-cli/
+  - /developer-portal/fast-api-test-suite-cli/
 ---
 
 # Fast Test Suite CLI

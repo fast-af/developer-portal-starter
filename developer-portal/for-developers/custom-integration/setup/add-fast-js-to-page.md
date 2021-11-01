@@ -5,7 +5,7 @@ keywords: add fast.js to a page
 
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/fast-api-fastjs/
+  - /developer-portal/fast-api-fastjs/
 ---
 
 # Setup Step 2: Add fast.js

@@ -5,7 +5,7 @@ keywords: Fast For Sellers Quickstart things to know ahead of install,
 
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/fast-overview-and-prerequisites/
+  - /developer-portal/fast-overview-and-prerequisites/
 ---
 
 # Will Fast Work For Me?

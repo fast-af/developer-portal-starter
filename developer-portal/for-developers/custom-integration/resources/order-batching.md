@@ -5,8 +5,8 @@ keywords: Fast financial values
 
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/fast-api-guides-batching/
-- /docs/developer-portal/fast-api-reference-batching/
+  - /developer-portal/fast-api-guides-batching/
+  - /developer-portal/fast-api-reference-batching/
 ---
 
 # Order Batching

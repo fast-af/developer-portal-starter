@@ -5,7 +5,7 @@ keywords: Fast error codes
 
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/fast-api-reference-error-codes/
+  - /developer-portal/fast-api-reference-error-codes/
 ---
 
 # Error Codes

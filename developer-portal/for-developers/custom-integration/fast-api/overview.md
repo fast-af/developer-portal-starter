@@ -5,7 +5,7 @@ keywords: fast.js
 
 enableToc: true
 redirectFrom:
-- /docs/developer-portal/fast-api/
+  - /developer-portal/fast-api/
 ---
 
 # One-click checkout with Fast API.

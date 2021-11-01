@@ -2,14 +2,13 @@
 title: Fast to Seller API
 enableToc: true
 redirectFrom:
-  - /docs/merchant/merchant/#section/Authentication/
-  - /docs/merchant/merchant/#tag/Fast-to-Seller-API/
-  - /docs/merchant/merchant/#operation/MerchantService_Create/
-  - /docs/merchant/merchant/#operation/MerchantService_Read/
-  - /docs/merchant/merchant/#operation/MerchantService_Update/
-  - /docs/merchant/merchant/#operation/MerchantService_Delete/
+  - /merchant/merchant/#section/Authentication/
+  - /merchant/merchant/#tag/Fast-to-Seller-API/
+  - /merchant/merchant/#operation/MerchantService_Create/
+  - /merchant/merchant/#operation/MerchantService_Read/
+  - /merchant/merchant/#operation/MerchantService_Update/
+  - /merchant/merchant/#operation/MerchantService_Delete/
 ---
-
 type: reference-docs
 definitionId: merchant
 label: Fast -> Seller API
