@@ -27,7 +27,8 @@ Before proceeding with storefront configuration, ensure you have already [downlo
      ![cartridge path](./images/cartridge_path.png)
    - **Click "Apply"**
 3. **Import Fast's metadata XML file** to enable custom attributes that support Fast payments.
-   - **Navigate to**: Administration → Site Development → Import & Export → Manage Import Files
+   - **Navigate to**: <br />
+     Administration → Site Development → Import & Export → Manage Import Files
      - Find the `system-objecttype-extensions.xml` under `/metadata/fast-meta-import/meta`
        > For reference, this is the location of the file in [Fast's SFCC Integration Github repository](https://github.com/fast-af/sfcc-integration/tree/master/sfcc_cartridge/metadata/fast-meta-import/meta).
 

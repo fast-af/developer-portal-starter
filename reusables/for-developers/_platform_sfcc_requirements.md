@@ -14,7 +14,7 @@ In order to create a Fast App ID (`app_id`) for your Salesforce Commerce Cloud (
 - Commerce Cloud **Business Manager credentials**, which include username and password.
 
   > It is helpful to create a common email for this (e.g. fast-integration-user@yourcompany.com): <br/>
-  > In Business Manager, Navigate to Administration → Organization → Users and Create a New user
+  > In Business Manager, **Navigate to** Administration → Organization → Users and Create a New user
 
   :::info Updating Your Business Manager Password
   Please note that Salesforce requires updating the password for a Business Manager account every 90 days.
