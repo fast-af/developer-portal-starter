@@ -6,7 +6,7 @@ keywords: Fast Zero Fraud Guarantee
 
 # Zero Fraud Guarantee
 
-Fast is proud to offer sellers a **Zero Fraud Guarantee**. We know that fraud sucks — and we don’t think you should have to deal with it. So we’ve invested in the fraud detection technology that guarantees you’ll never have to worry about fraud chargebacks\* with Fast, ever. You’re covered 100% of the time, for 100% of your transactions.
+Fast is proud to offer sellers a **Zero Fraud Guarantee**. We know that fraud is a major pain point for online merchants — and we don’t think you should have to deal with it. So we’ve invested in fraud detection technology that guarantees you’ll never have to worry about fraud chargebacks\* with Fast, ever. You’re covered 100% of the time, for 100% of your transactions processed through Fast.
 
 ## How to sign up
 

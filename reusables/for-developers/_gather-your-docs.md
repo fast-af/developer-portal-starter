@@ -1,4 +1,4 @@
-In order to onboard quickly, you will need to have all of your business information ready. Gather documents that contain the following information:
+In order to onboard quickly and get your Bank account connected so that Fast can pay out for sales generated, you will need to have all of your business information ready. Gather documents that contain the following information:
 
 - **Seller Organization Name**
 - **Seller Organization Address**
