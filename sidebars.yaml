@@ -294,7 +294,7 @@ forSellersAccountManagement:
         page: developer-portal/for-sellers/account-management/overview/the-seller-dashboard.md
       - label: Account Permissions
         page: developer-portal/for-sellers/account-management/overview/account-permissions.md
-  - group: Multi Account Management
+  - group: Multi-Account Management
     expanded: true
     pages:
       - label: Toggling Back and Forth

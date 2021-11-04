@@ -6,6 +6,14 @@ keywords: Fast Seller Quickstart
 
 # Fast Seller Quickstart
 
+:::info Note
+We’re here to help at any stage of the process, so if you run into any confusion or have any questions, reach out to us at **seller-support@fast.co**
+:::
+
+Seller onboarding is incredibly important to us – both in ease of use and enjoying the outcomes from installing Fast Checkout everywhere you can put a button and increase your revenue.
+
+This section contains all you need to know to install our Checkout button, step-by-step. Start by making sure Fast Checkout is for you, then set aside (or ask your developer) a bit of time to gather up your documents (like bank account and website server information) to literally get down to business.
+
 ## Overview
 
 Fast connects to your online store so that each of your customers with a Fast account can experience one-click checkouts. Allowing your customers to avoid filling out lengthy checkout forms can lead to increased conversion rates and a better experience for shoppers.
@@ -46,3 +54,4 @@ The Seller Onboarding process will require you to:
 Fast is constantly working to integrate with additional eCommerce platforms. If your store runs on an eCommerce platform not listed among our [supported platforms](/developer-portal/for-developers/platforms.mdx), talk to one of our representatives using this [form](https://v2.fast.co/contact-sales). We may still be able to help you.
 
 And stay tuned as we add more eCommerce platform integrations. Check out the [Fast Newsroom](https://www.fast.co/newsroom/news) and [Fast’s Twitter](https://twitter.com/fast) for updates.
+Welcome to Fast!
