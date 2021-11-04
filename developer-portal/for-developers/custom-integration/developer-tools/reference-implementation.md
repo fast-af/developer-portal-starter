@@ -18,7 +18,7 @@ Included is a Python web application which implements the same endpoints a Selle
 /fast/v1/delete
 ```
 
-There is also a Postgres DB container which contains a couple sample products (this mimics the backend a seller would have)
+There is also a Postgres DB container which contains a couple sample products (this mimics the backend a seller would have).
 It also contains a container for localtunnel which is used to expose your localhost to the internel using a simple URL.
 
 ## Prerequisites
