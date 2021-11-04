@@ -223,10 +223,13 @@ forSellersQuickstart:
     pages:
       - label: Options
         page: developer-portal/for-sellers/quickstart/onboarding/options.md
+  - group: Resources
+    expanded: true
+    pages:
       - label: Partner Onboarding FAQs
-        page: developer-portal/for-sellers/quickstart/onboarding/partners-onboarding-faq.md
+        page: developer-portal/for-sellers/quickstart/resources/partners-onboarding-faq.md
       - label: Fast FAQs to Share with Customers
-        page: developer-portal/for-sellers/quickstart/onboarding/faqs-to-share-with-customers.md
+        page: developer-portal/for-sellers/quickstart/resources/faqs-to-share-with-customers.md
 
 forSellersCurrentSupport:
   - page: developer-portal/for-sellers/current-support.md
