@@ -39,4 +39,4 @@ For all other questions, you can reach out to Fast by emailing hi@fast.co or ini
 
 ## Do you store my data?
 
-Fast takes data privacy and security very seriously. Fast stores, uses and shares personal data only in accordance with our Privacy Policy, and you can learn more about how we protect your data on our Security and Trust page.
+<embed src="/reusables/security/_data_privacy_security_trust.md" />
