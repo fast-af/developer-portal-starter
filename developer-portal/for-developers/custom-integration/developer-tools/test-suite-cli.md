@@ -1,3 +1,10 @@
+---
+title: Fast Test Suit CLI
+enableToc: true
+redirectFrom:
+  - /developer-portal/fast-api-test-suite-cli/
+---
+
 # Fast Test Suite CLI
 
 The Test Suite CLI is used to simulate a frontend checkout by hitting Fast APIs directly.

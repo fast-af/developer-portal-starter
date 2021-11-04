@@ -1,3 +1,10 @@
+---
+title: "fast.js Events"
+enableToc: true
+redirectFrom:
+  - /developer-portal/fast-api-reference-fast-js/
+---
+
 # fast.js Events
 
 Throughout the login/checkout flow, fast.js dispatches events to the host page that can be used to watch for and perform certain actions with, such as sending relevant data to Google Analytics.

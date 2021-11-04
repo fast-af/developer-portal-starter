@@ -2,6 +2,11 @@
 title: "Fast BigCommerce Docs: Installing Fast Login Buttons"
 description: Fast BigCommerce Installing Fast Login Buttons
 keywords: BigCommerce Installing Fast login Buttons
+
+enableToc: true
+redirectFrom:
+  - /developer-portal/fast-login-bigcommerce/
+  - /developer-portal/fast-login-bigcommerce-examples/
 ---
 
 # Install Step 4: Installing "Fast Login" Buttons on BigCommerce

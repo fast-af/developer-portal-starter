@@ -2,6 +2,10 @@
 title: "Fast Custom Integration Docs: Fast Order Statuses"
 description: Learn what each order status means.
 keywords: Fast order statuses
+
+enableToc: true
+redirectFrom:
+  - /developer-portal/fast-api-reference-order-statuses/
 ---
 
 # Fast Order Statuses

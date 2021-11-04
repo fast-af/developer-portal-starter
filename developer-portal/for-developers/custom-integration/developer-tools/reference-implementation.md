@@ -1,6 +1,14 @@
+---
+title: Reference Implementation
+enableToc: true
+redirectFrom:
+  - /developer-portal/fast-api-dev-tools/
+  - /developer-portal/fast-api-reference-implementation/
+---
+
 # Reference Implementation
 
-**The [reference implementation github repo](https://github.com/fast-af/di-reference-implementation) can be used to help you understand how Fast communicates with the Seller backend**.  
+**The [reference implementation github repo](https://github.com/fast-af/di-reference-implementation) can be used to help you understand how Fast communicates with the Seller backend**.
 Included is a Python web application which implements the same endpoints a Seller would implement when integrating with Fast:
 
 ```
@@ -10,7 +18,8 @@ Included is a Python web application which implements the same endpoints a Selle
 /fast/v1/delete
 ```
 
-There is also a Postgres DB container which contains a couple sample products (this mimics the backend a seller would have)  
+There is also a Postgres DB container which contains a couple sample products (this mimics the backend a seller would have).
+
 It also contains a container for localtunnel which is used to expose your localhost to the internel using a simple URL.
 
 ## Prerequisites
@@ -43,7 +52,7 @@ Alternatively you can directly download the project as a zip file [here](https:/
 
 ### 2. Setup .env file
 
-We will be using [localtunnel](https://theboroer.github.io/localtunnel-www/) to expose the server running on your localhost to the internet.  
+We will be using [localtunnel](https://theboroer.github.io/localtunnel-www/) to expose the server running on your localhost to the internet.
 To configure a static URL you will need to update the variable `LOCALTUNNEL_SUBDOMAIN` in the .env file to something unique.
 
 :::attention Note
@@ -54,7 +63,7 @@ When localtunnel runs it will take the value in `LOCALTUNNEL_SUBDOMAIN` and crea
 
 ### 3. Setup Seller App in Sandbox
 
-Next you will setup your sandbox application.  
+Next you will setup your sandbox application.
 Navigate [here](https://sdash.sandbox.fast.co/) to begin setup.
 
 1. **Homepage**
@@ -98,8 +107,8 @@ If it does not match please navigate to [step 1](/developer-portal/for-developer
 
 ### 5. Setup Fast Test Suite CLI
 
-Now that the application is running, **you can use the Fast Test Suite CLI to make calls to the Fast backend**, which will then call your Seller Application running locally.  
-Please navigate [here](https://github.com/fast-af/fast-test-suite-cli) to get the CLI setup. Make sure to have your App ID and Token from onboarding handy, as they will be required to run the CLI.  
+Now that the application is running, **you can use the Fast Test Suite CLI to make calls to the Fast backend**, which will then call your Seller Application running locally.
+Please navigate [here](https://github.com/fast-af/fast-test-suite-cli) to get the CLI setup. Make sure to have your App ID and Token from onboarding handy, as they will be required to run the CLI.
 NOTE: You will need to open a new terminal window/tab to run the CLI.
 
 Once the Test Suite CLI is setup, you can run these commands:
