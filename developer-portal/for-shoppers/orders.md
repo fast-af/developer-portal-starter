@@ -12,6 +12,8 @@ It is important to note that a the Fast Checkout process creates an order once c
 
 ## Order Details
 
+![order item details](/developer-portal/images/orders_item_details.png)
+
 When you view an order, you can see details including:
 
 - store
@@ -31,5 +33,3 @@ Additionally, you will be able to view:
 You will also see a "Buy Again" option that you can use if you wish to re-purchase the same item from that store.
 
 :::
-
-/Users/thomas.harris/Documents/orders_item_details.png

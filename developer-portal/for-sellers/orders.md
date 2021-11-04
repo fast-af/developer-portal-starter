@@ -6,13 +6,13 @@ keywords: Fast Seller orders
 
 # Payments and Orders with Fast
 
-<embed src="/Users/thomas.harris/Documents/GitHub/devportal/reusables/for-developers/_platform_all_payments_order_quick_summary.md" />
+<embed src="/reusables/for-developers/_platform_all_payments_order_quick_summary.md" />
 
 Once a shopper completes a Fast Checkout, the order with Fast should become visible both in the [Seller Dashboard](https://fast.co/business) and within the Orders section of your e-commerce platform.
 
 # Refunds
 
-<embed src="/Users/thomas.harris/Documents/GitHub/devportal/reusables/for-developers/_platform_all_payments_order_quick_summary.md" />
+<embed src="/reusables/for-developers/_platform_all_payments_order_quick_summary.md" />
 
 You may also have the option of issuing the refund through your existing eCommerce platform.
 
