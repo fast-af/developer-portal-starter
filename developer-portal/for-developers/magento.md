@@ -4,7 +4,7 @@ description: Documentation for Fast on Magento
 keywords: Fast Magento, Fast Magento install
 ---
 
-# One-click checkout on Magento
+# One-Click Checkout with Magento
 
 <img alt="Fast Checkout button on a product page" width="100%" style="max-height: 100%;" src="images/fast-product-preview.jpg"/>
 

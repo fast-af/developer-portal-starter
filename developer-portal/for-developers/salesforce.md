@@ -6,7 +6,7 @@ keywords: Fast Salesforce, Fast Salesforce install
 
 <!------import { OpenApiResponse } from "@redocly/developer-portal/ui";---->
 
-# One-click checkout on Salesforce Commerce Cloud
+# One-Click Checkout with Salesforce Commerce Cloud
 
 <img
   alt="Fast Checkout button on a product page"

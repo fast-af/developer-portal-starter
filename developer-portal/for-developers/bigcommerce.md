@@ -8,7 +8,7 @@ redirectFrom:
   - /developer-portal/bigcommerce/
 ---
 
-# One-click checkout on BigCommerce.
+# One-Click Checkout with BigCommerce.
 
 <img alt="Fast Checkout button on a product page"  width="100%" style="max-height: 100%;" src="images/fast-product-preview.jpg"/>
 

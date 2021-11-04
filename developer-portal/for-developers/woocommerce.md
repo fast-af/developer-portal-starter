@@ -8,7 +8,7 @@ redirectFrom:
   - /developer-portal/woocommerce/
 ---
 
-# One-click checkout on WooCommerce
+# One-Click Checkout with WooCommerce
 
 ![Fast Checkout button on a product page](images/fast-product-preview.jpg)
 
