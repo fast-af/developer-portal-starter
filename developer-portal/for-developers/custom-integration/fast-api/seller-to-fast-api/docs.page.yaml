@@ -1,5 +1,5 @@
 type: reference-docs
-definitionId: merchant
+definitionId: order
 label: Seller --> Fast API
 settings:
   generateCodeSamples:

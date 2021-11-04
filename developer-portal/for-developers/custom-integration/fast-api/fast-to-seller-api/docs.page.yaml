@@ -1,6 +1,6 @@
 type: reference-docs
-definitionId: order
-label: Fast -> Seller API
+definitionId: merchant
+label: Fast --> Seller API
 settings:
   generateCodeSamples:
     languages:
