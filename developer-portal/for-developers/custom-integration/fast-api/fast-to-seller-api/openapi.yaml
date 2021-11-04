@@ -1,6 +1,6 @@
 openapi: 3.1.0
 info:
-  title: Seller to Fast API
+  title: Fast to Seller API
   version: V1
   license:
     name: TBD
@@ -14,8 +14,8 @@ info:
 
     <!-- ReDoc-Inject: <security-definitions> -->
 tags:
-  - name: Seller to Fast API
-    description: Seller to Fast API
+  - name: Fast to Seller API
+    description: Fast to Seller API
 paths:
   "/v1/external/orders/{order_id.value}":
     $ref: "paths/v1@external@orders@{order_id.value}.yaml"
