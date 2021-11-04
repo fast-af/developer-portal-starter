@@ -39,8 +39,6 @@ When a customer purchases a product from your store using Fast Checkout, Fast ac
 
 <embed src="/reusables/for-developers/_platform_all_refunds_via_api_quick_summary.md" />
 
-<!----<OpenApiResponse definitionId="order" pointer="/developer-portal/for-developers/custom-integration/fast-api/seller-to-fast-api/paths/v1@external@orders@{order_id.value}@refund.yaml"/>----->
-
 ### Order Tracking
 
 After making a purchase with Fast, customers get free access to a one-stop dashboard where they can view transactions, track deliveries and re-order in one click.
