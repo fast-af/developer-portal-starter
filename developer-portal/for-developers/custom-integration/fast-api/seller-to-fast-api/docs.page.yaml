@@ -1,6 +1,6 @@
 type: reference-docs
-definitionId: order
-label: Seller -> Fast API
+definitionId: merchant
+label: Seller --> Fast API
 settings:
   generateCodeSamples:
     languages:
@@ -11,4 +11,4 @@ settings:
       - lang: Java
       - lang: C#
   pagination: none
-  showConsole: true
+  showConsole: false
