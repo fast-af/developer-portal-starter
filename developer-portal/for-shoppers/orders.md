@@ -14,7 +14,7 @@ When you see a Fast Checkout button on your favorite website (and have already s
 
 When you use Fast products and services, we use alternative authentication methods that don’t involve usernames and passwords, so you’ll never have to worry about remembering or using them ever again!
 
-Explore this section to learn more about how Fast works, how we protect your information, process orders, and make it easy — and FAST — to buy your favorite products across the internet without filling out long, tiresome forms.
+Explore this section to learn more about how Fast works, how we protect your information, process orders, and make it easy – and FAST – to buy your favorite products across the internet without filling out long, tiresome forms.
 
 As a shopper, once you have completed your first checkout, you can view order details from your [Fast Dashboard](https://fast.co) or by clicking the order link provided in the confirmation email you received when you made your purchase.
 

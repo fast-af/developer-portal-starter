@@ -12,7 +12,7 @@ We’re here to help at any stage of the process, so if you run into any confusi
 
 :::
 
-Seller onboarding is incredibly important to us — the process of enabling Fast Checkout everywhere you can to increase your revenue should should be easy and enjoyable.
+Seller onboarding is incredibly important to us — the process of enabling Fast Checkout everywhere you can to increase your revenue should should be both easy and enjoyable.
 
 ## Requirements
 

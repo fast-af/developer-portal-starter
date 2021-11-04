@@ -8,9 +8,7 @@ keywords: multi Fast Seller account management,
 
 1. Login to your Fast Seller Dashboard at fast.co/business.
 2. Navigate to the Team tab
-
-![seller dashboard team tab](./images/team.png)
-
+   ![seller dashboard team tab](./images/team.png)
 3. Click "Add Team Member"
 
 4. Input the Team member's settings. The options are:

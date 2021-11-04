@@ -14,7 +14,7 @@ We recommend that you first sign up on https://sdash.sandbox.fast.co/ to create 
       > You can add additional email addresses for access later.
     - **Your first name**
     - **Your last name**
-      > If your business has multiple employees, the person signing up can add other sellers to the Fast account at a later date with custom [permissions](/developer-portal/for-sellers/account-management/overview/account-permissions.md).
+      > If your business has multiple employees, the person signing up can add other sellers to the Fast account at a later date with custom permissions.
 2.  **Click “Next"**
     ![Get Started As A Seller box](/reusables/for-developers/images/get-started-as-a-seller.png)
 
