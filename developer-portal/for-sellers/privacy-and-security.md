@@ -5,3 +5,5 @@ keywords: Fast Seller Privacy and Security
 ---
 
 # Privacy and Security
+
+<embed src="/reusables/security/_data_privacy_security_trust.md" />

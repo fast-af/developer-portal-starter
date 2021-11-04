@@ -94,7 +94,7 @@ To access your theme's source code, **you will complete the following**:
             // sense to you.
             // Required. id is an identifier for the product being ordered
             id: '{INSERT-PRODUCT-ID}',
-                      // Optional. variantId represents a unique sub-idenfifier for this product. These are sometimes used to
+                      // Optional. variantId represents a unique sub-identifier for this product. These are sometimes used to
                       // denote size / color, etc.
                       variantId: 'my-large-product-variant-id',
             // Optional. options is a set of configurations that further describe the product being ordered (e.g. color

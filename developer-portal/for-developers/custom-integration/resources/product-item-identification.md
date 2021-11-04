@@ -10,7 +10,7 @@ redirectFrom:
 
 # Product Item Identification
 
-Many ecommerce stores have complex & detailed setups for their products. As a result, **Fast's data model allows for any combination of unique identifiers**. This is a representation of an item in Fast.
+Many eCommerce stores have complex & detailed setups for their products. As a result, **Fast's data model allows for any combination of unique identifiers**. This is a representation of an item in Fast.
 
 ```json
 Option: {
