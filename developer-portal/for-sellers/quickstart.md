@@ -16,9 +16,9 @@ Seller onboarding is incredibly important to us — the process of enabling Fast
 
 ## Requirements
 
-For many Sellers, the simplest setup to start using Fast will involve an integration with an online store hosted by a [supported eCommerce platform](/developer-portal/for-developers/platforms.mdx).
+For many Sellers, the simplest setup to start using Fast will involve an integration with an online store hosted by a [supported eCommerce platform](/developer-portal/for-developers/platforms).
 
-Alternatively, you can also use Fast via a [custom API integration](/developer-portal/for-developers/custom-integration.md) with your self-hosted online store. This option is the most technical, but gives you the most control over your store.
+Alternatively, you can also use Fast via a [custom API integration](/developer-portal/for-developers/custom-integration) with your self-hosted online store. This option is the most technical, but gives you the most control over your store.
 
 The rest of the requirements are covered in our ["Will Fast Work For Me"](/developer-portal/for-sellers/quickstart/preinstall/will-fast-work-for-me/) Section.
 
@@ -45,7 +45,7 @@ The Seller Onboarding process will require you to:
 
 ## Looking Ahead
 
-**Fast is constantly working to integrate with additional eCommerce platforms**. If your store runs on an eCommerce platform not listed among our [supported platforms](/developer-portal/for-developers/platforms.mdx), talk to one of our representatives using this [form](https://v2.fast.co/contact-sales). We may still be able to help you.
+**Fast is constantly working to integrate with additional eCommerce platforms**. If your store runs on an eCommerce platform not listed among our [supported platforms](/developer-portal/for-developers/platforms/), talk to one of our representatives using this [form](https://v2.fast.co/contact-sales). We may still be able to help you.
 
 And **stay tuned as we add more eCommerce platform integrations**. Check out the [Fast Newsroom](https://www.fast.co/newsroom/news) and [Fast’s Twitter](https://twitter.com/fast) for updates.
 
