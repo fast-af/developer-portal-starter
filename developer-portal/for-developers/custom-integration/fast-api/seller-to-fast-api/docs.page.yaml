@@ -1,14 +1,3 @@
----
-title: Seller to Fast API
-enableToc: true
-redirectFrom:
-  - /order/order/#section/Authentication/
-  - /order/order/#tag/Seller-to-Fast-API/
-  - /order/order/#operation/ExternalOrderManagementService_GetOrder/
-  - /order/order/#operation/ExternalOrderManagementService_CancelOrder/
-  - /order/order/#operation/ExternalOrderManagementService_BusinessEvent/
-  - /order/order/#operation/ExternalOrderManagementService_RefundOrder/
----
 type: reference-docs
 definitionId: order
 label: Seller --> Fast API
