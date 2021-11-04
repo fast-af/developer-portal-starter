@@ -6,9 +6,13 @@ keywords: Fast Seller Quickstart
 
 # Fast Seller Quickstart
 
-## Overview
+:::info Note
 
-Fast connects to your online store so that each of your customers with a Fast account can experience one-click checkouts. Allowing your customers to avoid filling out lengthy checkout forms can lead to increased conversion rates and a better experience for shoppers.
+We’re here to help at any stage of the process, so if you run into any confusion or have any questions, reach out to us at [**seller-support@fast.co**](mailto:seller-support@fast.co)
+
+:::
+
+Seller onboarding is incredibly important to us — the process of enabling Fast Checkout everywhere you can to increase your revenue should should be easy and enjoyable.
 
 ## Requirements
 
@@ -16,19 +20,17 @@ For many Sellers, the simplest setup to start using Fast will involve an integra
 
 Alternatively, you can also use Fast via a [custom API integration](/developer-portal/for-developers/custom-integration.md) with your self-hosted online store. This option is the most technical, but gives you the most control over your store.
 
+The rest of the requirements are covered in our ["Will Fast Work For Me"](/developer-portal/for-sellers/quickstart/preinstall/will-fast-work-for-me/) Section.
+
 ## Becoming a Seller with Fast
 
-The first step to integrating Fast Checkout with your store is to become a seller with Fast.
-
-[**Become a Seller on Fast.co →**](https://www.fast.co/business)
+The first step to integrating Fast Checkout with your store is to [**become a Seller on Fast.co →**](https://www.fast.co/business).
 
 :::info Pro tip
 
 We recommend that you first sign up on https://sdash.sandbox.fast.co/ to create a sandbox account.
 
 :::
-
-**If you need help at any point, contact customer success at [seller-support@fast.co](mailto:seller-support@fast.co).**
 
 ### Onboarding Summary
 
@@ -43,6 +45,8 @@ The Seller Onboarding process will require you to:
 
 ## Looking Ahead
 
-Fast is constantly working to integrate with additional eCommerce platforms. If your store runs on an eCommerce platform not listed among our [supported platforms](/developer-portal/for-developers/platforms.mdx), talk to one of our representatives using this [form](https://v2.fast.co/contact-sales). We may still be able to help you.
+**Fast is constantly working to integrate with additional eCommerce platforms**. If your store runs on an eCommerce platform not listed among our [supported platforms](/developer-portal/for-developers/platforms.mdx), talk to one of our representatives using this [form](https://v2.fast.co/contact-sales). We may still be able to help you.
 
-And stay tuned as we add more eCommerce platform integrations. Check out the [Fast Newsroom](https://www.fast.co/newsroom/news) and [Fast’s Twitter](https://twitter.com/fast) for updates.
+And **stay tuned as we add more eCommerce platform integrations**. Check out the [Fast Newsroom](https://www.fast.co/newsroom/news) and [Fast’s Twitter](https://twitter.com/fast) for updates.
+
+Welcome to Fast!
