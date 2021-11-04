@@ -22,7 +22,7 @@ It is important to note that a the Fast Checkout process creates an order once c
 
 ## Order Details
 
-![order item details](/developer-portal/images/orders_item_details.png)
+![order item details](./images/orders_item_details.png)
 
 When you view an order, you can see details including:
 
