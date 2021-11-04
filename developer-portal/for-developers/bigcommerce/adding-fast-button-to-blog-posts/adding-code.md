@@ -5,7 +5,7 @@ keywords: Adding Fast Buttons to BigCommerce Blog Posts
 
 enableToc: true
 redirectFrom:
-  - /developer-portal/bigcommere-checkout-blog-posts/
+  - /developer-portal/bigcommerce-checkout-blog-posts/
 ---
 
 # Adding Fast Button to BigCommerce Blog Posts

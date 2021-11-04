@@ -7,7 +7,7 @@ redirectFrom:
   - /developer-portal/fast-api/
   - /order/order/
   - /merchant/merchant/
-  - src/pages/order/order/
+  - /src/pages/order/order/
   - /pages/merchant/merchant/
 ---
 
