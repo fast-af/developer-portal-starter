@@ -6,4 +6,10 @@ keywords: Fast Reporting
 
 # Reporting
 
-Business statistics don’t have to be hard! We make counting your increased revenue Fast and easy by allowing you to export your payment data and providing weekly seller reports to our subscribers. Click on to learn how to export and read your data, and how to subscribe to those nifty reports.
+As a Seller with Fast, you have access to pull reports of purchases made to your store with Fast from the Seller Dashboard, as well as the option to subscribe to store metrics reports.
+
+:::info Required Permissions
+
+Please keep in mind that the ability to view Reports will be limited to [Team Members with the ability to view "Payouts" in the Seller Dashboard](/developer-portal/for-sellers/account-management/overview/account-permissions.md).
+
+:::

@@ -22,6 +22,7 @@ To add Fast Checkout to your blog posts, you will need to:
 ## Adding Code to Your Blog Post
 
 1. In your newly created blog post, add the following code snippet.
+
    > You will need to assign a unique identifier (`id="{INSERT-UNIQUE-ID}"`) to the button (`fast-checkout-button`), enclosed within a form field.
 
    ```html
@@ -89,7 +90,7 @@ To access your theme's source code, **you will complete the following**:
             // sense to you.
             // Required. id is an identifier for the product being ordered
             id: '{INSERT-PRODUCT-ID}',
-                      // Optional. variantId represents a unique sub-idenfifier for this product. These are sometimes used to
+                      // Optional. variantId represents a unique sub-identifier for this product. These are sometimes used to
                       // denote size / color, etc.
                       variantId: 'my-large-product-variant-id',
             // Optional. options is a set of configurations that further describe the product being ordered (e.g. color
