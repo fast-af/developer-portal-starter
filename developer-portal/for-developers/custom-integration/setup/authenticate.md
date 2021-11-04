@@ -2,6 +2,10 @@
 title: "Fast Custom Integration Docs: Authenticate"
 description: Getting Started with Fast on Custom Integration! Quickstart
 keywords: Fast Custom Integration Quickstart
+
+enableToc: true
+redirectFrom:
+  - /developer-portal/fast-api-reference-authentication/
 ---
 
 # Setup Step 1: All Things Authentication

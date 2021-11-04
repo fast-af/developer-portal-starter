@@ -1,3 +1,13 @@
+---
+title: Order Management
+enableToc: true
+redirectFrom:
+  - /developer-portal/fast-api-qs-backend-extended-oms-intro/
+  - /developer-portal/fast-api-qs-backend-extended-oms-cancel-order/
+  - /developer-portal/fast-api-qs-backend-extended-oms-refund-order/
+  - /developer-portal/fast-api-qs-backend-extended-oms-business-event/
+---
+
 # Orders
 
 Fast gives you the ability to directly work with orders! The functionality described in this section is entirely optional.
