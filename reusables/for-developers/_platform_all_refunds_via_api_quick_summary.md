@@ -1,1 +1,1 @@
-Need to refund a customer? You can leverage the <a href="/developer-portal/for-developers/custom-integration/fast-api/seller-to-fast-api/docs/#operation/ExternalOrderManagementService_RefundOrder">Seller to Fast API to Refund an order</a>.
+Need to refund a customer? You can leverage the [Seller to Fast API to Refund an order](//../../developer-portal/for-developers/custom-integration/fast-api/seller-to-fast-api/docs/#operation/ExternalOrderManagementService_RefundOrder).
