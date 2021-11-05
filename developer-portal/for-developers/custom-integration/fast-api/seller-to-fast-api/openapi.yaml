@@ -3,8 +3,8 @@ info:
   title: Seller to Fast API
   version: V1
   license:
-    name: TBD
-    url: "https://fast.co/licenses"
+    name: Fast Developer Terms
+    url: "https://www.fast.co/terms/developer-terms"
   contact:
     name: Fast
     url: "https://fast.co"
@@ -24,7 +24,10 @@ paths:
   "/v1/external/orders/{order_id.value}/refund":
     $ref: "paths/v1@external@orders@{order_id.value}@refund.yaml"
 servers:
-  - url: "https://api.fast.co"
+  - url: https://api.fast.co
+    description: Production server (for live site)
+  - url: https://https://api.sandbox.fast.co
+    description: Sandbox server (for testing)
 components:
   securitySchemes:
     ApiKeyAuth:
