@@ -2,6 +2,13 @@
 title: fast.js Docs
 description: Getting Started with Fast with fast.js
 keywords: fast.js
+enableToc: true
+redirectFrom:
+  - /developer-portal/fast-api/
+  - /order/order/
+  - /merchant/merchant/
+  - /src/pages/order/order/
+  - /pages/merchant/merchant/
 ---
 
 # One-click checkout with Fast API.
@@ -32,8 +39,7 @@ When a customer purchases a product from your store using Fast Checkout, Fast ac
 
 ### Refunds
 
-Need to refund a customer? Use your WooCommerce admin to start the refund and Fast will take care of the rest.
-Please see [**How do I make refunds with Fast?**](https://help.fast.co/hc/en-us/articles/360055253814-How-do-I-refund-a-customer-)
+<embed src="/reusables/for-developers/_platform_all_refunds_via_api_quick_summary.md" />
 
 ### Order Tracking
 

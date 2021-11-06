@@ -2,11 +2,15 @@
 title: "Fast Custom Integration Docs: Product Item Identification"
 description: Many ecommerce stores have complex & detailed setups for their products. As a result, Fast's data model allows for any combination of unique identifiers. This is a representation of an item in Fast.
 keywords: Fast checkout diagram
+
+enableToc: true
+redirectFrom:
+  - /developer-portal/fast-api-reference-products/
 ---
 
 # Product Item Identification
 
-Many ecommerce stores have complex & detailed setups for their products. As a result, **Fast's data model allows for any combination of unique identifiers**. This is a representation of an item in Fast.
+Many eCommerce stores have complex & detailed setups for their products. As a result, **Fast's data model allows for any combination of unique identifiers**. This is a representation of an item in Fast.
 
 ```json
 Option: {

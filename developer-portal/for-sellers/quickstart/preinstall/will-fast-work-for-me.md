@@ -2,6 +2,10 @@
 title: "Fast Seller Docs: Will Fast Work For Me?"
 description: All the information to know before installing Fast on your site.
 keywords: Fast For Sellers Quickstart things to know ahead of install,
+
+enableToc: true
+redirectFrom:
+  - /developer-portal/fast-overview-and-prerequisites/
 ---
 
 # Will Fast Work For Me?

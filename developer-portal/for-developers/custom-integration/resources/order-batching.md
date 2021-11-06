@@ -1,7 +1,12 @@
 ---
 title: "Fast Custom Integration Docs: Order Batching"
 description: What is "Batching"?
-keywords: Fast finantial values,
+keywords: Fast financial values
+
+enableToc: true
+redirectFrom:
+  - /developer-portal/fast-api-guides-batching/
+  - /developer-portal/fast-api-reference-batching/
 ---
 
 # Order Batching

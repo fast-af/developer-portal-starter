@@ -6,4 +6,4 @@ keywords: Fast Seller Customer Experience
 
 # Customer Experience
 
-Hey sellers! Wanna know what your customers are experiencing? Visit the ["For Shoppers" part of this site](/developer-portal/for-shoppers/features/).
+Hey sellers! This is where we help you understand what your customers are experiencing when they buy from you using Fast Checkout. Visit the ["For Shoppers" part of this site](/developer-portal/for-shoppers/features/) and buy your favorite products from the Fast Store or another Fast Seller to get the full breadth of your own buyers’ experience.

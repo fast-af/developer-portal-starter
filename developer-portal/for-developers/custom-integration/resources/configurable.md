@@ -2,6 +2,10 @@
 title: "Fast Custom Integration Docs: Configurable and Direct Capture"
 description: Getting Started with Fast with a Custom Integration!
 keywords: Fast direct capture
+
+enableToc: true
+redirectFrom:
+  - /developer-portal/fast-api-reference-configuration/
 ---
 
 # Configurable & Direct Capture
