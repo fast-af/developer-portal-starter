@@ -29,27 +29,32 @@ This tool supports manually triggering the following workflow actions:
    ```shell
    docker run dhruvilpatel/direct-integration-validator:direct-integration-validator-image -api_host=<seller_server_url> -operation=create_cart -product_id=<product_id>
    ```
-   Note: Product id is required for running a Create Cart flow.  
+   Note: Product id is required for running a Create Cart flow.
+   
 ####2. Read Cart
    ```shell
    docker run dhruvilpatel/direct-integration-validator:direct-integration-validator-image -api_host=<seller_server_url> -operation=read_cart -external_id=<external_id>
    ```
    Note: External id  is required for running a Read Cart flow. External id can be found in the response of Create Cart action. If you can not find it in Seller Server, you can enable logging response in this tool by setting logResponse flag to true.
+   
 ####3. Update Bill To
    ```shell
    docker run dhruvilpatel/direct-integration-validator:direct-integration-validator-image -api_host=<seller_server_url> -operation=update_bill_to -order_id=<order_id>
    ```
    Note: Order id is required for running Update Bill To flow.
+   
 ####4. Update Shipment Contact
    ```shell
    docker run dhruvilpatel/direct-integration-validator:direct-integration-validator-image -api_host=<seller_server_url> -operation=update_shipment_contact -order_id=<order_id>
    ```
 Note: Order id is required for running Update Shipment Contact flow.
+
 ####5. Update Shipping Option
    ```shell
    docker run dhruvilpatel/direct-integration-validator:direct-integration-validator-image -api_host=<seller_server_url> -operation=update_shipping_option -order_id=<order_id> -shipping_option_id=<shipping_option_id>
    ```
 Note: Order id and shipping option id are required for running Update Shipping Option flow.
+
 ####6. Convert Cart To Order
    ```shell
    docker run dhruvilpatel/direct-integration-validator:direct-integration-validator-image -api_host=<seller_server_url> -operation=convert_cart_to_order -order_id=<order_id>
