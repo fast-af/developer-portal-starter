@@ -12,7 +12,7 @@ redirectFrom:
 
 ## Install Fast Checkout for WooCommerce Plugin for the First Time
 
-<embed src="_platform_woocommerce_wordpress_plugin_initial_install" />
+<embed src="/reusables/for-developers/_platform_woocommerce_wordpress_plugin_initial_install" />
 
 :::info Migrating a Manually Installed Plugin Version to Wordpress Plugin Directory Version
 
