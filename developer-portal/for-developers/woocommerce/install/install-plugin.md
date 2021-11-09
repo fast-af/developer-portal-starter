@@ -16,27 +16,25 @@ redirectFrom:
 
 :::info Migrating a Manually Installed Plugin Version to Wordpress Plugin Directory Version
 
-If currently have a manually-installed version of the plugin (e.g. installed by the Fast Customer Success Team before the Wordpress Plugin Directory version was available) please visit the [**Migrating Fast to New Plugin Directory Version (for Early Sellers)** page](../wordpress-plugin/migrating) for migration instructions.
+If you currently have a manually-installed version of the plugin (e.g. installed by the Fast Customer Success Team before the Wordpress Plugin Directory version was available), please visit the [**Migrating Fast to New Plugin Directory Version (for Early Sellers)** page](../wordpress-plugin/migrating) for plugin migration instructions.
 
 :::
 
-# Connect Your Fast App ID to the Fast Plugin
+# Connect Your Fast App ID to the Fast Checkout Plugin
 
-1. **Login to the admin dashboard of your WordPress site.** (If you are proceeding logged in)
+1. **Log in to the admin dashboard of your WordPress site.** (If you are currently logged in, keep the current tab open)
 
    > The url for this is usually `https://yourwebsite.com/wp-admin`
 
-2. While keeping the WooCommerce page open, in a separate window, go to https://www.fast.co/business/dash/install and copy the app ID you see there.
+2. In a new window (i.e. keep the Wordpress admin dashboard open in a separate window) go to the Fast Dashboard at https://www.fast.co/business/dash/install and copy the App ID (`app_id`) you see there to your clipboard.
 
    ![App ID](images/woocommerce-install2.png)
 
-3. After installing the Fast plugin, you should now see "Fast" in the left sidebar of your Wordpress admin dashboard.
+3. Close the current Fast Dashboard window and return to the Wordpress admin dashboard window.
+
+4. Because you have previously installed and activated the Fast plugin, you should see "Fast" in the left sidebar of your Wordpress admin dashboard.
 
    ![Fast Plugin in Wordpress WooCommerce Admin Dashboard Sidebar](images/woocommerce-install1.png)
-
-4. While keeping the WooCommerce page open, in a separate window, go to https://www.fast.co/business/dash/install and copy the app ID you see there.
-
-   ![App ID](images/woocommerce-install2.png)
 
 5. Go back to the WooCommerce store window and paste the app ID into the textbox. Then click “Save Changes.”
 

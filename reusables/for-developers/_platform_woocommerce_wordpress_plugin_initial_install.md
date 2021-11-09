@@ -4,7 +4,7 @@ You must have WordPress admin access in order to install and remove plugins.
 
 :::
 
-1. **Login to the admin dashboard of your WordPress site.**
+1. **Log in to the admin dashboard of your WordPress site.**
 
    > The url for this is usually `https://yourwebsite.com/wp-admin`
 

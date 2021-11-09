@@ -34,11 +34,29 @@ If, for any specific products, you want to hide the Fast button"
 
 ## Display Fast Login Button in Footer
 
-**We recommend you uncheck “Display Fast Login Button in Footer” under the “Options tab” because this often makes the page look odd**.
+**We recommend you uncheck “Display Fast Login Button in Footer” under the “Options tab” because this can cause page layout issues**.
 
-However, if you really want non-logged in users to see the Fast Login Button in the footer and you can do styling to make it look good, then keep this checked.
+However, if you really want logged out users to see the Fast Login Button in the page footer (and you can do style the button to avoid layyout issues), then keep this checked.
 
 To adjust this styling, follow the steps in the section, [Styling the Buttons](/developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling), and apply the styling changes to the “Login button style” textbox in WooCommerce.
 
 ![options tab in your woocommerce dashboard](images/woocommerce-install21.png)
 ![display login in footer option in your woocommerce dashboard](images/woocommerce-install22.png)
+
+# Checkout for WooCommerce Settings
+
+The Fast Checkout for WooCommerce plugin has several settings to configure your Fast Checkout installation. The Fast Settings page in your WordPress admin is divided into five tabs. The first four tabs contain settings, and the fifth tab is a Support tab with basic documentation and a link to get help from Fast. The first four tabs are [App Info](#app-info-tab), [Styles](#styles-tab), [Options](#options-tab), and [Test Mode](#test-mode-tab).
+
+Direct url to your plugin settings is `http://yourwebsite.com/wp-admin/admin.php?page=fast`
+
+## App Info Tab
+
+![App Info](images/woocommerce/app-info-tab.png)
+
+#### App ID
+
+The App Info tab contains the **App ID** setting, which you should set after becoming a seller during the [installation](/developer-portal/for-developers/woocommerce/pre-install/gather-your-docs.md) process.
+
+## Styles Tab
+
+![Styles Tab](images/woocommerce/styles-tab.png)

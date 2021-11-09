@@ -32,6 +32,12 @@ You must have WordPress admin access.
 
 ### Deactivate Previous Plugin Version
 
+:::info Tip
+
+You must have WordPress admin access in order to install and remove plugins.
+
+:::
+
 1. **Login to the admin side of your WordPress site.**
 
    > The url for this is usually `https://yourwebsite.com/wp-admin`
