@@ -10,17 +10,34 @@ redirectFrom:
 
 # Step 1: Install Fast Plugin
 
-1. Log into your WooCommerce store.
-2. Click the Fast plugin button on the sidebar.
+## Install Fast Checkout for WooCommerce Plugin for the First Time
 
-   > Note: When you went through the [Sign Up for Fast with WooCommerce process](/developer-portal/for-developers/woocommerce/pre-install/sign-up-as-a-seller/), this plugin was installed.
+<embed src="_platform_woocommerce_wordpress_plugin_initial_install" />
 
-   <img alt="fast plugin in your sidebar" src="./images/woocommerce-install1.png"/>
+:::info Migrating a Manually Installed Plugin Version to Wordpress Plugin Directory Version
 
-3. While keeping the WooCommerce page open, in a separate window, go to https://www.fast.co/business/dash/install and copy the app ID you see there.
+If currently have a manually-installed version of the plugin (e.g. installed by the Fast Customer Success Team before the Wordpress Plugin Directory version was available) please visit the [**Migrating Fast to New Plugin Directory Version (for Early Sellers)** page](../wordpress-plugin/migrating) for migration instructions.
 
-   ![app id](images/woocommerce-install2.png)
+:::
 
-4. Go back to the WooCommerce store window and paste the app ID into the textbox. Then click “Save Changes.”
+# Connect Your Fast App ID to the Fast Plugin
 
-   ![app id form in your woocommerce store dashboard](images/woocommerce-install3.png)
+1. **Login to the admin dashboard of your WordPress site.** (If you are proceeding logged in)
+
+   > The url for this is usually `https://yourwebsite.com/wp-admin`
+
+2. While keeping the WooCommerce page open, in a separate window, go to https://www.fast.co/business/dash/install and copy the app ID you see there.
+
+   ![App ID](images/woocommerce-install2.png)
+
+3. After installing the Fast plugin, you should now see "Fast" in the left sidebar of your Wordpress admin dashboard.
+
+   ![Fast Plugin in Wordpress WooCommerce Admin Dashboard Sidebar](images/woocommerce-install1.png)
+
+4. While keeping the WooCommerce page open, in a separate window, go to https://www.fast.co/business/dash/install and copy the app ID you see there.
+
+   ![App ID](images/woocommerce-install2.png)
+
+5. Go back to the WooCommerce store window and paste the app ID into the textbox. Then click “Save Changes.”
+
+   ![App ID Form in Wordpress WooCommerce Admin Dashboard](images/woocommerce-install3.png)

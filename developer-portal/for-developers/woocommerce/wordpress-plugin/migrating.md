@@ -25,8 +25,12 @@ You must have WordPress admin access.
 ## Steps to Migrate to the plugin directory version
 
 :::info heads up
+
 **Fast Checkout will be temporarily unavailable while you are completing these steps.** Have no fear, your plugin settings will remain intact as those are stored in your database, not the plugin code itself.
+
 :::
+
+### Deactivate Previous Plugin Version
 
 1. **Login to the admin side of your WordPress site.**
 
@@ -48,28 +52,6 @@ You must have WordPress admin access.
 
    ![Delete Fast Checkout plugin](images/delete-fast-checkout-plugin.png)
 
-6. **Search the plugin directory for "Fast Checkout" or "Fast Checkout for WooCommerce"**. We're really new, so you may need to scroll down a little bit to find us.
+### Activate Wordpress Plugin Directory Version
 
-   ![Searching for Fast Checkout for WooCommerce](images/wp-add-plugins-fast-checkout.png)
-
-7. **Click Activate**. Essentially this turns the plugin code functionality "on."
-
-   ![Activate plugin](images/wp-activate-plugin.png)
-
-8. **Test the following pages and functions of your website** to ensure everything is still working as expected with the plugin code swap we just made.
-
-   - Product page `https://yourwebsite.com/product/PRODUCT-NAME`
-   - Cart page `https://yourwebsite.com/cart`
-   - Checkout page `https://yourwebsite.com/checkout`
-   - Mini cart `varies depending on theme`
-   - Login page `https://yourwebsite.com/my-account`
-
-9. When you make plugin changes (e.g. updates, removals, etc.) you may need to manually turn test mode off again. **Navigate to Fast Checkout settings. Scroll to the bottom and ensure test mode is unchecked**.
-
-   > ex: `http://yourwebsite.com/wp-admin/admin.php?page=fast`
-
-   ![Ensure test mode is disabled](images/test-mode-tab.png)
-
-:::info YAY
-That's it. You're back in business.
-:::
+<embed src="_platform_woocommerce_wordpress_plugin_initial_install" />

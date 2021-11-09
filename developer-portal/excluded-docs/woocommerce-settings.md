@@ -14,7 +14,7 @@ Direct url to your plugin settings is `http://yourwebsite.com/wp-admin/admin.php
 
 #### App ID
 
-The App Info tab contains the **App ID** setting, which you should set after becoming a seller during the [installation](/developer-portal/woocommerce-install-checkout.md) process.
+The App Info tab contains the **App ID** setting, which you should set after becoming a seller during the [installation](/developer-portal/for-developers/woocommerce/pre-install/gather-your-docs.md) process.
 
 ## Styles Tab
 
