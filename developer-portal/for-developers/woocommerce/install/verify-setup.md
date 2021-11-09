@@ -34,9 +34,7 @@ Let's verify how they look and make sure to update anything that needs updating.
 
 <embed src="/reusables/for-developers/_platform_woocommerce_refer_to_custom_button_styling_page.md" />
 
-If you want to further adjust the styling, follow the steps on the [Custom Button Styling page](/developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling/).
-
-6. **Add the product to your cart**.
+5. **Add the product to your cart**.
 
 ## Cart
 

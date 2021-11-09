@@ -19,7 +19,7 @@ Sometimes our default button styles are overwritten by page styles and needs to 
 2. In the code that appears (in the inspector), **click `<div class="fast-wrapper">` or one of the lines below that line**.
 
 3. In the styling box below, **make adjustments to the width or font size or anything else you need to change**.
-   > Keep adjusting until the Fast button and the other elements around it appears like one of our 3 button style variants.
+   > Keep adjusting until the Fast button and the other elements around it appears like one of our [supported button style variants](#button-style-variants).
 
 ![page html and css](images/woocommerce-install13.png)
 
