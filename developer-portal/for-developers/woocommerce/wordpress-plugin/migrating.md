@@ -60,4 +60,4 @@ You must have WordPress admin access in order to install and remove plugins.
 
 ### Activate Wordpress Plugin Directory Version
 
-<embed src="/reusables/for-developers/_platform_woocommerce_wordpress_plugin_initial_install" />
+<embed src="/reusables/for-developers/_platform_woocommerce_wordpress_plugin_initial_install.md" />
