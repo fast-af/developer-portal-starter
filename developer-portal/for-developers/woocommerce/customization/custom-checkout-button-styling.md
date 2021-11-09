@@ -23,14 +23,15 @@ Sometimes our default button styles are overwritten by page styles and needs to 
 
 ![page html and css](images/woocommerce-install13.png)
 
-4. Once you have the styles updated how the need to be, **go to the “Styles tab” on the WooCommerce page**.
+4. Once you have the styles updated how they need to be, **go to the “Styles tab” on the WooCommerce page**.
 
-![styles tab in your woocommerce dashboard](images/woocommerce-styles-tab.png)
+![Styles Tab in Your WooCommerce Dashboard](/developer-portal/images/woocommerce/styles-tab.png)
 
 5. **Figure out which textbox in WooCommerce corresponds to the page you’re trying to adjust**.
+
    > For example, if you want to adjust styling on the product page, you’ll want to use the “Product page button styles” textbox. Similarly, if you want to adjust the styling on the mini cart page, you’ll want to use the “Mini cart widget button styles” textbox.
 
-![styles in your woocommerce styles dashboard tab](images/woocommerce-install15.png)
+   ![styles in your woocommerce styles dashboard tab](images/woocommerce-settings-custom-button-styles.png)
 
 6. **In the corresponding textbox, take the change you made directly on the online store and apply that change here**.
 

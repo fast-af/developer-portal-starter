@@ -24,7 +24,7 @@ You must have WordPress admin access in order to install and remove plugins.
 
 When you make plugin changes (e.g. updates, removals, etc.) you may need to manually turn test mode off again. **Navigate to Fast Checkout settings. Scroll to the bottom and ensure "Enable test mode" is unchecked**.
 
-> ex: `http://yourwebsite.com/wp-admin/admin.php?page=fast` > ![Ensure test mode is disabled](/developer-portal/for-developers/woocommerce/wordpress-plugin/images/test-mode-tab.png)
+> ex: `http://yourwebsite.com/wp-admin/admin.php?page=fast` > ![Ensure test mode is disabled](/developer-portal/images/woocommerce/test-mode-tab.png)
 
 :::
 
