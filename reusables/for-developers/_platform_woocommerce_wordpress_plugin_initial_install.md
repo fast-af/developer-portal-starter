@@ -10,13 +10,15 @@ You must have WordPress admin access in order to install and remove plugins.
 
 2. **Click Plugins -> Add New** in the left sidebar of your WordPress admin dashboard to visit the Wordpress plugin directory.
 
-   ![Visit Wordpress Plugin Directory](/developer-portal/for-developers/woocommerce/wordpress-plugin/images/wp-visit-plugin-directory.png)
+   ![Visit Wordpress Plugin Directory](/developer-portal/for-developers/woocommerce/wordpress-plugin/images/wp-visit-plugin-directory.png "#width=150px;")
 
 3. **Search the plugin directory for "Fast Checkout" or "Fast Checkout for WooCommerce"**.
 
    ![Searching for Fast Checkout for WooCommerce](/developer-portal/for-developers/woocommerce/wordpress-plugin/images/wp-add-plugins-fast-checkout.png)
 
-4. **Click Activate**. Essentially this turns the plugin code functionality "on."
+4. **Click Install Now** to install the Fast Checkout for WooCommerce plugin from the plugin directory.
+
+5. **Click Activate**. Essentially this turns the plugin code functionality "on."
 
    ![Activate plugin](/developer-portal/for-developers/woocommerce/wordpress-plugin/images/wp-activate-plugin.png)
 
@@ -24,7 +26,9 @@ You must have WordPress admin access in order to install and remove plugins.
 
 When you make plugin changes (e.g. updates, removals, etc.) you may need to manually turn test mode off again. **Navigate to Fast Checkout settings. Scroll to the bottom and ensure "Enable test mode" is unchecked**.
 
-> ex: `http://yourwebsite.com/wp-admin/admin.php?page=fast` > ![Ensure test mode is disabled](/developer-portal/images/woocommerce/test-mode-tab.png)
+> ex: `http://yourwebsite.com/wp-admin/admin.php?page=fast`
+
+![Ensure test mode is disabled](/static/images/woocommerce/test-mode-tab.png "#width=90%;")
 
 :::
 

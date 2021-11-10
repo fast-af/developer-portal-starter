@@ -19,17 +19,17 @@ Direct url to your plugin settings is `http://yourwebsite.com/wp-admin/admin.php
 
 ## App Info Tab
 
-![App Info Tab in Your WooCommerce Dashboard](/developer-portal/images/woocommerce/app-info-tab.png)
+![App Info Tab in Your WooCommerce Dashboard](/images/woocommerce/app-info-tab.png)
 
 ### App ID
 
 ![App ID Setting in App Info Tab](images/woocommerce-settings-app-id-in-app-info-tab.png)
 
-The App Info tab contains the **App ID** setting, which should have been set during the [plugin installation process](/developer-portal/for-developers/woocommerce/install/install-plugin#connect-your-fast-app-id-to-the-fast-checkout-plugin) of Seller onboarding.
+The App Info tab contains the **App ID** setting, which should have been set during the [plugin installation process](/developer-portal/for-developers/woocommerce/install/install-plugin.md#connect-your-fast-app-id-to-the-fast-checkout-plugin) of Seller onboarding.
 
 ## Styles Tab
 
-![Styles Tab in Your WooCommerce Dashboard](/developer-portal/images/woocommerce/styles-tab.png)
+![Styles Tab in Your WooCommerce Dashboard](/images/woocommerce/styles-tab.png)
 
 ### Load Button Styles
 
@@ -41,11 +41,11 @@ This option is checked by default, and it tells the plugin to load styles as def
 
 ![Custom Button Styles for Fast Checkout and Login Buttons in Your WooCommerce Dashboard](images/woocommerce-settings-custom-button-styles.png)
 
-The Styles tab also provides the ability to render custom button styles for Fast Checkout buttons on WooCommerce product detail pages (PDPs), cart pages, mini cart widgets, and checkout pages. You can also define custom buttton styles for Fast login buttons. For more details about custom styling, please refer to the dedicated [Custom Button Styling page](/developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling).
+The Styles tab also provides the ability to render custom button styles for Fast Checkout buttons on WooCommerce product detail pages (PDPs), cart pages, mini cart widgets, and checkout pages. You can also define custom buttton styles for Fast login buttons. For more details about custom styling, please refer to the dedicated [Custom Button Styling page](/developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling.md).
 
 ## Options Tab
 
-![Options Tab in Your WooCommerce Dashboard](/developer-portal/images/woocommerce/options-tab.png)
+![Options Tab in Your WooCommerce Dashboard](/images/woocommerce/options-tab.png)
 
 ### Hiding Fast Button
 
@@ -76,13 +76,13 @@ If, for any specific products, you want to hide the Fast button"
 
 However, if you really want logged out users to see the Fast Login Button in the page footer (and you can do style the button to avoid layout issues), then keep this checked.
 
-To adjust this styling, follow the steps in the dedicated [Custom Button Styling page](/developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling), and apply the styling changes to the “Login button style” textbox in WooCommerce.
+To adjust this styling, follow the steps in the dedicated [Custom Button Styling page](/developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling.md), and apply the styling changes to the “Login button style” textbox in WooCommerce.
 
 ![Display Login in Footer Option in Your WooCommerce Dashboard](images/woocommerce-settings-login-in-footer.png)
 
 ## Test Mode Tab
 
-![Test Mode Tab in Your WooCommerce Dashboard](/developer-portal/images/woocommerce/test-mode-tab.png)
+![Test Mode Tab in Your WooCommerce Dashboard](/images/woocommerce/test-mode-tab.png)
 
 The Test Mode tab allows you to enable or disable Test Mode (to ensure that Fast Checkout buttons are only visible to store admins), Debug Mode (to temporarily log additional information while debugging site issues), or Multicurrency Support (e.g. if multicurrency support is not needed for your site or is provided by a third-party multicurrency plugin).
 

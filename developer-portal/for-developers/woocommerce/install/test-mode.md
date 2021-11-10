@@ -6,7 +6,7 @@ keywords: Fast WooCommerce Install
 
 ## Step 2: Test Mode
 
-![Test Mode Tab in Your WooCommerce Dashboard](/developer-portal/images/woocommerce/test-mode-tab.png)
+![Test Mode Tab in Your WooCommerce Dashboard](/images/woocommerce/test-mode-tab.png)
 
 1. Click the “Test Mode” tab.
    **By default, your store will be in test mode**. We recommend you keep the store in test mode by keeping the “Enable test mode” checkbox checked. This way, only you and other store admins will see the Fast buttons.

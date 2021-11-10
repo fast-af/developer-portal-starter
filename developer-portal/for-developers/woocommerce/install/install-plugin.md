@@ -16,7 +16,7 @@ redirectFrom:
 
 :::info Migrating a Manually Installed Plugin Version to Wordpress Plugin Directory Version
 
-If you currently have a manually-installed version of the plugin (e.g. installed by the Fast Customer Success Team before the Wordpress Plugin Directory version was available), please visit the [**Migrating Fast to New Plugin Directory Version (for Early Sellers)** page](../wordpress-plugin/migrating.md) for plugin migration instructions.
+If you currently have a manually-installed version of the plugin (e.g. a pre-release version installed by the Fast Customer Success Team prior to the 1.0 Wordpress Plugin Directory version), please visit the [**Migrating Fast to New Plugin Directory Version (for Early Sellers)** page](../wordpress-plugin/migrating.md) for plugin migration instructions.
 
 :::
 
