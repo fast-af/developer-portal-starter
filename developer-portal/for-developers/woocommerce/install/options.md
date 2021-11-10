@@ -6,7 +6,7 @@ keywords: fast woocommerce install
 
 # Step 3: Options
 
-![Options Tab in Your WooCommerce Dashboard](/images/woocommerce/options-tab.png)
+![Options Tab in Your WooCommerce Dashboard](../../../images/woocommerce/options-tab.png)
 
 On the screen are several possible layouts for how the Fast button can look on the product page of your online store.
 

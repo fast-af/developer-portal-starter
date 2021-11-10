@@ -19,7 +19,7 @@ Direct url to your plugin settings is `http://yourwebsite.com/wp-admin/admin.php
 
 ## App Info Tab
 
-![App Info Tab in Your WooCommerce Dashboard](/images/woocommerce/app-info-tab.png)
+![App Info Tab in Your WooCommerce Dashboard](../../../images/woocommerce/app-info-tab.png)
 
 ### App ID
 
@@ -29,7 +29,7 @@ The App Info tab contains the **App ID** setting, which should have been set dur
 
 ## Styles Tab
 
-![Styles Tab in Your WooCommerce Dashboard](/images/woocommerce/styles-tab.png)
+![Styles Tab in Your WooCommerce Dashboard](../../../images/woocommerce/styles-tab.png)
 
 ### Load Button Styles
 
@@ -45,7 +45,7 @@ The Styles tab also provides the ability to render custom button styles for Fast
 
 ## Options Tab
 
-![Options Tab in Your WooCommerce Dashboard](/images/woocommerce/options-tab.png)
+![Options Tab in Your WooCommerce Dashboard](../../../images/woocommerce/options-tab.png)
 
 ### Hiding Fast Button
 
@@ -82,7 +82,7 @@ To adjust this styling, follow the steps in the dedicated [Custom Button Styling
 
 ## Test Mode Tab
 
-![Test Mode Tab in Your WooCommerce Dashboard](/images/woocommerce/test-mode-tab.png)
+![Test Mode Tab in Your WooCommerce Dashboard](../../../images/woocommerce/test-mode-tab.png)
 
 The Test Mode tab allows you to enable or disable Test Mode (to ensure that Fast Checkout buttons are only visible to store admins), Debug Mode (to temporarily log additional information while debugging site issues), or Multicurrency Support (e.g. if multicurrency support is not needed for your site or is provided by a third-party multicurrency plugin).
 

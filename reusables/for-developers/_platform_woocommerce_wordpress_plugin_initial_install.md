@@ -28,7 +28,7 @@ When you make plugin changes (e.g. updates, removals, etc.) you may need to manu
 
 > ex: `http://yourwebsite.com/wp-admin/admin.php?page=fast`
 
-![Ensure test mode is disabled](/static/images/woocommerce/test-mode-tab.png "#width=90%;")
+![Ensure test mode is disabled](/developer-portal/images/woocommerce/test-mode-tab.png "#width=90%;")
 
 :::
 

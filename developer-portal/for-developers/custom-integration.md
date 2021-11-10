@@ -6,7 +6,7 @@ keywords: Fast Custom Integration, Fast Custom Integration install
 
 # One-Click Checkout with DIY Custom Integration.
 
-![Fast Checkout Button on a Product Page](/images/all-platforms/fast-product-preview.jpg "#width=100%; max-height: 100%;")
+![Fast Checkout Button on a Product Page](../images/all-platforms/fast-product-preview.jpg "#width=100%; max-height: 100%;")
 
 ## One smart move for your business.
 

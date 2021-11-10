@@ -26,7 +26,7 @@ Sometimes our default button styles are overwritten by page styles and needs to 
 
 4. Once you have the styles updated how they need to be, **go to the “Styles tab” on the WooCommerce page**.
 
-   ![Styles Tab in Your WooCommerce Dashboard](/images/woocommerce/styles-tab.png)
+   ![Styles Tab in Your WooCommerce Dashboard](../../../images/woocommerce/styles-tab.png)
 
 5. **Figure out which textbox in WooCommerce corresponds to the page you’re trying to adjust**.
 
