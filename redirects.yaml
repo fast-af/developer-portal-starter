@@ -1,0 +1,7 @@
+"/developer-portal/partners-onboarding-faq/":
+  to: "/developer-portal/for-sellers/quickstart/resources/partners-onboarding-faq/"
+  type: 301
+#'/some-other-old-url':
+#  to: '/new-url/'
+
+#TJ note: put type: 301 under "to:"" field for any old pages that have been permanently deleted

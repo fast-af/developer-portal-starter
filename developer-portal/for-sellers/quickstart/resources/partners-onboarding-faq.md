@@ -1,8 +1,6 @@
 ---
 title: Partner Onboarding FAQs
 enableToc: true
-redirectFrom:
-  - /developer-portal/partners-onboarding-faq/
 ---
 
 # Partner Onboarding FAQs
