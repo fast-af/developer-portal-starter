@@ -12,7 +12,7 @@ You must have WordPress admin access in order to install and remove plugins.
 
    ![Visit Wordpress Plugin Directory](/developer-portal/for-developers/woocommerce/wordpress-plugin/images/wp-visit-plugin-directory.png "#width=150px;")
 
-3. **Search the plugin directory for "Fast Checkout" or "Fast Checkout for WooCommerce"**.
+3. **Search for "Fast Checkout" or "Fast Checkout for WooCommerce" in the plugin directory**.
 
    ![Searching for Fast Checkout for WooCommerce](/developer-portal/for-developers/woocommerce/wordpress-plugin/images/wp-add-plugins-fast-checkout.png)
 
