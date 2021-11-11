@@ -25,7 +25,7 @@ Direct url to your plugin settings is `http://yourwebsite.com/wp-admin/admin.php
 
 ![App ID Setting in App Info Tab](images/woocommerce-settings-app-id-in-app-info-tab.png)
 
-The App Info tab contains the **App ID** setting, which should have been set during the [plugin installation process](/developer-portal/for-developers/woocommerce/install/install-plugin.md#connect-your-fast-app-id-to-the-fast-checkout-plugin) of Seller onboarding.
+The App Info tab contains the **App ID** setting, which should have been set during the [plugin installation process](/developer-portal/for-developers/woocommerce/install/install-plugin#connect-your-fast-app-id-to-the-fast-checkout-plugin) of Seller onboarding.
 
 ## Styles Tab
 
@@ -41,7 +41,7 @@ This option is checked by default, and it tells the plugin to load styles as def
 
 ![Custom Button Styles for Fast Checkout and Login Buttons in Your WooCommerce Dashboard](images/woocommerce-settings-custom-button-styles.png)
 
-The Styles tab also provides the ability to render custom button styles for Fast Checkout buttons on WooCommerce product detail pages (PDPs), cart pages, mini cart widgets, and checkout pages. You can also define custom buttton styles for Fast login buttons. For more details about custom styling, please refer to the dedicated [Custom Button Styling page](/developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling.md).
+The Styles tab also provides the ability to render custom button styles for Fast Checkout buttons on WooCommerce product detail pages (PDPs), cart pages, mini cart widgets, and checkout pages. You can also define custom buttton styles for Fast login buttons. For more details about custom styling, please refer to the dedicated [Custom Button Styling page](/developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling).
 
 ## Options Tab
 
@@ -62,7 +62,7 @@ If, for any specific products, you want to hide the Fast button"
 
 ### Redirects
 
-**Normally, after a shopper checks out using the Fast button, they are NOT redirected to any particular page**. If you want shoppers to be redirected to a specific page after they use the Fast button:
+**Normally, after a shopper checks out using the Fast Checkout button, they are NOT redirected to any particular page**. If you want shoppers to be redirected to a specific page after they use the Fast button:
 
 1. **Go to the “Options tab”**.
 2. **Enter which page you want customers to be redirected to in the “Checkout Redirect Page” textbox**. For example, if you want shoppers to be brought to an order confirmation page after they use the Fast button, type in “Order Confirmation page” here.
@@ -76,7 +76,7 @@ If, for any specific products, you want to hide the Fast button"
 
 However, if you really want logged out users to see the Fast Login Button in the page footer (and you can do style the button to avoid layout issues), then keep this checked.
 
-To adjust this styling, follow the steps in the dedicated [Custom Button Styling page](/developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling.md), and apply the styling changes to the “Login button style” textbox in WooCommerce.
+To adjust this styling, follow the steps in the dedicated [Custom Button Styling page](/developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling), and apply the styling changes to the “Login button style” textbox in WooCommerce.
 
 ![Display Login in Footer Option in Your WooCommerce Dashboard](images/woocommerce-settings-login-in-footer.png)
 

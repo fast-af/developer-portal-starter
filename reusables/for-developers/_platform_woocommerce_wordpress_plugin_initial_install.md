@@ -1,6 +1,6 @@
-:::info Tip
+:::attention WordPress Admin Access Required
 
-You must have WordPress admin access in order to install and remove plugins.
+You must have WordPress admin access to to install and remove plugins.
 
 :::
 
@@ -8,9 +8,9 @@ You must have WordPress admin access in order to install and remove plugins.
 
    > The url for this is usually `https://yourwebsite.com/wp-admin`
 
-2. **Click Plugins -> Add New** in the left sidebar of your WordPress admin dashboard to visit the Wordpress plugin directory.
+2. **Click Plugins -> Add New** in the left sidebar of your WordPress admin dashboard to visit the WordPress plugin directory.
 
-   ![Visit Wordpress Plugin Directory](/developer-portal/for-developers/woocommerce/wordpress-plugin/images/wp-visit-plugin-directory.png "#width=150px;")
+   ![Visit WordPress Plugin Directory](/developer-portal/for-developers/woocommerce/wordpress-plugin/images/wp-visit-plugin-directory.png "#width=150px;")
 
 3. **Search for "Fast Checkout" or "Fast Checkout for WooCommerce" in the plugin directory**.
 
@@ -34,6 +34,6 @@ When you make plugin changes (e.g. updates, removals, etc.) you may need to manu
 
 :::info TIP: Troubleshooting Plugin Issues
 
-You can deactivate plugins to troubleshoot website issues. Slowly deactivate them one-by-one, each time checking to see if the issue persists. If deactivating a plugin resolves an issue, visit the plugin's changelog or website for relevant updates. Also ensure all of your plugins are always up-to-date.
+You can deactivate plugins to troubleshoot website issues. Slowly deactivate them one-by-one, each time checking to see if the issue persists. If deactivating a plugin resolves the issue, visit the plugin's changelog or website for relevant updates. Also ensure all of your plugins are always up-to-date.
 
 :::

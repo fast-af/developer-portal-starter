@@ -14,28 +14,28 @@ redirectFrom:
 
 <embed src="/reusables/for-developers/_platform_woocommerce_wordpress_plugin_initial_install.md" />
 
-:::info Migrating a Manually Installed Plugin Version to Wordpress Plugin Directory Version
+:::info Migrating a Manually Installed Plugin Version to WordPress Plugin Directory Version
 
-If you currently have a manually-installed version of the plugin (e.g. a pre-release version installed by the Fast Customer Success Team prior to the 1.0 Wordpress Plugin Directory version), please visit the [**Migrating Fast to New Plugin Directory Version (for Early Sellers)** page](../wordpress-plugin/migrating.md) for plugin migration instructions.
+If you currently have a manually-installed version of the plugin (e.g. a pre-release version installed by the Fast Customer Success Team prior to the official 1.0 release of Fast for WooCommerce in the WordPress plugin directory), please visit the [**Migrating Fast to New Plugin Directory Version (for Early Sellers)** page](../wordpress-plugin/migrating.md) for plugin migration instructions.
 
 :::
 
-# Connect Your Fast App ID to the Fast Checkout Plugin
+## Connect Your Fast App ID to the Fast Checkout Plugin
 
 1. **Log in to the admin dashboard of your WordPress site.** (If you are currently logged in, keep the current tab open)
 
    > The url for this is usually `https://yourwebsite.com/wp-admin`
 
-2. In a new window (i.e. keep the Wordpress admin dashboard open in a separate window) go to the Fast Dashboard at https://www.fast.co/business/dash/install and copy the App ID (`app_id`) you see there to your clipboard.
+2. In a new window (i.e. keep the WordPress admin dashboard open in a separate window) go to the Fast Dashboard at https://www.fast.co/business/dash/install and copy the App ID (`app_id`) you see there to your clipboard.
 
    ![App ID](images/woocommerce-install2.png)
 
-3. Close the current Fast Dashboard window and return to the Wordpress admin dashboard window.
+3. Close the current Fast Dashboard window and return to the WordPress admin dashboard window.
 
-4. Because you have previously installed and activated the Fast plugin, you should see "Fast" in the left sidebar of your Wordpress admin dashboard.
+4. Because you have previously installed and activated the Fast plugin, you should see "Fast" in the left sidebar of your WordPress admin dashboard.
 
-   ![Fast Plugin in Wordpress WooCommerce Admin Dashboard Sidebar](images/woocommerce-install1.png)
+   ![Fast Plugin in WordPress WooCommerce Admin Dashboard Sidebar](images/woocommerce-install1.png)
 
 5. Go back to the WooCommerce store window and paste the app ID into the textbox. Then click “Save Changes.”
 
-   ![App ID Form in Wordpress WooCommerce Admin Dashboard](images/woocommerce-install3.png)
+   ![App ID Form in WordPress WooCommerce Admin Dashboard](images/woocommerce-install3.png)

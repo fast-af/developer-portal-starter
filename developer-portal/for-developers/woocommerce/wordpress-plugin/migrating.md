@@ -12,15 +12,9 @@ redirectFrom:
 
 **Fast Checkout for WooCommerce is officially live in the WordPress plugin directory!**
 
-[**View our plugin in the plugin directory →**](https://wordpress.org/plugins/fast-checkout-for-woocommerce/)
-
-Our early sellers were onboarded by our customer success team when our plugin was not active in the WordPress plugin directory yet. Managing your plugins through the plugin directory makes it much easier to keep up-to-date. It's imperative that WordPress stores are maintained and plugins are updated frequently.
+Our early Sellers were onboarded by the Fast Customer Success team with a pre-release plugin version prior to the official 1.0 release of Fast for WooCommerce in the WordPress plugin directory. Managing your plugins through the plugin directory makes it much easier to keep up-to-date. It's imperative that WordPress stores are maintained with frequent plugin updates.
 
 This will walk you through how to uninstall the version our team installed, and install the plugin directory version, making it easier to keep your plugin up-to-date.
-
-## Requirements
-
-You must have WordPress admin access.
 
 ## Steps to Migrate to the plugin directory version
 
@@ -32,17 +26,17 @@ You must have WordPress admin access.
 
 ### Deactivate Previous Plugin Version
 
-:::info Tip
+:::attention WordPress Admin Access Required
 
-You must have WordPress admin access in order to install and remove plugins.
+You must have WordPress admin access to to install and remove plugins.
 
 :::
 
-1. **Log in to the admin side of your WordPress site.**
+1. **Log in to the admin dashboard of your WordPress site.**
 
    > The url for this is usually `https://yourwebsite.com/wp-admin`
 
-2. **Click on Plugins in your admin dashboard menu and locate Fast checkout**.
+2. **Click Plugins -> Installed Plugins** in the left sidebar of your WordPress admin dashboard.
 
    > ex: `https://yourwebsite.com/wp-admin/plugins.php? `
 
@@ -66,6 +60,8 @@ You must have WordPress admin access in order to install and remove plugins.
 
    ![Delete Fast Checkout plugin](images/delete-fast-checkout-plugin.png)
 
-### Activate Wordpress Plugin Directory Version
+### Activate WordPress Plugin Directory Version
 
 <embed src="/reusables/for-developers/_platform_woocommerce_wordpress_plugin_initial_install.md" />
+
+<embed src="/reusables/for-developers/_platform_woocommerce_wordpress_plugin_optional_enable_automatic_updates.md" />
