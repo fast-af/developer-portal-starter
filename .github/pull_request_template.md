@@ -6,22 +6,18 @@ Preview docs changes: https://preview.redoc.ly/fastaf/<branch-name>
 
 ## Brief description of changes:
 
-  
-  
-  
-##Affected pages (if applicable)
+## Affected pages (if applicable)
 
-  - Link to existing Docs page: https://fast.co/docs/<full_slug>
-  - Link to new or updated page: https://preview.redoc.ly/fastaf/<branch-name>/<full_slug>
-  
+- Link to existing Docs page: https://fast.co/docs/<full_slug>
+- Link to new or updated page: https://preview.redoc.ly/fastaf/<branch-name>/<full_slug>
+
 **Clarification: if old page is being replaced or renamed, redirect should be set up; if completely new page, just provide new link.**
-  
+
 ## References/Context/Links (e.g. Slack Channel threads, Notion pages, Docs, Slides, Jira tickets, etc.)
 
-  - Related Jira tickets (DEVDOCS tickets can be left out if already included in commit messages and/or PR title)
-  - Notion pages, Google Docs, Google Slides
-  - Slack Channel Discussions
-  
+- Related Jira tickets (DEVDOCS tickets can be left out if already included in commit messages and/or PR title)
+- Notion pages, Google Docs, Google Slides
+- Slack Channel Discussions
 
 ## Check yourself
 
@@ -32,6 +28,7 @@ Preview docs changes: https://preview.redoc.ly/fastaf/<branch-name>
 - [ ] Spelling & Grammar checks
 
 ## Reviews
+
 Either confirm or specify why not needed (e.g. if fixing minor grammar issues or page layout issues)
 
 - [ ] Technical / Engineering Review
