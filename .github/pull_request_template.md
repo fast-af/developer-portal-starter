@@ -1,6 +1,6 @@
-Preview docs changes: https://preview.redoc.ly/fastaf/ $GITHUB_REF $env.GITHUB_REF $payload.pull_request.head.ref
-
 Preview docs changes: https://preview.redoc.ly/fastaf/<branch-name>
+
+Preview docs changes: https://preview.redoc.ly/fastaf/ $GITHUB_REF $env.GITHUB_REF $payload.pull_request.head.ref https://api.github.com/users/yourGitHubUsername/events/public
 
 (If you have Redocly Admin access, all preview builds are available at https://app.redoc.ly/org/fast/portal/fastaf/builds)
 
