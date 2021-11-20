@@ -8,6 +8,6 @@ keywords: Fast Salesforce Onboard as a Seller.
 
 Before you begin this process, you’ll need an online store hosted by Salesforce Commerce Cloud (SFCC).
 
-<embed src="/reusables/for-developers/_platform_all_sign_up_as_a_seller.md" />
+<embed src="/reusables/for-developers/_platform_sfcc_magento_sign_up_as_a_seller.md" />
 
-3. On the Platform Page, click “Other.” Then click “Next.”
+
