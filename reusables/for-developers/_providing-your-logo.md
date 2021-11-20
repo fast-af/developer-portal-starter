@@ -12,7 +12,17 @@ Fast recommends the following logo specifications:
 To use this alternate logo, inform the Fast team during your installation and provide the file or the URL where the image is hosted.
 
 ## Example Images
-The examples below show the Fast logo and how it displays in the buyer dashboard.
+The examples below show the Fast logo uploaded as a square, and how it will be displayed in the buyer dashboard.
+
+
+**Uploaded**
 
   ![Fast Logo](/reusables/for-developers/images/fast-sq-200.png)
+
+**Automatically Rounded**
+
+  ![Fast Logo Round](/reusables/for-developers/images/fast-rd-200.png)
+
+**Buyer Dashboard Preview**
+
   ![Fast Buyer Dashboard](/reusables/for-developers/images/Fast-rounded-dashboard.png)
