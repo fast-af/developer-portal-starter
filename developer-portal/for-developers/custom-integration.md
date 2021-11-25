@@ -1,14 +1,4 @@
 ---
-<<<<<<< HEAD:developer-portal/for-developers/woocommerce.md
-title: Fast WooCommerce Docs
-description: Documentation for Fast on WooCommerce
-keywords: Fast WooCommerce, Fast WooCommerce install
----
-
-# One-click checkout on WooCommerce
-
-![Fast Checkout button on a product page](images/fast-product-preview.jpg)
-=======
 title: Fast Custom Integration Docs
 description: Documentation for Fast on Custom Integration
 keywords: Fast Custom Integration, Fast Custom Integration install
@@ -16,8 +6,7 @@ keywords: Fast Custom Integration, Fast Custom Integration install
 
 # One-Click Checkout with DIY Custom Integration.
 
-<img alt="Fast Checkout button on a product page"  width="100%" style="max-height: 100%;" src="images/fast-product-preview.jpg"/>
->>>>>>> 28c4224c5bebaae89347ca128c5a86ac20daff16:developer-portal/for-developers/custom-integration.md
+![Fast Checkout Button on a Product Page](../images/all-platforms/fast-product-preview.jpg "#width=100%; max-height: 100%;")
 
 ## One smart move for your business.
 
@@ -41,12 +30,7 @@ When a customer purchases a product from your store using Fast Checkout, Fast ac
 
 ### Refunds
 
-<<<<<<< HEAD:developer-portal/for-developers/woocommerce.md
-Need to refund a customer? Use your WooCommerce admin to start the refund and Fast will take care of the rest.
-Please see [**How do I make refunds with Fast?**](https://help.fast.co/hc/en-us/articles/360055253814-How-do-I-refund-a-customer-)
-=======
 <embed src="/reusables/for-developers/_platform_all_refunds_via_api_quick_summary.md" />
->>>>>>> 28c4224c5bebaae89347ca128c5a86ac20daff16:developer-portal/for-developers/custom-integration.md
 
 ### Order Tracking
 

@@ -27,6 +27,13 @@ bigcommerce:
     pages:
       - label: Custom Styling
         page: developer-portal/for-developers/bigcommerce/customization/custom-styling.md
+  - group: Headless
+    expanded: true
+    pages:
+      - label: "Fast Headless Checkout"
+        page: developer-portal/for-developers/bigcommerce/headless/use-fast-headless-checkout.md
+      - label: "Use Fast Checkout on AMP Pages"
+        page: developer-portal/for-developers/bigcommerce/headless/fast-checkout-on-amp-pages.md
   - group: BigCommerce Blog Posts
     expanded: true
     pages:
@@ -60,6 +67,13 @@ custom-integration:
     pages:
       - label: Custom Styling
         page: developer-portal/for-developers/custom-integration/customization/custom-styling.md
+  - group: Headless
+    expanded: true
+    pages:
+      - label: "Fast Headless Checkout"
+        page: developer-portal/for-developers/custom-integration/headless/use-fast-headless-checkout.md
+      - label: "Use Fast Checkout on AMP Pages"
+        page: developer-portal/for-developers/custom-integration/headless/fast-checkout-on-amp-pages.md
   - group: Fast API
     expanded: true
     pages:
@@ -132,12 +146,18 @@ magento:
         page: developer-portal/for-developers/magento/install/specify-products.md
       - label: "Step 4: Activate Storefront"
         page: developer-portal/for-developers/magento/install/activate-storefront.md
-
   - group: Customization
     expanded: true
     pages:
       - label: Settings
         page: developer-portal/for-developers/magento/customization/settings.md
+  - group: Headless
+    expanded: true
+    pages:
+      - label: "Fast Headless Checkout"
+        page: developer-portal/for-developers/magento/headless/use-fast-headless-checkout.md
+      - label: "Use Fast Checkout on AMP Pages"
+        page: developer-portal/for-developers/magento/headless/fast-checkout-on-amp-pages.md
   - group: Resources
     expanded: true
     pages:
@@ -157,7 +177,6 @@ salesforce:
         page: developer-portal/for-developers/salesforce/pre-install/requirements.md
       - label: "Step 3: Onboard as a Seller"
         page: developer-portal/for-developers/salesforce/pre-install/sign-up-as-a-seller.md
-
   - group: Install
     expanded: true
     pages:
@@ -171,6 +190,13 @@ salesforce:
         page: developer-portal/for-developers/salesforce/install/specify-products.md
       - label: "Step 4: Activate Storefront"
         page: developer-portal/for-developers/salesforce/install/activate-storefront.md
+  - group: Headless
+    expanded: true
+    pages:
+      - label: "Fast Headless Checkout"
+        page: developer-portal/for-developers/salesforce/headless/use-fast-headless-checkout.md
+      - label: "Use Fast Checkout on AMP Pages"
+        page: developer-portal/for-developers/salesforce/headless/fast-checkout-on-amp-pages.md
 
 woocommerce:
   - page: developer-portal/for-developers/woocommerce.md
@@ -201,10 +227,17 @@ woocommerce:
         page: developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling.md
       - label: Settings
         page: developer-portal/for-developers/woocommerce/customization/custom-settings.md
-  - group: Fast Wordpress Plugin
+  - group: Headless
     expanded: true
     pages:
-      - label: How to Find
+      - label: "Fast Headless Checkout"
+        page: developer-portal/for-developers/woocommerce/headless/use-fast-headless-checkout.md
+      - label: "Use Fast Checkout on AMP Pages"
+        page: developer-portal/for-developers/woocommerce/headless/fast-checkout-on-amp-pages.md
+  - group: Fast WordPress Plugin
+    expanded: true
+    pages:
+      - label: Get the Latest Plugin Version
         page: developer-portal/for-developers/woocommerce/wordpress-plugin/location.md
       - label: Migrating to New Plugin Directory Version (for Early Sellers)
         page: developer-portal/for-developers/woocommerce/wordpress-plugin/migrating.md

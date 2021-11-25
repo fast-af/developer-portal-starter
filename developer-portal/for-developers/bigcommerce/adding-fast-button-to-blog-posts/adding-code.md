@@ -25,6 +25,42 @@ To add Fast Checkout to your blog posts, you will need to:
 
 ## Adding Code to Your Blog Post
 
+### Option 1: Use Fast Headless Checkout
+
+1. In your newly created blog post, add the following code snippet.
+
+   > You will need to assign a unique button ID (`button_id="{INSERT-UNIQUE-ID}"`) to the button (`fast-checkout-button`), enclosed within a form field, along with (at minimum) an App ID (`app_id`) and a Product ID (`product_id`).
+
+   ```html
+   <form>
+     <fast-checkout-button
+       button_id="UNIQUE_BUTTON_ID"
+       app_id="YOUR_APP_ID"
+       product_id="YOUR_PRODUCT_ID"
+     ></fast-checkout-button>
+   </form>
+   ```
+
+2. Insert additional HTML attributes as necessary. Since your BigCommerce blog has access to the `fast.js` script and the BigCommerce integration with Fast is FPDP-enabled (i.e. the Fast Product Display Page is accessible for integrated BigCommerce stores), this should be fairly simple.
+
+<embed src="/reusables/for-developers/_platform_headless_all_intro_standard_approach_with_fast_js.md" />
+
+<embed src="/reusables/for-developers/_platform_headless_all_table_url_parameters_and_html_attributes.md" />
+
+3. In the blog post text editor section, **click on `</>` and paste the code snippet here**:
+   ![Blog post sample](images/blog_post1.png)
+
+4. **Save**. When you save the blog post,`<p>` tags will automatically appear around the `fast-checkout-button' line.
+   ![Blog post sample](images/blog_post2.png)
+
+### Option 2: Programmatic Approach Using JavaScript and BigCommerce Storefront Theme Files
+
+:::attention Older Method
+
+Please note that this is an older, and more complicated method for adding Fast Checkout buttons to your BigCommerce store's blog. However, if you are more comfortable using JavaScript you specify, or like having all of the logic for buttons used in your blog posts in one place (theme files) for your store, this may still be your preferred solution.
+
+:::
+
 1. In your newly created blog post, add the following code snippet.
 
    > You will need to assign a unique identifier (`id="{INSERT-UNIQUE-ID}"`) to the button (`fast-checkout-button`), enclosed within a form field.
@@ -41,7 +77,7 @@ To add Fast Checkout to your blog posts, you will need to:
 3. **Save**. When you save the blog post,`<p>` tags will automatically appear around the `fast-checkout-button' line.
    ![Blog post sample](images/blog_post2.png)
 
-## Adding Code to your Theme Files
+#### Adding Code to your Theme Files
 
 To access your theme's source code, **you will complete the following**:
 
@@ -55,7 +91,7 @@ To access your theme's source code, **you will complete the following**:
 
 5. Navigate to `templates/components/blog/post.html` and **paste the following JavaScript to the bottom of your `post.html` page**:
 
-```javascript
+```javascript full code snippet with comments
 {{#if settings.request.absolute_path '===' '/blog/di-test/'}}
 <script>
   // If you have multiple fast-checkout-button elements on a single page, you'll want to use a more specific selector
@@ -131,9 +167,7 @@ To access your theme's source code, **you will complete the following**:
 {{/if}}
 ```
 
-Same code snippet, but without the comments:
-
-```javascript
+```javascript full code snippet without comments
 {{#if settings.request.absolute_path '===' '/blog/di-test/'}}
     <script>
         var {INSERT-BUTTON-NAME} = document.querySelector('{INSERT-UNIQUE-ID}');
@@ -169,9 +203,7 @@ Same code snippet, but without the comments:
 {{/if}}
 ```
 
-Same code snippet, but without the optional fields:
-
-```javascript
+```javascript condensed code snippet without optional fields
 {{#if settings.request.absolute_path '===' '/blog/di-test/'}}
     <script>
     	(function () {
