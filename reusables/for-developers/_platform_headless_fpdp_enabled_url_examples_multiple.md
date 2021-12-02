@@ -1,8 +1,8 @@
 :::attention Fast Product Display Page (FPDP) Unavailable for Multiple Products
 
-Please note that if you specify one or more products using a `products` array within a Fast Headlesss Checkout URL that amy product contained within will not render the Fast Product Display Page (FPDP), even for FPDP-enabled platforms.
+Please note that if you specify one or more products using a `products` array within a Fast Headlesss Checkout URL that any product contained within will not render the Fast Product Display Page (FPDP), even for FPDP-enabled platforms.
 
-Further, for FPDP-enabled platforms, any product included in the `products` array that has multiple variants but for which only a `product_id` is supplied will have its first/primary variant selected by default.
+Further, for FPDP-enabled platforms, any multi-variant product included in the `products` array that only specifies a `product_id` will have its first/primary variant selected by default.
 
 :::
 

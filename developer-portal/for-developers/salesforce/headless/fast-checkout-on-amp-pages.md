@@ -26,7 +26,9 @@ The following must be true in order for you to use Fast Checkout on an AMP page:
 
 <embed src="/reusables/for-developers/_platform_headless_all_headless_intro_difference_fpdp_enabled_vs_disabled.md" />
 
-Because Salesforce Commerce Cloud integrations with Fast are FPDP-disabled, Fast Headless Checkout will only have limited support for links to products in your SFCC store.
+**Because Salesforce Commerce Cloud integrations with Fast are FPDP-disabled, Fast Headless Checkout will only have limited support for links to products in your SFCC store.**
+
+<embed src="/reusables/for-developers/_platform_headless_fpdp_disabled_banner_support_recommendation.md" />
 
 <embed src="/reusables/for-developers/_platform_headless_all_table_url_parameters_and_html_attributes.md" />
 
@@ -51,7 +53,6 @@ https://go.fast.co/checkout
 &variant_id=YOUR_VARIANT_ID
 &button_id=YOUR_BUTTON_ID
 &affiliate_id=YOUR_AFFILIATE_ID
-&currency=YOUR_PREFERRED_CURRENCY
 ```
 
 ```http Template Fast Headless Checkout URL for Product with Only 1 Variant
@@ -60,7 +61,6 @@ https://go.fast.co/checkout
 &product_id=YOUR_PRODUCT_ID
 &button_id=YOUR_BUTTON_ID
 &affiliate_id=YOUR_AFFILIATE_ID
-&currency=YOUR_PREFERRED_CURRENCY
 ```
 
 Once you have built the checkout URL for the product, replace `FAST_HEADLESS_CHECKOUT_URL` in the ["Place Fast Checkout Buttons Using Semantic HTML" snippet above](#place-fast-checkout-buttons-using-semantic-html) with the URL you have put together. After that, you're good to go! The button can be used on the AMP page.
