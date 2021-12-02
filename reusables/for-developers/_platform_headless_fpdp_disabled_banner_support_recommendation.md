@@ -1,4 +1,4 @@
-:::attention Fast Headless Checkout Support
+:::warning Limited Fast Headless Checkout Support for FPDP-Disabled Platforms
 
 Currently, Fast Headless Checkout is only fully supported for FPDP-enabled platforms.
 

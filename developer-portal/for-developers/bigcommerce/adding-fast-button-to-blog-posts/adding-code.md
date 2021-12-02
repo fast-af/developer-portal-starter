@@ -29,16 +29,14 @@ To add Fast Checkout to your blog posts, you will need to:
 
 1. In your newly created blog post, add the following code snippet.
 
-   > You will need to assign a unique button ID (`button_id="{INSERT-UNIQUE-ID}"`) to the button (`fast-checkout-button`), enclosed within a form field, along with (at minimum) an App ID (`app_id`) and a Product ID (`product_id`).
+   > You will need to assign a unique button ID (`button_id="{INSERT-UNIQUE-ID}"`) to the button (`fast-checkout-button`), along with (at minimum) an App ID (`app_id`) and a Product ID (`product_id`).
 
    ```html
-   <form>
-     <fast-checkout-button
-       button_id="UNIQUE_BUTTON_ID"
-       app_id="YOUR_APP_ID"
-       product_id="YOUR_PRODUCT_ID"
-     ></fast-checkout-button>
-   </form>
+   <fast-checkout-button
+     button_id="UNIQUE_BUTTON_ID"
+     app_id="YOUR_APP_ID"
+     product_id="YOUR_PRODUCT_ID"
+   ></fast-checkout-button>
    ```
 
 2. Insert additional HTML attributes as necessary. Since your BigCommerce blog has access to the `fast.js` script and the BigCommerce integration with Fast is FPDP-enabled (i.e. the Fast Product Display Page is accessible for integrated BigCommerce stores), this should be fairly simple.

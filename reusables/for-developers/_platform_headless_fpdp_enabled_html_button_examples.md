@@ -4,7 +4,7 @@ If a `<fast-checkout-button>` is placed on a page that has access to the `fast.j
 
 If `fast.js` is not accessible (e.g. on a social media platform or 3rd-party review site), then you should instead refer to the Fast Headless Checkout instructions for your platform.
 
-Please note that for FPDP-enabled platforms only the `app_id` and `product_id` HTML attributes are strictly required, though `button_id` and `affiliate_id` are generally recommended. Specifying a product variant (via `variant_id` or `product_options`, depending on platform) is possible but generally not necessary for FPDP-Enabled platforms.
+Please note that for FPDP-enabled platforms only the `app_id` and `product_id` HTML attributes are strictly required. Other optional attributes (e.g. `affiliate_id`) may be recommended based on the use-case. Specifying a product variant (via `variant_id` or `product_options`, depending on platform) is possible but generally not necessary for FPDP-Enabled platforms.
 
 :::
 
