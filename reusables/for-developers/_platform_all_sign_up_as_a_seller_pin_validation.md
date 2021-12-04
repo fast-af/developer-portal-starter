@@ -1,13 +1,3 @@
-:::info Pro tip
-
-We recommend that you first sign up on https://sdash.sandbox.fast.co/ to create a sandbox account so that you can test your integration with test cards before going live.
-
-:::
-
-**If you need help at any point, contact customer success at [seller-support@fast.co](mailto:seller-support@fast.co).**
-
-## Pin Validation
-
 1.  On [fast.co/business](https://www.fast.co/business), **enter the following information and click "Next"**:
     - **Your company email address**
       > If you enter in a personal email address or another type of non-company email address, you can change this later.
@@ -21,7 +11,3 @@ We recommend that you first sign up on https://sdash.sandbox.fast.co/ to create 
 3.  **Fast will now send a PIN number to your email inbox**. Open your email to find this PIN number and enter it here on Fast.
     > Note: Fast doesn’t use passwords. We use PIN numbers instead.
     > ![Fast Pin Pop Up](/reusables/for-developers/images/validate-pin.png)
-
-## Pause Here and Inform Your Fast Delivery Team
-
-1.  Your Fast Delivery Manager will create and then provide you with testing credentials to continue
