@@ -1,6 +1,6 @@
-:::attention Automated Onboarding Flow Not Set Up for New Platforms
+:::attention Automated Onboarding Flow Not Set Up for All Platforms
 
-Because automated onboarding flows may not be set up for platform with recently-built integrations, you will need to work closely with Fast outside of the typical onboarding flow to get your App ID and other important credentials assigned.
+Because automated onboarding flows are still in development for some platforms, you will need to work closely with Fast outside of the typical onboarding flow to get your App ID and other important credentials assigned.
 
 :::
 
