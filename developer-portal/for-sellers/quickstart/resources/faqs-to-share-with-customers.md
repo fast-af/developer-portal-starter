@@ -15,9 +15,7 @@ We're thrilled to have you onboard as a Fast Seller! To help proactively answer 
 
 ## What is Fast Checkout?
 
-Fast Checkout enables one-click purchases without requiring a password to log in. You only need to sign in once on a given device, and Fast will remember your account and payment information, without compromising security.
-
-When you see a Fast Checkout button on your favorite website and have already signed up for Fast, press the button and your order is confirmed. There’s no need to add items to a cart. We’ll process your payment and get your order ready to go!
+<embed src="/reusables/for-shoppers/_fast_all_what_is_fast_checkout" />
 
 ## What happens when I press “Fast Checkout?”
 

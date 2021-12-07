@@ -2,6 +2,8 @@
 title: "Fast Shopper Docs: Promo Codes"
 description: Fast Checkout Promo Codes
 keywords: fast checkout promo codes
+redirectFrom:
+  - /developer-portal/for-sellers/orders/current-orders/promo-codes/
 ---
 
 # Promo Codes

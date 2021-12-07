@@ -257,8 +257,6 @@ forSellersOrders:
         page: developer-portal/for-sellers/orders/current-orders/viewing-current-orders.md
       - label: Purchasing multiple items
         page: developer-portal/for-sellers/orders/current-orders/purchasing-multiple-items.md
-      - label: Promo Codes
-        page: developer-portal/for-sellers/orders/current-orders/promo-codes.md
       - label: Pending Payments
         page: developer-portal/for-sellers/orders/current-orders/pending-payments.md
       - label: Cancelled Orders
