@@ -30,6 +30,7 @@ Before you begin this process, you’ll need an online store hosted by BigCommer
    ![BigCommerce Login](images/big22.png)
 
 3. Click the checkbox and click “Confirm.”
+
    ![Confirm](images/big3.png)
 
 4. If you want to, you can click “Help Me go Fast.” You don’t have to do this step. If you do this step, then also click the X in the pop-up that appears and continue to the next step. If you choose not to do this step, simply go straight to the next step.

@@ -34,6 +34,7 @@ Before you begin this process, you’ll need an online store hosted by WooCommer
    ![WooCommerce Login form](images/woocommerce-signup-7.png)
 
 3. Click “Approve.”
+
    ![Approve Fast connecting to your store](images/woocommerce-signup-8.png)
 
 4. If you want to, you can click “Request professional installation.” You don’t have to do this step. If you do this step, then also click the X in the pop-up that appears and continue to the next step. If you choose not to do this step, simply go straight to the next step.
