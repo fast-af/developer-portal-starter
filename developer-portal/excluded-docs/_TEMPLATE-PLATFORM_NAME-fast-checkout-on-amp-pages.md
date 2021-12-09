@@ -48,7 +48,6 @@ PLATFORM_RESTRICTIONS_REUSABLE_IF_ANY
 https://go.fast.co/checkout
 ?app_id=YOUR_APP_ID
 &product_id=YOUR_PRODUCT_ID
-&button_id=YOUR_BUTTON_ID
 &affiliate_id=YOUR_AFFILIATE_ID
 ```
 
@@ -63,7 +62,6 @@ https://go.fast.co/checkout
 ?app_id=YOUR_APP_ID
 &product_id=YOUR_PRODUCT_ID
 &variant_id=YOUR_VARIANT_ID
-&button_id=YOUR_BUTTON_ID
 &affiliate_id=YOUR_AFFILIATE_ID
 ```
 
@@ -71,7 +69,6 @@ https://go.fast.co/checkout
 https://go.fast.co/checkout
 ?app_id=YOUR_APP_ID
 &product_id=YOUR_PRODUCT_ID
-&button_id=YOUR_BUTTON_ID
 &affiliate_id=YOUR_AFFILIATE_ID
 ```
 

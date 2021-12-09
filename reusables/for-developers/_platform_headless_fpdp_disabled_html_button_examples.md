@@ -1,6 +1,6 @@
 :::info `fast.js` and FPDP-Disabled Platforms
 
-If the page that a `<fast-checkout-button>` is placed on has access to the `fast.js` script loaded on that page, then the button should get basic styling and enable Fast Checkout with the additional details provided via to the button's HTML attributes (e.g. `button_id`, `affiliate_id`, etc.).
+If the page that a `<fast-checkout-button>` is placed on has access to the `fast.js` script loaded on that page, then the button should get basic styling and enable Fast Checkout with the additional details provided via to the button's HTML attributes (e.g. `affiliate_id`).
 
 If `fast.js` is not accessible (e.g. on a social media platform or 3rd-party review site), then you should instead refer to the Fast Headless Checkout instructions for your platform.
 

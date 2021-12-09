@@ -29,11 +29,11 @@ To add Fast Checkout to your blog posts, you will need to:
 
 1. In your newly created blog post, add the following code snippet.
 
-   > You will need to assign a unique button ID (`button_id="{INSERT-UNIQUE-ID}"`) to the button (`fast-checkout-button`), along with (at minimum) an App ID (`app_id`) and a Product ID (`product_id`).
+   > You will need to assign a unique ID (`id="{INSERT-UNIQUE-ID}"`) to the button (`fast-checkout-button`), along with (at minimum) an App ID (`app_id`) and a Product ID (`product_id`).
 
    ```html
    <fast-checkout-button
-     button_id="UNIQUE_BUTTON_ID"
+     id="UNIQUE_ID"
      app_id="YOUR_APP_ID"
      product_id="YOUR_PRODUCT_ID"
    ></fast-checkout-button>

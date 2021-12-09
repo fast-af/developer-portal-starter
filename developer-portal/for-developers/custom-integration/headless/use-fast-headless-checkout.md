@@ -28,49 +28,9 @@ keywords: Fast Headless Checkout custom
 https://go.fast.co/checkout
 ?app_id=YOUR_APP_ID
 &product_id=YOUR_PRODUCT_ID
-&button_id=YOUR_BUTTON_ID
 &affiliate_id=YOUR_AFFILIATE_ID
 ```
 
 ## Multiple Product URLs for FPDP-Enabled Platforms
 
 <embed src="/reusables/for-developers/_platform_headless_fpdp_enabled_url_examples_multiple.md" />
-
-# Fast Headless Checkout URL Examples for FPDP-Disabled Platforms
-
-## Single Product URLs for FPDP-Disabled Platforms
-
-<embed src="/reusables/for-developers/_platform_headless_fpdp_disabled_url_examples_single.md" />
-
-### Recommended Fast Headless Checkout URL Templates for FPDP-Disabled Platforms
-
-```http Template Fast Headless Checkout URL for Specific Product Variant
-https://go.fast.co/checkout
-?app_id=YOUR_APP_ID
-&product_id=YOUR_PRODUCT_ID
-&variant_id=YOUR_VARIANT_ID
-&button_id=YOUR_BUTTON_ID
-&affiliate_id=YOUR_AFFILIATE_ID
-```
-
-```http Template Fast Headless Checkout URL for Product with Only 1 Variant
-https://go.fast.co/checkout
-?app_id=YOUR_APP_ID
-&product_id=YOUR_PRODUCT_ID
-&button_id=YOUR_BUTTON_ID
-&affiliate_id=YOUR_AFFILIATE_ID
-```
-
-## Multiple Product URLs for FPDP-Disabled Platforms
-
-<embed src="/reusables/for-developers/_platform_headless_fpdp_disabled_url_examples_multiple.md" />
-
-### Recommended Multiple Product URL Template for FPDP-Disabled Platforms
-
-```http Template Fast Headless Checkout URL for Multi-Variant Product and Single-Variant Product
-https://go.fast.co/checkout
-?app_id=YOUR_APP_ID
-&products=[{"product_id":"YOUR_PRODUCT_ID_1","variant_id":"YOUR_VARIANT_ID_1","quantity":1},{"product_id":"YOUR_PRODUCT_ID_2","quantity":1}]
-&button_id=YOUR_BUTTON_ID
-&affiliate_id=YOUR_AFFILIATE_ID
-```

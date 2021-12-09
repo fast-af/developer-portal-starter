@@ -42,7 +42,6 @@ This page only covers the basic setup for including a Fast Headless Checkout URL
 https://go.fast.co/checkout
 ?app_id=YOUR_APP_ID
 &product_id=YOUR_PRODUCT_ID
-&button_id=YOUR_BUTTON_ID
 &affiliate_id=YOUR_AFFILIATE_ID
 ```
 

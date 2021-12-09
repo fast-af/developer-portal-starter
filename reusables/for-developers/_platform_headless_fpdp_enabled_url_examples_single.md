@@ -1,6 +1,6 @@
 :::info Fast Headless Checkout and FPDP-Enabled Platforms
 
-Please note that for FPDP-enabled platforms only the `app_id` and `product_id` URL query parameters are strictly required, though `button_id` and `affiliate_id` are generally recommended. Specifying a product variant (via `variant_id` or `option_values`, depending on platform) is possible but generally not necessary for FPDP-Enabled platforms.
+Please note that for FPDP-enabled platforms only the `app_id` and `product_id` URL query parameters are strictly required. Other optional attributes (e.g. `affiliate_id`) may be recommended based on the use-case. Specifying a product variant (via `variant_id` or `option_values`, depending on platform) is possible but generally not necessary for FPDP-Enabled platforms.
 
 :::
 

@@ -17,7 +17,7 @@ https://go.fast.co/checkout?app_id=12345678-abcd-1234-abcd-1234567890ab&product_
 ```
 
 ```http Variant URL with Affiliate ID
-https://go.fast.co/checkout?app_id=YOUR_APP_ID&product_id=YOUR_PRODUCT_ID&affiliate_id=devdocs
+https://go.fast.co/checkout?app_id=12345678-abcd-1234-abcd-1234567890ab&product_id=117&variant_id=1013&affiliate_id=devdocs
 ```
 
 ```http Product Options URL with Affiliate ID

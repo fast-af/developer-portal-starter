@@ -35,7 +35,6 @@ PLATFORM_RESTRICTIONS_IF_ANY
 https://go.fast.co/checkout
 ?app_id=YOUR_APP_ID
 &product_id=YOUR_PRODUCT_ID
-&button_id=YOUR_BUTTON_ID
 &affiliate_id=YOUR_AFFILIATE_ID
 ```
 
@@ -51,7 +50,6 @@ PLATFORM_RESTRICTIONS_IF_ANY
 https://go.fast.co/checkout
 ?app_id=YOUR_APP_ID
 &products=[{"product_id":"YOUR_PRODUCT_ID_1","variant_id":"YOUR_VARIANT_ID_1","quantity":1},{"product_id":"YOUR_PRODUCT_ID_2","quantity":1}]
-&button_id=YOUR_BUTTON_ID
 &affiliate_id=YOUR_AFFILIATE_ID
 ```
 
@@ -59,7 +57,6 @@ https://go.fast.co/checkout
 https://go.fast.co/checkout
 ?app_id=YOUR_APP_ID
 &products=[{"product_id":"YOUR_PRODUCT_ID_1","quantity":1},{"product_id":"YOUR_PRODUCT_ID_2","quantity":1}]
-&button_id=YOUR_BUTTON_ID
 &affiliate_id=YOUR_AFFILIATE_ID
 ```
 
@@ -78,7 +75,6 @@ https://go.fast.co/checkout
 ?app_id=YOUR_APP_ID
 &product_id=YOUR_PRODUCT_ID
 &variant_id=YOUR_VARIANT_ID
-&button_id=YOUR_BUTTON_ID
 &affiliate_id=YOUR_AFFILIATE_ID
 ```
 
@@ -86,7 +82,6 @@ https://go.fast.co/checkout
 https://go.fast.co/checkout
 ?app_id=YOUR_APP_ID
 &product_id=YOUR_PRODUCT_ID
-&button_id=YOUR_BUTTON_ID
 &affiliate_id=YOUR_AFFILIATE_ID
 ```
 
@@ -102,6 +97,5 @@ PLATFORM_RESTRICTIONS_IF_ANY
 https://go.fast.co/checkout
 ?app_id=YOUR_APP_ID
 &products=[{"product_id":"YOUR_PRODUCT_ID_1","variant_id":"YOUR_VARIANT_ID_1","quantity":1},{"product_id":"YOUR_PRODUCT_ID_2","quantity":1}]
-&button_id=YOUR_BUTTON_ID
 &affiliate_id=YOUR_AFFILIATE_ID
 ```
