@@ -227,6 +227,13 @@ woocommerce:
         page: developer-portal/for-developers/woocommerce/customization/custom-checkout-button-styling.md
       - label: Settings
         page: developer-portal/for-developers/woocommerce/customization/custom-settings.md
+  - group: Headless
+    expanded: true
+    pages:
+      - label: "Fast Headless Checkout"
+        page: developer-portal/for-developers/woocommerce/headless/use-fast-headless-checkout.md
+      - label: "Use Fast Checkout on AMP Pages"
+        page: developer-portal/for-developers/woocommerce/headless/fast-checkout-on-amp-pages.md
   - group: Fast WordPress Plugin
     expanded: true
     pages:
