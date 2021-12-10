@@ -6,7 +6,7 @@ keywords: Fast Weekly Seller Reports subscription,
 
 # Subscribing to the Weekly Seller Report
 
-File a request via our Help Chat. Please mention you would like to subscribe to the Weekly Seller Report and provide:
+File a request via [seller-support@fast.co](mailto:seller-support@fast.co). Please mention you would like to subscribe to the Weekly Seller Report and provide:
 
 1. Your email associated with your Fast user account
 2. Your store name and website URL

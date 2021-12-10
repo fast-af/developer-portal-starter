@@ -4,7 +4,7 @@ description: Fast Seller pending payments information
 keywords: Fast Seller pending payments information
 ---
 
-# Pending Payments
+# Pending Orders (Payment Processing)
 
 :::info heads up
 
