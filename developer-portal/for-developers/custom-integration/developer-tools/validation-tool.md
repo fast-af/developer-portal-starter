@@ -42,7 +42,7 @@ Product ID (`product_id`) is required for running a New User Checkout (`operatio
 :::
 
 ```shell
-docker run dhruvilpatel/direct-integration-validator:direct-integration-validator-image -api_host=<seller_server_url> -operation=new_user -product_id=<product_id>
+docker run public.ecr.aws/fastco/fast-developer-tools:direct-integration-validator -api_host=<seller_server_url> -operation=new_user -product_id=<product_id>
 ```
 
 ### Manual Flows
@@ -58,7 +58,7 @@ Product ID (`product_id`) is required when running a Create Cart (`operation=cre
 :::
 
 ```shell
-docker run dhruvilpatel/direct-integration-validator:direct-integration-validator-image -api_host=<seller_server_url> -operation=create_cart -product_id=<product_id>
+docker run public.ecr.aws/fastco/fast-developer-tools:direct-integration-validator -api_host=<seller_server_url> -operation=create_cart -product_id=<product_id>
 ```
 
 #### 2. Read Cart
@@ -70,7 +70,7 @@ External ID (`external_id`) is required when running a Read Cart (`operation=rea
 :::
 
 ```shell
-docker run dhruvilpatel/direct-integration-validator:direct-integration-validator-image -api_host=<seller_server_url> -operation=read_cart -external_id=<external_id>
+docker run public.ecr.aws/fastco/fast-developer-tools:direct-integration-validator -api_host=<seller_server_url> -operation=read_cart -external_id=<external_id>
 ```
 
 #### 3. Update Bill To
@@ -82,7 +82,7 @@ Order ID (`order_id`) is required when running an Update Bill To (`operation=upd
 :::
 
 ```shell
-docker run dhruvilpatel/direct-integration-validator:direct-integration-validator-image -api_host=<seller_server_url> -operation=update_bill_to -order_id=<order_id>
+docker run public.ecr.aws/fastco/fast-developer-tools:direct-integration-validator -api_host=<seller_server_url> -operation=update_bill_to -order_id=<order_id>
 ```
 
 #### 4. Update Shipment Contact
@@ -94,7 +94,7 @@ Order ID (`order_id`) is required when running an Update Shipment Contact (`oper
 :::
 
 ```shell
-docker run dhruvilpatel/direct-integration-validator:direct-integration-validator-image -api_host=<seller_server_url> -operation=update_shipment_contact -order_id=<order_id>
+docker run public.ecr.aws/fastco/fast-developer-tools:direct-integration-validator -api_host=<seller_server_url> -operation=update_shipment_contact -order_id=<order_id>
 ```
 
 #### 5. Update Shipping Option
@@ -106,7 +106,7 @@ Order ID (`order_id`) and Shipping Option ID (`shipping_option_id`) are required
 :::
 
 ```shell
-docker run dhruvilpatel/direct-integration-validator:direct-integration-validator-image -api_host=<seller_server_url> -operation=update_shipping_option -order_id=<order_id> -shipping_option_id=<shipping_option_id>
+docker run public.ecr.aws/fastco/fast-developer-tools:direct-integration-validator -api_host=<seller_server_url> -operation=update_shipping_option -order_id=<order_id> -shipping_option_id=<shipping_option_id>
 ```
 
 #### 6. Convert Cart To Order
@@ -118,5 +118,5 @@ Order ID (`order_id`) is required when running a Convert Cart To Order (`operati
 :::
 
 ```shell
-docker run dhruvilpatel/direct-integration-validator:direct-integration-validator-image -api_host=<seller_server_url> -operation=convert_cart_to_order -order_id=<order_id>
+docker run public.ecr.aws/fastco/fast-developer-tools:direct-integration-validator -api_host=<seller_server_url> -operation=convert_cart_to_order -order_id=<order_id>
 ```
