@@ -1,3 +1,15 @@
+<style>
+table th:first-of-type {
+    width: 20%;
+}
+table th:nth-of-type(2) {
+    width: 35%;
+}
+table th:nth-of-type(3) {
+    width: 45%;
+}
+</style>
+
 # Direct Integration Validator
 
 The Direct Integration Validator tool helps Sellers validate the API endpoints required to set up Fast for their stores. This tool allows a Seller to make individual calls to Create/Read/Update endpoints (Delete endpoint support will be added in the near future).
@@ -18,18 +30,18 @@ The Direct Integration Validator tool helps Sellers validate the API endpoints r
 
 Below is a quick summary of the arguments that you can supply to the Direct Integration Validator Tool, though you should refer to the section for a particular flow for more details:
 
-| Argument      | Description                                                                                                                          | Examples                                                                                                                                                                                                           |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `api_host`    | The Seller HTTP Server URL that can receive Fast API Requests.<br>**Required for all flows.**                                        | -api_host=api.example.com                                                                                                                                                                                          |
-| `operation`   | The flow to be run.<br>**Required for all flows.**                                                                                   | - `-operation=create_cart`<br>- `-operation=read_cart`<br>- `-operation=update_bill_to`<br>- `-operation=update_shipment_contact`<br>- `-operation=update_shipping_option`<br>- `-operation=convert_cart_to_order` |
-| `product_id`  | The product ID of the product as it exists in the backend catalog.<br>**Required for New User Checkout and Create Cart flows.**      |                                                                                                                                                                                                                    |
-| `external_id` | Uniquely identifier for an exact item.<br>**Required for Read Cart flow.**                                                           |                                                                                                                                                                                                                    |
-| `order_id`    | The order ID.<br>**Required for Update Bill To, Update Shipment Contact, Update Shipping Options, and Convert Cart to Order flows.** |                                                                                                                                                                                                                    |
-| `logResponse` | Flag (boolean) that can be set to enable response logging for the Direct Integration Validator tool.                                 | `-logResponse=true`                                                                                                                                                                                                |
+| Argument      | Description                                                                                                                               | Examples                                                                                                                                                                                                    |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `api_host`    | The Seller HTTP Server URL that can receive Fast API Requests.<br>**Required for all flows.**                                             | `-api_host=api.example.com`                                                                                                                                                                                 |
+| `operation`   | The flow to be run.<br>**Required for all flows.**                                                                                        | `-operation=create_cart`<br> `-operation=read_cart`<br> `-operation=update_bill_to`<br> `-operation=update_shipment_contact`<br> `-operation=update_shipping_option`<br> `-operation=convert_cart_to_order` |
+| `product_id`  | The product ID of the product as it exists in the backend catalog.<br>**Required for New User Checkout and Create Cart flows.**           | `-product_id=128`                                                                                                                                                                                           |
+| `external_id` | Unique identifier for an exact item (commonly an external order ID)<br>**Required for Read Cart flow.**                                   | `-external_id=a98a387e-02ec-41a8-a38e-e3ca5fb0548e`                                                                                                                                                         |
+| `order_id`    | The Fast order ID.<br>**Required for Update Bill To, Update Shipment Contact, Update Shipping Options, and Convert Cart to Order flows.** | `-order_id=order-8cedeffd-5ade-4d4f-ab23-d0f9546c5e0b`                                                                                                                                                      |
+| `logResponse` | Flag (boolean) that can be set to enable response logging for the Direct Integration Validator tool.                                      | `-logResponse=true`                                                                                                                                                                                         |
 
 ### End-to-End Flows
 
-This tool can automatically run a full end-to-end flow for different checkout scenarios
+This tool can automatically run a full end-to-end flow for different checkout scenarios.
 
 Currently we support the New User Checkout (`operation=new_user`) flow, where a new user signs up for Fast.
 
