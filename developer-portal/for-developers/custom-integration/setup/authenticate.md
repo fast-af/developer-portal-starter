@@ -6,13 +6,16 @@ keywords: Fast Custom Integration Quickstart
 enableToc: true
 redirectFrom:
   - /developer-portal/fast-api-reference-authentication/
+  - /developer-portal/for-developers/custom-integration/resources/authentication/
 ---
 
 # Setup Step 1: All Things Authentication
 
 ## Onboarding Overview of Terms
 
-Authentication will be a part of everything! Before we can get started we need to go over a few terms:
+Fast's Custom Integration is intended for merchants who have custom-built their own eCommerce site and want to use Fast Checkout to eliminate the friction during the checkout experience for their users and reduce cart abandonment.
+
+Custom Integrations with Fast require some development work to properly ingest calls from Fast for new orders or updates, as well as occasional calls to Fast for things like refunds. Authentication will be a part of everything! Technical integration steps and key term definitions can be found below.
 
 ### Merchant API URL
 
@@ -24,11 +27,11 @@ This is the base URL we will use for sending API requests for the defined APIs t
 
 ### API Access Token
 
-**We will generate an API Access Token during onboarding**. You can view this token via the Fast UI once, so be sure to copy and store this in a safe place where you normally store your credentials (i.e. AWS Secret Store). This API Token will be used to authenticate your calls to Fast.
+**We will generate an API Access Token during onboarding**. You can view this token via the Fast UI once, so be sure to copy and store this in a safe place where you normally store your credentials (e.g. AWS Secret Store). This API Token will be used to authenticate your calls to Fast.
 
 ### App ID
 
-**We will assign your app a unique identifier during onboarding**. This ID will be included in every call you make to Fast in the Headers, discussed below.
+**We will assign your app a unique identifier (`app_id`) during onboarding**. This ID will be included in every call you make to Fast in the Headers, discussed below.
 
 ### App Secret
 
