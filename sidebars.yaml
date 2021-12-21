@@ -87,8 +87,6 @@ custom-integration:
   - group: Resources
     expanded: true
     pages:
-      - label: Authentication
-        page: developer-portal/for-developers/custom-integration/resources/authentication.md
       - label: Checkout Origins
         page: developer-portal/for-developers/custom-integration/resources/checkout-origins.md
       - label: Configurable & Direct Capture
