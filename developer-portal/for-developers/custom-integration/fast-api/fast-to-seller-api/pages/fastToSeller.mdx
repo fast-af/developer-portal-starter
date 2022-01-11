@@ -1,12 +1,13 @@
----
-title: "Fast Custom Integration Docs: Requests"
-description: Getting Started with Fast on Custom Integration! Backend Requests.
-keywords: Fast Custom Integration Quickstart
----
 
-# Setup Step 4: Backend Requests
+import {
+  H1,
+  OpenApiRequestBody,
+  OpenApiResponse
+ } from '@redocly/developer-portal/ui';
 
-Fast uses a non-standard, polymorphic API. As our product grows and changes, many new features will be added to the API. As such, we have built it in such a way that customer's may opt-in to new features with minimal friction.
+# Fast -> Seller API
+
+Fast uses a non-standard, polymorphic API. As our product grows and changes, many new features will be added to the API. As such, we have built it in such a way that buyer's may opt-in to new features with minimal friction. Fast will communicate with your server application on these endpoints.
 
 | REST VERB | API_URL         | Link                                                                                           |
 | --------- | --------------- | ---------------------------------------------------------------------------------------------- |
@@ -15,3 +16,18 @@ Fast uses a non-standard, polymorphic API. As our product grows and changes, man
 | POST      | /fast/v1/update | [Docs](/developer-portal/for-developers/custom-integration/fast-api/fast-to-seller-api/pages/update.mdx) |
 | POST      | /fast/v1/delete | [Docs](/developer-portal/for-developers/custom-integration/fast-api/fast-to-seller-api/pages/delete.mdx) |
 
+# Authentication
+ApiKeyAuth
+<table>
+  <tr>
+    <th colspan="2">ApiKeyAuth</th>
+  </tr>
+  <tr>
+    <td>Security Schema Type</td>
+    <td>Value 1</td>
+  </tr>
+  <tr>
+    <td> API Key </td>
+    <td> FASTSESSION </td>
+  </tr>
+</table>

@@ -31,6 +31,62 @@ servers:
   - url: https://https://api.sandbox.fast.co
     description: Sandbox server (for testing)
 components:
+  requestBodies:
+    CreateRequest:
+      description: A create request.
+      content:
+        application/json:
+          schema:
+            $ref: components/schemas/v1CreateRequest.yaml
+    ReadRequest:
+      description: A read request.
+      content:
+        application/json:
+          schema:
+            $ref: components/schemas/v1ReadRequest.yaml
+    UpdateRequest:
+      description: An update request.
+      content:
+        application/json:
+          schema:
+            $ref: components/schemas/v1UpdateRequest.yaml
+    DeleteRequest:
+      description: A delete request.
+      content:
+        application/json:
+          schema:
+            $ref: components/schemas/v1DeleteRequest.yaml
+  responses:
+    CreateResponse:
+      description: A successful response.
+      content:
+        application/json:
+          schema:
+            $ref: components/schemas/v1CreateResponse.yaml
+    ReadResponse:
+      description: A successful response.
+      content:
+        application/json:
+          schema:
+            $ref: components/schemas/v1ReadResponse.yaml
+    UpdateResponse:
+      description: A successful response.
+      content:
+        application/json:
+          schema:
+            $ref: components/schemas/v1UpdateResponse.yaml
+    DeleteResponse:
+      description: A successful response.
+      content:
+        application/json:
+          schema:
+            $ref: components/schemas/v1DeleteResponse.yaml    
+    DefaultResponse:
+      description: An unexpected error response.
+      content:
+        application/json:
+          schema:
+            $ref: components/schemas/rpcStatus.yaml
   securitySchemes:
     ApiKeyAuth:
       type: apiKey

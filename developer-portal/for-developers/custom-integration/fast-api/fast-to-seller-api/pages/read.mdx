@@ -1,0 +1,310 @@
+
+import {
+  OpenApiRequestBody,
+  OpenApiResponse
+ } from '@redocly/developer-portal/ui';
+
+# Read Operation
+The Read operation is used by Fast to return information on a Fast order.
+
+## Read Request
+<span>
+  <p style={{fontFamily:'Courier,monospace', display:'flex',alignItems:'center'}}>
+  <div style={{backgroundColor:'cadetblue', color:'white', padding:'3px 5px'}}>POST</div>
+  /fast/v1/read
+  </p>
+</span>
+<OpenApiRequestBody definitionId="merchant" pointer="#/components/requestBodies/ReadRequest" />
+
+## Read Response
+### Success (200)
+<OpenApiResponse definitionId="merchant" pointer="#/components/responses/ReadResponse" />
+
+### Error
+<OpenApiResponse definitionId="merchant" pointer="#/components/responses/DefaultResponse" />
+
+
+## Use Cases
+Below are business cases that will trigger Fast to call the Read operation to the Seller.
+
+<details><summary><h3>Read a Cart</h3></summary>
+<p>
+
+### Read a Cart
+
+Fast makes a read request to the existing platform cart so that it can get the item information to create a Fast order. This call is triggered when a user clicks the Fast Checkout button from the mini-cart or cart page.
+
+**Request**
+```json
+{
+  "type": "ENTITY_TYPE_ORDER",
+  "order": {
+    "is_cart": true,
+    "external_order_id": "OPnjkIN3mBgF2k6WhbADkTfyOlK8FEbh"
+  }
+}
+```
+
+**Response**
+```json
+{
+  "order": {
+    "order": {
+      "id": {
+        "value": "as5920783-453d-6ee4-ac3c-f23af36ff819"
+      },
+      "external_id": "OPnjkIN3mBgF2k6WhbADkTfyOlK8FEbh",
+      "order_type": "ORDER_TYPE_CART",
+      "currency_code": "USD",
+      "status": "ORDER_STATUS_CART",
+      "lines": [
+        {
+          "id": {
+            "value": "5c5e373a-c675-447c-8e1c-fda798c5f31c"
+          },
+          "external_id": "6297",
+          "external_product_id": "1797",
+          "external_variant_id": "1797-BK-M",
+          "quantity": 1,
+          "subtotal_amount": "50.00",
+          "total_amount": "37.50",
+          "name": "Black, M",
+          "image_url": "",
+          "fulfillment_mode": "ITEM_FULFILLMENT_MODEL_PHYSICAL"
+        }
+      ],
+      "total_amount": "37.50",
+      "sub_total": "37.50",
+      "total_discounts": "0.00",
+      "total_tax": "0.00",
+      "total_shipping": "0.00"
+    }
+  }
+}
+```
+</p>
+</details>
+
+
+<details><summary><h3>Read an Order</h3></summary>
+<p>
+
+### Read an Order
+
+Fast makes a read request to an existing order to retrieve the order information. Seller->Fast API communication within the Order Management Service triggers a request to read an order.
+
+**Request**
+```json
+{
+  "app_id": "088fdade-8809-471c-89c2-f429fa844af2",
+  "type": "ENTITY_TYPE_ORDER",
+  "order": {
+    "external_order_id": "585" // Provide this value OR the `order_id` object -- not both!
+  }
+}
+```
+
+**Response**
+```json
+{
+  "type": "ENTITY_TYPE_ORDER",
+  "order": {
+    "order": {
+      "external_id": "585",
+      "order_type": "ORDER_TYPE_ORDER",
+      "currency_code": "USD",
+      "bill_to": {
+        "first_name": "Solutions",
+        "last_name": "Team",
+        "email": "solutions@fast.co",
+        "phone": "+18005551212",
+        "address_1": "100 Park Avenue",
+        "city_locality": "New York",
+        "state_province": "New York",
+        "state_province_code": "NY",
+        "country": "US",
+        "postal_code": "10017"
+      },
+      "lines": [
+        {
+          "external_product_id": "1556",
+          "external_variant_id": "6418",
+          "quantity": 1,
+          "quantity_fulfilled": 0,
+          "unit_price": "22",
+          "discounted_unit_price": "0",
+          "line_discount_amount": "0",
+          "subtotal_amount": "22",
+          "tax_amount": "0",
+          "total_amount": "22",
+          "discounts": [
+            {
+              "applied": false
+            }
+          ],
+          "name": "Radiant Tee",
+          "fulfillment_mode": "ITEM_FULFILLMENT_MODEL_PHYSICAL"
+        },
+        {
+          "external_product_id": "1542",
+          "external_variant_id": "6419",
+          "quantity": 1,
+          "quantity_fulfilled": 0,
+          "unit_price": "0",
+          "discounted_unit_price": "0",
+          "line_discount_amount": "0",
+          "subtotal_amount": "0",
+          "tax_amount": "0",
+          "total_amount": "0",
+          "discounts": [
+            {
+              "applied": false
+            }
+          ],
+          "name": "Radiant Tee-XS-Orange",
+          "fulfillment_mode": "ITEM_FULFILLMENT_MODEL_PHYSICAL"
+        },
+        {
+          "external_product_id": "1556",
+          "external_variant_id": "6420",
+          "quantity": 1,
+          "quantity_fulfilled": 0,
+          "unit_price": "22",
+          "discounted_unit_price": "0",
+          "line_discount_amount": "0",
+          "subtotal_amount": "22",
+          "tax_amount": "0",
+          "total_amount": "22",
+          "discounts": [
+            {
+              "applied": false
+            }
+          ],
+          "name": "Radiant Tee",
+          "fulfillment_mode": "ITEM_FULFILLMENT_MODEL_PHYSICAL"
+        },
+        {
+          "external_product_id": "1548",
+          "external_variant_id": "6421",
+          "quantity": 1,
+          "quantity_fulfilled": 0,
+          "unit_price": "0",
+          "discounted_unit_price": "0",
+          "line_discount_amount": "0",
+          "subtotal_amount": "0",
+          "tax_amount": "0",
+          "total_amount": "0",
+          "discounts": [
+            {
+              "applied": false
+            }
+          ],
+          "name": "Radiant Tee-M-Orange",
+          "fulfillment_mode": "ITEM_FULFILLMENT_MODEL_PHYSICAL"
+        }
+      ],
+      "shipment_plans": [
+        {
+          "ship_to": {
+            "first_name": "Solutions",
+            "last_name": "Team",
+            "email": "solutions@fast.co",
+            "phone": "+18005551212",
+            "address_1": "100 Park Avenue",
+            "city_locality": "New York",
+            "state_province": "New York",
+            "state_province_code": "NY",
+            "country": "US",
+            "postal_code": "10017"
+          },
+          "lines": [
+            {
+              "quantity": 1,
+              "external_id": "998"
+            },
+            {
+              "quantity": 1,
+              "external_id": "999"
+            },
+            {
+              "quantity": 1,
+              "external_id": "1000"
+            },
+            {
+              "quantity": 1,
+              "external_id": "1001"
+            }
+          ],
+          "selected_option": {
+            "external_id": "flatrate_flatrate",
+            "name": "Flat Rate - Fixed",
+            "cost": "10",
+            "tax": "0",
+            "total": "10"
+          },
+          "available_options": [
+            
+          ]
+        }
+      ],
+      "total_amount": "54",
+      "sub_total": "44",
+      "total_discounts": "0",
+      "total_tax": "0",
+      "total_shipping": "10",
+      "short_order_id": "585"
+    }
+  },
+  "user": {
+    "user": {
+      "email": "solutions@fast.co",
+      "first_name": "Solutions",
+      "last_name": "Team",
+      "phone": "+18005551212"
+    }
+  }
+}
+```
+</p>
+</details>
+
+<details><summary><h3>Read a Shipping Zone</h3></summary>
+<p>
+
+### Read a Shipping Zone
+
+Fast makes this call to check for any restricted countries so that error messaging can show immediately when a shopper tries to ship somewhere invalid. That way, restricted countries or states/provinces are sent to Fast early in the process. 
+
+This is triggered when a shopper enters or changes a shipping address on their Fast order.
+
+**Request**
+```json
+{
+  "app_id": "088fdade-8809-471c-89c2-f429fa844af2",
+  "type": "ENTITY_TYPE_SHIPPING_ZONES"
+}
+```
+
+**Response**
+```json
+{
+  "type": "ENTITY_TYPE_SHIPPING_ZONES",
+  "order": {
+    "order": {
+      
+    }
+  },
+  "shipping_zones": {
+    "shipping_zones": [
+      {
+        "country_iso2": "US"
+      },
+      {
+        "country_iso2": "GB"
+      }
+    ]
+  }
+}
+```
+</p>
+</details>
