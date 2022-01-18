@@ -6,22 +6,24 @@ keywords: fast sfcc extension
 
 # Install Step 1: Acquiring the Fast SFCC SFRA Cartridge
 
-## Download the Cartridge
-
 :::info AVAILABLE SOON:
 The Fast Salesforce Reference Architecture (SFRA) Cartridge should be available via the [Commerce Cloud Partner Marketplace](https://www.salesforce.com/products/commerce-cloud/partner-marketplace/), which allows you to download the compressed Cartridge as a ZIP file.
 :::
 
-### Things you will need:
+:::attention Required Accounts
+
+Prior to downloading the cartridge, you will need:
 
 - Salesforce Commerce Cloud credentials to [access the Salesforce Commerce Cloud Github Organization](https://github.com/orgs/SalesforceCommerceCloud/sso/sign_up)
 - An existing Github account (or [sign up for a new one](http://github.com/join))
 
-### Download the Fast Cartridge
+:::
+
+## Download the Fast Cartridge
 
 Download one of the following versions of the Fast Cartridge:
 
-- [(Recommended for most users) Marketplace Fast Cartridge](https://github.com/SalesforceCommerceCloud/link_fastcheckout) - the SFCC Marketplace version of the Fast Cartridge. Stable and recommended for most users.
+- [(Recommended for Most Users) Marketplace Fast Cartridge](https://github.com/SalesforceCommerceCloud/link_fastcheckout) - the SFCC Marketplace version of the Fast Cartridge. Stable and recommended for most users.
 - [(Latest Version) Dev Fast Cartridge](https://github.com/fast-af/sfcc-integration/) - our in-development version of the Fast Cartridge with the latest features (e.g. for site admins who want to try development builds in Sandbox).
 
 :::attention Custom Cartridge ZIP File
