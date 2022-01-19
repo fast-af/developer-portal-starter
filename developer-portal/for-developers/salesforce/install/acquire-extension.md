@@ -14,8 +14,8 @@ The Fast Salesforce Reference Architecture (SFRA) Cartridge should be available 
 
 Prior to downloading the cartridge, you will need:
 
-- Salesforce Commerce Cloud credentials to [access the Salesforce Commerce Cloud Github Organization](https://github.com/orgs/SalesforceCommerceCloud/sso/sign_up)
-- An existing Github account (or [sign up for a new one](http://github.com/join))
+- Salesforce Commerce Cloud credentials to [access the Salesforce Commerce Cloud GitHub Organization](https://github.com/orgs/SalesforceCommerceCloud/sso/sign_up)
+- An existing GitHub account (or [sign up for a new one](http://github.com/join))
 
 :::
 
