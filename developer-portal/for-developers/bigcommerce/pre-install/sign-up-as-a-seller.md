@@ -26,7 +26,11 @@ Before you begin this process, you’ll need an online store hosted by BigCommer
 3. On the Platform Page, click “BigCommerce.” Then click “Next.”
 
    ![Platform page](images/bcwc03.png)
+   
+4. Add the domain of your business website. Then click “Continue”.
 
+  ![Website URL page](images/bcwc04.png)
+  
 ## Connect to BigCommerce
 
 1. We need to authorize Fast on BigCommerce in order to install the Fast Checkout button. You’ll need the information below to connect your platform:
