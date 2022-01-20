@@ -30,7 +30,5 @@ We recommend that you first sign up on https://sdash.sandbox.fast.co/ to create 
     - **Your legal parent company name**
       ![Org Details Form](/reusables/for-developers/images/bcwc01.png)
 
-2.  On the Store Details page, **enter the following information and click “Next”**:
-    - **Your website domain**
-    - **Your company name**
-    - **The country where your business is registered**
+    - **Your business address**
+      ![Org Address](/reusables/for-developers/images/bcwc02.png)
