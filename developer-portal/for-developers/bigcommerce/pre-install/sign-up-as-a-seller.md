@@ -45,13 +45,14 @@ Before you begin this process, you’ll need an online store hosted by BigCommer
 ## Verification
 1.  We need to verify your business to get your account set up for Fast. Once you have the information displayed, click “Verify”
 
-   ![Business verification](images/both6.png)
+   ![Business verification](images/bcwc-verifybusiness.png)
 
 2. Wait several seconds for the business verification to complete. If this verification is unsuccessful, contact customer success at seller-support@fast.co. Otherwise, move on to the next step. Note: If you operate under a DBA, you will need to click the pencil icon in order to enter your legal name that correlates with your tax ID. 
 
-   ![Business EIN details](images/both7.png)
+   ![Business verification](images/both6.png)
 
 3. Click “continue”
+   ![Business EIN details](images/both7.png)
    ![Fast partners with Stripe notification](images/both8.png)
 
 ## Bank Details
