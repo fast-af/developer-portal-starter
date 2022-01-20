@@ -24,13 +24,11 @@ We recommend that you first sign up on https://sdash.sandbox.fast.co/ to create 
 
 ## Fill Out Your Profile
 
-1.  On the Org Details page, **enter the following information and click “Next”**:
-
-    - **Your company name**
-    - **Your company address**
-    - **Your company phone number**
-    - **Your referral number** if you were referred to Fast through a partner (This is optional.)
-      ![Org Details Form](/reusables/for-developers/images/fill-profile.png)
+1.  On the business details, **enter the following information and click “Continue”**:
+    - **Your legal business name**
+    - **Your doing-business-as name**
+    - **Your legal parent company name**
+      ![Org Details Form](/reusables/for-developers/images/bcwc01.png)
 
 2.  On the Store Details page, **enter the following information and click “Next”**:
     - **Your website domain**
