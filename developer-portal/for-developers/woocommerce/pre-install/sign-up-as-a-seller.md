@@ -55,7 +55,7 @@ Before you begin this process, you’ll need an online store hosted by WooCommer
    ![Business verification](images/woocommerce-signup-13.png)
 
 4. Click “continue”
-   ![Fast partners with Stripe notification](images/woocommerce-signup-14.png)
+   ![Fast partners with Stripe notification](images/bcwc07.png)
 
 ## Bank Details
 1. On the Bank Details page, enter the following information:
