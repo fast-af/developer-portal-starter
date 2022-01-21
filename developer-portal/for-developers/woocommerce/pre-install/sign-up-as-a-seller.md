@@ -52,10 +52,10 @@ Before you begin this process, you’ll need an online store hosted by WooCommer
 
 3. Wait several seconds for the business verification to complete. If this verification is unsuccessful, contact customer success at seller-support@fast.co. Otherwise, move on to the next step. Note: If you operate under a DBA, you will need to click the pencil icon in order to enter your legal name that correlates with your tax ID. 
 
-   ![Business verification](images/both6.png)
+   ![Business verification](images/woocommerce-signup-13.png)
 
 4. Click “continue”
-   ![Fast partners with Stripe notification](images/both8.png)
+   ![Fast partners with Stripe notification](images/woocommerce-signup-14.png)
 
 ## Bank Details
 1. On the Bank Details page, enter the following information:
