@@ -45,7 +45,7 @@ Before you begin this process, you’ll need an online store hosted by BigCommer
    ![BigCommerce Login](images/big22.png)
 
 3. Click the checkbox and click “Confirm.”
-   ![Confirm](images/big3.png)
+   ![Confirm](images/bc-confirm.png)
 
 ## Verification
 

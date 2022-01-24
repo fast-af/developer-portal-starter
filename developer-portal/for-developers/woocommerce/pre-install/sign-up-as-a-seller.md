@@ -45,8 +45,7 @@ Before you begin this process, you’ll need an online store hosted by WooCommer
    ![WooCommerce Login form](images/woocommerce-signup-7.png)
 
 3. Click the checkbox and click “Confirm.”
-   ![Confirm]()
-   DELETE ME IMAGE MISSING TO CONNECT WOOCOMMERCE TO FAST
+   ![Confirm](images/wc-confirm.png)
 
 ## Verification
 
