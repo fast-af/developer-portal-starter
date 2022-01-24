@@ -37,7 +37,7 @@ Before you begin this process, you’ll need an online store hosted by BigCommer
    2. BigCommerce account email
    3. BigCommerce account password
 
-   ![Connect to WooCommerce pop up](images/bc-connectplatform.png)
+   ![Connect to BigCommerce pop up](images/bc-connectplatform.png)
 
 2. Click “Log in” and log into your BigCommerce account.
    **Note**: You need BigCommerce Store Owner access to do this.
