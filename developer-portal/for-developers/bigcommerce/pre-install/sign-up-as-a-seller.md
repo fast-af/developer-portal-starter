@@ -15,11 +15,11 @@ Before you begin this process, you’ll need an online store hosted by BigCommer
 
 <embed src="/reusables/for-developers/_platform_all_sign_up_as_a_seller_banner_sandbox_and_contact_support.md" />
 
-# PIN Validation
+## PIN Validation
 
 <embed src="/reusables/for-developers/_platform_all_sign_up_as_a_seller_pin_validation.md" />
 
-# Fill Out Your Profile
+## Fill Out Your Profile
 
 <embed src="/reusables/for-developers/_platform_all_sign_up_as_a_seller_fill_out_your_profile.md" />
 
