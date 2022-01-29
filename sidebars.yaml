@@ -89,6 +89,8 @@ custom-integration:
   - group: Resources
     expanded: true
     pages:
+      - label: Test Edit on GitHub Link Button
+        page: developer-portal/for-developers/custom-integration/resources/test-github-link.mdx
       - label: Authentication
         page: developer-portal/for-developers/custom-integration/resources/authentication.md
       - label: Checkout Origins
