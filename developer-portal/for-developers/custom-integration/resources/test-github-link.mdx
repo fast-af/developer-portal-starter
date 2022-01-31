@@ -1,7 +1,4 @@
-import { dumbTest } from "../../../../components/test.tsx";
-import { ghEditLink } from "../../../../components/ghEditLink.tsx";
-
-import { Link } from "@redocly/developer-portal/ui";
+import { Test } from "../../../../components/test.tsx";
 
 # Test Obtain Path
 
@@ -15,10 +12,10 @@ Simple PATH using `window.location.pathname`:
 
 # Test Import JSX
 
-<dumbTest />
+<Test />
 
-tried `<dumbTest />` importing from `/components/test.tsx` right above but nothing displays.
+Using `<Test />` imported from `/components/test.tsx`
 
 # Test ghEditLink
 
-Not actually doing `<ghEditLink />` importing from `/components/ghEditLink.tsx` since it throws errors, but that's the idea.
+Not actually using `<ghEditLink />` importing from `/components/ghEditLink.tsx` since it throws errors, but that's the idea.
