@@ -1,23 +1,24 @@
 import * as React from "react";
-import { Link } from "@redocly/developer-portal/ui";
+import { Button } from "@redocly/developer-portal/ui";
 
 export function Test() {
   let oldStyleLocation = window.location.href;
   let oldStylePath = window.location.pathname;
   let branch = "";
+  let buttonMessage = "";
 
-  if (oldStyleLocation.includes("https://preview.redoc.ly/fastaf")) {
+  if (oldStyleLocation.includes("preview.redoc.ly/fastaf")) {
     oldStylePath = oldStylePath.replace("/fastaf/", "");
     branch = oldStylePath.split("/")[0].replace("/", "");
+    buttonMessage = "Edit Preview Branch on GitHub";
   } else if (oldStyleLocation.includes("fast.co/docs")) {
     oldStylePath = oldStylePath.replace("/docs/", "master/");
+    buttonMessage = "Edit on GitHub";
   } else if (oldStyleLocation.includes("localhost:")) {
-    alert(
-      "Unsure how to grab branch during local testing. Master link provided. Use preview link for branch-specific GitHub link."
-    );
-    oldStylePath = "master" + oldStylePath;
+    buttonMessage = "Local Dev Button CANNOT Link to GitHub";
+    oldStylePath = "REPLACE_ME_WITH_HYPHENATED_BRANCH_NAME" + oldStylePath;
   } else {
-    alert("something went wrong with EDIT ON GITHUB feature");
+    buttonMessage = "SOMETHING WENT WRONG";
   }
 
   let oldStylePathWithoutTrailingSlash = oldStylePath.substring(
@@ -25,7 +26,7 @@ export function Test() {
     oldStylePath.length - (oldStylePath.endsWith("/") ? 1 : 0)
   );
 
-  let ghMasterEditLink =
+  let ghEditLink =
     "https://github.com/fast-af/devportal/edit/" +
     oldStylePathWithoutTrailingSlash +
     ".mdx";
@@ -38,7 +39,7 @@ export function Test() {
       <div style={{ fontSize: "18px", marginBottom: "10px" }}>
         Old Style PATH: <strong>{oldStylePath}</strong>
       </div>
-      <Link to={ghMasterEditLink}>Click Here to Edit on GitHub</Link>
+      <Button to={ghEditLink}>{buttonMessage}</Button>
     </div>
   );
 }
