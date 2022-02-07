@@ -18,7 +18,7 @@ Today, all events have a `name` field that denotes the type of event that fired 
 - `Buy Now - Button Clicked` is emitted when the "Fast Checkout" button is clicked on the product page.
 - `Checkout Cart - Button Clicked` is emitted when the "Fast Checkout" button is clicked on the cart page.
 
-Both these events emit:
+The above events emit:
 
 ```json
 {
@@ -42,12 +42,15 @@ Both these events emit:
 }
 ```
 
+---
+
 - `Checkout - Order Created` is emitted when the order has been submitted through Fast Checkout.
 - `Checkout - Order Updated` is emitted when the order has changed while inside the Fast Checkout window.
 - `Checkout - Order Completed` is emitted when the order has finalized while inside the Fast Checkout window. This occurs when the timer window reaches zero naturally or is ended manually.
 - `Checkout - Order Cancelled` is emitted when the order has been canceled from inside the Fast Checkout window.
+- `Checkout - Item Cancelled` is emitted when a buyer selects to re-buy something but then decides not to after we ask if they are sure.
 
-These events emit:
+The above events emit:
 
 ```json
 {
@@ -80,6 +83,13 @@ These events emit:
   }
 }
 ```
+
+---
+
+- `Checkout - Existing User` is emitted when an order is created by a buyer who is already signed up to Fast or has an active order
+- `Popup window closed` is emitted when the Fast Checkout window is closed.
+
+The above events emit no extra information.
 
 **Note**: All event properties have the potential to be undefined. You will need to check for undefined properties and values
 
