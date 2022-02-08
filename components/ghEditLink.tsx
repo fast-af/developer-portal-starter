@@ -1,72 +1,102 @@
 import * as React from "react";
-import * as ReactDOM from "react-dom";
-import * as Gatsby from "gatsby";
+import { useLocation, globalHistory, ServerLocation } from "@reach/router";
+import { PageInfo } from "@redocly/developer-portal/dist/engine/auto-graphql";
+import { Button, Link, usePageData } from "@redocly/developer-portal/ui";
 
-function ghEditLink(props): JSX.Element {
-  const extractBranch = (path) => {
-    const pathArray = path.split("/");
-    const branchIndex = 0;
-    return pathArray[branchIndex];
-  };
-
-  const extractRelPath = (path) => {
-    const pathArray = path.split("/");
-    const branchIndex = 1;
-    return pathArray[branchIndex];
-  };
-
-  let thecurrentPageURL = window.location.href;
-  let thecurrentPagePath = window.location.pathname;
-
-  var ghMasterURL;
-  var ghBranchURL;
+export function GHEditLink() {
   const ghRepo = "github.com/fast-af/devportal";
   const redoclyPreviewSite = "preview.redoc.ly/fastaf";
   const redoclyFastDocsProdSite = "fast.co/docs";
 
-  var prefix = thecurrentPageURL.includes(redoclyPreviewSite)
-    ? redoclyPreviewSite
-    : redoclyFastDocsProdSite;
+  const { pageId } = usePageData();
 
-  const regexTest = RegExp(`${prefix}+\/(.*)\/`);
-  let fullPath = regexTest.exec;
-  var branch;
+  let ghBaseURL = "https://github.com/fast-af/devportal/edit";
 
-  if (prefix === redoclyPreviewSite) {
-    branch = extractBranch(fullPath);
-  } else if (prefix === redoclyFastDocsProdSite) {
-    branch = "master";
+  var currentLocation;
+
+  var isDevPortalPage = false;
+
+  if (pageId && pageId.length > 0) {
+    currentLocation = usePageData();
+    isDevPortalPage = true;
+  } else if (useLocation()) {
+    currentLocation = useLocation();
+  } else if (globalHistory.location) {
+    currentLocation = useLocation();
   } else {
-    branch = "SOMETHING-WENT-REALLY-WRONG";
+    currentLocation = window.location;
   }
 
-  let relPath = extractRelPath(fullPath);
+  //let currentLocation = globalHistory.location;
 
-  //ghMasterURL = ghRepo + "/" + "blob" + "/" + fullPath;
-  ghMasterURL = `https://${ghRepo}/blob/master/${fullPath}`;
+  //let currentLocation = window.location;
 
-  //ghBranchURL = ghRepo + "/" + "blob" + "/" + branch + fullPath;
-  ghBranchURL = `https://${ghRepo}/blob/${branch}/${fullPath}`;
+  let baseURL = currentLocation.origin;
+  let oldStylePath = currentLocation.pathname;
+  let oldStyleHost = currentLocation.host;
 
-  //.replace(branch, "");
+  //let oldStyleLocation = window.location.href;
+  //let oldStyleLocation = globalHistory.location.href;
+  //let baseURL = globalHistory.location.origin;
 
-  //ghBranchURL = thecurrentPageURL;
+  //let oldStylePath = window.location.pathname;
+  //let oldStylePath = globalHistory.location.pathname;
+
+  //let oldStyleHost = globalHistory.location.host;
+
+  let newPath = "";
+  let branch = "";
+  let buttonMessage = "";
+
+  const trimSlashes = (str) =>
+    str
+      .split("/")
+      .filter((v) => v !== "")
+      .join("/");
+
+  if (baseURL.includes("preview.redoc.ly/fastaf")) {
+    newPath = oldStylePath.replace("/fastaf/", "");
+    newPath = trimSlashes(newPath);
+    branch = newPath.split("/")[0].replace("/", "");
+    branch = trimSlashes(branch);
+    buttonMessage = "Edit Preview Branch on GitHub";
+  } else if (baseURL.includes("fast.co/docs")) {
+    newPath = oldStylePath.replace("/docs/", "");
+    newPath = trimSlashes(newPath);
+    branch = "master";
+    buttonMessage = "Edit on GitHub";
+  } else if (baseURL.includes("localhost")) {
+    newPath = trimSlashes(oldStylePath);
+    branch = "REPLACE_ME_WITH_HYPHENATED_BRANCH_NAME";
+    buttonMessage = "Local Dev Button CANNOT Link to GitHub";
+  } else {
+    buttonMessage = "SOMETHING WENT WRONG";
+  }
+
+  var ghEditLinkTest;
+
+  if (isDevPortalPage) {
+    let ghEditLinkTest = ghBaseURL + "/" + branch + "/" + pageId;
+  } else {
+    let ghEditLinkTest = ghBaseURL + "/" + branch + "/" + newPath + ".mdx";
+  }
+  //let ghNewEditLink = oldStyleLocation.replace(baseURL, ghBaseURL).replace(oldStylePath, "/" + branch + "/" + newPath + ".mdx");
 
   return (
     <div style={{ border: "1px solid red", padding: "10px" }}>
       <div style={{ fontSize: "18px", marginBottom: "10px" }}>
-        The PATH: <strong>{thecurrentPageURL}</strong>
+        Old Style PATH: <strong>{oldStylePath}</strong>
       </div>
       <div style={{ fontSize: "18px", marginBottom: "10px" }}>
-        Edit This Page on Github (current branch):{" "}
-        <strong>{ghBranchURL}</strong>
+        base URL: <strong>{baseURL}</strong>
       </div>
       <div style={{ fontSize: "18px", marginBottom: "10px" }}>
-        Edit This Page on Github (master branch): <strong>{ghMasterURL}</strong>
+        new Trimmed Path: <strong>{newPath}</strong>
       </div>
-      <button onClick={() => relPath}>
-        Click here to see associated Github branch
-      </button>
+      <div style={{ fontSize: "18px", marginBottom: "10px" }}>
+        Original GitHub link: <strong>{ghEditLinkTest}</strong>
+      </div>
+      <Button to={ghEditLinkTest}>{buttonMessage}</Button>
     </div>
   );
 }
