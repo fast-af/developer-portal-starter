@@ -8,7 +8,7 @@ export function GHEditLink() {
   const redoclyPreviewSite = "preview.redoc.ly/fastaf";
   const redoclyFastDocsProdSite = "fast.co/docs";
 
-  const { pageId } = usePageData();
+  const pageId = usePageData().pageId;
 
   let ghBaseURL = "https://github.com/fast-af/devportal/edit";
 
