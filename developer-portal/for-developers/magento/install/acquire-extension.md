@@ -1,7 +1,7 @@
 ---
 title: "Fast Magento Docs: Acquiring Fast Module"
 description: Acquiring the Fast Module for Magento
-keywords: fast magento extension
+keywords: Fast Magento extension, Fast Magneto Module, Fast Magento install
 ---
 
 # Install Step 1: Acquiring the Fast Module for Magento
@@ -13,7 +13,7 @@ The latest version of the Fast Module for Magento is publicly available via Comp
 ## Install with Composer
 
 
-Using [Composer](https://getcomposer.org/) navigate to your Magento webroot and ** **issue the following commands**:
+Using [Composer](https://getcomposer.org/) navigate to your Magento webroot and **issue the following commands**:
 
 ```bash
 composer require fast-af/module-checkout
