@@ -1,8 +1,9 @@
-meta:
+seo:
   title: Fast Docs
   description: Documentation, resources & support integrating Fast products.
   siteUrl: https://fast.co/docs
-  keywords: Fast button, Fast install, Fast login, Fast docs
+  image: ./images/fastDocsLogo.svg
+  keywords: "Fast Checkout, Fast button, Fast install, Fast login, Fast docs, Fast API"
   lang: en-US
 linkChecker:
   severity: warning
