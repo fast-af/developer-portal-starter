@@ -32,7 +32,9 @@ export function NewGHEditLink() {
 
   var ghEditLink = "SOMETHING_WENT_WRONG";
 
-  document.baseURI;
+  var currentBaseURI = document.baseURI;
+
+  var currentPathPrefix = usePathPrefix();
 
   const primaryGHBranch = "master";
 
@@ -60,9 +62,14 @@ export function NewGHEditLink() {
     //ghEditLink = trimSlashes(fullURL.replace(currentBaseUrl, ghBaseURL));
     //ghEditLink = ghEditLink.replace(currentPathname, currentPageId);
     return (
-      <a href={ghEditLink}>
-        Edit on GitHub Preview Branch for {currentBaseUrl}
-      </a>
+      <div>
+        <a href={ghEditLink}>
+          Edit on GitHub Preview Branch for {currentBaseUrl}
+        </a>
+        <p>baseURI: {currentBaseURI}</p>
+        <p> currentPathPrefix: {currentPathPrefix}</p>
+        <p> ghEditLink: {ghEditLink}</p>
+      </div>
     );
     //var pos = branch.lastIndexOf("/") + 1;
     //branch = branch.substring(pos, branch.length - pos);
@@ -94,6 +101,8 @@ export function NewGHEditLink() {
         </p>
         <p> Testing pageId: {currentPageId}</p>
         <p> Cannot Provide Edit on GitHub Link for {currentBaseUrl}</p>
+        <p>baseURI: {currentBaseURI}</p>
+        <p> currentPathPrefix: {currentPathPrefix}</p>
         <p>malformed GitHub Edit Link: {ghEditLink}</p>
         <a href={genericGHEditLink}>
           Generic GitHub Edit Link (will only work if currently available on
