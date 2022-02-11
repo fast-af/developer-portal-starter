@@ -38,20 +38,27 @@ export function NewGHEditLink() {
 
   //var branch = trimSlashes(currentBaseUrl);
   var branch = "INSERT_BRANCH_NAME";
-  var str = document.location.pathname.replace("/fastaf/", "");
-  var mySubString = str.substring(0, str.indexOf("/"));
 
   if (fullURL.includes("fast.co/docs")) {
     branch = primaryGHBranch;
-    ghEditLink = trimSlashes(fullURL.replace(currentBaseUrl, ghBaseURL));
-    ghEditLink = ghEditLink.replace(
-      trimSlashes(currentPathname),
-      "/" + branch + "/" + trimSlashes(currentPageId)
-    );
+
+    ghEditLink =
+      ghBaseURL + "/" + trimSlashes(branch) + "/" + trimSlashes(currentPageId);
+
     return <a href={ghEditLink}>Edit on GitHub for {currentBaseUrl}</a>;
-  } else if (currentBaseUrl.includes("preview.redoc.")) {
-    ghEditLink = trimSlashes(fullURL.replace(currentBaseUrl, ghBaseURL));
-    ghEditLink = ghEditLink.replace(currentPathname, currentPageId);
+  } else if (fullURL.includes("preview.redoc.")) {
+    branch = currentPathname.replace("/fastaf/", "");
+    branch = branch.substring(0, branch.indexOf("/"));
+
+    ghEditLink =
+      trimSlashes(ghBaseURL) +
+      "/" +
+      trimSlashes(branch) +
+      "/" +
+      trimSlashes(currentPageId);
+
+    //ghEditLink = trimSlashes(fullURL.replace(currentBaseUrl, ghBaseURL));
+    //ghEditLink = ghEditLink.replace(currentPathname, currentPageId);
     return (
       <a href={ghEditLink}>
         Edit on GitHub Preview Branch for {currentBaseUrl}
@@ -60,12 +67,12 @@ export function NewGHEditLink() {
     //var pos = branch.lastIndexOf("/") + 1;
     //branch = branch.substring(pos, branch.length - pos);
   } else {
-    branch = "INSERT_BRANCH_NAME";
-    ghEditLink = trimSlashes(fullURL.replace(currentBaseUrl, ghBaseURL));
-    ghEditLink = ghEditLink.replace(
-      trimSlashes(currentPathname),
-      "/" + branch + "/" + trimSlashes(currentPageId)
-    );
+    ghEditLink =
+      trimSlashes(ghBaseURL) +
+      "/" +
+      trimSlashes(branch) +
+      "/" +
+      trimSlashes(currentPageId);
 
     let genericGHEditLink =
       trimSlashes(ghBaseURL) +
@@ -95,10 +102,4 @@ export function NewGHEditLink() {
       </div>
     );
   }
-  /*  let ghEditLink =
-      trimSlashes(ghBaseURL) +
-      "/" +
-      trimSlashes(branch) +
-      "/" +
-      trimSlashes(currentPageId); */
 }
