@@ -34,8 +34,6 @@ export function NewGHEditLink() {
 
   var currentBaseURI = document.baseURI;
 
-  var currentPathPrefix = usePathPrefix();
-
   const primaryGHBranch = "master";
 
   //var branch = trimSlashes(currentBaseUrl);
@@ -49,8 +47,9 @@ export function NewGHEditLink() {
 
     return <a href={ghEditLink}>Edit on GitHub for {currentBaseUrl}</a>;
   } else if (fullURL.includes("preview.redoc.")) {
-    branch = currentPathname.replace("/fastaf/", "");
-    branch = branch.substring(0, branch.indexOf("/"));
+    var currentPathPrefix = usePathPrefix();
+    branch = trimSlashes(currentPathPrefix.replace("/fastaf/", ""));
+    //branch = branch.substring(0, branch.indexOf("/"));
 
     ghEditLink =
       trimSlashes(ghBaseURL) +
