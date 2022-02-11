@@ -3,6 +3,8 @@ import { StaticQuery, graphql } from "gatsby";
 import {
   Button,
   Link,
+  NavBar,
+  NavBarProps,
   usePageData,
   usePathPrefix,
 } from "@redocly/developer-portal/ui";
@@ -65,6 +67,15 @@ export function NewGHEditLink() {
         <a href={ghEditLink}>
           Edit on GitHub Preview Branch for {currentBaseUrl}
         </a>
+        <br />
+        <Link target="_blank" href={ghEditLink}>
+          Redocly/React Link Component Test with "href" for {currentBaseUrl}
+        </Link>
+        <br />
+        <Link target="_blank" to={ghEditLink}>
+          Redocly/React Link Component Test with "to" for {currentBaseUrl}
+        </Link>
+        <br />
         <p>baseURI: {currentBaseURI}</p>
         <p> currentPathPrefix: {currentPathPrefix}</p>
         <p> ghEditLink: {ghEditLink}</p>
@@ -107,6 +118,10 @@ export function NewGHEditLink() {
           Generic GitHub Edit Link (will only work if currently available on
           live site)
         </a>
+        <br />
+        <Link target="_blank" to={ghEditLink}>
+          Redocly/React Link Component Test {currentBaseUrl}
+        </Link>
       </div>
     );
   }
