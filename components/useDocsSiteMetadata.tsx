@@ -1,4 +1,5 @@
 import * as React from "react";
+import { graphql, useStaticQuery } from "gatsby";
 import { useLocation, globalHistory } from "@reach/router";
 import {
   Button,
@@ -6,39 +7,49 @@ import {
   usePageData,
   usePathPrefix,
 } from "@redocly/developer-portal/ui";
-import useDocsSiteMetadata from "./useDocsSiteMetadata";
 
-const trimSlashes = (str) =>
-  str
-    .split("/")
-    .filter((v) => v !== "")
-    .join("/");
+const UseDocsSiteMetadata = () => {
+  const data = useStaticQuery(graphql`
+    query DocsSiteMetaData {
+      site {
+        pathPrefix
+        host
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
+  `);
 
-export function GHEditLink() {
-  //const data = useDocsSiteMetadata();
+  const trimSlashes = (str) =>
+    str
+      .split("/")
+      .filter((v) => v !== "")
+      .join("/");
 
   const ghRepo = "github.com/fast-af/devportal";
   const redoclyPreviewSite = "preview.redoc.ly/fastaf";
   const redoclyFastDocsProdSite = "fast.co/docs";
 
   let currentSiteUrl = "data.site.siteMetadata.siteUrl_FAILED";
-  //if (data) currentSiteUrl = data.site.siteMetadata.siteUrl;
+  if (data) currentSiteUrl = data.site.siteMetadata.siteUrl;
 
   let pageId = usePageData().pageId;
   //const pathPrefix = usePathPrefix();
 
-  let pathPrefixFromConfig = usePathPrefix();
-  if (!pathPrefixFromConfig)
-    pathPrefixFromConfig = "pathPrefixFromConfig_FAILED";
-  let pathPrefixFromEnv = process.env.REDOCLY_PREFIX_PATHS;
-  //if (!pathPrefixFromEnv) pathPrefixFromEnv = "pathPrefixFromEnv_FAILED";
+  var pathPrefix = "pathPrefix_FAILED";
 
-  var pathPrefix =
-    pathPrefixFromConfig != null
-      ? pathPrefixFromConfig
-      : pathPrefixFromEnv != null
-      ? pathPrefixFromEnv
-      : "";
+  let pathPrefixFromConfig = usePathPrefix();
+
+  let pathPrefixFromEnv = process.env.REDOCLY_PREFIX_PATHS;
+
+  if (!pathPrefixFromConfig) {
+    pathPrefixFromConfig = "pathPrefixFromConfig_FAILED";
+    pathPrefix = pathPrefixFromEnv;
+  } else if (!pathPrefixFromEnv) {
+    pathPrefixFromEnv = "pathPrefixFromEnv_FAILED";
+    pathPrefix = pathPrefixFromConfig;
+  }
 
   /**  if (pathPrefixFromConfig && pathPrefix.length > 0) {
     pathPrefix = pathPrefixFromConfig;
@@ -139,14 +150,6 @@ export function GHEditLink() {
       <Button to={ghEditLinkTest}>{buttonMessage}</Button>
     </div>
   );
-}
+};
 
-//ReactDOM.render(<button />, document.getElementById("ghEditLink"));
-
-//export default ghEditLink
-
-/**
- * <div style={{ fontSize: "18px", marginBottom: "10px" }}>
-        Original GitHub link: <strong>{ghEditLinkTest}</strong>
-      </div>
- */
+export default UseDocsSiteMetadata;

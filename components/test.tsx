@@ -1,78 +1,126 @@
 import * as React from "react";
-import { render } from "react-dom";
-import { globalHistory } from "@reach/router";
-import { Button, Link } from "@redocly/developer-portal/ui";
+import { useLocation, globalHistory } from "@reach/router";
+import { Link, usePageData, usePathPrefix } from "@redocly/developer-portal/ui";
+import useDocsSiteMetadata from "./useDocsSiteMetadata";
 
-//let location = document.querySelector("link[rel='canonical']").href;
+const trimSlashes = (str) =>
+  str
+    .split("/")
+    .filter((v) => v !== "")
+    .join("/");
 
 export function Test() {
+  const data = useDocsSiteMetadata().props;
+  var currentLocation = null;
+  var useLocationLocation = useLocation();
+  var globalHistoryLocation = globalHistory.location;
+  var windowLocation = window.location;
+
+  if (useLocationLocation != null) {
+    currentLocation = useLocationLocation;
+  } else if (globalHistoryLocation != null) {
+    currentLocation = globalHistoryLocation;
+  } else if (window.location != null) {
+    currentLocation = windowLocation;
+  }
+
+  const pageId =
+    usePageData() != null
+      ? usePageData().pageId
+      : "usePageData().pageId_FAILED";
   let ghBaseURL = "https://github.com/fast-af/devportal/edit";
+  let currentHost = data != null ? data.site.host : "data.site.host_FAILED";
+  let currentSiteUrl =
+    data != null
+      ? data.site.siteMetadata.siteUrl
+      : "data.site.siteMetadata.siteUrl_FAILED";
+  let currentLocationPathName =
+    currentLocation != null
+      ? currentLocation.pathname
+      : "location.pathname_FAILED";
 
-  //let oldStyleLocation = window.location.href;
-  let oldStyleLocation = globalHistory.location.href;
-  let baseURL = globalHistory.location.origin;
-  //let oldStylePath = window.location.pathname;
-  let oldStylePath = globalHistory.location.pathname;
+  let pathPrefixFromConfig =
+    usePathPrefix() != null
+      ? usePathPrefix().toString
+      : "pathPrefixFromConfig_FAILED";
+  let pathPrefixFromEnv =
+    process.env.REDOCLY_PREFIX_PATHS != null
+      ? process.env.REDOCLY_PREFIX_PATHS
+      : "pathPrefixFromEnv_FAILED";
+  let pathPrefixFromGraphQL =
+    data != null ? data.site.pathPrefix : "pathPrefixFromGraphQL_FAILED";
 
-  let oldStyleHost = globalHistory.location.host;
+  var pathPrefix =
+    pathPrefixFromConfig != null
+      ? pathPrefixFromConfig
+      : pathPrefixFromEnv != null
+      ? pathPrefixFromEnv
+      : pathPrefixFromGraphQL != null
+      ? pathPrefixFromGraphQL
+      : "";
 
-  let newPath = "";
-  let branch = "";
-  let buttonMessage = "";
+  var branch = "REPLACE_ME_WITH_HYPHENATED_BRANCH_NAME";
+  var buttonMessage = "BUTTON_MESSAGE_NOT_FILLED";
 
-  const trimSlashes = (str) =>
-    str
-      .split("/")
-      .filter((v) => v !== "")
-      .join("/");
-
-  if (oldStyleLocation.includes("preview.redoc.ly/fastaf")) {
-    newPath = oldStylePath.replace("/fastaf/", "");
-    newPath = trimSlashes(newPath);
-    branch = newPath.split("/")[0].replace("/", "");
+  if (currentHost.includes("preview.redoc.ly")) {
+    //newPath = oldStylePath.replace("/fastaf/", "");
+    //newPath = trimSlashes(pageId);
+    //branch = newPath.split("/")[0].replace("/", "");
+    //branch = trimSlashes(branch);
+    branch = pathPrefix.split("/")[0].replace("/", "");
     branch = trimSlashes(branch);
     buttonMessage = "Edit Preview Branch on GitHub";
-  } else if (oldStyleLocation.includes("fast.co/docs")) {
-    newPath = oldStylePath.replace("/docs/", "");
-    newPath = trimSlashes(newPath);
+  } else if (currentHost.includes("fast.co/docs")) {
+    //newPath = oldStylePath.replace("/docs/", "");
+    //newPath = trimSlashes(newPath);
     branch = "master";
     buttonMessage = "Edit on GitHub";
-  } else if (oldStyleLocation.includes("localhost")) {
-    newPath = trimSlashes(oldStylePath);
+  } else if (currentHost.includes("localhost")) {
+    //newPath = trimSlashes(oldStylePath);
+    branch = pathPrefix.split("/")[0].replace("/", "");
+    branch = trimSlashes(branch);
     branch = "REPLACE_ME_WITH_HYPHENATED_BRANCH_NAME";
     buttonMessage = "Local Dev Button CANNOT Link to GitHub";
   } else {
-    buttonMessage = "SOMETHING WENT WRONG";
+    buttonMessage = "SOMETHING_WENT_WRONG";
   }
 
-  let ghEditLinkTest = ghBaseURL + "/" + branch + "/" + newPath + ".mdx";
+  //let ghEditLinkTest = "FAILED";
+  let ghEditLinkTest = ghBaseURL + "/" + branch + "/" + pageId;
 
-  let ghNewEditLink = oldStyleLocation
-    .replace(baseURL, ghBaseURL)
-    .replace(oldStylePath, "/" + branch + "/" + newPath + ".mdx");
+  //<Button to={ghEditLinkTest}>{buttonMessage}</Button>
+  //<Link to={canonicalUrl}>Canonical URL</Link>
 
+  const canonicalUrl = currentSiteUrl + currentLocationPathName;
   return (
     <div style={{ border: "1px solid red", padding: "10px" }}>
       <div style={{ fontSize: "18px", marginBottom: "10px" }}>
-        Old Style LOCATION: <strong>{oldStyleLocation}</strong>
+        pathPrefixFromConfig: <strong>{pathPrefixFromConfig}</strong>
       </div>
       <div style={{ fontSize: "18px", marginBottom: "10px" }}>
-        Old Style PATH: <strong>{oldStylePath}</strong>
+        pathPrefixFromEnv: <strong>{pathPrefixFromEnv}</strong>
       </div>
       <div style={{ fontSize: "18px", marginBottom: "10px" }}>
-        base URL: <strong>{baseURL}</strong>
+        pathPrefixFromGraphQL: <strong>{pathPrefixFromGraphQL}</strong>
       </div>
       <div style={{ fontSize: "18px", marginBottom: "10px" }}>
-        new Trimmed Path: <strong>{newPath}</strong>
+        pathPrefix picked with logic: <strong>{pathPrefix}</strong>
       </div>
       <div style={{ fontSize: "18px", marginBottom: "10px" }}>
-        Original GitHub link: <strong>{ghEditLinkTest}</strong>
+        base URL (currentHost): <strong>{currentHost}</strong>
       </div>
       <div style={{ fontSize: "18px", marginBottom: "10px" }}>
-        New GitHub link: <strong>{ghNewEditLink}</strong>
+        path (pageId): <strong>{pageId}</strong>
       </div>
-      <Button to={ghEditLinkTest}>{buttonMessage}</Button>
-      <Button to={ghNewEditLink}>{buttonMessage}</Button>
+      <div style={{ fontSize: "18px", marginBottom: "10px" }}>
+        Assembled GitHub link: <strong>{ghEditLinkTest}</strong>
+      </div>
+      <div style={{ fontSize: "18px", marginBottom: "10px" }}>
+        canonicalUrl using data.site.siteMetadata.siteUrl and location.pathname:{" "}
+        <strong>{canonicalUrl}</strong>
+      </div>
     </div>
   );
 }
+
+//let location = document.querySelector("link[rel='canonical']").href;
