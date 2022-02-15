@@ -68,11 +68,11 @@ export function NewGHEditLink() {
           Edit on GitHub Preview Branch for {currentBaseUrl}
         </a>
         <br />
-        <Link target="_blank" href={ghEditLink}>
+        <Link target="_blank" href={ghEditLink} external>
           Redocly/React Link Component Test with "href" for {currentBaseUrl}
         </Link>
         <br />
-        <Link target="_blank" to={ghEditLink}>
+        <Link target="_blank" to={ghEditLink} external>
           Redocly/React Link Component Test with "to" for {currentBaseUrl}
         </Link>
         <br />
@@ -119,7 +119,7 @@ export function NewGHEditLink() {
           live site)
         </a>
         <br />
-        <Link target="_blank" to={ghEditLink}>
+        <Link target="_blank" to={ghEditLink} external>
           Redocly/React Link Component Test {currentBaseUrl}
         </Link>
       </div>
