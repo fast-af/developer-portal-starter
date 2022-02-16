@@ -1,0 +1,265 @@
+---
+title: "Fast Mobile SDK Docs: Android SDK"
+description: Getting Started with the Fast Android SDK
+keywords: Fast Mobile SDK, Fast Android SDK
+---
+
+import {
+  MobileIntroAndPrereqs,
+  MobileInvokeCheckout,
+  MobileProductOptionsWarning,
+  MobileSignout,
+} from "../../../../../components/MobileMDXMacros.tsx";
+
+<MobileIntroAndPrereqs
+  sdkFullName="Fast Android SDK"
+  shortOS="Android"
+  sdkModuleName="fast-android"
+  sdkLanguage="Kotlin"
+  sdkCompatibleLanguage="Java"
+  versionsSupportedOS="API Level 21 (Android 5.0) and above"
+  supportedDevices="Android phones and tablets that meet the API Level (`MinSDKVersion`) requirement described above"
+/>
+
+The Fast Android SDK allows you to securely collect payments natively through your Android app. If you want to collect in-app payments for services like digital subscriptions or digital goods, we encourage you to read the [Google Play Payments Policy for in-app purchases](https://support.google.com/googleplay/android-developer/answer/9858738?hl=en).
+
+# Set Up the SDK
+
+Getting started with the Android SDK requires four steps:
+
+1. [Install the SDK](#install-the-sdk)
+2. [Configure your app](#configure-your-app)
+3. [Use Fast Checkout](#use-fast-checkout)
+4. [Handle Fast Events](#handle-fast-events)
+
+## Install the SDK
+
+Add the `fast-android` gradle dependency to your `dependencies` block in your `app/build.gradle` file.
+
+```kotlin
+android {
+	buildFeatures {
+		// ....
+	}
+
+	// ....
+}
+
+dependencies {
+	// ....
+	implementation "co.fast.android.sdk:${sdkVersion}"
+}
+```
+
+## Configure Your App
+
+<embed src="/reusables/for-developers/_platform_all_sign_up_as_a_seller_banner_sandbox_and_contact_support.md" />
+
+You can integrate the Fast Checkout button with both XML-based and compose-based layouts.
+
+Follow these steps to start accepting secure payments in your app
+
+1. Pass your **Fast App ID** with the `metadata` tag in `app/src/main/AndroidManifest.xml`
+
+```kotlin
+<application
+	android:name="Your application name">
+
+	<meta-data android:name="co.fast.app_id" android:value="${appId}" />
+
+	<activity
+		/>
+</application>
+```
+
+:::info App Startup library dependency
+
+Android Jetpack's [App Startup](https://developer.android.com/topic/libraries/app-startup) library is used to initialize the Fast Android SDK.
+
+:::
+
+1. Enable `databinding` in your `app/build.gradle` . We use [databinding](https://developer.android.com/jetpack/androidx/releases/databinding) to bind views in the SDK and it is required for the `app` module to enable databinding.
+
+```kotlin
+android {
+
+	compileSDKVersion ...
+	//...
+
+	buildFeatures {
+    dataBinding true
+  }
+}
+```
+
+1. Add `jitpack` to your list of repositories in `root/build.gradle`. We use [Persistent Cookie Jar](https://github.com/thomas-bouvier/persistent-cookie-jar-okhttp) library for OkHttp to persist session data in our networking stack.
+
+```kotlin
+allprojects {
+    repositories {
+        ...
+        maven { url "https://jitpack.io" }
+    }
+}
+```
+
+1. Initialize the `FastCheckout` class
+
+```kotlin
+private lateinit var fastCheckout: FastCheckout
+
+override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        fastCheckout = FastCheckout(this, ::onFastCheckoutEvent)
+}
+
+// ::onFastCheckoutEvent explained below in callbacks section
+```
+
+1. Add the `FastCheckoutButton` to your XML or Compose layout
+
+   1. XML layout
+
+      ```kotlin
+      // xml layout
+
+      <co.fast.android.sdk.checkout.FastCheckoutButton
+      	android:id="@+id/fast_checkout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp" // we recommend 56dp
+       />
+      ```
+
+   2. Compose layout
+
+      ```kotlin
+      // jetpack compose layout
+
+      FastCheckoutButton(
+      	onClick = { Fast.checkout(...) }, // launches checkout flow, explained below
+        enabled = Boolean, // true if all variants selected, false otherwise
+        modifier = Modifier
+      	  .fillMaxWidth()
+      )
+      ```
+
+## Use Fast Checkout
+
+<MobileInvokeCheckout
+  sdkModuleName="fast-android"
+  actionType="listener"
+  actionName="fastCheckoutButton"
+/>
+
+The SDK provides 2 main routes for invoking checkout:
+
+1. [Checkout with a List of Products](#checkout-with-a-list-of-products)
+2. [Checkout with a Cart ID](#checkout-with-a-cart-id)
+
+<MobileProductOptionsWarning sdkFullName="Fast Android SDK" />
+
+All required fields are explained below:
+
+```kotlin
+fastCheckoutButton.setOnClickListener {
+	Fast.checkout(
+	  context = Context,
+	  options = FastCheckoutOptions(
+		  theme = FastSdkTheme
+		)
+	  platformOrderInfo = PlatformOrderInfo,
+		callback = CheckoutEventListenerObject
+	)
+}
+```
+
+| Name              | Type                        | Description                                                                                                                                                                                              |
+| ----------------- | --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| context           | Context                     | Android context (e.g. `this` if launching from an Activity, `requireActivity()` if launching from a Fragment).                                                                                           |
+| options           | FastCheckoutOptions         | Fast checkout options enable you to pass options to theme the SDK. By default, we'll use the system theme to show light or dark mode. You can pass in light or dark theme by setting the theme property. |
+| platformOrderInfo | PlatformOrderInfo           | Data class for passing in item information. The class provides two builder methods to instantiate it.                                                                                                    |
+| callback          | CheckoutEventListenerObject | Callback to notify your app about important events (e.g. when an order is created, updated, or completed).                                                                                               |
+
+### Checkout with a List of Products
+
+You can also instantiate the `PlatformOrderInfo` object using a list of product info items. Passing in `couponCode` is optional. It defaults to `null` so you can skip it if the buyer hasn't provided a coupon.
+
+```kotlin
+val platformOrderItems = listOf(PlatformOrderItem(
+        platformProductId = "FAST_PLATFORM_PRODUCT_ID",
+        platformVariantId = "FAST_PLATFORM_VARIANT_ID",
+        optionValues = listOf(Pair("FAST_VARIANT_ID", "FAST_VARIANT_VALUE_ID")),
+        quantity = PRODUCT_QUANTITY, // for example 1, 2 etc.
+    ))
+val platformOrderInfo = PlatformOrderInfo.build(
+	platformOrderItems = platformOrderItems,
+	couponCode = "COUPON" // of type String?, defaults to null
+)
+```
+
+### Checkout with a Cart ID
+
+You can instantiate by passing a `cartId` if there's a cartId associated with the order.
+
+```kotlin
+val platformOrderInfo = PlatformOrderInfo.build(platformCartId = "CART_ID_FROM_FAST_BACKEND_INTEGRATION")
+```
+
+### Initialize Theme
+
+```kotlin light theme
+
+options = FastCheckoutOptions(
+	FastSdkTheme.LIGHT // FastSdkTheme.AUTO for system theme (default)
+)
+```
+
+```kotlin dark theme
+
+options = FastCheckoutOptions(
+	FastSdkTheme.DARK // FastSdkTheme.AUTO for system theme (default)
+)
+```
+
+## Handle Fast Events
+
+The SDK will communicate with the seller app via callbacks as the user performs actions to progress through the checkout flow.
+
+### Callbacks
+
+As the user progresses through the Fast checkout experience, callbacks will notify your app about significant events. You can listen to them by passing in a callback object. To listen to callbacks, define the method in your activity / fragment.
+
+```kotlin
+private fun onFastCheckoutEvent(event: FastCheckoutEvent) {
+        when (event) {
+            is FastCheckoutEvent.OrderCanceled -> {
+                Log.i(LOG_TAG, "Event: OrderCanceled: ${event.purchaseInfo}")
+            }
+            is FastCheckoutEvent.OrderCompleted -> {
+                Log.i(LOG_TAG, "Event: OrderCompleted: ${event.purchaseInfo}")
+            }
+            is FastCheckoutEvent.OrderCreated -> {
+                Log.i(LOG_TAG, "Event: OrderCreated: ${event.purchaseInfo}")
+            }
+            is FastCheckoutEvent.OrderFailed -> {
+                Log.i(LOG_TAG, "Event: OrderFailed: ${event.throwable}")
+            }
+            is FastCheckoutEvent.OrderUpdated -> {
+                Log.i(LOG_TAG, "Event: OrderUpdated: ${event.purchaseInfo}")
+            }
+            else -> Log.i(LOG_TAG, "Event: Unhandled event: $event")
+        }
+    }
+```
+
+### Mobile SDK Events Breakdown
+
+For additional details, please refer to [Android SDK Events](./mobile-events.mdx).
+
+### Sign Out
+
+<MobileSignout sdkFullName="Fast Android SDK" signoutMethod="reset()" />
+
+```kotlin
+Fast.reset()
+```

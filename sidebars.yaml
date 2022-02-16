@@ -77,6 +77,24 @@ custom-integration:
         page: developer-portal/for-developers/custom-integration/fast-api/fast-to-seller-api/docs.page.yaml
       - label: Seller -> Fast API
         page: developer-portal/for-developers/custom-integration/fast-api/seller-to-fast-api/docs.page.yaml
+  - group: Mobile SDKs
+    expanded: true
+    pages:
+      - group: Fast iOS SDK
+        expanded: false
+        pages:
+          - label: Use the iOS SDK
+            page: developer-portal/for-developers/custom-integration/fast-sdks/ios/mobile-sdk.mdx
+          - label: iOS SDK Events
+            page: developer-portal/for-developers/custom-integration/fast-sdks/ios/mobile-events.mdx
+      - group: Fast Android SDK
+        expanded: false
+        pages:
+          - label: Use the Android SDK
+            page: developer-portal/for-developers/custom-integration/fast-sdks/android/mobile-sdk.mdx
+          - label: Android SDK Events
+            page: developer-portal/for-developers/custom-integration/fast-sdks/android/mobile-events.mdx
+
   - group: Developer Tools
     expanded: true
     pages:
