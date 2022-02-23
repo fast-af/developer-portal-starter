@@ -1,0 +1,30 @@
+---
+title: "Fast Android SDK Docs: Install the Fast Android SDK"
+description: Install the Fast Android SDK
+keywords: Fast Mobile SDK, Fast Android SDK, Install Fast Android SDK
+---
+
+import {
+  MobileIntroAndPrereqs,
+  MobileProductOptionsWarning,
+  MobileSignout,
+} from "../../../../../components/MobileMDXMacros.tsx";
+
+## Install the SDK
+
+Add the `fast-android` gradle dependency to your `dependencies` block in your `app/build.gradle` file.
+
+```kotlin
+android {
+	buildFeatures {
+		// ....
+	}
+
+	// ....
+}
+
+dependencies {
+	// ....
+	implementation "co.fast.android.sdk:${sdkVersion}"
+}
+```

@@ -1,0 +1,116 @@
+---
+title: "Fast Android SDK Docs: Use Fast Checkout"
+description: Use Fast Checkout with Your Android App
+keywords: Fast Mobile SDK, Fast Android SDK, Use Fast Checkout with Android
+---
+
+import {
+  MobileIntroAndPrereqs,
+  MobileInvokeCheckout,
+  MobileProductOptionsWarning,
+  MobileSignout,
+} from "../../../../../components/MobileMDXMacros.tsx";
+
+# Use Fast Checkout with Your Android App
+
+<MobileInvokeCheckout
+  sdkModuleName="fast-android"
+  actionType="listener"
+  actionName="fastCheckoutButton"
+/>
+
+The SDK provides 2 main routes for invoking checkout:
+
+1. [Checkout with a List of Products](#checkout-with-a-list-of-products)
+2. [Checkout with a Cart ID](#checkout-with-a-cart-id)
+
+All required fields are explained below:
+
+```kotlin
+fastCheckoutButton.setOnClickListener {
+	Fast.checkout(
+	  context = Context,
+	  options = FastCheckoutOptions(
+		  theme = FastSdkTheme
+		)
+	  platformOrderInfo = PlatformOrderInfo,
+	  callback = CheckoutEventListenerObject
+	)
+}
+```
+
+| Name                | Type                        | Description                                                                                                                                                                                                                     |
+| ------------------- | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `context`           | Context                     | Android context (e.g. `this` if launching from an Activity, `requireActivity()` if launching from a Fragment).                                                                                                                  |
+| `options`           | FastCheckoutOptions         | Fast checkout options enable you to pass options to `theme` the SDK. By default, we'll use the system theme to show light or dark mode. You can pass in light or dark theme by [setting the theme property](#initialize-theme). |
+| `platformOrderInfo` | PlatformOrderInfo           | Data class for passing in item information. The class provides two builder methods to instantiate it.                                                                                                                           |
+| `callback`          | CheckoutEventListenerObject | Callback to notify your app about important events (e.g. when an order is created, updated, or completed).                                                                                                                      |
+
+## Checkout with a List of Products
+
+<MobileProductOptionsWarning sdkFullName="Fast Android SDK" />
+
+You can instantiate the `PlatformOrderInfo` object using a list of product info items. Passing in `couponCode` is optional. It defaults to `null` so you can skip it if the buyer hasn't provided a coupon.
+
+```kotlin
+val platformOrderItems = listOf(PlatformOrderItem(
+        platformProductId = "FAST_PLATFORM_PRODUCT_ID",
+        platformVariantId = "FAST_PLATFORM_VARIANT_ID",
+        optionValues = listOf(Pair("FAST_VARIANT_ID", "FAST_VARIANT_VALUE_ID")),
+        quantity = PRODUCT_QUANTITY, // for example 1, 2 etc.
+    ))
+val platformOrderInfo = PlatformOrderInfo.build(
+	platformOrderItems = platformOrderItems,
+	couponCode = "COUPON" // of type String?, defaults to null
+)
+```
+
+---
+
+### Product Object Breakdown
+
+The `Product` object describes any product that can be ingested by the Fast backend and thus purchased via the SDK.
+
+| Name              | Type              | Description                                                       |
+| ----------------- | ----------------- | ----------------------------------------------------------------- |
+| platformProductId | String            | The product identifier.                                           |
+| platformVariantId | String?           | A unique sub-identifier for this product.                         |
+| optionValues      | [`ProductOption`] | Configurable properties of this Product (e.g. color, size, etc.). |
+| quantity          | Int               | The number of this item that should be purchased.                 |
+
+### ProductOption Breakdown
+
+A `ProductOption` is a configuration that further describes the product being ordered (e.g. _ProductOption(id: "color", value: "blue"))._
+
+| Name       | Type   | Description                                            |
+| ---------- | ------ | ------------------------------------------------------ |
+| identifier | String | The identifier of the product option or configuration. |
+| value      | String | The value of the specified option.                     |
+
+---
+
+## Checkout with a Cart ID
+
+You can also instantiate the `PlatformOrderInfo` object by passing a `cartId` (if there's a cartId associated with the order).
+
+```kotlin
+val platformOrderInfo = PlatformOrderInfo.build(platformCartId = "CART_ID_FROM_FAST_BACKEND_INTEGRATION")
+```
+
+## Initialize Theme
+
+You can manually set the a light or dark theme with the SDK.
+
+```kotlin light theme
+
+options = FastCheckoutOptions(
+	FastSdkTheme.LIGHT // FastSdkTheme.AUTO for system theme (default)
+)
+```
+
+```kotlin dark theme
+
+options = FastCheckoutOptions(
+	FastSdkTheme.DARK // FastSdkTheme.AUTO for system theme (default)
+)
+```
