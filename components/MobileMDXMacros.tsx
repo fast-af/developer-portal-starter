@@ -6,6 +6,7 @@ import {
   Typography,
   Link,
   Alert,
+  CodeSampleWrap,
 } from "@redocly/developer-portal/ui";
 
 export const MobileIntroAndPrereqs = (props) => {
@@ -62,7 +63,7 @@ export const MobileIntroAndPrereqs = (props) => {
 
         <li>
           Prior to installing the SDK, ensure you've gone through our{" "}
-          <Link to="https://www.fast.co/business-sign-up" external>
+          <Link to="https://www.fast.co/business" external>
             merchant direct integration program
           </Link>
           .
@@ -124,7 +125,9 @@ export const MobileSignout = (props) => {
     return null;
   }
 
-  const myContent = `The ${props.sdkFullName} uses a token that allows 1-click checkout after authenticating once. This may need to be cleared if the host app wants to sign a user out, or otherwise reset the app.`;
+  const sdkFullName = props.sdkFullName;
+
+  const myContent = `The ${sdkFullName} uses a token that allows 1-click checkout after authenticating once. This may need to be cleared if the host app wants to sign a user out, or otherwise reset the app.`;
 
   return (
     <>
@@ -133,9 +136,9 @@ export const MobileSignout = (props) => {
       <Typography>
         If your app supports user account creation, we recommend calling the{" "}
         <code>{props.signoutMethod}</code> method when a user signs out of their
-        account in your app. This will clear the stored session info so if a new
-        user signs on with that device, Fast won't use the previous session to
-        trigger checkout.
+        account in your app. This will clear the stored session so that a new
+        user can sign in with that device. Fast won't use the previous session
+        to trigger checkout.
       </Typography>
     </>
   );
