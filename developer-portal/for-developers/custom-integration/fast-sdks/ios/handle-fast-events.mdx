@@ -19,9 +19,19 @@ The Fast SDK will send events that convey information about the user's shopping 
 
 Each callback will include a `FastEvent` parameter. No action is required by your app when these events are fired--they are purely for transparency within the checkout flow.
 
-### iOS SDK Callback Events
+### FastEvent
 
-The `FastEvent` contains these events and associated data payloads:
+A `FastEvent` is emitted by the SDK at key stages during the checkout flow. Your app can handle these via the checkout `callback` parameter.
+
+| Name                  | Type                      | Description                                   |
+| --------------------- | ------------------------- | --------------------------------------------- |
+| `FastEvent`           | NSObject                  | An enum describing the event.                 |
+| `FastEvent.eventType` | `FastEventType`           | An enum describing the event.                 |
+| `FastEvent.info`      | [`FastEventInfoKey`: Any] | Additional relevant data regarding the event. |
+
+### FastEventType
+
+Each `FastEvent` will have an associated `FastEventType` and associated data payload. A breakdown of event types can be found below.
 
 | Event            | Description                                                                                                                                                                                                                                    | Associated Data |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- |
@@ -36,21 +46,10 @@ The `FastEvent` contains these events and associated data payloads:
 
 Please note that non-order events will have different associated data.
 
-- `OrderFailed` (indicating a checkout failure) emits a `Throwable?`, which is a nullable `kotlin.Throwable` object that wraps an error.
-- `SDKClosed` will should emit no additional data.
+- `orderFailed` (indicating a checkout failure) emits an `Error`.
+- `closed` should emit no additional data at this time.
 
 :::
-
-### FastEvent
-
-A `FastEvent` is emitted by the SDK at key stages during the checkout flow. Your app can handle these via the checkout `callback` parameter.
-
-| Name      | Type                    | Description                                   |
-| --------- | ----------------------- | --------------------------------------------- |
-| eventType | FastEventType           | An enum describing the event.                 |
-| info      | [FastEventInfoKey: Any] | Additional relevant data regarding the event. |
-
-### FastEventType
 
 ```swift
 /// The outcome of the Fast checkout flow.
@@ -75,6 +74,13 @@ public enum FastEventType: Int {
 ### FastEventInfoKey
 
 An enum describing a parameter from within the `FastEvent` payload, which currently describes either `purchaseInfo` or `error`.
+
+```swift
+public enum FastEventInfoKey: String {
+  case error
+  case purchaseInfo
+}
+```
 
 #### PurchaseInfo Data Class Breakdown
 

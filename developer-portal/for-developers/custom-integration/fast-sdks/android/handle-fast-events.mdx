@@ -41,7 +41,16 @@ private fun onFastCheckoutEvent(event: FastCheckoutEvent) {
 }
 ```
 
-### Android SDK Callback Events
+### FastCheckoutEvent
+
+A `FastCheckoutEvent` is emitted by the SDK at key stages during the checkout flow. Your app can handle these via the `onFastCheckoutEvent()` function.
+
+| Name                             | Type                | Description                                                                                                                                      |
+| -------------------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `FastCheckoutEvent`              | `Parcelable` object | Additional relevant data regarding the event.                                                                                                    |
+| `FastCheckoutEvent.purchaseInfo` | `PurchaseInfo`      | Additional relevant data regarding the event. Refer to [PurchaseInfo Data Class Breakdown](#purchaseinfo-data-class-breakdown) for more details. |
+
+### FastCheckoutEvent Types
 
 The `FastCheckoutEvent` contains these events and associated data payloads.
 
@@ -62,14 +71,6 @@ Please note that non-order events will have different associated data.
 - `SDKClosed` will usually emit no additional data, but can emit `PurchaseInfo` data if the SDK is closed following a successful order (similar to the `OrderCompleted` event).
 
 :::
-
-### FastCheckoutEvent
-
-A `FastCheckoutEvent` is emitted by the SDK at key stages during the checkout flow. Your app can handle these via the `onFastCheckoutEvent()` function.
-
-| Name                             | Type           | Description                                   |
-| -------------------------------- | -------------- | --------------------------------------------- |
-| `FastCheckoutEvent.purchaseInfo` | `PurchaseInfo` | Additional relevant data regarding the event. |
 
 #### PurchaseInfo Data Class Breakdown
 
