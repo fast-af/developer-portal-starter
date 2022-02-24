@@ -52,9 +52,9 @@ More details about invoking Fast Checkout can be found [here](../use-fast-checko
 
 ## Allow Users to Sign Out
 
-<MobileSignout sdkFullName="Fast iOS SDK" signoutMethod="signUserOut()" />
+<MobileSignout sdkFullName="Fast iOS SDK" signoutMethod="Fast.shared.reset()" />
 
 ```swift
 // Sign out current user and clear cached credentials.
-Fast.shared.signUserOut()
+Fast.shared.reset()
 ```

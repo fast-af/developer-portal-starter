@@ -41,13 +41,13 @@ fastCheckoutButton.setOnClickListener {
 }
 ```
 
-| Name                 | Type                                                                                       | Description                                                                                                                                                                          |
-| -------------------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `options`            | FastCheckoutOptions</br>(FastCheckoutWithProductsOptions or FastCheckoutWithCartIdOptions) | Fast checkout options enable you checkout with either a list of products or a cart ID. As well as set the theme.                                                                     |
-| `options.products`   | `Product` list                                                                             | Use a list of products to checkout. Use `options.addProduct()` to add to the list. Refer to [Product Breakdown](#product-breakdown) for more details.                                |
-| `options.cartId`     | String                                                                                     | Use a cart ID to checkout.                                                                                                                                                           |
-| `options.theme`      | enum                                                                                       | (Optional) Pass theme to the SDK. By default, we'll use the system theme (`FastTheme.AUTO`). You can pass in light or dark theme by [setting the theme property](#initialize-theme). |
-| `options.couponCode` | String                                                                                     | (Optional) Coupon, if any, included during checkout. Defaults to `null`.                                                                                                             |
+| Name                 | Type                                                                                              | Description                                                                                                                                                                          |
+| -------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `options`            | FastCheckoutOptions <br /> (`FastCheckoutWithProductsOptions` or `FastCheckoutWithCartIdOptions`) | Fast checkout options enable you checkout with either a list of products or a cart ID. As well as set the theme.                                                                     |
+| `options.products`   | `Product` list                                                                                    | Use a list of products to checkout. Use `options.addProduct()` to add to the list. Refer to [Product Breakdown](#product-breakdown) for more details.                                |
+| `options.cartId`     | String                                                                                            | Use a cart ID to checkout.                                                                                                                                                           |
+| `options.theme`      | enum                                                                                              | (Optional) Pass theme to the SDK. By default, we'll use the system theme (`FastTheme.AUTO`). You can pass in light or dark theme by [setting the theme property](#initialize-theme). |
+| `options.couponCode` | String                                                                                            | (Optional) Coupon, if any, included during checkout. Defaults to `null`.                                                                                                             |
 
 ## Checkout with a List of Products
 
@@ -124,4 +124,4 @@ fastCheckoutButton.setOnClickListener {
 
 ## Initialize Theme
 
-The options objects for both `checkoutWithProducts` and `checkoutWithCartId` accept an optional `theme` value. This is set to `FastTheme.AUTO` by default, which will match the system's current light/dark theme setting. You can manually set it to `FastTheme.LIGHT` or `FastTheme.DARK` if you need to override this, for example, if your app provides a setting to override the system's current theme.
+The `options` objects for both `checkoutWithProducts` and `checkoutWithCartId` accept an optional `theme` value. This is set to `FastTheme.AUTO` by default, which will match the system's current light/dark theme setting. You can manually set it to `FastTheme.LIGHT` or `FastTheme.DARK` if you need to override this (e.g. if your app provides a setting to override the system's current theme).
