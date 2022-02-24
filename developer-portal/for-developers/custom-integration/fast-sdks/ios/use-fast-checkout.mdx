@@ -103,7 +103,18 @@ public func checkout(
 
 You also have the option of changing the theme used by the SDK. The theme of the SDK is by default set to the current device theme (`auto`), but can be overridden to use `dark` or `light` theme (e.g. if your app provides a setting to override the system's current theme).
 
-```swift
+```swift setTheme()
+/// Override the theme setting for Fast Checkout
+/// - theme: The theme value to set (auto, light, dark)
+public func setTheme(theme: FastTheme) -> Void
+```
+
+```swift set light theme
 // can be set to .light or .dark (default )
 Fast.shared.setTheme(to: .light)
+```
+
+```swift set dark theme
+// can be set to .light or .dark (default )
+Fast.shared.setTheme(to: .dark)
 ```
