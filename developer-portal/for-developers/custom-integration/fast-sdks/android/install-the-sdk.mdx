@@ -12,19 +12,31 @@ import {
 
 ## Install the SDK
 
-Add the `fast-android` gradle dependency to your `dependencies` block in your `app/build.gradle` file.
+To install the Android SDK, configure your `build.gradle` file:
 
-```kotlin
-android {
-	buildFeatures {
-		// ....
-	}
-
-	// ....
+```groovy
+// Make sure both Maven Central and Jitpack are added
+repositories {
+    mavenCentral()
+    maven { url "https://jitpack.io" }
 }
 
+android {
+    // Make sure data binding is enabled
+    buildFeatures {
+      dataBinding true
+    }
+
+    // Make sure Java 1.8 source compatibility is enabled
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+}
+
+// Add the dependency for the Fast checkout following this pattern:
+// implementation 'co.fast.android.sdk:${sdkVersion}'
 dependencies {
-	// ....
-	implementation "co.fast.android.sdk:${sdkVersion}"
+    implementation 'co.fast.android.sdk:sdk:0.2.0-beta01'
 }
 ```

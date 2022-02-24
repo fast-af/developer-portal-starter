@@ -16,62 +16,61 @@ import { Alert } from "@redocly/developer-portal/ui";
 
 <embed src="/reusables/for-developers/_platform_all_sign_up_as_a_seller_banner_sandbox_and_contact_support.md" />
 
-Configure the FastCheckout iOS SDK in `AndroidManifest.xml` with your **Fast App ID** :
-
-1. Pass `appId` with the `meta-data` tag in `app/src/main/AndroidManifest.xml`
-
-```kotlin
-<application
-	android:name="Your application name">
-
-	<meta-data android:name="co.fast.app_id" android:value="${appId}" />
-
-	<activity />
-</application>
-```
-
 :::info App Startup library dependency
 
-Android Jetpack's [App Startup](https://developer.android.com/topic/libraries/app-startup) library is used to initialize the Fast Android SDK.
+The Fast SDK initializes at app start automatically via the AndroidX [App Startup](https://developer.android.com/topic/libraries/app-startup) library. It is not required to initialize the SDK from your Application class.
 
 :::
 
-1. Enable `databinding` in your `app/build.gradle` . We use [databinding](https://developer.android.com/jetpack/androidx/releases/databinding) to bind views in the SDK and it is required for the `app` module to enable databinding.
+## Add your **Fast App ID** to `AndroidManifest.xml`:
 
 ```kotlin
-android {
+<application ...>
 
-	compileSDKVersion ...
-	//...
+  <!-- Configure the Fast SDK -->
+	<meta-data android:name="co.fast.app_id" android:value="YOUR_APP_ID" />
 
-	buildFeatures {
-    dataBinding true
-  }
-}
+</application>
 ```
 
-1. Add `jitpack` to your list of repositories in `root/build.gradle`. We use [Persistent Cookie Jar](https://github.com/thomas-bouvier/persistent-cookie-jar-okhttp) library for OkHttp to persist session data in our networking stack.
+## Initialize `FastCheckout` from your Activity or Fragment
 
-```kotlin
-allprojects {
-    repositories {
-        ...
-        maven { url "https://jitpack.io" }
-    }
-}
-```
-
-1. Initialize the `FastCheckout` class
+Create an instance of `FastCheckout` from your `Activity` or `Fragment`'s `onCreate()` method.
 
 ```kotlin
 private lateinit var fastCheckout: FastCheckout
 
 override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        fastCheckout = FastCheckout(this, ::onFastCheckoutEvent)
+    super.onCreate(savedInstanceState)
+    fastCheckout = FastCheckout(this, ::onFastCheckoutEvent)
 }
 
-// ::onFastCheckoutEvent explained in callbacks section
+// Optionally, handle any FastCheckoutEvents that are useful to your app.
+// This is called once for each event emitted by the SDK, and provides your app info about the checkout.
+private fun onFastCheckoutEvent(event: FastCheckoutEvent) {
+    when (event) {
+        is FastCheckoutEvent.OrderCanceled -> {
+            // handle event, if desired
+        }
+        is FastCheckoutEvent.OrderCompleted -> {
+            // handle event, if desired
+        }
+        is FastCheckoutEvent.OrderCreated -> {
+            // handle event, if desired
+        }
+        is FastCheckoutEvent.OrderFailed -> {
+            // handle event, if desired
+        }
+        is FastCheckoutEvent.OrderUpdated -> {
+            // handle event, if desired
+        }
+        FastCheckoutEvent.SDKClosed -> {
+            // handle event, if desired
+        }
+
+        // Please keep this else clause. Fast may add more events in the future without updating the SDK's major version.
+        else -> Log.i(LOG_TAG, "Event: Unhandled event: $event")
+    }
 ```
 
 :::info Callbacks
@@ -80,39 +79,34 @@ You can find more details about `::onFastCheckoutEvent` in the [callbacks sectio
 
 ## Add the Fast Checkout Button
 
-On pages where you want the **FastCheckoutButton** to appear, generate the button and add it to your layout. You can integrate the Fast Checkout button with Android apps that use both XML-based and compose-based layouts.
+On pages where you want the `FastCheckoutButton` to appear, add it to your layout.
 
-1. Add the `FastCheckoutButton` to your XML or Compose layout
+```xml
+    <!-- Fast recommends 56dp or 48dp for the height -->
+    <co.fast.android.sdk.checkout.FastCheckoutButton
+      android:id="@+id/fast_checkout"
+      android:layout_width="match_parent"
+      android:layout_height="56dp" />
+```
 
-   - XML layout
+Apps using Jetpack Compose can use the [Compose Interoperability APIs](https://developer.android.com/jetpack/compose/interop/interop-apis) to add `FastCheckoutButton`.
 
-     ```kotlin
-     // xml layout
+## Start Fast Checkout when the button is clicked
 
-     <co.fast.android.sdk.checkout.FastCheckoutButton
-       android:id="@+id/fast_checkout"
-       android:layout_width="match_parent"
-       android:layout_height="56dp" // we recommend 56dp
-      />
-     ```
+```kotlin
+    findViewById<FastCheckoutButton>(R.id.fast_checkout).setOnClickListener {
 
-   - Compose layout
+        // Checkout with products
+        fastCheckout.checkoutWithProducts { options ->
+          options.addProduct(...)
+        }
 
-     ```kotlin
-     // jetpack compose layout
-
-     FastCheckoutButton(
-       onClick = { Fast.checkout(...) }, // launches checkout flow, explained below
-       enabled = Boolean, // true if all variants selected, false otherwise
-       modifier = Modifier
-     	  .fillMaxWidth()
-     )
-     ```
-
-<Alert variant="attention" header="Define invokeFastCheckout">
-  The Fast Checkout button will not have an action installed by default. Instead
-  you should implement `Fast.checkout` to call one of Fast's checkout functions.
-</Alert>
+        // Or, checkout with cart id
+        fastCheckout.checkoutWithCartId { options ->
+          options.cartId = ...
+        }
+    }
+```
 
 More details about invoking Fast Checkout can be found [here](../use-fast-checkout)
 

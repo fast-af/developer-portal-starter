@@ -28,53 +28,73 @@ All required fields are explained below:
 
 ```kotlin
 fastCheckoutButton.setOnClickListener {
-	Fast.checkout(
-	  context = Context,
-	  options = FastCheckoutOptions(
-		  theme = FastSdkTheme
-		)
-	  platformOrderInfo = PlatformOrderInfo,
-	  callback = CheckoutEventListenerObject
-	)
+
+  // Checkout with products
+	fastCheckout.checkoutWithProducts { options ->
+    options.products = ...
+  }
+
+  // Or, checkout with cart id
+  fastCheckout.checkoutWithCartId { options ->
+    options.cartId = "..."
+  }
 }
 ```
 
-| Name                | Type                        | Description                                                                                                                                                                                                                     |
-| ------------------- | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `context`           | Context                     | Android context (e.g. `this` if launching from an Activity, `requireActivity()` if launching from a Fragment).                                                                                                                  |
-| `options`           | FastCheckoutOptions         | Fast checkout options enable you to pass options to `theme` the SDK. By default, we'll use the system theme to show light or dark mode. You can pass in light or dark theme by [setting the theme property](#initialize-theme). |
-| `platformOrderInfo` | PlatformOrderInfo           | Data class for passing in item information. The class provides two builder methods to instantiate it.                                                                                                                           |
-| `callback`          | CheckoutEventListenerObject | Callback to notify your app about important events (e.g. when an order is created, updated, or completed).                                                                                                                      |
+| Name                 | Type                                                                                       | Description                                                                                                                                                                          |
+| -------------------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `options`            | FastCheckoutOptions</br>(FastCheckoutWithProductsOptions or FastCheckoutWithCartIdOptions) | Fast checkout options enable you checkout with either a list of products or a cart ID. As well as set the theme.                                                                     |
+| `options.products`   | `Product` list                                                                             | Use a list of products to checkout. Use `options.addProduct()` to add to the list. Refer to [Product Breakdown](#product-breakdown) for more details.                                |
+| `options.cartId`     | String                                                                                     | Use a cart ID to checkout.                                                                                                                                                           |
+| `options.theme`      | enum                                                                                       | (Optional) Pass theme to the SDK. By default, we'll use the system theme (`FastTheme.AUTO`). You can pass in light or dark theme by [setting the theme property](#initialize-theme). |
+| `options.couponCode` | String                                                                                     | (Optional) Coupon, if any, included during checkout. Defaults to `null`.                                                                                                             |
 
 ## Checkout with a List of Products
 
-You can instantiate the `PlatformOrderInfo` object by passing a `PlatformOrderItem` list to its `.build()` method. Passing in `couponCode` is optional (the coupon code defaults to `null` so you can skip it if the buyer hasn't provided a coupon).
+You can instantiate the `options` object by passing each new `Product` to its `.addProduct()` method. Passing in `couponCode` is optional (the coupon code defaults to `null` so you can skip it if the buyer hasn't provided a coupon).
 
 ```kotlin
-val platformOrderItems = listOf(PlatformOrderItem(
-        platformProductId = "FAST_PLATFORM_PRODUCT_ID",
-        platformVariantId = "FAST_PLATFORM_VARIANT_ID",
-        optionValues = listOf(Pair("FAST_VARIANT_ID", "FAST_VARIANT_VALUE_ID")),
-        quantity = PRODUCT_QUANTITY, // for example 1, 2 etc.
-    ))
-val platformOrderInfo = PlatformOrderInfo.build(
-	platformOrderItems = platformOrderItems,
-	couponCode = "COUPON" // of type String?, defaults to null
-)
+fastCheckoutButton.setOnClickListener {
+	fastCheckout.checkoutWithProducts { options ->
+    options.addProduct(
+      Product(
+        // An identifier for the product being ordered.
+        id = "FAST_PLATFORM_PRODUCT_ID",
+
+        // A unique sub-identifier for this product. These are sometimes used to denote size / color, etc.
+        variantId = "FAST_PLATFORM_VARIANT_ID"
+
+        // Configurable properties of this product (i.e. color, size, etc.)
+        options = listOf(
+          ProductOption(...),
+          ProductOption(...),
+        ),
+
+        // The number of this item that should be purchased.
+        quantity = 1
+      )
+    )
+
+    // Optionally, add other configuration, like adding a coupon:
+    options.couponCode = "10OFF"
+  }
+}
 ```
 
 ---
 
-### Product Object Breakdown
+### Product Breakdown
 
-The `Product` object describes any product that can be ingested by the Fast backend and thus purchased via the SDK.
+Each `Product` has a product ID (`id`), a variant ID (`variantId`), and a set of optional product configurations (or product `options`) that are used to describe the exact product being ordered.
 
-| Name                        | Type              | Description                                                       |
-| --------------------------- | ----------------- | ----------------------------------------------------------------- |
-| `Product.platformProductId` | String            | The product identifier.                                           |
-| `Product.platformVariantId` | String?           | A unique sub-identifier for this product.                         |
-| `Product.optionValues`      | [`ProductOption`] | Configurable properties of this Product (e.g. color, size, etc.). |
-| `Product.quantity`          | Int               | The number of this item that should be purchased.                 |
+Describe your products in a manner that can be processed by your backend, as this data will be structured as outlined below.
+
+| Name                | Type              | Description                                                                                                                                                                                   |
+| ------------------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Product.id`        | String            | An identifier for the product being ordered.                                                                                                                                                  |
+| `Product.variantId` | String?           | Represents a unique sub-identifier for this product. These are often used to denote size, color, style, etc. Refer to [Product Option Breakdown](#product-option-breakdown) for more details. |
+| `Product.options`   | [`ProductOption`] | Configurable properties of this product (i.e. color, size, etc.).                                                                                                                             |
+| `Product.quantity`  | Int               | The number of this item that should be purchased.                                                                                                                                             |
 
 ### ProductOption Breakdown
 
@@ -92,26 +112,16 @@ A `ProductOption` is a configuration that further describes the product being or
 
 ## Checkout with a Cart ID
 
-You can also instantiate the `PlatformOrderInfo` object by passing a `cartId` to its `.build()` method (if there is a cart ID associated with the order).
+You can also start checkout by by instantiating the `options` object with a `cartId`. In this case, Fast's APIs will reach out to your store to fetch products, coupons, etc., from the cart.
 
 ```kotlin
-val platformOrderInfo = PlatformOrderInfo.build(platformCartId = "CART_ID_FROM_FAST_BACKEND_INTEGRATION")
+fastCheckoutButton.setOnClickListener {
+	fastCheckout.checkoutWithCartId { options ->
+    options.cartId = "123"
+  }
+}
 ```
 
 ## Initialize Theme
 
-You can manually set the a light or dark theme with the SDK.
-
-```kotlin light theme
-
-options = FastCheckoutOptions(
-	FastSdkTheme.LIGHT // FastSdkTheme.AUTO for system theme (default)
-)
-```
-
-```kotlin dark theme
-
-options = FastCheckoutOptions(
-	FastSdkTheme.DARK // FastSdkTheme.AUTO for system theme (default)
-)
-```
+The options objects for both `checkoutWithProducts` and `checkoutWithCartId` accept an optional `theme` value. This is set to `FastTheme.AUTO` by default, which will match the system's current light/dark theme setting. You can manually set it to `FastTheme.LIGHT` or `FastTheme.DARK` if you need to override this, for example, if your app provides a setting to override the system's current theme.

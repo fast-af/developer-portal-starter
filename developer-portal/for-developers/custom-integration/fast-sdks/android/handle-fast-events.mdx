@@ -36,6 +36,10 @@ private fun onFastCheckoutEvent(event: FastCheckoutEvent) {
         is FastCheckoutEvent.OrderUpdated -> {
             Log.i(LOG_TAG, "Event: OrderUpdated: ${event.purchaseInfo}")
         }
+        FastCheckoutEvent.SDKClosed -> {
+            Log.i(LOG_TAG, "Event: SDKClosed: ${event.purchaseInfo}")
+        }
+        // Please keep this else clause. Fast may add more events in the future without updating the SDK's major version.
         else -> Log.i(LOG_TAG, "Event: Unhandled event: $event")
     }
 }
@@ -54,14 +58,14 @@ A `FastCheckoutEvent` is emitted by the SDK at key stages during the checkout fl
 
 The `FastCheckoutEvent` contains these events and associated data payloads.
 
-| Event            | Description                                                                                                                                                                                                                                     | Associated Data                               |
-| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
-| `OrderCreated`   | Emitted when the order has been successfully submitted through Fast Checkout.                                                                                                                                                                   | `PurchaseInfo`                                |
-| `OrderUpdated`   | Emitted when buyer updates order information like item quantity, removes an item, or adds a coupon.                                                                                                                                             | `PurchaseInfo`                                |
-| `OrderCompleted` | Emitted when order is finalized. This means that the batching window has ended and the user cannot update the order. If the user closes the SDK before batching window has ended, you won't get this event and instead get the SDKClosed event. | `PurchaseInfo`                                |
-| `OrderCanceled`  | Emitted when user cancels the order.                                                                                                                                                                                                            | `PurchaseInfo`                                |
-| `OrderFailed`    | Emitted when checkout fails with an error                                                                                                                                                                                                       | Throwable?                                    |
-| `SDKClosed`      | Buyer has exited the Fast Android SDK                                                                                                                                                                                                           | None Required (but can return `PurchaseInfo`) |
+| Event            | Description                                                                                                                                                                                                                                     | Associated Data |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- |
+| `OrderCreated`   | Emitted when the order has been successfully submitted through Fast Checkout.                                                                                                                                                                   | `PurchaseInfo`  |
+| `OrderUpdated`   | Emitted when buyer updates order information like item quantity, removes an item, or adds a coupon.                                                                                                                                             | `PurchaseInfo`  |
+| `OrderCompleted` | Emitted when order is finalized. This means that the batching window has ended and the user cannot update the order. If the user closes the SDK before batching window has ended, you won't get this event and instead get the SDKClosed event. | `PurchaseInfo`  |
+| `OrderCanceled`  | Emitted when user cancels the order.                                                                                                                                                                                                            | `PurchaseInfo`  |
+| `OrderFailed`    | Emitted when checkout fails with an error                                                                                                                                                                                                       | Throwable?      |
+| `SDKClosed`      | Buyer has exited the Fast Android SDK. If buyer exits post-purchase, `PurchaseInfo` will be sent with the event. If buyer exits before clicking on CompletePurchase, `null` will be sent with the event.                                        | `PurchaseInfo`  |
 
 :::info Associated Data Returned by Non-Order Events
 
@@ -148,6 +152,6 @@ data class PurchaseItem(
         val quantity: Int,
 
         // Any discount applied to this product's price.
-        val discount: String?,
+        val coupon: String?,
     )
 ```
