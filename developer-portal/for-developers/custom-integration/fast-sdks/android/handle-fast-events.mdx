@@ -14,7 +14,7 @@ import {
 
 The Fast SDK will send events that convey information about the user's shopping journey through the Fast checkout flow. The SDK will communicate with the seller app via callbacks as the user performs actions within the checkout flow.
 
-### Callbacks
+## Callbacks
 
 As the user progresses through the Fast checkout experience, callbacks will notify your app about significant events. You can listen for these events by passing in a callback object. You will need to define the method in your activity / fragment to listen to callbacks.
 
@@ -43,35 +43,49 @@ private fun onFastCheckoutEvent(event: FastCheckoutEvent) {
 
 ### Android SDK Callback Events
 
-The Fast SDK will send events which convey information about the user's shopping journey through the Fast checkout flow. The `FastCheckoutEvent` contains these events.
+The `FastCheckoutEvent` contains these events and associated data payloads.
 
-| Event            | Description                                                                                                                                                                                                                                     | Associated Data |
-| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- |
-| `OrderCreated`   | Emitted when the order has been successfully submitted through Fast Checkout.                                                                                                                                                                   | PurchaseInfo    |
-| `OrderUpdated`   | Emitted when buyer updates order information like item quantity, removes an item, or adds a coupon.                                                                                                                                             | PurchaseInfo    |
-| `OrderCompleted` | Emitted when order is finalized. This means that the batching window has ended and the user cannot update the order. If the user closes the SDK before batching window has ended, you won't get this event and instead get the SDKClosed event. | PurchaseInfo    |
-| `OrderCanceled`  | Emitted when user cancels the order.                                                                                                                                                                                                            | PurchaseInfo    |
-| `OrderFailed`    | Emitted when checkout fails with an error                                                                                                                                                                                                       | Throwable?      |
-| `SDKClosed`      | Buyer has exited the Fast Android SDK                                                                                                                                                                                                           | None            |
+| Event            | Description                                                                                                                                                                                                                                     | Associated Data                               |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
+| `OrderCreated`   | Emitted when the order has been successfully submitted through Fast Checkout.                                                                                                                                                                   | `PurchaseInfo`                                |
+| `OrderUpdated`   | Emitted when buyer updates order information like item quantity, removes an item, or adds a coupon.                                                                                                                                             | `PurchaseInfo`                                |
+| `OrderCompleted` | Emitted when order is finalized. This means that the batching window has ended and the user cannot update the order. If the user closes the SDK before batching window has ended, you won't get this event and instead get the SDKClosed event. | `PurchaseInfo`                                |
+| `OrderCanceled`  | Emitted when user cancels the order.                                                                                                                                                                                                            | `PurchaseInfo`                                |
+| `OrderFailed`    | Emitted when checkout fails with an error                                                                                                                                                                                                       | Throwable?                                    |
+| `SDKClosed`      | Buyer has exited the Fast Android SDK                                                                                                                                                                                                           | None Required (but can return `PurchaseInfo`) |
 
-:::info
+:::info Associated Data Returned by Non-Order Events
 
-Please note that `OrderFailed` (indicating a checkout failure) emits a `Throwable?`, which is a nullable `kotlin.Throwable` object that wraps an error.
+Please note that non-order events will have different associated data.
+
+- `OrderFailed` (indicating a checkout failure) emits a `Throwable?`, which is a nullable `kotlin.Throwable` object that wraps an error.
+- `SDKClosed` will usually emit no additional data, but can emit `PurchaseInfo` data if the SDK is closed following a successful order (similar to the `OrderCompleted` event).
 
 :::
 
-| Name           | Type                | Description                                                           |
-| -------------- | ------------------- | --------------------------------------------------------------------- |
-| `platformId`   | String              | The ID of a purchase as represented in the seller's backend platform. |
-| `revenue`      | String              | The purchase total, including tax, shipping, and discounts.           |
-| `tax`          | String              | Total taxes for this purchase.                                        |
-| `shipping`     | String              | Cost of shipping for this purchase.                                   |
-| `currencyCode` | String              | 3-character ISO 4217 currency code.                                   |
-| `coupon`       | String              | (Optional) Coupon, if any, included with this purchase.               |
-| `checkoutTime` | Date                | An enum describing the event.                                         |
-| `items`        | `PurchaseItem` List | Additional relevant data regarding the event.                         |
+### FastCheckoutEvent
+
+A `FastCheckoutEvent` is emitted by the SDK at key stages during the checkout flow. Your app can handle these via the `onFastCheckoutEvent()` function.
+
+| Name                             | Type           | Description                                   |
+| -------------------------------- | -------------- | --------------------------------------------- |
+| `FastCheckoutEvent.purchaseInfo` | `PurchaseInfo` | Additional relevant data regarding the event. |
+
+#### PurchaseInfo Data Class Breakdown
 
 `PurchaseInfo` is a data class that contains information about the buyer's order.
+
+| Name                        | Type                | Description                                                              |
+| --------------------------- | ------------------- | ------------------------------------------------------------------------ |
+| `PurchaseInfo`              | data class          | A representation of a buyer's purchase in the seller's backend platform. |
+| `PurchaseInfo.platformId`   | String              | The ID of a purchase as represented in the seller's backend platform.    |
+| `PurchaseInfo.revenue`      | String              | The purchase total, including tax, shipping, and discounts.              |
+| `PurchaseInfo.tax`          | String              | Total taxes for this purchase.                                           |
+| `PurchaseInfo.shipping`     | String              | Cost of shipping for this purchase.                                      |
+| `PurchaseInfo.currencyCode` | String              | 3-character ISO 4217 currency code.                                      |
+| `PurchaseInfo.coupon`       | String              | (Optional) Coupon, if any, included with this purchase.                  |
+| `PurchaseInfo.checkoutTime` | Date                | An enum describing the event.                                            |
+| `PurchaseInfo.items`        | `PurchaseItem` List | Additional relevant data regarding the event.                            |
 
 ```kotlin
   data class PurchaseInfo(
@@ -101,6 +115,8 @@ Please note that `OrderFailed` (indicating a checkout failure) emits a `Throwabl
     val items: List<PurchaseItem>
 )
 ```
+
+#### PurchaseItem Data Class Breakdown
 
 | Name                             | Type       | Description                                                                  |
 | -------------------------------- | ---------- | ---------------------------------------------------------------------------- |

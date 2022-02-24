@@ -48,9 +48,7 @@ fastCheckoutButton.setOnClickListener {
 
 ## Checkout with a List of Products
 
-<MobileProductOptionsWarning sdkFullName="Fast Android SDK" />
-
-You can instantiate the `PlatformOrderInfo` object using a list of product info items. Passing in `couponCode` is optional. It defaults to `null` so you can skip it if the buyer hasn't provided a coupon.
+You can instantiate the `PlatformOrderInfo` object by passing a `PlatformOrderItem` list to its `.build()` method. Passing in `couponCode` is optional (the coupon code defaults to `null` so you can skip it if the buyer hasn't provided a coupon).
 
 ```kotlin
 val platformOrderItems = listOf(PlatformOrderItem(
@@ -71,27 +69,30 @@ val platformOrderInfo = PlatformOrderInfo.build(
 
 The `Product` object describes any product that can be ingested by the Fast backend and thus purchased via the SDK.
 
-| Name              | Type              | Description                                                       |
-| ----------------- | ----------------- | ----------------------------------------------------------------- |
-| platformProductId | String            | The product identifier.                                           |
-| platformVariantId | String?           | A unique sub-identifier for this product.                         |
-| optionValues      | [`ProductOption`] | Configurable properties of this Product (e.g. color, size, etc.). |
-| quantity          | Int               | The number of this item that should be purchased.                 |
+| Name                        | Type              | Description                                                       |
+| --------------------------- | ----------------- | ----------------------------------------------------------------- |
+| `Product.platformProductId` | String            | The product identifier.                                           |
+| `Product.platformVariantId` | String?           | A unique sub-identifier for this product.                         |
+| `Product.optionValues`      | [`ProductOption`] | Configurable properties of this Product (e.g. color, size, etc.). |
+| `Product.quantity`          | Int               | The number of this item that should be purchased.                 |
 
 ### ProductOption Breakdown
 
+<MobileProductOptionsWarning sdkFullName="Fast Android SDK" />
+
 A `ProductOption` is a configuration that further describes the product being ordered (e.g. _ProductOption(id: "color", value: "blue"))._
 
-| Name       | Type   | Description                                            |
-| ---------- | ------ | ------------------------------------------------------ |
-| identifier | String | The identifier of the product option or configuration. |
-| value      | String | The value of the specified option.                     |
+| Name                  | Type   | Description                                            |
+| --------------------- | ------ | ------------------------------------------------------ |
+| `ProductOption`       | String | A product option or configuration.                     |
+| `ProductOption.id`    | String | The identifier of the product option or configuration. |
+| `ProductOption.value` | String | The value of the specified option.                     |
 
 ---
 
 ## Checkout with a Cart ID
 
-You can also instantiate the `PlatformOrderInfo` object by passing a `cartId` (if there's a cartId associated with the order).
+You can also instantiate the `PlatformOrderInfo` object by passing a `cartId` to its `.build()` method (if there is a cart ID associated with the order).
 
 ```kotlin
 val platformOrderInfo = PlatformOrderInfo.build(platformCartId = "CART_ID_FROM_FAST_BACKEND_INTEGRATION")
