@@ -56,6 +56,8 @@ You can instantiate the `options` object by passing each new `Product` to its `.
 ```kotlin
 fastCheckoutButton.setOnClickListener {
 	fastCheckout.checkoutWithProducts { options ->
+
+    // use .addProduct() to start building list of products
     options.addProduct(
       Product(
         // An identifier for the product being ordered.
@@ -64,16 +66,20 @@ fastCheckoutButton.setOnClickListener {
         // A unique sub-identifier for this product. These are sometimes used to denote size / color, etc.
         variantId = "FAST_PLATFORM_VARIANT_ID"
 
-        // Configurable properties of this product (i.e. color, size, etc.)
+        // Configurable properties of this product (e.g. color, size, etc.)
         options = listOf(
-          ProductOption(...),
-          ProductOption(...),
+          ProductOption(id: "color", value: "blue"),
+          ProductOption(id: "size", value: "large"),
+          ProductOption(...)
         ),
 
         // The number of this item that should be purchased.
         quantity = 1
       )
     )
+
+    // add another product
+    options.addProduct(...)
 
     // Optionally, add other configuration, like adding a coupon:
     options.couponCode = "10OFF"
