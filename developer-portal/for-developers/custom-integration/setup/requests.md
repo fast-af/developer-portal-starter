@@ -8,10 +8,10 @@ keywords: Fast Custom Integration Quickstart
 
 Fast uses a non-standard, polymorphic API. As our product grows and changes, many new features will be added to the API. As such, we have built it in such a way that customer's may opt-in to new features with minimal friction.
 
-| REST VERB | API_URL         | Link                                                                                           |
+<!-- | REST VERB | API_URL         | Link                                                                                           |
 | --------- | --------------- | ---------------------------------------------------------------------------------------------- |
 | POST      | /fast/v1/create | [Docs](/developer-portal/for-developers/custom-integration/fast-api/fast-to-seller-api/pages/create.mdx) |
 | POST      | /fast/v1/read   | [Docs](/developer-portal/for-developers/custom-integration/fast-api/fast-to-seller-api/pages/read.mdx)   |
 | POST      | /fast/v1/update | [Docs](/developer-portal/for-developers/custom-integration/fast-api/fast-to-seller-api/pages/update.mdx) |
-| POST      | /fast/v1/delete | [Docs](/developer-portal/for-developers/custom-integration/fast-api/fast-to-seller-api/pages/delete.mdx) |
+| POST      | /fast/v1/delete | [Docs](/developer-portal/for-developers/custom-integration/fast-api/fast-to-seller-api/pages/delete.mdx) | -->
 
