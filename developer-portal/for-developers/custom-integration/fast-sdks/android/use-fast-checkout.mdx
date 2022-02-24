@@ -89,12 +89,12 @@ Each `Product` has a product ID (`id`), a variant ID (`variantId`), and a set of
 
 Describe your products in a manner that can be processed by your backend, as this data will be structured as outlined below.
 
-| Name                | Type              | Description                                                                                                                                                                                   |
-| ------------------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `Product.id`        | String            | An identifier for the product being ordered.                                                                                                                                                  |
-| `Product.variantId` | String?           | Represents a unique sub-identifier for this product. These are often used to denote size, color, style, etc. Refer to [Product Option Breakdown](#product-option-breakdown) for more details. |
-| `Product.options`   | [`ProductOption`] | Configurable properties of this product (i.e. color, size, etc.).                                                                                                                             |
-| `Product.quantity`  | Int               | The number of this item that should be purchased.                                                                                                                                             |
+| Name                | Type              | Description                                                                                                                                                                                  |
+| ------------------- | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Product.id`        | String            | An identifier for the product being ordered.                                                                                                                                                 |
+| `Product.variantId` | String?           | Represents a unique sub-identifier for this product. These are often used to denote size, color, style, etc. Refer to [Product Option Breakdown](#productoption-breakdown) for more details. |
+| `Product.options`   | [`ProductOption`] | Configurable properties of this product (i.e. color, size, etc.).                                                                                                                            |
+| `Product.quantity`  | Int               | The number of this item that should be purchased.                                                                                                                                            |
 
 ### ProductOption Breakdown
 
