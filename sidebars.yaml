@@ -54,7 +54,7 @@ custom-integration:
       - label: "Step 3: Backend"
         page: developer-portal/for-developers/custom-integration/setup/backend.md
       - label: "Step 4: Backend Requests"
-        page: developer-portal/for-developers/custom-integration/setup/requests.md
+        page: developer-portal/for-developers/custom-integration/setup/requests.mdx
   - group: Customization
     expanded: true
     pages:
