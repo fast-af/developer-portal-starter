@@ -880,7 +880,7 @@ components:
         user:
           $ref: "#/components/schemas/v1FastIntegrationUser"
   examples:
-    ReadResponse_Order_Cart:
+    ReadResponse_Order:
       value:
         type: ENTITY_TYPE_ORDER
         order:
@@ -995,3 +995,56 @@ components:
             first_name: Solutions
             last_name: Team
             phone: +18005551212
+    ReadRequest_Order_Cart:
+      value:
+        type: ENTITY_TYPE_ORDER
+        order:
+          is_cart: true
+          external_order_id: OPnjkIN3mBgF2k6WhbADkTfyOlK8FEbh
+    ReadRequest_Order:
+      value:
+        app_id: 088fdade-8809-471c-89c2-f429fa844af2
+        type: ENTITY_TYPE_ORDER
+        order:
+          external_order_id: 585
+    ReadResponse_Order_Cart:
+      value:
+        order:
+          order:
+            id:
+              value: as5920783-453d-6ee4-ac3c-f23af36ff819
+            external_id: OPnjkIN3mBgF2k6WhbADkTfyOlK8FEbh
+            order_type: ORDER_TYPE_CART
+            currency_code: USD
+            status: ORDER_STATUS_CART
+            lines:
+              - id:
+                  value: 5c5e373a-c675-447c-8e1c-fda798c5f31c
+
+                external_id: 6297
+                external_product_id: 1797
+                external_variant_id: 1797-BK-M
+                quantity: 1
+                subtotal_amount: 50.00
+                total_amount: 37.50
+                name: Black M
+                image_url:
+                fulfillment_mode: ITEM_FULFILLMENT_MODEL_PHYSICAL
+            total_amount: 37.50
+            sub_total: 37.50
+            total_discounts: 0.00
+            total_tax: 0.00
+            total_shipping: 0.00
+    ReadRequest_ShippingZone:
+      value:
+        app_id: 088fdade-8809-471c-89c2-f429fa844af2
+        type: ENTITY_TYPE_SHIPPING_ZONES
+    ReadResponse_ShippingZone:
+      value:
+        type: ENTITY_TYPE_SHIPPING_ZONES
+        order:
+          order:
+        shipping_zones:
+          shipping_zones:
+            - country_iso2: US
+            - country_iso2: GB
