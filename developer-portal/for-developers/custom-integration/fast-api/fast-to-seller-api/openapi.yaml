@@ -879,3 +879,119 @@ components:
       properties:
         user:
           $ref: "#/components/schemas/v1FastIntegrationUser"
+  examples:
+    ReadResponse_Order_Cart:
+      value:
+        type: ENTITY_TYPE_ORDER
+        order:
+          order:
+            external_id: 585
+            order_type: ORDER_TYPE_ORDER
+            currency_code: USD
+            bill_to:
+              first_name: Solutions
+              last_name: Team
+              email: solutions@fast.co
+              phone: +18005551212
+              address_1: 100 Park Avenue
+              city_locality: New York
+              state_province: New York
+              state_province_code: NY
+              country: US
+              postal_code: 10017
+            lines:
+              - external_product_id: 1556
+                external_variant_id: 6418
+                quantity: 1
+                quantity_fulfilled: 0
+                unit_price: 22
+                discounted_unit_price: 0
+                line_discount_amount: 0
+                subtotal_amount: 22
+                tax_amount: 0
+                total_amount: 22
+                discounts: [applied: false]
+                name: Radiant Tee
+                fulfillment_mode: ITEM_FULFILLMENT_MODEL_PHYSICAL
+              - external_product_id: 1542,
+                external_variant_id: 6419,
+                quantity: 1,
+                quantity_fulfilled: 0,
+                unit_price: 0,
+                discounted_unit_price: 0,
+                line_discount_amount: 0,
+                subtotal_amount: 0,
+                tax_amount: 0,
+                total_amount: 0,
+                discounts:
+                  - applied: false
+                name: Radiant Tee-XS-Orange,
+                fulfillment_mode: ITEM_FULFILLMENT_MODEL_PHYSICAL
+              - external_product_id: 1556,
+                external_variant_id: 6420,
+                quantity: 1,
+                quantity_fulfilled: 0,
+                unit_price: 22,
+                discounted_unit_price: 0,
+                line_discount_amount: 0,
+                subtotal_amount: 22,
+                tax_amount: 0,
+                total_amount: 22,
+                discounts:
+                  - applied: false
+                name: Radiant Tee,
+                fulfillment_mode: ITEM_FULFILLMENT_MODEL_PHYSICAL
+              - external_product_id: 1548,
+                external_variant_id: 6421,
+                quantity: 1,
+                quantity_fulfilled: 0,
+                unit_price: 0,
+                discounted_unit_price: 0,
+                line_discount_amount: 0,
+                subtotal_amount: 0,
+                tax_amount: 0,
+                total_amount: 0,
+                discounts:
+                  - applied: false
+                name: Radiant Tee-M-Orange
+                fulfillment_mode: ITEM_FULFILLMENT_MODEL_PHYSICAL
+            shipment_plans:
+              - ship_to:
+                  first_name: Solutions
+                  last_name: Team
+                  email: solutions@fast.co
+                  phone: +18005551212
+                  address_1: 100 Park Avenue
+                  city_locality: New York
+                  state_province: New York
+                  state_province_code: NY
+                  country: US
+                  postal_code: 10017
+                lines:
+                  - quantity: 1
+                    external_id: 998
+                  - quantity: 1
+                    external_id: 999
+                  - quantity: 1
+                    external_id: 1000
+                  - quantity: 1
+                    external_id: 1001
+                selected_option:
+                  external_id: flatrate_flatrate
+                  name: Flat Rate - Fixed
+                  cost: 10
+                  tax: 0
+                  total: 10
+                available_options:
+            total_amount: 54
+            sub_total: 44
+            total_discounts: 0
+            total_tax: 0
+            total_shipping: 10
+            short_order_id: 585
+        user:
+          user:
+            email: solutions@fast.co
+            first_name: Solutions
+            last_name: Team
+            phone: +18005551212
