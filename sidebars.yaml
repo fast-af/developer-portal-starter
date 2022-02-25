@@ -68,9 +68,11 @@ custom-integration:
       - label: High Level API diagrams
         page: developer-portal/for-developers/custom-integration/fast-api/high-level-diagrams.md
       - group: Fast -> Seller API
-        page: developer-portal/for-developers/custom-integration/fast-api/fast-to-seller-api/pages/fastToSeller.mdx
+        page: developer-portal/for-developers/custom-integration/fast-api/fast-to-seller-api/docs.page.yaml
         expanded: true
         pages:
+          - page: developer-portal/for-developers/custom-integration/fast-api/fast-to-seller-api/pages/fastToSeller.mdx
+            label: "In-Depth Breakdown: Fast -> Seller API"
           - page: developer-portal/for-developers/custom-integration/fast-api/fast-to-seller-api/pages/create.mdx
             label: Create
           - page: developer-portal/for-developers/custom-integration/fast-api/fast-to-seller-api/pages/read.mdx
