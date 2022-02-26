@@ -1030,7 +1030,10 @@ components:
                 name: Radiant Tee-M-Orange
                 fulfillment_mode: ITEM_FULFILLMENT_MODEL_PHYSICAL
             shipment_plans:
-              - ship_to:
+              - id:
+                  value: me
+                external_id: me
+                ship_to:
                   first_name: Solutions
                   last_name: Team
                   email: solutions@fast.co
@@ -1116,8 +1119,6 @@ components:
     ReadResponse_ShippingZone:
       value:
         type: ENTITY_TYPE_SHIPPING_ZONES
-        order:
-          order:
         shipping_zones:
           shipping_zones:
             - country_iso2: US
@@ -1466,7 +1467,8 @@ components:
                 fulfillment_mode: ITEM_FULFILLMENT_MODEL_PHYSICAL
             shipment_plans:
               - id:
-                  value: OnzoaAyj1Wn8Ej-um5W8JfJLnqk=
+                  value: me
+                external_id: me
                 ship_to:
                   first_name: Solutions
                   last_name: Team
@@ -1613,7 +1615,10 @@ components:
                 image_url: ""
                 fulfillment_mode: ITEM_FULFILLMENT_MODEL_PHYSICAL
             shipment_plans:
-              - ship_to:
+              - id:
+                  value: me
+                external_id: me
+                ship_to:
                   first_name: Solutions
                   last_name: Team
                   email: solutions@fast.co
