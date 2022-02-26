@@ -15,8 +15,10 @@ Today, all events have a `name` field that denotes the type of event that fired 
 
 ## Event List
 
-- `Buy Now - Button Clicked` is emitted when the "Fast Checkout" button is clicked on the product page.
-- `Checkout Cart - Button Clicked` is emitted when the "Fast Checkout" button is clicked on the cart page.
+| Event                            | Description                                                             |
+| -------------------------------- | ----------------------------------------------------------------------- |
+| `Buy Now - Button Clicked`       | Emitted when the "Fast Checkout" button is clicked on the product page. |
+| `Checkout Cart - Button Clicked` | Emitted when the "Fast Checkout" button is clicked on the cart page.    |
 
 The above events emit:
 
@@ -44,11 +46,14 @@ The above events emit:
 
 ---
 
-- `Checkout - Order Created` is emitted when the order has been submitted through Fast Checkout.
-- `Checkout - Order Updated` is emitted when the order has changed while inside the Fast Checkout window.
-- `Checkout - Order Completed` is emitted when the order has finalized while inside the Fast Checkout window. This occurs when the timer window reaches zero naturally or is ended manually.
-- `Checkout - Order Cancelled` is emitted when the order has been canceled from inside the Fast Checkout window.
-- `Checkout - Item Cancelled` is emitted when a buyer selects to re-buy something but then decides not to after we ask if they are sure.
+| Event                        | Description                                                                                                                                                |
+| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Checkout - Order Created`   | Emitted when the order has been submitted through Fast Checkout.                                                                                           |
+| `Checkout - Order Updated`   | Emitted when the order has changed while inside the Fast Checkout window.                                                                                  |
+| `Checkout - Order Completed` | Emitted when the order has finalized while inside the Fast Checkout window. This occurs when the timer window reaches zero naturally or is ended manually. |
+| `Checkout - Order Cancelled` | Emitted when the order has been canceled from inside the Fast Checkout window.                                                                             |
+| `Checkout - Existing User`   | Emitted when an order is created by a buyer who is already signed up to Fast or has an active order.                                                       |
+| `Checkout - Item Cancelled`  | Emitted when a buyer selects to re-buy something but then decides not to after we ask if they are sure.                                                    |
 
 The above events emit:
 
@@ -86,8 +91,10 @@ The above events emit:
 
 ---
 
-- `Checkout - Existing User` is emitted when an order is created by a buyer who is already signed up to Fast or has an active order
-- `Popup window closed` is emitted when the Fast Checkout window is closed.
+| Event                      | Description                                                                                          |
+| -------------------------- | ---------------------------------------------------------------------------------------------------- |
+| `Checkout - Existing User` | Emitted when an order is created by a buyer who is already signed up to Fast or has an active order. |
+| `Popup window closed`      | Emitted when the Fast Checkout window is closed.                                                     |
 
 The above events emit no extra information.
 
