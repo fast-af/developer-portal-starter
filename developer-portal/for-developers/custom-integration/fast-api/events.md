@@ -13,6 +13,10 @@ Throughout the login/checkout flow, fast.js dispatches events to the host page t
 
 Today, all events have a `name` field that denotes the type of event that fired (e.g. “Checkout - Order Created”), and some events have a `properties` field that contains special data relevant to the event that fired. For example, “Checkout - Order Created” events have the `order_id`, `order_items`, and `total` fields inside of their `properties` map.
 
+:::attention additional checks for events
+All event properties have the potential to be undefined. You will need to check for undefined properties and values.
+:::
+
 ## Event List
 
 | Event                            | Description                                                             |
@@ -98,11 +102,9 @@ The above events emit:
 
 The above events emit no extra information.
 
-**Note**: All event properties have the potential to be undefined. You will need to check for undefined properties and values
-
-These events are useful if you wish to forward data to your analytics provider, or if you want to do things like redirect to an order complete page after the user has finished their order and closed the Fast window.
-
-🚨 In some environments, such as the embedded browsers inside of mobile apps, the Fast Checkout window will open in a separate browser and not be able to communicate these events back to your page. You should not rely on these events for mission-critical analytics and should always provide another way for buyers to see that their purchase is complete.
+:::attention 🚨 events usage
+These events are useful if you wish to forward data to your analytics provider, or if you want to do things like redirect to an order complete page after the user has finished their order and closed the Fast window. However, in some environments (e.g. embedded browsers inside of mobile apps), the Fast Checkout window may open in a separate browser and not be able to communicate these events back to your page. You should not rely on these events for mission-critical analytics and should always provide another way for buyers to see that their purchase is complete.
+:::
 
 ## Sample Event Watching Code
 
