@@ -14,4 +14,4 @@ Here are some common reasons for not receiving the report:
   - We should send the Weekly Seller Report every Tuesday by 7am in the recipient's local time.
 - Fast does not send a Weekly Seller Report if your store does not have any Fast transactions in the prior week.
 - You are currently not on the distribution list for the report.
-  - Please refer to the [Subscribing to the Weekly Seller Report page](./subscribing) for instructions on how to subscribe.
+  - Please refer to the [Subscribing to the Weekly Seller Report page](./subscribing.md) for instructions on how to subscribe.
