@@ -63,7 +63,7 @@ export const MobileIntroAndPrereqs = (props) => {
 
         <li>
           Prior to installing the SDK, ensure you've gone through our{" "}
-          <Link to="https://www.fast.co/business" external>
+          <Link to="https://www.fast.co/business-sign-up" external>
             merchant direct integration program
           </Link>
           .
