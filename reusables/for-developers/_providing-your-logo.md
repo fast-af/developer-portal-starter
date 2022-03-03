@@ -1,5 +1,5 @@
 :::info Heads up
-Fast displays your logo in the Fast Checkout modal and the Fast Shopper Dashboard to confirm for shoppers that they're in the right place. This logo is generated automatically based on assets associated with your online store. In some cases, the logo generated is rectangular and doesn't display as expected in Fast windows.
+Fast displays your logo in the Fast Checkout modal and the Fast Shopper Dashboard to help Shoppers confirm that they're in the right place. This logo is generated automatically based on assets associated with your online store. In some cases, the logo generated is rectangular and doesn't display as expected in Fast windows.
 :::
 
 Fast recommends the following logo specifications:
