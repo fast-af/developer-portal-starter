@@ -19,15 +19,15 @@ Custom Integrations with Fast require some development work to properly ingest c
 
 ### Merchant API URL
 
-**We will ask you to provide your "Merchant API URL"**. This URL should look something like: `https://api.your-store.com`.
+**Fast will ask you to provide your "Merchant API URL"**. This URL should look something like: `https://api.your-store.com`.
 
-This is the base URL we will use for sending API requests for the defined APIs that need to be implemented as part of this integration.
+This is the base URL Fast will use to send API requests for the APIs that need to be implemented as part of the integration.
 
 > For example, if you have used `https://api.your-store.com` as your Merchant URL then when we call the defined `fast/v1/create` API we will send the request as `https://api.your-store.com/fast/v1/create`
 
 ### API Access Token
 
-**We will generate an API Access Token during onboarding**. You can view this token via the Fast UI once, so be sure to copy and store this in a safe place where you normally store your credentials (e.g. AWS Secret Store). This API Token will be used to authenticate your calls to Fast.
+**Fast will generate an API Access Token during Seller onboarding**. You can view this token via the Fast UI once, so be sure to copy and store this in a safe place where you normally store your credentials (e.g. AWS Secret Store). This API Token will be used to authenticate your calls to Fast.
 
 ### App ID
 
