@@ -225,6 +225,8 @@ woocommerce:
         page: developer-portal/for-developers/woocommerce/pre-install/requirements.md
       - label: "Step 3: Onboard as a Seller"
         page: developer-portal/for-developers/woocommerce/pre-install/sign-up-as-a-seller.md
+      - label: "Step 4 (Optional): Manually add webhooks"
+        page: developer-portal/for-developers/woocommerce/pre-install/manually-add-webhooks.md
   - group: Install
     expanded: true
     pages:
