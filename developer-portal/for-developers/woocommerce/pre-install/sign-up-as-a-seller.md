@@ -55,10 +55,19 @@ Before you begin this process, you’ll need an online store hosted by WooCommer
 
 In addition to the basic signup verification, the WooCommerce setup will provide you with an API key and three order webhooks. You will also need to create three product webhooks.
 
+:::attention
+To add your missing webhooks, see [this topic](/developer-portal/for-developers/woocommerce/pre-install/manually-add-webhooks/).     
+:::
+
 To confirm that the Fast key exists...
 1. Go to **WooCommerce > Settings > Advanced > REST API**\
 There should be a Fast key with both **Read** and **Write** permissions.
 ![WooCommerce valid API key](images/woocommerce-valid-api-key.png)
+
+:::attention
+If the key doesn't exist, contact us to assist you with onboarding correctly.
+:::
+
 2. To confirm the six webhooks, go to **WooCommerce > Settings > Advanced > Webhooks**\
 The six webhooks are listed below:
 
@@ -66,16 +75,12 @@ The six webhooks are listed below:
 
 | Name | URL |
 | :---: | :---:|
-| `order.updated` | https://cargo-woocommerce.integration.production.fastaf.cloud/cargo-woocommerce?x-fast-app=XXXXXXXXX |
-| `order.deleted` | https://cargo-woocommerce.integration.production.fastaf.cloud/cargo-woocommerce?x-fast-app=XXXXXXXXX |
-| `order.created` | https://cargo-woocommerce.integration.production.fastaf.cloud/cargo-woocommerce?x-fast-app=XXXXXXXXX |
-| `product.updated` | https://cargo-woocommerce.integration.production.fastaf.cloud/cargo-woocommerce?x-fast-app=XXXXXXXXX |
-| `product.deleted` | https://cargo-woocommerce.integration.production.fastaf.cloud/cargo-woocommerce?x-fast-app=XXXXXXXXX |
-| `product.created` | https://cargo-woocommerce.integration.production.fastaf.cloud/cargo-woocommerce?x-fast-app=XXXXXXXXX |
-
-:::attention Missing webhooks
-If there are any missing webhooks out of the six listed, you will need to [manually add each one](/developer-portal/for-developers/woocommerce/pre-install/manually-add-webhooks/).     
-:::
+| `order.updated` | https<nolink>://cargo-woocommerce.integration.production.<br>fastaf.cloud/cargo-woocommerce?x-fast-app=XXXXXXXXX |
+| `order.deleted` | https<nolink>://cargo-woocommerce.integration.production.<br>fastaf.cloud/cargo-woocommerce?x-fast-app=XXXXXXXXX |
+| `order.created` | https<nolink>://cargo-woocommerce.integration.production.<br>fastaf.cloud/cargo-woocommerce?x-fast-app=XXXXXXXXX |
+| `product.updated` | https<nolink>://cargo-woocommerce.integration.production.<br>fastaf.cloud/cargo-woocommerce?x-fast-app=XXXXXXXXX |
+| `product.deleted` | https<nolink>://cargo-woocommerce.integration.production.<br>fastaf.cloud/cargo-woocommerce?x-fast-app=XXXXXXXXX |
+| `product.created` | https<nolink>://cargo-woocommerce.integration.production.<br>fastaf.cloud/cargo-woocommerce?x-fast-app=XXXXXXXXX |
 
 ## Bank Details
 
