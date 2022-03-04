@@ -26,36 +26,62 @@ redirectFrom:
 
 ## Part 2: Use the Fast Checkout Button
 
-You have 2 different opptions for this section:
+You have 2 different options for this section:
 
-- [The Standard approach](/developer-portal/for-developers/custom-integration/setup/add-fast-js-to-page/#use-the-fast-checkout-button---the-standard-approach)
-- [The Programatic/Advanced Approach approach](/developer-portal/for-developers/custom-integration/setup/add-fast-js-to-page/#use-the-fast-checkout-button---programaticadvanced-approach)
+- [The Standard Approach](#use-the-fast-checkout-button---the-standard-approach)
+
+- [The Programmatic/Advanced Approach approach](#use-the-fast-checkout-button---programmaticadvanced-approach)
 
 ### Use the Fast Checkout Button - The Standard Approach
 
-Properties can be added to allow for integration without JavaScript.
+<embed src="/reusables/for-developers/_platform_headless_all_intro_standard_approach_with_fast_js.md" />
 
-| Property            | Required | Description                                                                                                                                                                                                                      |
-| ------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **app_id**          | Required | app_id is your Fast app ID that you were provided during seller onboarding.                                                                                                                                                      |
-| **product_id**      | Required | product_id is the ID from the seller platform.                                                                                                                                                                                   |
-| **product_options** | Optional | product_options are a set of configurations that further describe the product being ordered. It is a key value map. It must be a valid JSON object. The key is the selection options and value is the choice for that selection. |
-| **variant_id**      | Optional | variant_id represents a unique sub-idenfifier for this product. These are sometimes used to denote size / color, etc.                                                                                                            |
-| **quantity**        | Optional | quantity is the number of items that should be purchased.                                                                                                                                                                        |
-| **currency**        | Optional | currency is the string value of currency for the purchase.                                                                                                                                                                       |
-| **disabled**        | Optional | disabled will prevent the button from functioning and show a disabled state.                                                                                                                                                     |
-| **dark**            | Optional | dark will use the dark theme. This is best used on darker websites.                                                                                                                                                              |
+Using the `fast.js` script along with a `<fast-checkout-button>` with custom HTML attributes is considered the "standard" approach for enabling Fast Checkout throughout your store, as this approach is relatively easy to implement and the script should be able to perform basic styling of your button and obtain other store-specific information.
 
-```html
+If the Fast Checkout button for the product will be on an external site (e.g. a social media platform and a 3rd-party product review site), or you are otherwise externally sharing the URL (e.g. with a QR code) where you cannot guarantee that the `fast.js` script will be loaded, then you would instead use [Fast Headless Checkout](../headless/use-fast-headless-checkout.md).
+
+<embed src="/reusables/for-developers/_platform_headless_all_table_url_parameters_and_html_attributes.md" />
+
+#### HTML Button Examples
+
+#### HTML Examples for FPDP-Enabled Platforms
+
+<embed src="/reusables/for-developers/_platform_headless_fpdp_enabled_html_button_examples.md" />
+
+##### Recommended HTML Template for FPDP-Enabled Platforms
+
+```html Template Button
 <fast-checkout-button
-  app_id="12345678-abcd-1234-abcd-1234567890ab"
-  product_id="117"
-  product_options='{"121":"145","122":"139"}'
-  dark
+  app_id="YOUR_APP_ID"
+  product_id="YOUR_PRODUCT_ID"
+  affiliate_id="YOUR_AFFILIATE_ID"
 ></fast-checkout-button>
 ```
 
-### Use the Fast Checkout Button - Programatic/Advanced Approach
+#### HTML Examples for FPDP-Disabled Platforms
+
+<embed src="/reusables/for-developers/_platform_headless_fpdp_disabled_html_button_examples.md" />
+
+##### Recommended HTML Templates for FPDP-Disabled Platforms
+
+```html Template Button for Product with Only 1 Variant
+<fast-checkout-button
+  app_id="YOUR_APP_ID"
+  product_id="YOUR_PRODUCT_ID"
+  affiliate_id="YOUR_AFFILIATE_ID"
+></fast-checkout-button>
+```
+
+```html Template Button for Specific Product Variant
+<fast-checkout-button
+  app_id="YOUR_APP_ID"
+  product_id="YOUR_PRODUCT_ID"
+  variant_id="YOUR_VARIANT_ID"
+  affiliate_id="YOUR_AFFILIATE_ID"
+></fast-checkout-button>
+```
+
+### Use the Fast Checkout Button - Programmatic/Advanced Approach
 
 Decide where you want the button to appear on your product page and add a container for it:
 
@@ -143,4 +169,4 @@ checkoutButton.addEventListener("click", (event) => {
 
 **Once the user has clicked the Fast Checkout button, the Fast popup window will have launched and the user can continue with their checkout**. While this is going on, you can listen for fast.js `postMessage` events if you want to keep up with the status of the order on your frontend.
 
-You can read more about about fast.js events in the [fast.js documenation](/developer-portal/for-developers/custom-integration/fast-api/events/).
+You can read more about about fast.js events in the [fast.js documentation](/developer-portal/for-developers/custom-integration/fast-api/events/).

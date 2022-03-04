@@ -1,0 +1,1 @@
+If the `fast.js` script is loaded and available on a page, then you can include a `<fast-checkout-button>` HTML element on the page with custom HTML attributes to enable Fast Checkout for a specific product or product variant without the need to use additional scripts.
