@@ -12,4 +12,4 @@ If you have a product that relies on add-ons (e.g. “we recommend you buy sku-x
 
 Bundled products are currently not supported for Fast Checkout.
 
-For more information on how this works, please review [the steps to use a custom Fast Checkout Button with the `fast.js` script](/developer-portal/for-developers/custom-integration/setup/add-fast-js-to-page#use-the-fast-checkout-button---the-standard-approach).
+For more information on how this works, please review [the steps to use a custom Fast Checkout Button with the `fast.js` script](../../custom-integration/setup/add-fast-js-to-page#use-the-fast-checkout-button---the-standard-approach).

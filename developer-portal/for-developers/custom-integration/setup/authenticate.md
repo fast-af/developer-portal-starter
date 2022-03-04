@@ -20,7 +20,7 @@ Authentication will be a part of everything! Before we can get started we need t
 
 This is the base URL we will use for sending API requests for the defined APIs that need to be implemented as part of this integration.
 
-> For example, if you have used `https://api.your-store.com` as your Merchant URL then when we call the defined `v1/fast/createOrder` API we will send the request as `https://api.your-store.com/v1/fast/createOrder`
+> For example, if you have used `https://api.your-store.com` as your Merchant URL then when we call the defined `fast/v1/create` API we will send the request as `https://api.your-store.com/fast/v1/create`
 
 ### API Access Token
 
@@ -52,7 +52,7 @@ The initial access token provided during onboarding does not have an expiration,
 
 Rotating your token sets a **48 hour expiry for your current token**, and generates a new token. During the expiry window both the old and new API Tokens will be considered valid by Fast. Once the expiry window is over, the old API Token will cease to be valid and Fast will reject all calls using that token as Unauthorized.
 
-You can rotate your token via the Fast dashboard, or programmatically via the `/v1/apps/<app_id>/token/rotate` API.
+You can rotate your token via the ["Install" tab in the Fast Seller Dashboard](https://fast.co/business/dash/install), or programmatically via the `/v1/apps/<app_id>/token/rotate` API.
 
 ```json
 POST /v1/apps/<app_id>/token/rotate
