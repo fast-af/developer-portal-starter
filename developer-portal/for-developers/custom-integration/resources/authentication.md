@@ -30,6 +30,8 @@ We will generate an API Access Token during onboarding. You can view this token 
 
 We will assign your app a unique identifier during onboarding. This ID will be included in every call you make to Fast in the Headers, discussed below.
 
+<embed src="/reusables/for-developers/_fast_app_id.md" />
+
 **App Secret**
 
 This secret is only required for programmatically revoking or rotating your API Access Token via our APIs. We also provide the option to perform those actions in the Fast UI. If you are planning on revoking or rotating via the APIs reach out to Fast customer support and they will be able to provide you with the App Secret to perform this action programmatically.

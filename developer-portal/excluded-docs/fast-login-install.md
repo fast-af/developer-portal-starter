@@ -43,9 +43,9 @@ Once you reach this page, you can go to this link to continue: [https://www.fast
 
 ### Extract the App ID
 
-The result you’ll need to save for the next step is the app id. In this screenshot, it’s 0584d114-d0df-4b14-8fd1-9184c89d3ef1.
+The result you’ll need to save for the next step is the app id.
 
-![View the “Coming Soon” page](images/fast-login/app-id.png)
+<embed src="/reusables/for-developers/_fast_app_id.md" />
 
 ## Copy the code
 

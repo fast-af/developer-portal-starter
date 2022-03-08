@@ -89,6 +89,8 @@ Next you will setup your sandbox application.
 
    - Copy your App ID and put it somewhere safe (you will need this later)
 
+   <embed src="/reusables/for-developers/_fast_app_id.md" />
+
    - Copy your Token and put it somewhere safe (you will also need this later)
 
 6. **Business Verification**

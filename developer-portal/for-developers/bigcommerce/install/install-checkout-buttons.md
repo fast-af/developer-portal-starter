@@ -28,6 +28,8 @@ Let's get started -->
    ```
 3. **ABOVE this line**, copy and paste the following code. When you do this, replace REPLACE-WITH-YOUR-APP-ID with your app ID.
 
+<embed src="/reusables/for-developers/_fast_app_id.md" />
+
    ```html
    {{#if customer.name '===' 'Fast Testing'}}
    <!------ FAST CHECKOUT BUTTON START ----------->

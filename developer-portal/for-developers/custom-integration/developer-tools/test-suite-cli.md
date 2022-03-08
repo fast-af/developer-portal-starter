@@ -13,6 +13,8 @@ The Test Suite CLI is used to simulate a frontend checkout by hitting Fast APIs 
 
 You can use the CLI with the app id / api key from the reference implementation to mimic calls from Fast->Seller. This will enable you to see the different API requests/responses that the Seller backend will see from Fast.
 
+<embed src="/reusables/for-developers/_fast_app_id.md" />
+
 **Using CLI with Seller Sandbox App**
 
 You can also use the CLI with the app id / api key from your non-production Seller app. This will enable you to see the API requests/responses that will come directly into your backend.

@@ -6,7 +6,7 @@ keywords: Fast WooCommerce Custom Settings
 
 # Checkout for WooCommerce Custom Settings
 
-The Fast Checkout for WooCommerce plugin has several settings to configure your Fast Checkout installation. The Fast Settings page in the WordPress admin dashboard is divided into five tabs. The first four tabs contain settings, and the fifth tab is a Support tab with basic documentation and a link to get help from Fast.
+The Fast Checkout for WooCommerce plugin has several settings to configure your Fast Checkout installation. The Fast Settings page in the WordPress admin dashboard is divided into five tabs. The first four tabs contain settings, and the fifth tab is a Support tab with basic documentation and a link to get help from Fast. 
 
 The first four tabs are
 
