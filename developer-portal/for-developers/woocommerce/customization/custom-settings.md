@@ -6,7 +6,7 @@ keywords: Fast WooCommerce Custom Settings
 
 # Checkout for WooCommerce Custom Settings
 
-The Fast Checkout for WooCommerce plugin has several settings to configure your Fast Checkout installation. The Fast Settings page in the WordPress admin dashboard is divided into five tabs. The first four tabs contain settings, and the fifth tab is a Support tab with basic documentation and a link to get help from Fast. 
+The Fast Checkout for WooCommerce plugin has several settings to configure your Fast Checkout installation. The Fast Settings page in the WordPress admin dashboard is divided into five tabs. The first four tabs contain settings, and the fifth tab is a Support tab with basic documentation and a link to get help from Fast.
 
 The first four tabs are
 
@@ -25,7 +25,7 @@ Direct url to your plugin settings is `http://yourwebsite.com/wp-admin/admin.php
 
 ![App ID Setting in App Info Tab](images/woocommerce-settings-app-id-in-app-info-tab.png)
 
-The App Info tab contains the **App ID** setting, which should have been set during the [plugin installation process](/developer-portal/for-developers/woocommerce/install/install-plugin#connect-your-fast-app-id-to-the-fast-checkout-plugin) of Seller onboarding.
+The App Info tab contains the **Fast App ID**, which should have been set during the [plugin installation process](/developer-portal/for-developers/woocommerce/install/install-plugin#connect-your-fast-app-id-to-the-fast-checkout-plugin) of Seller onboarding.
 
 ## Styles Tab
 

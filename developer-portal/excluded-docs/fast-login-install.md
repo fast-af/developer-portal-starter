@@ -41,9 +41,9 @@ Once you reach this page, you can go to this link to continue: [https://www.fast
 
 ![View the “Coming Soon” page](images/fast-login/coming-soon-page.png)
 
-### Extract the App ID
+### Extract the Fast App ID
 
-The result you’ll need to save for the next step is the app id.
+The result you’ll need to save for the next step is the Fast App ID.
 
 <embed src="/reusables/for-developers/_fast_app_id.md" />
 
@@ -157,7 +157,7 @@ export class JwtService {
       // throws if the key ID can’t be found
       const key = await this.fastJwksClient.getSigningKeyAsync(token.kid)
       // throws if the signature is invalid, token is expired, algorithm doesn’t match,
-      // or audience doesn’t match the app ID
+      // or audience doesn’t match the Fast App ID
       jsonwebtoken.verify(jwt, key.getPublicKey(), {
           algorithms: ['RS256'],
           audience: APP_ID,
@@ -167,7 +167,7 @@ export class JwtService {
 }
 ```
 
-1. The audience (“aud”) field must match your Fast app ID.
+1. The audience (“aud”) field must match your Fast App ID.
 2. The expiration time (“exp”) field must be less than the current Unix time in seconds (tokens expire within 30 seconds)
 3. (Optional) The IP address (“ipaddr”) field should match the true IP address of the end user. Skip this check if you’re not sure how to get the true IP address of the end user.
 4. (Optional) You should not have received another token in the past with the same JTI (“jti”) field. Store token JTIs for 30 seconds in order to perform this check on top of the expiration check to prevent replay attacks.
@@ -204,7 +204,7 @@ Tl;dr: In general, don’t trust anything sent by the client in the login flow.
 - **Don’t** use an email provided by an API call from the client.
 - **Do** use the email stored in the token after the signature is verified.
 - **Don’t** accept an app ID sent by an API call from the client when verifying the token audience.
-- **Do** store your store’s app ID in the server configuration and use it to verify the token audience.
+- **Do** store your store’s Fast App ID in the server configuration and use it to verify the token audience.
 - **Don’t** accept the email field as part of your Fast Login integration API call exposed to the client.
 - **Do** accept the login token.
 - **Don’t** store the login token anywhere.

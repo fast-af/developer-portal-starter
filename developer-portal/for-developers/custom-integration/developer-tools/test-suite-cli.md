@@ -11,13 +11,13 @@ The Test Suite CLI is used to simulate a frontend checkout by hitting Fast APIs 
 
 **Using CLI with Reference Implementation**
 
-You can use the CLI with the app id / api key from the reference implementation to mimic calls from Fast->Seller. This will enable you to see the different API requests/responses that the Seller backend will see from Fast.
+You can use the CLI with the Fast App ID / API key from the [reference implementation](/developer-portal/for-developers/custom-integration/setup/authenticate.md) to mimic calls from Fast->Seller. This will enable you to see the different API requests/responses that the Seller backend will see from Fast.
 
 <embed src="/reusables/for-developers/_fast_app_id.md" />
 
 **Using CLI with Seller Sandbox App**
 
-You can also use the CLI with the app id / api key from your non-production Seller app. This will enable you to see the API requests/responses that will come directly into your backend.
+You can also use the CLI with the Sandbox App ID / API key from your non-production Seller app. This will enable you to see the API requests/responses that will come directly into your backend.
 
 :::attention heads up
 Fast Test Suite CLI only works with Sandbox environment.
@@ -62,13 +62,13 @@ References to `product_id` below refer to a product id in your backend
 
 #### Login
 
-To login you will need the API key provided to you and your app id.
+To login you will need the API key provided to you and your Fast App ID.
 This command will store your API key in a local file. Please use logout when finished to remove this file
 
 ```bash
 ./fast-test-suite login
 Please enter your API access token: <api_token>
-Please enter your app id: <app_id>
+Please enter your Fast App ID: <app_id>
 ```
 
 #### Logout

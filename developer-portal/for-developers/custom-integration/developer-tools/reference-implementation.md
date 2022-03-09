@@ -87,7 +87,7 @@ Next you will setup your sandbox application.
 
    - In the Rest API URL field, input the localtunnel address you create above. (should be `https://<LOCALTUNNEL\_SUBDOMAIN>.loca.lt` where `<LOCALTUNNEL\_SUBDOMAIN>` is equal to the value you put in the .env file)
 
-   - Copy your App ID and put it somewhere safe (you will need this later)
+   - Copy your Fast App ID and put it somewhere safe (you will need this later)
 
    <embed src="/reusables/for-developers/_fast_app_id.md" />
 
@@ -111,7 +111,7 @@ If it does not match please navigate to [step 1](/developer-portal/for-developer
 ### 5. Setup Fast Test Suite CLI
 
 Now that the application is running, **you can use the Fast Test Suite CLI to make calls to the Fast backend**, which will then call your Seller Application running locally.
-Please navigate [here](https://github.com/fast-af/fast-test-suite-cli) to get the CLI setup. Make sure to have your App ID and Token from onboarding handy, as they will be required to run the CLI.
+Please navigate [here](https://github.com/fast-af/fast-test-suite-cli) to get the CLI setup. Make sure to have your Fast App ID and Token from onboarding handy, as they will be required to run the CLI.
 NOTE: You will need to open a new terminal window/tab to run the CLI.
 
 Once the Test Suite CLI is setup, you can run these commands:

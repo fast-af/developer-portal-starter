@@ -28,7 +28,9 @@ Let's get started -->
 <h1 class="page-heading">{{lang 'login.heading' }}</h1>
 ```
 
-3. **BELOW this line**, copy and paste the following code. When you do this, replace REPLACE-WITH-YOUR-APP-ID with your app ID.
+3. **BELOW this line**, copy and paste the following code. When you do this, replace REPLACE-WITH-YOUR-APP-ID with your Fast App ID.
+
+<embed src="/reusables/for-developers/_fast_app_id.md" />
 
 ```html
 {{#if customer.name '===' 'Fast Testing'}}
@@ -94,9 +96,7 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
    ```javascript
    <h1 class="page-heading">{{lang 'create_account.heading' }}</h1>
    ```
-3. **BELOW this line**, copy and paste the following code. When you do this, replace REPLACE-WITH-YOUR-APP-ID with your app ID.
-
-<embed src="/reusables/for-developers/_fast_app_id.md" />
+3. **BELOW this line**, copy and paste the following code. When you do this, replace REPLACE-WITH-YOUR-APP-ID with your Fast App ID.
 
    ```html
    {{#if customer.name '===' 'Fast Testing'}}

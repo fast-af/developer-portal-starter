@@ -37,7 +37,7 @@ Properties can be added to allow for integration without JavaScript.
 
 | Property            | Required | Description  |
 | ------------------- | -------- | -------------------- |
-| **app_id**          | Required | Your Fast app ID that you were provided during seller onboarding. <embed src="/reusables/for-developers/_fast_app_id.md" />|
+| **app_id**          | Required | Your Fast App ID that you were provided during seller onboarding. <embed src="/reusables/for-developers/_fast_app_id.md" />|
 | **product_id**      | Required | The ID from the seller platform. |
 | **product_options** | Optional | A set of configurations that further describe the product being ordered. It is a key value map. It must be a valid JSON object. The key is the selection options and value is the choice for that selection. |
 | **variant_id**  | Optional | A unique sub-idenfifier for this product. These are sometimes used to denote size / color, etc. |
@@ -71,7 +71,7 @@ When the button is clicked, use fast.js to place an order for the item. Make sur
 var checkoutButton = document.querySelector("fast-checkout-button");
 checkoutButton.addEventListener("click", (event) => {
   Fast.checkout({
-    // Required. appId is your Fast app ID that you were provided during seller onboarding.
+    // Required. appId is your Fast App ID that you were provided during seller onboarding.
     appId: "my-fast-app-id",
 
     // Required. buttonId is the id attribute of the button that was clicked
