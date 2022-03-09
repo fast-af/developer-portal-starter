@@ -5,6 +5,7 @@ seo:
   image: ./images/fastDocsLogo.svg
   keywords: Fast button, Fast install, Fast login, Fast docs
   lang: en-US
+disableLastModified: true
 linkChecker:
   severity: warning
   options:
