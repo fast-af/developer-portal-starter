@@ -112,7 +112,7 @@ The Status tab will provide a quick overview of the status of the Fast Checkout 
 
 - if the Fast App ID provided in the [App Info tab](#app-info-tab) is valid
 - if the plugin is currently being used in Test Mode or Debug Mode as set in the [Test Mode tab](#test-mode-tab)
-- if all necessary [webhooks have been enabled from the WooCommerce store's Advanced Settings](../pre-install/verify-webhooks#optional-manually-add-missing-webhooks)
+- if all necessary [webhooks have been enabled from the WooCommerce store's Advanced Settings](/developer-portal/for-developers/woocommerce/pre-install/verify-webhooks#manually-add-missing-webhooks)
 
 ## Third Party Plugins Tab
 

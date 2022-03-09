@@ -11,7 +11,7 @@ keywords: Fast WooCommerce onboarding, WooCommerce webhooks
 During Fast Seller onboarding with WooCommerce, your WooCommerce store should be automatically provisioned with an API key and typically three order webhooks (for when an order is created, updated, or deleted). However three similar product webhooks are not typically automatically provided. Before proceeding with installation of the Fast Checkout for WooCommerce plugin, you should first verify the setup of both your API key and webhooks.
 
 :::info adding missing webhooks
-Webhooks that were not added to your profile automatically can be [manually added](#optional-manually-add-missing-webhooks) at any time.
+Webhooks that were not added to your profile automatically can be [manually added](#manually-add-missing-webhooks) at any time.
 :::
 
 ## Verify API Key
@@ -46,7 +46,7 @@ To view existing webhooks:
 
 <embed src="/reusables/for-developers/_platform_woocommerce_settings_webhook_data_table.md" />
 
-### Optional: Manually Add Missing Webhooks
+### Manually Add Missing Webhooks
 
 1.  While logged in to your WooCommerce dashboard, go to **WooCommerce > Settings > Advanced > Webhooks**.
 
