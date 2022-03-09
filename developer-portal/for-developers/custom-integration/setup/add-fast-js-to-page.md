@@ -35,16 +35,16 @@ You have 2 different opptions for this section:
 
 Properties can be added to allow for integration without JavaScript.
 
-| Property            | Required | Description                                                                                                                                                                                                                      |
-| ------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **app_id**          | Required | app_id is your Fast app ID that you were provided during seller onboarding.                                                                                                                                                      |
-| **product_id**      | Required | product_id is the ID from the seller platform.                                                                                                                                                                                   |
-| **product_options** | Optional | product_options are a set of configurations that further describe the product being ordered. It is a key value map. It must be a valid JSON object. The key is the selection options and value is the choice for that selection. |
-| **variant_id**      | Optional | variant_id represents a unique sub-idenfifier for this product. These are sometimes used to denote size / color, etc.                                                                                                            |
-| **quantity**        | Optional | quantity is the number of items that should be purchased.                                                                                                                                                                        |
-| **currency**        | Optional | currency is the string value of currency for the purchase.                                                                                                                                                                       |
-| **disabled**        | Optional | disabled will prevent the button from functioning and show a disabled state.                                                                                                                                                     |
-| **dark**            | Optional | dark will use the dark theme. This is best used on darker websites.                                                                                                                                                              |
+| Property            | Required | Description  |
+| ------------------- | -------- | -------------------- |
+| **app_id**          | Required | Your Fast App ID that you were provided during seller onboarding. <embed src="/reusables/for-developers/_fast_app_id.md" />|
+| **product_id**      | Required | The ID from the seller platform. |
+| **product_options** | Optional | A set of configurations that further describe the product being ordered. It is a key value map. It must be a valid JSON object. The key is the selection options and value is the choice for that selection. |
+| **variant_id**  | Optional | A unique sub-idenfifier for this product. These are sometimes used to denote size / color, etc. |
+| **quantity**  | Optional | The number of items that should be purchased. |
+| **currency** | Optional | The string value of currency for the purchase. |
+| **disabled**  | Optional | This will prevent the button from functioning and show a disabled state. |
+| **dark**  | Optional | This will use the dark theme. This is best used on darker websites. |
 
 ```html
 <fast-checkout-button
@@ -71,7 +71,7 @@ When the button is clicked, use fast.js to place an order for the item. Make sur
 var checkoutButton = document.querySelector("fast-checkout-button");
 checkoutButton.addEventListener("click", (event) => {
   Fast.checkout({
-    // Required. appId is your Fast app ID that you were provided during seller onboarding.
+    // Required. appId is your Fast App ID that you were provided during seller onboarding.
     appId: "my-fast-app-id",
 
     // Required. buttonId is the id attribute of the button that was clicked

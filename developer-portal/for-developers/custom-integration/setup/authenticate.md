@@ -24,11 +24,13 @@ This is the base URL we will use for sending API requests for the defined APIs t
 
 ### API Access Token
 
-**We will generate an API Access Token during onboarding**. You can view this token via the Fast UI once, so be sure to copy and store this in a safe place where you normally store your credentials (i.e. AWS Secret Store). This API Token will be used to authenticate your calls to Fast.
+**We will generate an API Access Token during onboarding**. You can view this token in the **Install** section of your [Fast Seller Dashboard](https://fast.co/business/dash/install) only once, so be sure to copy and store this in a safe place where you normally store your credentials (i.e. AWS Secret Store). This API Token will be used to authenticate your calls to Fast.
 
-### App ID
+### Fast App ID
 
 **We will assign your app a unique identifier during onboarding**. This ID will be included in every call you make to Fast in the Headers, discussed below.
+
+<embed src="/reusables/for-developers/_fast_app_id.md" />
 
 ### App Secret
 
@@ -36,7 +38,7 @@ This is the base URL we will use for sending API requests for the defined APIs t
 
 ## Authenticating Calls to Fast
 
-When sending an API request to Fast, you will need to include your API Access Token and your App ID in the Headers of your call
+When sending an API request to Fast, you will need to include your API Access Token and your Fast App ID in the Headers of your call.
 
 ```html
 X-Fast-App: <app_id> X-Fast-App-Auth: <access_token></access_token></app_id>
@@ -127,7 +129,7 @@ HEADER
 PAYLOAD
 {
     "iss": "api.fast.co", // should also be the origin of the request
-    "aud": "a2c74070-c22a-42e8-a0b2-adce2210a3a7", // your app id
+    "aud": "a2c74070-c22a-42e8-a0b2-adce2210a3a7", // your Fast App ID
     "exp": "1611362912", // UNIX time of expiration. Must be less than current time
   "iat": "1611251846" // UNIX time of issue
 }
@@ -174,7 +176,7 @@ export class JwtService {
       // throws if the key ID can’t be found
       const key = await this.fastJwksClient.getSigningKeyAsync(token.kid)
       // throws if the signature is invalid, token is expired, algorithm doesn’t match,
-      // or audience doesn’t match the app ID
+      // or audience doesn’t match the Fast App ID
       jsonwebtoken.verify(jwt, key.getPublicKey(), {
           algorithms: ['RS256'],
           audience: APP_ID,

@@ -1142,7 +1142,7 @@ components:
             status: ORDER_STATUS_CART
             bill_to: {}
             lines:
-              - id: 
+              - id:
                   value: 32dc17ee-ebff-40f8-87c5-b83f838d79d1
                 external_product_id: 112
                 quantity: 1
