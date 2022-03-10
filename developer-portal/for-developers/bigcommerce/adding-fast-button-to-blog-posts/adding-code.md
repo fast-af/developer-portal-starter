@@ -66,7 +66,7 @@ To access your theme's source code, **you will complete the following**:
   {INSERT-BUTTON-NAME}.addEventListener('click', (event) => {
       Fast.checkout(
       {
-              // Required. appId is your Fast app ID that you were provided during seller onboarding.
+              // Required. appId is your Fast App ID that you were provided during seller onboarding.
               appId: '{INSERT-APP-ID}',
 
         // Required. buttonId is the id attribute of the button that was clicked

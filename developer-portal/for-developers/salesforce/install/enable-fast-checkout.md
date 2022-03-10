@@ -66,6 +66,7 @@ Please limit changes to Sandbox configuration settings so that Fast can evaluate
      > This is a store-level configuration setting that allows you to quickly enable or disable Fast.
    - Set **Fast App ID**
      > Enter the Sandbox App ID (`app_id`) provided to you previously by Fast
+     <embed src="/reusables/for-developers/_fast_app_id.md" />
      > You will not obtain a production `app_id` until your Sandbox setup has been validated by Fast
    - Set **Fast Theme**
      > **ProTip**: Select dark theme if your site has a dark/black background.

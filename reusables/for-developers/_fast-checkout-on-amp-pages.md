@@ -65,7 +65,7 @@ https://go.fast.co/checkout?app_id=YOUR_APP_ID&version=1.2.0&product_id=YOUR_PRO
 
 | Placeholder       | Replacement                                                   |
 | ----------------- | ------------------------------------------------------------- |
-| `YOUR_APP_ID`     | Your Fast app ID                                              |
+| `YOUR_APP_ID`     | Your Fast App ID                                              |
 | `YOUR_PRODUCT_ID` | The product ID of the product you want the button to purchase |
 
 You do not need to modify the `version` parameter.

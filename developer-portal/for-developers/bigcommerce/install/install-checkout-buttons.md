@@ -26,50 +26,52 @@ Let's get started -->
    ```javascript
    {{#or customer (if theme_settings.restrict_to_login '!==' true)}}.
    ```
-3. **ABOVE this line**, copy and paste the following code. When you do this, replace REPLACE-WITH-YOUR-APP-ID with your app ID.
+3. **ABOVE this line**, copy and paste the following code. When you do this, you will need to replace the `REPLACE-WITH-YOUR-APP-ID` placeholder with your Fast App ID.
 
-   ```html
-   {{#if customer.name '===' 'Fast Testing'}}
-   <!------ FAST CHECKOUT BUTTON START ----------->
-   <div class="fast-wrapper">
-     <div class="fast-or">OR</div>
-     <fast-checkout-button app_id="REPLACE-WITH-YOUR-APP-ID" />
-   </div>
-   <style>
-     .fast-wrapper {
-       padding-bottom: 20px;
-       margin-bottom: 20px;
-     }
-     .fast-or {
-       position: relative;
-       top: 80px;
-       background: white;
-       width: 40px;
-       text-align: center;
-       margin-left: auto;
-       margin-right: auto;
-       color: #757575;
-     }
-     @media only screen and (max-width: 767px) {
-       .fast-wrapper {
-         border-bottom: 1px solid #dfdfdf;
-         border-radius: none;
-         padding-right: 1%;
-         padding-left: 1%;
-       }
-     }
-     @media only screen and (min-width: 768px) {
-       .fast-wrapper {
-         border: 1px solid #dfdfdf;
-         border-radius: 5px;
-         padding-right: 20%;
-         padding-left: 20%;
-       }
-     }
-   </style>
-   <!------ FAST CHECKOUT BUTTON END ----------->
-   {{/if}}
-   ```
+<embed src="/reusables/for-developers/_fast_app_id.md" />
+
+```html
+{{#if customer.name '===' 'Fast Testing'}}
+<!------ FAST CHECKOUT BUTTON START ----------->
+<div class="fast-wrapper">
+  <div class="fast-or">OR</div>
+  <fast-checkout-button app_id="REPLACE-WITH-YOUR-APP-ID" />
+</div>
+<style>
+  .fast-wrapper {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .fast-or {
+    position: relative;
+    top: 80px;
+    background: white;
+    width: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #757575;
+  }
+  @media only screen and (max-width: 767px) {
+    .fast-wrapper {
+      border-bottom: 1px solid #dfdfdf;
+      border-radius: none;
+      padding-right: 1%;
+      padding-left: 1%;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .fast-wrapper {
+      border: 1px solid #dfdfdf;
+      border-radius: 5px;
+      padding-right: 20%;
+      padding-left: 20%;
+    }
+  }
+</style>
+<!------ FAST CHECKOUT BUTTON END ----------->
+{{/if}}
+```
 
 4. After copying and pasting that code, indent the code so it matches up with the other indentations in the rest of the code.
 
@@ -97,7 +99,7 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
 {{#if cart.show_primary_checkout_button}}
 ```
 
-3. **BELOW this line**, copy and paste the following code. When you do this, replace REPLACE-WITH-YOUR-APP-ID with your app ID.
+3. **BELOW this line**, copy and paste the following code. When you do this, you will need to replace the `REPLACE-WITH-YOUR-APP-ID` placeholder with your Fast App ID.
 
    ```html
    {{#if customer.name '===' 'Fast Testing'}}
@@ -160,7 +162,7 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
    ```javascript
    <div class="previewCartAction">
    ```
-3. ABOVE this line, copy and paste the following code. When you do this, replace REPLACE-WITH-YOUR-APP-ID with your app ID.
+3. ABOVE this line, copy and paste the following code. When you do this, you will need to replace the `REPLACE-WITH-YOUR-APP-ID` placeholder with your Fast App ID.
    ```html
    {{#if customer.name '===' 'Fast Testing'}}
    <!------ FAST CHECKOUT BUTTON START ----------->
@@ -216,7 +218,7 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
 {{#if cart.show_primary_checkout_button}}
 ```
 
-3. **BELOW this line**}, copy and paste the following code. When you do this, replace REPLACE-WITH-YOUR-APP-ID with your app ID.
+3. **BELOW this line**}, copy and paste the following code. When you do this, you will need to replace the `REPLACE-WITH-YOUR-APP-ID` placeholder with your Fast App ID.
 
 ```html
 {{#if customer.name '===' 'Fast Testing'}}
@@ -296,7 +298,7 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
    <img alt="checkout.html file" src="./images/image11.png"/>
 2. Use command-F to find the line:
    `{{{ checkout.checkout_content }}}`
-3. **ABOVE this line**, copy and paste the following code. When you do this, replace REPLACE-WITH-YOUR-APP-ID with your app ID.
+3. **ABOVE this line**, copy and paste the following code. When you do this, you will need to replace the `REPLACE-WITH-YOUR-APP-ID` placeholder with your Fast App ID.
    ```html
    {{#if customer.name '===' 'Fast Testing'}}
    <!------ FAST CHECKOUT BUTTON START ----------->

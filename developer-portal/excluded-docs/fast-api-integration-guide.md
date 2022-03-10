@@ -58,6 +58,8 @@ The repository has detailed instructions on dependencies and usage, once you hav
 ./fast-test-suite pdp-simple-new-user --product-id=<product_id> --app-id=<app_id>
 ```
 
+<embed src="/reusables/for-developers/_fast_app_id.md" />
+
 **NOTE:** You'll need to replace variables in the initial payload to match actual products that are registered in your system. We expect the seller to recognize the payload we pass. For full documentation on the possible options and full schema, see the [**reference documentation**](https://www.fast.co/docs/order/order/).
 
 The `pdp-simple-new-user` command will emit a series of test requests from the Fast backend to yours, that has the same pattern of calls as it will in production. The `pdp-simple-new-user` test suite will run multiple operations.

@@ -16,7 +16,7 @@ redirectFrom:
 
 :::info Migrating a Manually Installed Plugin Version to WordPress Plugin Directory Version
 
-If you currently have a manually-installed version of the plugin (e.g. a pre-release version installed by the Fast Customer Success Team prior to the official 1.0 release of Fast for WooCommerce in the WordPress plugin directory), please visit the [**Migrating Fast to New Plugin Directory Version (for Early Sellers)** page](../wordpress-plugin/migrating.md) for plugin migration instructions.
+If you currently have a manually-installed version of the plugin (e.g. a pre-release version installed by the Fast Customer Success Team prior to the official 1.0 release of Fast Checkout for WooCommerce in the WordPress plugin directory), please visit the [**Migrating Fast to New Plugin Directory Version (for Early Sellers)** page](../wordpress-plugin/migrating.md) for plugin migration instructions.
 
 :::
 
@@ -26,9 +26,9 @@ If you currently have a manually-installed version of the plugin (e.g. a pre-rel
 
    > The url for this is usually `https://yourwebsite.com/wp-admin`
 
-2. In a new window (i.e. keep the WordPress admin dashboard open in a separate window) go to the [the "Install" tab of the Fast Seller Dashboard](https://www.fast.co/business/dash/install) and copy the App ID (`app_id`) you see there to your clipboard.
+2. In a separate window go to the [the "Install" tab of the Fast Seller Dashboard](https://www.fast.co/business/dash/install) and copy the Fast App ID (`app_id`) to your clipboard.
 
-   ![App ID](images/woocommerce-install2.png)
+   ![Fast App ID](images/woocommerce-install2.png)
 
 3. Close the current Fast Dashboard window and return to the WordPress admin dashboard window.
 
@@ -36,6 +36,6 @@ If you currently have a manually-installed version of the plugin (e.g. a pre-rel
 
    ![Fast Plugin in WordPress WooCommerce Admin Dashboard Sidebar](images/woocommerce-install1.png)
 
-5. Go back to the WooCommerce store window and paste the app ID into the textbox. Then click “Save Changes.”
+5. Go back to the WooCommerce store window and paste the Fast App ID into the textbox, then click **Save Changes**.
 
    ![App ID Form in WordPress WooCommerce Admin Dashboard](images/woocommerce-install3.png)

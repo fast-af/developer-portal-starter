@@ -6,16 +6,18 @@ keywords: Fast WooCommerce Custom Settings
 
 # Checkout for WooCommerce Custom Settings
 
-The Fast Checkout for WooCommerce plugin has several settings to configure your Fast Checkout installation. The Fast Settings page in the WordPress admin dashboard is divided into five tabs. The first four tabs contain settings, and the fifth tab is a Support tab with basic documentation and a link to get help from Fast.
-
-The first four tabs are
+The Fast Checkout for WooCommerce plugin has several settings to configure your Fast Checkout installation. When you click the Fast Checkout plugin from the left panel of the WordPress admin dashboard, Fast Settings will be divided into several tabs as outlined below:
 
 - [App Info](#app-info-tab)
 - [Styles](#styles-tab)
 - [Options](#options-tab)
 - [Test Mode](#test-mode-tab)
+- [Support](#support-tab)
+- [Status](#status-tab)
+- [Third Party Plugins](#third-party-plugins-tab)
 
-Direct url to your plugin settings is `http://yourwebsite.com/wp-admin/admin.php?page=fast`
+The direct URL to your plugin settings should look something like:
+`http://yourwebsite.com/wp-admin/admin.php?page=fast`
 
 ## App Info Tab
 
@@ -25,7 +27,7 @@ Direct url to your plugin settings is `http://yourwebsite.com/wp-admin/admin.php
 
 ![App ID Setting in App Info Tab](images/woocommerce-settings-app-id-in-app-info-tab.png)
 
-The App Info tab contains the **App ID** setting, which should have been set during the [plugin installation process](/developer-portal/for-developers/woocommerce/install/install-plugin#connect-your-fast-app-id-to-the-fast-checkout-plugin) of Seller onboarding.
+The App Info tab contains the **Fast App ID**, which should have been set during the [plugin installation process](/developer-portal/for-developers/woocommerce/install/install-plugin#connect-your-fast-app-id-to-the-fast-checkout-plugin) of Seller onboarding.
 
 ## Styles Tab
 
@@ -97,3 +99,21 @@ The Test Mode tab allows you to enable or disable Test Mode (to ensure that Fast
 Test Mode should be have been enabled by default during the [initial plugin installation process](/developer-portal/for-developers/woocommerce/install/test-mode) and should stay enabled until you have fully configured Fast Checkout buttons (including styling) to work as desired with your store. Disabling Test Mode will enable Fast Checkout and make Fast Checkout buttons visible to customers.
 
 :::
+
+## Support Tab
+
+The Support tab provides basic documentation about using the Fast Checkout for WooCommerce plugin, as well as links to external resources (e.g. Fast Seller onboarding, the Fast Help site, WooCommerce developer documentation, etc.).
+
+## Status Tab
+
+![Status Tab in Your WooCommerce Dashboard](../../../images/woocommerce/status-tab.png)
+
+The Status tab will provide a quick overview of the status of the Fast Checkout plugin, namely:
+
+- if the Fast App ID provided in the [App Info tab](#app-info-tab) is valid
+- if the plugin is currently being used in Test Mode or Debug Mode as set in the [Test Mode tab](#test-mode-tab)
+- if all necessary [webhooks have been enabled from the WooCommerce store's Advanced Settings](/developer-portal/for-developers/woocommerce/pre-install/verify-webhooks#manually-add-missing-webhooks)
+
+## Third Party Plugins Tab
+
+The Third Party Plugins tab should only be visible if your WooCommerce store has a supported third party plugin installed.
