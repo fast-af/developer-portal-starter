@@ -16,7 +16,7 @@ redirectFrom:
 
 :::info Migrating a Manually Installed Plugin Version to WordPress Plugin Directory Version
 
-If you currently have a manually-installed version of the plugin (e.g. a pre-release version installed by the Fast Customer Success Team prior to the official 1.0 release of Fast for WooCommerce in the WordPress plugin directory), please visit the [**Migrating Fast to New Plugin Directory Version (for Early Sellers)** page](../wordpress-plugin/migrating.md) for plugin migration instructions.
+If you currently have a manually-installed version of the plugin (e.g. a pre-release version installed by the Fast Customer Success Team prior to the official 1.0 release of Fast Checkout for WooCommerce in the WordPress plugin directory), please visit the [**Migrating Fast to New Plugin Directory Version (for Early Sellers)** page](../wordpress-plugin/migrating.md) for plugin migration instructions.
 
 :::
 

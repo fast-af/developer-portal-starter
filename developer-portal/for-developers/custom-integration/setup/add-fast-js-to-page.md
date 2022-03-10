@@ -26,7 +26,7 @@ redirectFrom:
 
 ## Part 2: Use the Fast Checkout Button
 
-You have 2 different opptions for this section:
+You have 2 different options for this section:
 
 - [The Standard approach](/developer-portal/for-developers/custom-integration/setup/add-fast-js-to-page/#use-the-fast-checkout-button---the-standard-approach)
 - [The Programatic/Advanced Approach approach](/developer-portal/for-developers/custom-integration/setup/add-fast-js-to-page/#use-the-fast-checkout-button---programaticadvanced-approach)
