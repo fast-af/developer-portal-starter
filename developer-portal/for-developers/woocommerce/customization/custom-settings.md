@@ -102,7 +102,7 @@ Test Mode should be have been enabled by default during the [initial plugin inst
 
 ## Support Tab
 
-The Support tab provides basic documentation about using the Fast Checkout for WooCommerce plugin, as well as a links to external resources (e.g. Fast Seller onboarding, the Fast Help site, WooCommerce developer documentation, etc.).
+The Support tab provides basic documentation about using the Fast Checkout for WooCommerce plugin, as well as links to external resources (e.g. Fast Seller onboarding, the Fast Help site, WooCommerce developer documentation, etc.).
 
 ## Status Tab
 
