@@ -21,8 +21,9 @@ your current theme's source code. To access your theme's source code, you will c
      then set the newly copied version as your current theme. Once you do this, then you will see the option to **Edit Theme Files**.
 6. This will open **Stencil Editor**, which is where you can edit your theme's source code and where you will add the Fast Login code snippets.
 
-**For all of the Fast Login code snippets below, you will need to replace the section _REPLACE-WITH-YOUR-APP-ID_ with
-your own Fast App Id. Make sure it's wrapped in quotes. You can get this from your [**Seller Dashboard →**](https://www.fast.co/business/dash/profile)**
+**For all of the Fast Login code snippets below, you will need to replace the `REPLACE-WITH-YOUR-APP-ID` placeholder with your own Fast App ID.** Make sure it's wrapped in quotes.
+
+<embed src="/reusables/for-developers/_fast_app_id.md" />
 
 ## Fast Login Buttons to Install
 

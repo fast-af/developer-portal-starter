@@ -27,7 +27,7 @@ The direct URL to your plugin settings should look something like:
 
 ![App ID Setting in App Info Tab](images/woocommerce-settings-app-id-in-app-info-tab.png)
 
-The App Info tab contains the **App ID** setting, which should have been set during the [plugin installation process](/developer-portal/for-developers/woocommerce/install/install-plugin#connect-your-fast-app-id-to-the-fast-checkout-plugin) of Seller onboarding.
+The App Info tab contains the **Fast App ID**, which should have been set during the [plugin installation process](/developer-portal/for-developers/woocommerce/install/install-plugin#connect-your-fast-app-id-to-the-fast-checkout-plugin) of Seller onboarding.
 
 ## Styles Tab
 
