@@ -3,7 +3,7 @@ In order to onboard quickly and get your Bank account connected so that Fast can
 - **Seller Organization Name**
 - **Seller Organization Address**
 - **Seller Business/Store Name**
-  > You also need to collect your **legal registered business name** if it’s different than your customer-facing “doing-business-as” (DBA) name.
+  > You also need to collect your **legal registered business name** if it’s different than your customer-facing "doing-business-as" (DBA) name.
 - **Seller Store URL** (must use **https://**)
 - **Seller Business Country of Registration**
 - **Tax ID for the Seller’s Registered Business**

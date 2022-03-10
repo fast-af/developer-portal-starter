@@ -19,7 +19,7 @@ We're thrilled to have you onboard as a Fast Seller! To help proactively answer 
 
 <embed src="/reusables/for-shoppers/_fast_all_what_is_fast_checkout" />
 
-## What happens when I press “Fast Checkout?”
+## What happens when I press "Fast Checkout?"
 
 If you haven't used Fast before, you'll fill out a first-time checkout form. After filling out this form once, you'll have a true one-click checkout experience anytime you press Fast Checkout!
 

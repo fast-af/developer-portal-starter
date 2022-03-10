@@ -32,13 +32,13 @@ This is the base URL Fast will use to send API requests for the APIs that need t
 
 ### Fast App ID
 
-**We will assign your app a unique identifier (`app_id`) during onboarding**. This Fast App ID will be included in every call you make to Fast (as shown in the [Headers](#he), discussed below.
+**Fast will assign your app a Fast App ID (`app_id`) during Seller onboarding**. The Fast App ID is a unique identifier included in every call you make to Fast (as shown in the [Headers](#headers) section below).
 
 <embed src="/reusables/for-developers/_fast_app_id.md" />
 
 ### App Secret
 
-**This secret is only required for programmatically revoking or rotating your API Access Token via our APIs**. We also provide the option to perform those actions in the Fast UI. If you are planning on revoking or rotating via the APIs reach out to Fast customer support and they will be able to provide you with the App Secret to perform this action programmatically.
+**This secret is only required for programmatically revoking or rotating your API Access Token via our APIs**. We also provide the option to perform those actions in the Fast UI. If you plan to revoke or rotate API Tokens using the APIs, contact Customer Success at [seller-support@fast.co](mailto:seller-support@fast.co) to be provided with the App Secret to perform these actions programmatically.
 
 ## Authenticating Calls to Fast
 

@@ -18,7 +18,7 @@ Go into **each theme file** described in the [previous step](/developer-portal/f
 
 2. **Delete that line**.
 3. **Use command-F** to find where it says `{{/if}}` directly below the Fast button code and delete that line.
-4. **Click “Save File” or “Save & apply file” each time you finish editing each theme file**.
+4. **Click "Save File" or "Save & apply file" each time you finish editing each theme file**.
 
 :::info Heads up
 That's it! Everyone can now see the Fast Buttons and use them.

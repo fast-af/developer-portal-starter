@@ -20,7 +20,7 @@ Let's get started -->
 
 ## Installing "Fast Login" Button to Login Page
 
-1. In the theme files, click “templates” → “pages” → “auth” → “login.html.”
+1. In the theme files, click "templates" → "pages" → "auth" → "login.html."
    <img alt="login.html file" src="./images/image6.png"/>
 2. Use command-F to find the line:
 
@@ -75,9 +75,9 @@ Let's get started -->
 {{/if}}
 ```
 
-4. Click “Save File.”
+4. Click "Save File."
 
-   > Note: The page might say “Save & apply file” instead of “Save File.” If that is the case, click “Save & apply file.”
+   > Note: The page might say "Save & apply file" instead of "Save File." If that is the case, click "Save & apply file."
 
 5. Go to the Login page on your online store and make sure that the Fast Login button, which appears there now, looks good to you. (You may have to refresh the page a few times before the Fast Login button appears.)
    <img alt="login page" src="./images/image27.png"/>
@@ -90,7 +90,7 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
 
 ## Installing "Fast Login" Button to Create Account Page
 
-1. In the theme files, click “templates” → “pages” → “auth” → “create-account.html.”
+1. In the theme files, click "templates" → "pages" → "auth" → "create-account.html."
    <img alt="create-account.html file" src="./images/image15.png"/>
 2. Use command-F to find the line:
    ```javascript
@@ -141,8 +141,8 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
    {{/if}}
    ```
 
-4. Click “Save File.”
-   > Note: The page might say “Save & apply file” instead of “Save File.” If that is the case, click “Save & apply file.”
+4. Click "Save File."
+   > Note: The page might say "Save & apply file" instead of "Save File." If that is the case, click "Save & apply file."
 5. Go to the Create Account page on your online store and make sure that the Fast Login button, which appears there now, looks good to you. (You may have to refresh the page a few times before the Fast Login button appears.)
    <img alt="create account page" src="./images/image36.png"/>
 

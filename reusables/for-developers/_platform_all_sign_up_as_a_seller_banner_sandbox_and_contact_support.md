@@ -4,4 +4,4 @@
 
 :::
 
-**If you need help at any point, contact customer success at [seller-support@fast.co](mailto:seller-support@fast.co).**
+**If you need help at any point, contact Customer Success at [seller-support@fast.co](mailto:seller-support@fast.co).**
