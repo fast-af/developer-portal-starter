@@ -6,7 +6,12 @@ This is our [redoc.ly](https://redoc.ly/) app that contains all external documen
 - "For Sellers"
 - "For Developers"
 
-## Start development server
+## Prerequisites
+
+- [node.js >= 12.22.6 and <= 16.x](https://nodejs.org/en/)
+- [yarn](https://yarnpkg.com/en/)
+
+## Start Development Server
 
 ```bash
 yarn start
@@ -32,7 +37,7 @@ Check the [published versions on NPM](https://www.npmjs.com/package/@redocly/dev
 
 ```json
   "dependencies": {
-    "@redocly/developer-portal": "^1.1.0-beta.35"
+    "@redocly/developer-portal": "^1.1.0-beta.81"
   }
 ```
 
@@ -70,6 +75,6 @@ redocl.y relies on heavily on caching. If you made any changes that are not show
 yarn clean
 ```
 
-## Resouces
+## Resources
 
 - [online redoc.ly documentation](https://redoc.ly/docs/developer-portal/introduction/).
