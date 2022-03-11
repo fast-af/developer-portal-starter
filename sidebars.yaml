@@ -129,8 +129,6 @@ custom-integration:
   - group: Resources
     expanded: true
     pages:
-      - label: Authentication
-        page: developer-portal/for-developers/custom-integration/resources/authentication.md
       - label: Checkout Origins
         page: developer-portal/for-developers/custom-integration/resources/checkout-origins.md
       - label: Configurable & Direct Capture
@@ -301,9 +299,7 @@ forSellersOrders:
         page: developer-portal/for-sellers/orders/current-orders/viewing-current-orders.md
       - label: Purchasing multiple items
         page: developer-portal/for-sellers/orders/current-orders/purchasing-multiple-items.md
-      - label: Promo Codes
-        page: developer-portal/for-sellers/orders/current-orders/promo-codes.md
-      - label: Pending Payments
+      - label: "Pending Orders (Payment Processing)"
         page: developer-portal/for-sellers/orders/current-orders/pending-payments.md
       - label: Cancelled Orders
         page: developer-portal/for-sellers/orders/current-orders/cancelled-orders.md
@@ -314,7 +310,7 @@ forSellersOrders:
   - group: Payments
     expanded: true
     pages:
-      - label: How you get paid
+      - label: How You Get Paid
         page: developer-portal/for-sellers/orders/payments/how-you-get-paid.md
       - label: Refunds
         page: developer-portal/for-sellers/orders/payments/refunds.md

@@ -33,9 +33,9 @@ Thanks for using Fast to place an order! Depending on the status of your order (
 
 ## Email Troubleshooting:
 
-### If you add a discount code after clicking “Checkout”
+### If you add a discount code after clicking "Checkout"
 
-If you add a discount code after clicking “Checkout”, you:
+If you add a discount code after clicking "Checkout", you:
 
 - **Won’t** see the updated (discounted) price in the first Order Processing email.
 - **Will** see this updated (discounted) price reflected in the second Order Processing email.

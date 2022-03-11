@@ -20,7 +20,7 @@ To refund a customer, use BigCommerce to refund on a specific order entry. See s
 
 1.Locate the order, and click on the Action "..." button to initiate a refund
 
-> Note: Status must be “Awaiting Fulfillment” to process a refund. If you have Cancelled the order, you will need to manually change the status to “Awaiting Fulfillment” before you can refund the order
+> Note: Status must be "Awaiting Fulfillment" to process a refund. If you have Cancelled the order, you will need to manually change the status to "Awaiting Fulfillment" before you can refund the order
 
 <img alt="clicking on ... button" src="./images/bigcommercerefund1.png" />
 
@@ -34,7 +34,7 @@ To refund a customer, use BigCommerce to refund on a specific order entry. See s
 
 4. You're all done! The order will show as "Refunded" or "Partially refunded", depending on how much you refunded
 
-> Note: Status will change to “Refunded” after you have completed the refund. To prevent order fulfillment for a Cancelled order, you will need to manually change the status to “Cancelled” after refunding
+> Note: Status will change to "Refunded" after you have completed the refund. To prevent order fulfillment for a Cancelled order, you will need to manually change the status to "Cancelled" after refunding
 
 <img alt="order displaying as refunded on your dashboard" src="./images/bigcommercerefund4.png" />
 
@@ -46,7 +46,7 @@ To refund a customer, use WooCommerce to refund on a specific order entry. See s
 
 ### Steps
 
-1. Locate the order, and click on the “Refund” button to initiate a refund.
+1. Locate the order, and click on the "Refund" button to initiate a refund.
 
 <img alt="clicking the refund button to initate a refund" src="./images/woocommercerefund1.png" />
 

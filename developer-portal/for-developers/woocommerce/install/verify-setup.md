@@ -20,7 +20,7 @@ Let's verify how they look and make sure to update anything that needs updating.
 
 1. In a new tab, **go to the product page on your online store**.
 
-   > To go to a new tab, in the top left hand corner of the WooCommerce page, you will see your website name. Hover over that and command-click/right-click “Visit site” to open your online store in a new tab.
+   > To go to a new tab, in the top left hand corner of the WooCommerce page, you will see your website name. Hover over that and command-click/right-click "Visit site" to open your online store in a new tab.
 
 2. **Go to a product page**.
 

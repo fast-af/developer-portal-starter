@@ -11,7 +11,7 @@ Throughout the login/checkout flow, fast.js dispatches events to the host page t
 
 ## Event Object
 
-Today, all events have a `name` field that denotes the type of event that fired (e.g. “Checkout - Order Created”), and some events have a `properties` field that contains special data relevant to the event that fired. For example, “Checkout - Order Created” events have the `order_id`, `order_items`, and `total` fields inside of their `properties` map.
+Today, all events have a `name` field that denotes the type of event that fired (e.g. "Checkout - Order Created"), and some events have a `properties` field that contains special data relevant to the event that fired. For example, "Checkout - Order Created" events have the `order_id`, `order_items`, and `total` fields inside of their `properties` map.
 
 :::attention additional checks for events
 All event properties have the potential to be undefined. You will need to check for undefined properties and values.

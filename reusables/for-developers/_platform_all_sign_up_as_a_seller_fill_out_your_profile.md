@@ -1,4 +1,4 @@
-1.  On the Business Details screen, **enter the following information and click “Continue”**:
+1.  On the Business Details screen, **enter the following information and click "Continue"**:
 
     - **Your company's legal business name**
     - **Your doing-business-as (DBA) name**

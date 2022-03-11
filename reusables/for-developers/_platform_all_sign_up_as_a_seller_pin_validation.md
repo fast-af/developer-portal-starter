@@ -5,7 +5,7 @@
     - **Your first name**
     - **Your last name**
       > If your business has multiple employees, the person signing up can add other sellers to the Fast account at a later date with custom permissions.
-2.  **Click “Next"**
+2.  **Click "Next"**
     ![Get Started As A Seller box](images/get-started-as-a-seller.png)
 
 3.  **Fast will now send a PIN number to your email inbox**. Open your email to find this PIN number and enter it here on Fast.

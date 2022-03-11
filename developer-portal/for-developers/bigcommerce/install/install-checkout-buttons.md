@@ -18,7 +18,7 @@ Let's get started -->
 
 ## Installing "Fast Checkout" Button to Product Page
 
-1. Click “templates” → “components” → “products” → “add-to-cart.html.”
+1. Click "templates" → "components" → "products" → "add-to-cart.html."
 
 <img alt="add-to-cart.html file" src="./images/image24.png"/>
 
@@ -75,8 +75,8 @@ Let's get started -->
 
 4. After copying and pasting that code, indent the code so it matches up with the other indentations in the rest of the code.
 
-5. Click “Save File.”
-   > Note: The page might say “Save & apply file” instead of “Save File.” If that is the case, click “Save & apply file.”
+5. Click "Save File."
+   > Note: The page might say "Save & apply file" instead of "Save File." If that is the case, click "Save & apply file."
 6. Go to the Product page on your online store and make sure that the Fast Checkout button, which appears there now, looks good to you. (You may have to refresh the page a few times before the Fast Checkout button appears.)
 
 <img alt="product page" src="./images/image21.png"/>
@@ -89,7 +89,7 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
 
 ## Installing "Fast Checkout" Button to Cart Preview Page
 
-1. In the theme files, click “templates” → “components” → “cart” → “preview.html.”
+1. In the theme files, click "templates" → "components" → "cart" → "preview.html."
 
 <img alt="preview.html file" src="./images/image19.png"/>
 
@@ -139,9 +139,9 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
    {{/if}}
    ```
 
-4. Click “Save File.
+4. Click "Save File.
 
-   > Note: The page might say “Save & apply file” instead of “Save File.” If that is the case, click “Save & apply file.”
+   > Note: The page might say "Save & apply file" instead of "Save File." If that is the case, click "Save & apply file."
 
 5. Go to the Checkout page on your online store and make sure that the Fast Checkout button, which appears there now, looks good to you. (You may have to refresh the page a few times before the Fast Checkout button appears.)
    <img alt="product page" src="./images/image34.png"/>
@@ -156,7 +156,7 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
 
 > Note: If your store doesn’t have a mini cart page, you can skip this entire section and go to the section, Installing Checkout Button to Cart Page.
 
-1. In the theme files, click “templates” → “components” → “common” → “cart-preview.html.”
+1. In the theme files, click "templates" → "components" → "common" → "cart-preview.html."
    <img alt="cart-preview.html file" src="./images/image3.png"/>
 2. Use command-F to find the line:
    ```javascript
@@ -196,8 +196,8 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
    <!------ FAST CHECKOUT BUTTON END ----------->
    {{/if}}
    ```
-4. Click “Save File.”
-   > Note: The page might say “Save & apply file” instead of “Save File.” If that is the case, click “Save & apply file.”
+4. Click "Save File."
+   > Note: The page might say "Save & apply file" instead of "Save File." If that is the case, click "Save & apply file."
 5. Go to the Mini Cart page on your online store and make sure that the Fast Checkout button, which appears there now, looks good to you. (You may have to refresh the page a few times before the Fast Checkout button appears.)
    <img alt="mini cart" src="./images/image14.png"/>
 
@@ -209,7 +209,7 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
 
 ## Installing "Fast Checkout" Button to Cart Page
 
-1. In the theme files, click “templates” → “pages” → “cart.html.”
+1. In the theme files, click "templates" → "pages" → "cart.html."
    <img alt="cart.html file" src="./images/image22.png"/>
 
 2. Use command-F to find the line:
@@ -279,9 +279,9 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
 {{/if}}
 ```
 
-4. Click “Save File.”
+4. Click "Save File."
 
-   > Note: The page might say “Save & apply file” instead of “Save File.” If that is the case, click “Save & apply file.”
+   > Note: The page might say "Save & apply file" instead of "Save File." If that is the case, click "Save & apply file."
 
 5. Go to the Cart page on your online store and make sure that the Fast Checkout button, which appears there now, looks good to you. (You may have to refresh the page a few times before the Fast Checkout button appears.)
    <img alt="cart page" src="./images/image37.png"/>
@@ -294,7 +294,7 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
 
 ## Installing "Fast Checkout" Button to Checkout Page
 
-1. In the theme files, click “templates” → “pages” → “checkout.html.”
+1. In the theme files, click "templates" → "pages" → "checkout.html."
    <img alt="checkout.html file" src="./images/image11.png"/>
 2. Use command-F to find the line:
    `{{{ checkout.checkout_content }}}`
@@ -379,12 +379,12 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
    <!------ FAST CHECKOUT BUTTON END ----------->
    {{/if}}
    ```
-4. Click “Save File.”
-   > Note: The page might say “Save & apply file” instead of “Save File.” If that is the case, click “Save & apply file.”
+4. Click "Save File."
+   > Note: The page might say "Save & apply file" instead of "Save File." If that is the case, click "Save & apply file."
 5. Go to the homepage of your BigCommerce account.
-6. On the sidebar, click “Storefront” → “Script Manager.”
+6. On the sidebar, click "Storefront" → "Script Manager."
    <img alt="selecting script manager in the storefront sidebar" src="./images/image9.png"/>
-7. Click “Create a Script.”
+7. Click "Create a Script."
    <img alt="clicking create a script button" src="./images/image31.png"/>
 8. Fill out the script with the following fields:
    - **Name of Script**: Fast Checkout Placement
@@ -394,11 +394,11 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
    - **Script category**: Essential
    - **Script type**: Script
      <img alt="script form" src="./images/image5.png"/>
-9. Copy and paste this script into the section, “Script Contents.”
+9. Copy and paste this script into the section, "Script Contents."
    ```javascript
    <script type="text/javascript"> const oldOnload = window.onload; window.onload = () => { if (typeof oldOnload == 'function') { oldOnload(); } const fw = document.getElementsByClassName("fast-wrapper")[0]; const lm = document.getElementsByClassName("layout-main")[0]; if (typeof fw !== 'undefined') { lm.prepend(fw); } } </script>
    ```
-10. Click “Save.”
+10. Click "Save."
 11. Go to the Checkout page on your online store and make sure that the Fast Checkout button, which appears there now, looks good to you. (You may have to refresh the page a few times before the Fast Checkout button appears.)
     <img alt="checkout page" src="./images/image7.png"/>
 
