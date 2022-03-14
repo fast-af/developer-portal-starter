@@ -6,24 +6,25 @@ redirectFrom:
   - /developer-portal/for-sellers/orders/current-orders/promo-codes/
 ---
 
-# Promo Codes
+# Promo codes
 
-## Where do I put a promo code?
+## How can I apply a promo code to my purchase?
 
-You can use promo codes in the pop-up Order Confirmation page:
+You can use promo codes in the *Order confirmation* popup page:
 
-1. Click "Edit Order"
+1. Click **Edit order**
 
    <img alt="order confirmation page" src="./images/promo1.png"/>
 
-2. Click "Add Coupon Code"
+2. Click **Add Coupon Code**
 
    <img alt="order confirmation page Add Coupon Code button" src="./images/promo2.png"/>
 
-3. Click "Apply"
+3. Enter the code into the field and click **Apply**.
 
-   <img alt="order confirmation page coupon code form" src="./images/promo3.png"/>
+   <img alt="order confirmation page coupon code form" src="./images/promo3.png"/>\
+   The subtotal will automatically update to reflect the discounted price.
 
-## Promo Code Confirmation
+## Promo code confirmation
 
-You will receive confirmation of the discounted price you paid in your 2nd "Order Processing" email, to accommodate any edits made during the 5 minute batching window.
+You will see a confirmation of the discounted price you paid in your second "Order Processing" email to accommodate any edits made during the 5-minute batching window.
