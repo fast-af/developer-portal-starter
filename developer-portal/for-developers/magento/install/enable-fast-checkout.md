@@ -4,43 +4,46 @@ description: Getting Started with Fast on Magento! Enable Fast Checkout.
 keywords: Magento enable fast checkout
 ---
 
-# Install Step 2: Enable Fast Checkout on Magento
+# Install step 2: Enable Fast Checkout in Magento
 
-The module includes the necessary code for Fast buttons to appear and work on the following pages without requiring any changes:
+The module includes the necessary code for Fast buttons to appear and work on the following page types without requiring any changes:
 
 - Simple PDP
 - Configurable PDP
 - Minicart
 - Cart
 
+The following video shows how to enable Fast Checkout in Magento:
+
+<iframe
+width="560"
+height="315"
+src="https://www.youtube-nocookie.com/embed/1sqQlrXwaQs?start=53&end=97"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen>
+</iframe>
+
 ## Configuration
 
-1. **Log in** to your admin panel.
-2. **Navigate to** Stores → Configuration.
-3. **Navigate to** Services → Fast Checkout.
-4. **Fast Checkout Integration** -->
-
-   <img alt="configuration link in the admin panel"  src="./images/image3.png"/>
-   <img alt="services links" src="./images/image5.png"/>
-
-5. **Enter your configuration details** as appropriate
-
-   <img alt="configuration form" src="./images/image4.png"/>
-
-6. **Set the module to “enabled” on the appropriate store(s)**. This is a store-level configuration setting that allows you to quickly enable or disable Fast.
-7. **Enter your Access Token and Fast App ID given to you from Fast**. This should be the sandbox credentials for initial testing.
-
+1. Log in to your admin panel.
+2. Navigate to **Stores → Configuration**.\
+<img alt="configuration link in the admin panel"  width="50%" src="./images/image3.png"/>
+3. In the Configuration screen, navigate to **Services → Fast Checkout**.\
+<img alt="services links" width="40%" src="./images/image5.png"/>
+4. Enter your configuration details in the relevant fields:\
+<img alt="configuration form" src="./images/image4.png"/>
+    - Set the module to _Enabled_ on the appropriate store(s). This is a store-level configuration setting that allows you to quickly enable or disable Fast.
+    - Enter your **Access Token** and **Fast App ID** given to you from Fast. This should be the sandbox credentials for initial testing.
 <embed src="/reusables/for-developers/_fast_app_id.md" />
+    - Enable the dark theme if your site has a dark/black background.
+    - If capturing up front, select **Enable Auth+Capture**.
+    - Only select **Enable Production Mode** when you are ready to go live.
 
-   > Select dark theme if your site has a dark/black background.
-
-   > If capturing up front, select Enable Auth+Capture.
-
-   > Only select Production mode when ready to go live.
-
-8. **Save Config**.
-9. **Press the activate button**. A successful activation is indicated in green and will fill in the App Secret.
-
-:::info Heads up
+8. Save the configuration.
+9. Click **Activate**.\
+A successful activation is indicated in green and will fill in the **App Secret**.
+:::info Result
 Completing this step will also create an integration record and payment method in your store. The integration record is used so that Fast can communicate with Magento REST APIs as part of the order process. The payment method will be included for orders placed through Fast Checkout.
 :::

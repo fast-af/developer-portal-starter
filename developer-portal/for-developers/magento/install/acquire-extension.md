@@ -4,16 +4,26 @@ description: Acquiring the Fast Module for Magento
 keywords: Fast Magento extension, Fast Magneto Module, Fast Magento install
 ---
 
-# Install Step 1: Acquiring the Fast Module for Magento
+# Install step 1: Acquiring the Fast module for Magento
 
-The latest version of the Fast Module for Magento is publicly available via Composer or from [Fast's Magento Module GitHub repo](https://github.com/fast-af/magento2).
+The latest version of the Fast module for Magento is publicly available via [Composer](https://getcomposer.org/) or from Fast's Magento module [GitHub repo](https://github.com/fast-af/magento2).
 
+The following video shows how to install the Fast module in Magento:
 
+<iframe
+width="560"
+height="315"
+src="https://www.youtube-nocookie.com/embed/1sqQlrXwaQs?start=31&end=53"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen>
+</iframe>
 
 ## Install with Composer
 
-
-Using [Composer](https://getcomposer.org/) navigate to your Magento webroot and **issue the following commands**:
+1. To install the Composer plugin, first sign up for a free plugin license from the [Magento Marketplace](https://marketplace.magento.com/fast-af-module-checkout.html).
+2. Using [Composer](https://getcomposer.org/), navigate to your Magento webroot and issue the following commands:
 
 ```bash
 composer require fast-af/module-checkout
@@ -25,13 +35,13 @@ php bin/magento setup:static-content:deploy
 
 ## Install with GitHub
 
-Though Composer is encouraged for managing Magento modules, if you don't have access to Composer or otherwise have issues with Composer during module installation you can use the module code available on GitHub.
+Though we encourage using Composer to manage Magento modules, if you don't have access to Composer or otherwise have issues with Composer during module installation you can use the module code available on GitHub:
 
-* Download the Fast Module for Magento from our GitHub repo as a ZIP Archive.
-  * [Direct Download Link for ZIP](https://github.com/fast-af/magento2/archive/refs/heads/master.zip)
-* If it does not already exist, create the `app/code/Fast/Checkout` folder (for standard Magento installations this will be in `/var/www/html/magento2/app/code/Fast/Checkout`).
-* Extract the files from the ZIP archive to the `app/code/Fast/Checkout` folder.
-* navigate to your Magento webroot and **issue the following commands**:
+1. Download the Fast module for Magento from our [GitHub repo](https://github.com/fast-af/magento2/archive/refs/heads/master.zip) as a ZIP archive.
+2. If it does not already exist, create the `app/code/Fast/Checkout` folder.\
+For standard Magento installations this will be in `/var/www/html/magento2/app/code/Fast/Checkout`.
+3. Extract the files from the ZIP archive to the `app/code/Fast/Checkout` folder.
+4. navigate to your Magento webroot and issue the following commands:
 
 ```bash
 php bin/magento module:enable Fast_Checkout
