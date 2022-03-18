@@ -4,45 +4,76 @@ description: Getting Started with Fast on Salesforce Commerce Cloud.
 keywords: fast sfcc extension
 ---
 
+import YouTubeVideoEmbed from "../../../../components/EmbedYouTubeVideo.tsx";
+import { Alert, Link } from "@redocly/developer-portal/ui";
+
 # Install Step 1: Acquiring the Fast SFCC SFRA Cartridge
 
-:::info AVAILABLE SOON:
-The Fast Salesforce Reference Architecture (SFRA) Cartridge should be available via the [Commerce Cloud Partner Marketplace](https://www.salesforce.com/products/commerce-cloud/partner-marketplace/), which allows you to download the compressed Cartridge as a ZIP file.
-:::
-
-:::attention Required Accounts
+<Alert variant="attention" header="Required Accounts">
 
 Prior to downloading the cartridge, you will need:
 
-- Salesforce Commerce Cloud credentials to [access the Salesforce Commerce Cloud GitHub Organization](https://github.com/orgs/SalesforceCommerceCloud/sso/sign_up)
-- An existing GitHub account (or [sign up for a new one](https://github.com/join))
+{" "}
 
-:::
+<ul>
+  <li>
+    Salesforce Commerce Cloud credentials to [access the Salesforce Commerce
+    Cloud GitHub
+    Organization](https://github.com/orgs/SalesforceCommerceCloud/sso/sign_up)
+  </li>
+  <li>
+    An existing GitHub account (or{" "}
+    <Link to="https://github.com/join" external>
+      sign up for a new one
+    </Link>
+    )
+  </li>
+</ul>
+
+</Alert>
 
 ## Download the Fast Cartridge
 
 Download one of the following versions of the Fast Cartridge:
 
-- [(Recommended for Most Users) Marketplace Fast Cartridge](https://github.com/SalesforceCommerceCloud/link_fastcheckout) - the SFCC Marketplace version of the Fast Cartridge. Stable and recommended for most users.
+- [(Recommended for Most Users) Download the Commerce Cloud Partner Marketplace Version of the Fast Cartridge](https://www.salesforce.com/products/commerce-cloud/partner-marketplace/partners/fast-checkout) - The Salesforce Reference Architecture (SFRA) Cartridge is now available via the Salesforce Commerce Cloud Partner Marketplace. This method allows you to download a stable version of the compressed Cartridge as a ZIP file.
+  - You can also view the source for the Marketplace version of the Cartridge in the [Salesforce Commerce Cloud GitHub repo](https://github.com/SalesforceCommerceCloud/link_fastcheckout)
 - [(Latest Version) Dev Fast Cartridge](https://github.com/fast-af/sfcc-integration/) - our in-development version of the Fast Cartridge with the latest features (e.g. for site admins who want to try development builds in Sandbox).
 
-:::attention Custom Cartridge ZIP File
-If needed, a Fast team member can also provide the cartridge as a ZIP file incorporating the [additional details you provided prior to starting the installation process](../pre-install/requirements.md).
-:::
+<Alert variant="attention" header="Custom Cartridge ZIP File">
+  If needed, a Fast team member can also provide the cartridge as a ZIP file
+  incorporating the{" "}
+  <Link to="../pre-install/requirements.md">
+    additional details you provided prior to starting the installation process
+  </Link>
+  .
+</Alert>
 
 ## Upload the Cartridge to Your Storefront
 
 Once you have the Cartridge downloaded, **you will need to upload it to your Storefront Reference Architecture (SFRA) storefront**.
 
-This can be accomplished several ways, including the options outlined below.
+The following video provides a general overview of the Cartridge upload process:
+
+<YouTubeVideoEmbed
+  embedId="MVnZudopLMI"
+  start="35"
+  end="178"
+  videoTitle="Upload Fast Cartridge"
+/>
+
+For a breakdown of available options, refer to the sections below.
 
 ### Upload Option 1: Using the SFRA command-line upload tool
 
 Please follow the steps in the [SFRA command-line upload tool documentation](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/content/b2c_commerce/topics/sfra/b2c_adding_custom_cartridges.html) to get started.
 
-:::attention Custom JSON file required for command-line upload tool
-This method will require setting up a `dw.json` file to connect to your site.
-:::
+<Alert
+  variant="attention"
+  header="Custom JSON file required for command-line upload tool"
+>
+  This method will require setting up a `dw.json` file to connect to your site.
+</Alert>
 
 ```json dw.json for SFRA command-line upload tool
 {
@@ -69,11 +100,15 @@ This method will require setting up a `dw.json` file to connect to your site.
 
 3. Navigate to the Prophet Debugger extension in the VS Code sidebar, and locate the _"CARTRIDGES"_ section. Click on the `Prophet: Clean Project / Upload all` icon.
    ![Prophet Upload Cartridges](./images/prophet_upload.png)
-   :::attention Retain extra cartridges
-   If you receive a popup that says _"Your popup has extra cartridges... what would you like to do?"_, select `Leave All` or `Leave All Always` from the available options. The extra cartridges are necessary for the SFCC storefront.
 
-   ![Prophet Leave All Popup](./images/prophet_leave_all.png)
-   :::
+<Alert variant="attention" header="Retain extra cartridges">
+If you receive a popup that says <em>"Your popup has extra cartridges... what would you like to do?"</em>, select "Leave All" or "Leave All Always" from the available options. The extra cartridges are necessary for the SFCC storefront.
+
+{" "}
+
+<img src="./images/prophet_leave_all.png" alt="Prophet Leave All Popup" />
+
+</Alert>
 
 ### Upload Option 3: Using Salesforce UX Studio
 

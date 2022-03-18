@@ -204,11 +204,11 @@ salesforce:
     expanded: true
     pages:
       - label: Overview
-        page: developer-portal/for-developers/salesforce/install/overview.md
+        page: developer-portal/for-developers/salesforce/install/overview.mdx
       - label: "Step 1: Acquire Cartridge"
-        page: developer-portal/for-developers/salesforce/install/acquire-extension.md
+        page: developer-portal/for-developers/salesforce/install/acquire-extension.mdx
       - label: "Step 2: Enable Fast Checkout"
-        page: developer-portal/for-developers/salesforce/install/enable-fast-checkout.md
+        page: developer-portal/for-developers/salesforce/install/enable-fast-checkout.mdx
       - label: "Step 3: Specify Products"
         page: developer-portal/for-developers/salesforce/install/specify-products.md
       - label: "Step 4: Activate Storefront"
