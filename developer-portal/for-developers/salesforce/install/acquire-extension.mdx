@@ -13,22 +13,9 @@ import { Alert, Link } from "@redocly/developer-portal/ui";
 
 Prior to downloading the cartridge, you will need:
 
-{" "}
+- Salesforce Commerce Cloud credentials to [access the Salesforce Commerce Cloud GitHub Organization](https://github.com/orgs/SalesforceCommerceCloud/sso/sign_up)
 
-<ul>
-  <li>
-    Salesforce Commerce Cloud credentials to [access the Salesforce Commerce
-    Cloud GitHub
-    Organization](https://github.com/orgs/SalesforceCommerceCloud/sso/sign_up)
-  </li>
-  <li>
-    An existing GitHub account (or{" "}
-    <Link to="https://github.com/join" external>
-      sign up for a new one
-    </Link>
-    )
-  </li>
-</ul>
+- An existing GitHub account (or [sign up for a new one](https://github.com/join))
 
 </Alert>
 
@@ -41,12 +28,11 @@ Download one of the following versions of the Fast Cartridge:
 - [(Latest Version) Dev Fast Cartridge](https://github.com/fast-af/sfcc-integration/) - our in-development version of the Fast Cartridge with the latest features (e.g. for site admins who want to try development builds in Sandbox).
 
 <Alert variant="attention" header="Custom Cartridge ZIP File">
-  If needed, a Fast team member can also provide the cartridge as a ZIP file
-  incorporating the{" "}
-  <Link to="../pre-install/requirements.md">
+  {" "}
+  If needed, a Fast team member can also provide the cartridge as a ZIP file incorporating
+  the <Link to="../pre-install/requirements.md">
     additional details you provided prior to starting the installation process
-  </Link>
-  .
+  </Link>.
 </Alert>
 
 ## Upload the Cartridge to Your Storefront
@@ -72,7 +58,8 @@ Please follow the steps in the [SFRA command-line upload tool documentation](htt
   variant="attention"
   header="Custom JSON file required for command-line upload tool"
 >
-  This method will require setting up a `dw.json` file to connect to your site.
+  This method will require setting up a <code>dw.json</code> file to connect to
+  your site.
 </Alert>
 
 ```json dw.json for SFRA command-line upload tool
