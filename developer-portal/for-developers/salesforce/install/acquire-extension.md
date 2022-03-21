@@ -8,7 +8,7 @@ keywords: fast sfcc extension
 
 There are two options available for obtaining the SFCC cartridge:
 
-* Download the Fast Salesforce Reference Architecture (SFRA) cartridge as a ZIP file from the the [Commerce Cloud Partner Marketplace](https://www.salesforce.com/products/commerce-cloud/partner-marketplace/partners/fast-checkout/).
+* Download the Fast Salesforce Reference Architecture (SFRA) cartridge as a ZIP file from the the [Commerce Cloud Partner Marketplace](https://www.salesforce.com/products/commerce-cloud/partner-marketplace/partners/fast-checkout/). This is the recommended option. 
 * [Fast developer cartridge on GitHub (latest version)](https://github.com/fast-af/sfcc-integration/) - our in-development version of the Fast cartridge with the latest features (e.g. for site admins who want to try development builds in Sandbox).\
 Prior to downloading the cartridge from GitHub, you will need:
     * Salesforce Commerce Cloud credentials to access the [Salesforce Commerce Cloud GitHub organization](https://github.com/orgs/SalesforceCommerceCloud/sso/sign_up).
@@ -34,11 +34,11 @@ allowfullscreen>
 
 Once you have the cartridge downloaded, you will need to upload it to your SFRA storefront. This can be accomplished in several ways, including the following options:
 
-* [Using the SFRAA command-line upload tool](#upload-option-1-using-the-sfra-command-line-upload-tool)
-* [Using the Prophet Debugger VS Code extension](#upload-option-2-using-the-prophet-debugger-visual-studio-code-extension)
-* [Using Salesforce UX Studio](#upload-option-3-using-salesforce-ux-studio)
+* [Using the SFRAA command-line upload tool](#option-1-using-the-sfra-command-line-upload-tool)
+* [Using the Prophet Debugger VS Code extension](#option-2-using-the-prophet-debugger-visual-studio-code-extension)
+* [Using Salesforce UX Studio](#option-3-using-salesforce-ux-studio)
 
-### Upload option 1: Using the SFRA command-line upload tool
+### Option 1: Using the SFRA command-line upload tool
 
 This method will require setting up a `dw.json` file to connect to your site.
 
@@ -53,7 +53,7 @@ Please follow the steps in the [SFRA command-line upload tool documentation](htt
 }
 ```
 
-### Upload option 2: Using the Prophet Debugger Visual Studio Code extension
+### Option 2: Using the Prophet Debugger Visual Studio Code extension
 
 1. Add the [Prophet Debugger extension](https://marketplace.visualstudio.com/items?itemName=SqrTT.prophet) to your Visual Studio (VS) Code.
 2. Open the Fast cartridge you downloaded in VS Code and create a `dw.json` file in the `int_fast_sfra` folder (the file path should be `int_fast_sfra/dw.json`)
@@ -75,7 +75,7 @@ Please follow the steps in the [SFRA command-line upload tool documentation](htt
    ![Prophet Leave All Popup](./images/prophet_leave_all.png '#width=70%')
    :::
 
-### Upload Option 3: Using Salesforce UX Studio
+### Option 3: Using Salesforce UX Studio
 
 You can also use [Salesforce UX Studio](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/LegacyDevDoc/UploadCartridges.html) (legacy software) to upload the cartridge.
 
