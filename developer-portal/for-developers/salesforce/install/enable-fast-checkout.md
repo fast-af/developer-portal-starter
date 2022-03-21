@@ -6,39 +6,72 @@ keywords: SFCC enable fast checkout
 
 # Install Step 2: Enable Fast Checkout on SFCC
 
-The cartridge includes the necessary code for Fast buttons to appear and work on the following pages without requiring any changes:
+The cartridge includes the necessary code for Fast buttons to appear and work on the following page types without requiring any changes:
 
 - Simple Product Detail Page (PDP)
 - Cart
 
 :::info Requirement
 
-Before proceeding with storefront configuration, ensure you have already [downloaded the Fast Cartridge for SFCC and uploaded it to your storefront](./acquire-extension.md).
+Before proceeding with storefront configuration, ensure that you have already [downloaded the Fast Cartridge for SFCC and uploaded it to your storefront](./acquire-extension.md).
 
 :::
 
-## Configuration
+The following video section demonstrates how to enable Fast checkout on SFCC:
 
-1. **Log in to your Commerce Cloud site** with your Business Manager credentials.
-2. Activate the previously uploaded `int_fast_sfra` Cartridge to the site by adding it to your storefront's **Effective Cartridge Path**.
-   - **Navigate to**: <br />
-     Administration → Sites → Manage Sites → {site_id} → Settings
-   - In the Settings tab, **add `int_fast_sfra` to the Effective Cartridge Path** (e.g. `int_fast_sfra:app_storefront_base`, as Cartridge names must be provided as a colon-separated list)
+<iframe
+width="560"
+height="315"
+src="https://www.youtube-nocookie.com/embed/MVnZudopLMI?start=178"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen>
+</iframe>
+
+## Add the cartridge path and metadata
+
+### Add cartridge path
+
+1. Log in to your Commerce Cloud site Business Manager.
+2. Activate the previously uploaded `int_fast_sfra` cartridge to the site by adding it to your storefront's Effective Cartridge Path:
+   - Navigate to **Administration > Sites > Manage Sites > {site_id} > Settings**
+   - Add the cartridge to the **Effective Cartridge Path** field as `int_fast_sfra:app_storefront_base`.
+   - Click **Apply**.
      ![cartridge path](./images/cartridge_path.png)
-   - **Click "Apply"**
-3. **Import Fast's metadata XML file** to enable custom attributes that support Fast payments.
-   - **Navigate to**: <br />
-     Administration → Site Development → Import & Export → Manage Import Files
-     - Find the `system-objecttype-extensions.xml` under `/metadata/fast-meta-import/meta`
-       > For reference, this is the location of the file in [Fast's SFCC Integration GitHub repository](https://github.com/fast-af/sfcc-integration/tree/master/sfcc_cartridge/metadata/fast-meta-import/meta).
+
+### Import Fast's metadata XML file to enable custom attributes that support Fast payments.
+
+1. Navigate to **Administration > Site Development > Import & Export**
+2. In the _Import & Export Files_ section, click **Upload**, then **Choose File**.
+3. Find the `system-objecttype-extensions.xml` under `/metadata/fast-meta-import/meta`.
+> For reference, [this is the location of the file](https://github.com/fast-af/sfcc-integration/tree/master/sfcc_cartridge/metadata/fast-meta-import/meta) in Fast's SFCC Integration GitHub repository.
+
+4. Click **Upload**.\
+You will see the XML file uploaded in _Manage Import Files_.
+5. Navigate back to _Import & Export_, and in the _Meta Data_ section, click **Import**.
+    - Select the file that you just imported and click **Next**.
+    - Click **Refresh** if you do not see a completed result here.\
+    You will see that the XML validation has completed.
+    - Click **Import**.
+    - In the _Status_ section, click the **Refresh** button.\
+    You will see that the imports are successfully completed.
+
+## Add Fast as a payment processor and import payment methods
+
+1. In the Commerce Cloud Business Manager, navigate to **Merchant Tools > Ordering > Payment Processors**.
+    - Click **New**.
+    - In the _New Payment Processor_ section, enter `FAST_CHECKOUT` for the **ID** and a **Description** such as "Fast Checkout", then click **Apply**.\
+  Navigate back to the _Payment Processors_ page, where you will see "Fast Checkout" added to the list.  
+2. Navigate to **Merchant Tools > Ordering > Import & Export**.
+
+## Connect to Open Commerce API (OCAPI)
 
 :::info Proceed in Sandbox
 
 Please limit changes to Sandbox configuration settings so that Fast can evaluate your Sandbox configuration before proceeding with changes that will affect your production storefront.
 
 :::
-
-4. **Connect to OCAPI**
 
    - **Navigate to**: <br />
      Administration → Site Development → Open Commerce API Settings
@@ -75,7 +108,11 @@ Please limit changes to Sandbox configuration settings so that Fast can evaluate
 
 7. **Save Config**
 
-8. **Implement Custom Code to Display the Fast Checkout Button**
+## Create an OCAPI role and assign it to a Business Manager user
+
+1.
+
+## Display the Fast Checkout storefront button
 
    - **Add custom code (provided by Fast)** to your storefront's Base ISML files
      > The default storefront Cartridge is normally `app_storefront_base`
@@ -91,3 +128,7 @@ Please limit changes to Sandbox configuration settings so that Fast can evaluate
 | cartridge/templates/default/product/productDetails.isml | Include the Fast Checkout button on Product Detail Pages                               |
 
 ![ISML custom code](./images/storefront-isml-custom-code.png)
+
+## Verify that Fast Checkout is enabled
+
+1.
