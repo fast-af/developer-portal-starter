@@ -204,7 +204,7 @@ salesforce:
     expanded: true
     pages:
       - label: Overview
-        page: developer-portal/for-developers/salesforce/install/overview.md
+        page: developer-portal/for-developers/salesforce/install/overview.mdx
       - label: "Step 1: Acquire Cartridge"
         page: developer-portal/for-developers/salesforce/install/acquire-extension.md
       - label: "Step 2: Enable Fast Checkout"

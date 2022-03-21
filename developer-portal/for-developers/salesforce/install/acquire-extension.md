@@ -6,29 +6,18 @@ keywords: fast sfcc extension
 
 # Install Step 1: Acquiring the Fast SFCC SFRA cartridge
 
+Prior to downloading the cartridge from GitHub, you will need:
+  * Salesforce Commerce Cloud credentials to access the [Salesforce Commerce Cloud GitHub organization](https://github.com/orgs/SalesforceCommerceCloud/sso/sign_up).
+  * An existing [GitHub account](https://github.com/join).
+
 There are two options available for obtaining the SFCC cartridge:
 
-* Download the Fast Salesforce Reference Architecture (SFRA) cartridge as a ZIP file from the the [Commerce Cloud Partner Marketplace](https://www.salesforce.com/products/commerce-cloud/partner-marketplace/partners/fast-checkout/). This is the recommended option. 
-* [Fast developer cartridge on GitHub (latest version)](https://github.com/fast-af/sfcc-integration/) - our in-development version of the Fast cartridge with the latest features (e.g. for site admins who want to try development builds in Sandbox).\
-Prior to downloading the cartridge from GitHub, you will need:
-    * Salesforce Commerce Cloud credentials to access the [Salesforce Commerce Cloud GitHub organization](https://github.com/orgs/SalesforceCommerceCloud/sso/sign_up).
-    * An existing [GitHub account](https://github.com/join).
+* Download the Fast Salesforce Reference Architecture (SFRA) cartridge as a ZIP file from the the [Commerce Cloud Partner Marketplace](https://www.salesforce.com/products/commerce-cloud/partner-marketplace/partners/fast-checkout/). This is the recommended option.
+* [Fast developer cartridge on GitHub (latest version)](https://github.com/fast-af/sfcc-integration/) - our in-development version of the Fast cartridge with the latest features (e.g. for site admins who want to try development builds in Sandbox).
 
 :::attention Custom cartridge ZIP file
 If needed, a Fast team member can also provide the cartridge as a ZIP file incorporating the [additional details you provided prior to starting the installation process](../pre-install/requirements.md).
 :::
-
-The following video section demonstrates how to acquire the Fast SFCC cartridge and add it to your project:
-
-<iframe
-width="560"
-height="315"
-src="https://www.youtube-nocookie.com/embed/MVnZudopLMI?start=0&end=178"
-title="YouTube video player"
-frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen>
-</iframe>
 
 ## Upload the cartridge to your storefront
 
@@ -38,9 +27,23 @@ Once you have the cartridge downloaded, you will need to upload it to your SFRA 
 * [Using the Prophet Debugger VS Code extension](#option-2-using-the-prophet-debugger-visual-studio-code-extension)
 * [Using Salesforce UX Studio](#option-3-using-salesforce-ux-studio)
 
+The following video section demonstrates how to acquire the Fast SFCC cartridge and add it to your project:
+
+<iframe
+width="560"
+height="315"
+src="https://www.youtube-nocookie.com/embed/MVnZudopLMI?start=35&end=178"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen>
+</iframe>
+
 ### Option 1: Using the SFRA command-line upload tool
 
+:::note
 This method will require setting up a `dw.json` file to connect to your site.
+:::
 
 Please follow the steps in the [SFRA command-line upload tool documentation](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/content/b2c_commerce/topics/sfra/b2c_adding_custom_cartridges.html) to get started.
 
@@ -90,4 +93,4 @@ You can also use [Salesforce UX Studio](https://documentation.b2c.commercecloud.
 To verify that the cartridge was successfully uploaded in SFCC...
 
 1. In the SFCC Business Manager, navigate to **Administration > Code deployment**.
-2. In **Manage Code Versions**, you will see the name of your deployment and the time it was successfully deployed.  
+2. In **Manage Code Versions**, you will see the name of your deployment and the time it was successfully deployed.

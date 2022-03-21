@@ -64,3 +64,30 @@ nav > ul {
   display: flex;
   align-items: center;
 }
+
+/* for embedding YouTube */
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* for expandable sections */
+
+summary > h1,
+h2,
+h3,
+h4,
+h5 {
+  display: inline-block;
+}
