@@ -1,7 +1,7 @@
 ---
 title: "Fast Shopper Docs: Orders"
 description: Getting Started with Fast as a Shopper! Quickstart
-keywords: Fast For Buyers Quickstart, Fast for Shoppers Quickstart
+keywords: Fast For Shoppers Quickstart, Fast for Shoppers Quickstart
 ---
 
 # Orders

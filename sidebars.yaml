@@ -297,7 +297,7 @@ forSellersOrders:
     pages:
       - label: Viewing Current Orders
         page: developer-portal/for-sellers/orders/current-orders/viewing-current-orders.md
-      - label: Purchasing multiple items
+      - label: Purchasing Multiple Items
         page: developer-portal/for-sellers/orders/current-orders/purchasing-multiple-items.md
       - label: "Pending Orders (Payment Processing)"
         page: developer-portal/for-sellers/orders/current-orders/pending-payments.md
