@@ -468,6 +468,10 @@ forShoppersPrivacyAndSecurity:
     pages:
       - label: How Data is Handled
         page: developer-portal/for-shoppers/privacy-and-security/data/how-data-is-handled.md
+  - group: Test
+    expanded: true
+    pages:
+      - page: developer-portal/for-shoppers/privacy-and-security/test-embed-help.mdx
 
   - group: Compliance
     expanded: true
