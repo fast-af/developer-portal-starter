@@ -147,7 +147,7 @@ If you want to adjust the Fast button appearance, refer to the topic [Styling Fa
    If you want to adjust the Fast button appearance, refer to the topic [Styling Fast buttons](/developer-portal/for-developers/bigcommerce/customization/custom-styling/).
    :::
 
-## Installing **Fast Checkout** Button to Mini Cart Page
+## Installing Fast Checkout Button to Mini Cart Page
 
 > NOTE: If your store doesn’t have a mini cart page, you can skip this entire section and go to the section [Installing Fast Checkout Button to Cart Page](#installing-fast-checkout-button-to-cart-page).
 
@@ -201,12 +201,12 @@ If you want to adjust the Fast button appearance, refer to the topic [Styling Fa
    If you want to adjust the Fast button appearance, refer to the topic [Styling Fast buttons](/developer-portal/for-developers/bigcommerce/customization/custom-styling/).
    :::
 
-## Installing **Fast Checkout** Button to Cart Page
+## Installing Fast Checkout Button to Cart Page
 
-1. In the theme files, click "templates" → "pages" → "cart.html."
+1. In the theme files, click **templates > pages > cart.html**.
    <img alt="cart.html file" src="./images/image22.png"/>
 
-2. Use command-F to find the line:
+2. Find the line:
 
 ```javascript
 {{#if cart.show_primary_checkout_button}}

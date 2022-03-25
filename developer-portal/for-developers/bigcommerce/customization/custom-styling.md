@@ -26,5 +26,4 @@ Sometimes our default button styles are overwritten by page styles and needs to 
 
 4.  Once you know that you like the Fast button to have a certain styling feature like a certain width or font size, go to the theme file that that button lives in and apply that change there.
 
-5.  Click **Save File**.
-    > Note: The page might say **Save & apply file** instead of **Save File**. If that is the case, click **Save & apply file**.
+5.  Click **Save File**, or **Save & apply file**, depending on the page text.
