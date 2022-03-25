@@ -55,26 +55,28 @@ The Styles tab also provides the ability to render custom button styles for Fast
 
 If, for any specific products, you want to hide the Fast button"
 
-1.  **Go to the "Options" tab**.
-2.  For each product where you don’t want one-click checkout, **type that product name into the "Hide Buttons for these Products" textbox**. Once you begin typing, the system will autocomplete the rest.
-3.  **Add in as many products as you want**.
-4.  **Click "Save Changes"**.
+1.  Go to the _Options_ tab.
+2.  For each product where you don’t want one-click checkout, type that product name into the _Hide Buttons for these Products_ textbox. Once you begin typing, the system will autocomplete the rest.
+3.  Add in as many products as you want.
+4.  Click **Save Changes**.
 
 ![Hide Buttons Setting in Your WooCommerce Dashboard](images/woocommerce-settings-hide-buttons.png)
 
 ### Redirects
 
-**Normally, after a Shopper checks out using the Fast Checkout button, they are NOT redirected to any particular page**. If you want Shoppers to be redirected to a specific page after they use the Fast button:
+Normally, after a Shopper checks out using the Fast Checkout button, they are not redirected to any particular page. If you want Shoppers to be redirected to a specific page after they use the Fast button:
 
-1. **Go to the "Options tab"**.
-2. **Enter which page you want customers to be redirected to in the "Checkout Redirect Page" textbox**. For example, if you want Shoppers to be brought to an order confirmation page after they use the Fast button, type in "Order Confirmation page" here.
-3. **Click "Save Changes"**.
+1. Go to the **Options tab**.
+2. Enter which page you want customers to be redirected to in the _Checkout Redirect Page_ textbox. For example, if you want Shoppers to be brought to an order confirmation page after they use the Fast button, type in "Order Confirmation page" here.
+3. Click **Save Changes**.
 
 ![Checkout Redirect Page Selections in Your WooCommerce Dashboard](images/woocommerce-settings-redirect.png)
 
 ### Display Fast Login Button in Footer
 
-**We recommend you uncheck "Display Fast Login Button in Footer" under the "Options tab" because this can cause page layout issues**.
+:::info Recommendation
+We recommend you uncheck **Display Fast Login Button in Footer** under the _Options_ tab because this can cause page layout issues.
+:::
 
 However, if you really want logged out users to see the Fast Login Button in the page footer (and you can do style the button to avoid layout issues), then keep this checked.
 
@@ -112,8 +114,8 @@ The Status tab will provide a quick overview of the status of the Fast Checkout 
 
 - if the Fast App ID provided in the [App Info tab](#app-info-tab) is valid
 - if the plugin is currently being used in Test Mode or Debug Mode as set in the [Test Mode tab](#test-mode-tab)
-- if all necessary [webhooks have been enabled from the WooCommerce store's Advanced Settings](/developer-portal/for-developers/woocommerce/pre-install/verify-webhooks#manually-add-missing-webhooks)
+- if all necessary [webhooks have been enabled](/developer-portal/for-developers/woocommerce/pre-install/verify-webhooks#manually-add-missing-webhooks) from the WooCommerce store's advanced settings.
 
 ## Third Party Plugins Tab
 
-The Third Party Plugins tab should only be visible if your WooCommerce store has a supported third party plugin installed.
+The _Third Party Plugins_ tab should only be visible if your WooCommerce store has a supported third party plugin installed.

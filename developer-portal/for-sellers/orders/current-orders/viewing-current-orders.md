@@ -13,6 +13,3 @@ Log in to the [Fast Seller Dashboard](https://fast.co/business/dash/home) to see
 ## In your platform
 
 Orders purchased via Fast will show up in the Orders section of your eCommerce platform, with "Fast" listed as the transaction payment method.
-
-* **Magento** -
-* **Salesforce** - 

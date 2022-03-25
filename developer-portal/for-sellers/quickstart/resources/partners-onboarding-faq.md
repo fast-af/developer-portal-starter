@@ -57,12 +57,15 @@ There can be multiple stores created under a single organization. The first time
 
 Partners who have completed onboarding on behalf of Sellers can transfer ownership of the Organization to the Seller using the "Teams" functionality. Here are the steps:
 
-- **Go to [**Seller Dashboard**](https://fast.co/business/dash/home)**
-- **Log in** using the email that you onboarded the Seller’s organization with (if you’re not already logged in)
-- **Make sure that you have the right store selected** by verifying the store name in the top right corner of the dashboard. Any store under the organization you want to transfer will work
-- **Go to the "Teams" option on the left navigation bar**
-- **Click "Add Team Member"**
-- **Add the email and first and last name**of the person you want to transfer ownership to on the Seller side. Make sure you select "Owner" for their role and then click "Send Invite"
+- Go to the [Seller Dashboard](https://fast.co/business/dash/home).
+- Log in using the email that you onboarded the Seller’s organization with (if you’re not already logged in).
+- Make sure that you have the right store selected by verifying the store name in the top right corner of the dashboard. Any store under the organization you want to transfer will work.
+- Go to the _Teams_ option on the left navigation bar.
+- Click **Add Team Member**
+- Add the email and first and last name of the person you want to transfer ownership to on the Seller side. Make sure you select _Owner_ for their role and then click **Send Invite**.
   > That person should now receive an invite via email which they need to accept and confirm on our website by authorizing a ping challenge
-- **Verify with that person that they can see their store(s) in the Seller Dashboard** when visiting [**fast.co/business/dash/home**](https://fast.co/business/dash/home)
-  > **Optional**: If the new Owner wishes, they can go to "Teams" on the left navigation bar and deactivate the Partner’s user access to their dashboard
+
+- Verify with that person that they can see their store(s) in the Seller Dashboard when visiting [fast.co/business/dash/home](https://fast.co/business/dash/home)
+  :::info optional
+  If the new Owner wishes, they can go to _Teams_ on the left navigation bar and deactivate the Partner’s user access to their dashboard.
+  :::

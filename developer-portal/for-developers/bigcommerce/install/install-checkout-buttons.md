@@ -4,9 +4,9 @@ description: Fast BigCommerce Installing Fast Checkout Buttons
 keywords: Fast BigCommerce Installing Fast Checkout Buttons
 ---
 
-# Install Step 3: Installing "Fast Checkout" Buttons on BigCommerce
+# Install Step 3: Installing Fast Checkout Buttons on BigCommerce
 
-There are **5 different parts in a typical store's website you can embed the "Fast Checkout" button**:
+There are 5 different parts in a typical store's website you can embed the **Fast Checkout** button:
 
 - Product Pages
 - Cart Preview Page
@@ -14,11 +14,11 @@ There are **5 different parts in a typical store's website you can embed the "Fa
 - The Cart
 - Checkout Page
 
-Let's get started -->
+Let's get started:
 
-## Installing "Fast Checkout" Button to Product Page
+## Installing Fast Checkout Button to Product Page
 
-1. Click "templates" → "components" → "products" → "add-to-cart.html."
+1. Click **templates > components > products > add-to-cart.html**.
 
 <img alt="add-to-cart.html file" src="./images/image24.png"/>
 
@@ -26,7 +26,7 @@ Let's get started -->
    ```javascript
    {{#or customer (if theme_settings.restrict_to_login '!==' true)}}.
    ```
-3. **ABOVE this line**, copy and paste the following code. When you do this, you will need to replace the `REPLACE-WITH-YOUR-APP-ID` placeholder with your Fast App ID.
+3. Above this line, copy and paste the following code. When you do this, you will need to replace the `REPLACE-WITH-YOUR-APP-ID` placeholder with your Fast App ID.
 
 <embed src="/reusables/for-developers/_fast_app_id.md" />
 
@@ -75,21 +75,19 @@ Let's get started -->
 
 4. After copying and pasting that code, indent the code so it matches up with the other indentations in the rest of the code.
 
-5. Click "Save File."
-   > Note: The page might say "Save & apply file" instead of "Save File." If that is the case, click "Save & apply file."
-6. Go to the Product page on your online store and make sure that the Fast Checkout button, which appears there now, looks good to you. (You may have to refresh the page a few times before the Fast Checkout button appears.)
+5. Click **Save File** or **Save & apply file**, depending on the page wording.
+6. Go to the Product page on your online store and make sure that the Fast Checkout button, which appears there now, looks good to you.
+  > You may have to refresh the page a few times before the Fast Checkout button appears.
 
 <img alt="product page" src="./images/image21.png"/>
 
-:::info Check Styling
-
-If you want to adjust how it looks, like make it bigger or less stretched out, follow the steps in the section, [Styling Fast Buttons](/developer-portal/for-developers/bigcommerce/customization/custom-styling/). Then go to the next section.
-
+:::info Button styling
+If you want to adjust the Fast button appearance, refer to the topic [Styling Fast buttons](/developer-portal/for-developers/bigcommerce/customization/custom-styling/).
 :::
 
-## Installing "Fast Checkout" Button to Cart Preview Page
+## Installing Fast Checkout Button to Cart Preview Page
 
-1. In the theme files, click "templates" → "components" → "cart" → "preview.html."
+1. In the theme files, click **templates > components > cart > preview.html**.
 
 <img alt="preview.html file" src="./images/image19.png"/>
 
@@ -99,7 +97,7 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
 {{#if cart.show_primary_checkout_button}}
 ```
 
-3. **BELOW this line**, copy and paste the following code. When you do this, you will need to replace the `REPLACE-WITH-YOUR-APP-ID` placeholder with your Fast App ID.
+3. Below this line, copy and paste the following code. When you do this, you will need to replace the `REPLACE-WITH-YOUR-APP-ID` placeholder with your Fast App ID.
 
    ```html
    {{#if customer.name '===' 'Fast Testing'}}
@@ -139,22 +137,19 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
    {{/if}}
    ```
 
-4. Click "Save File.
+4. Click **Save File**, or **Save & apply file**, depending on the page wording.
+5. Go to the Checkout page on your online store and make sure that the **Fast Checkout** button now appears and looks correct.
+  > You may have to refresh the page a few times before the Fast Checkout button appears.
 
-   > Note: The page might say "Save & apply file" instead of "Save File." If that is the case, click "Save & apply file."
-
-5. Go to the Checkout page on your online store and make sure that the Fast Checkout button, which appears there now, looks good to you. (You may have to refresh the page a few times before the Fast Checkout button appears.)
    <img alt="product page" src="./images/image34.png"/>
 
-:::info Check Styling
+   :::info Button styling
+   If you want to adjust the Fast button appearance, refer to the topic [Styling Fast buttons](/developer-portal/for-developers/bigcommerce/customization/custom-styling/).
+   :::
 
-If you want to adjust how it looks, like make it bigger or less stretched out, follow the steps in the section, [Styling Fast Buttons](/developer-portal/for-developers/bigcommerce/customization/custom-styling/). Then go to the next section.
+## Installing **Fast Checkout** Button to Mini Cart Page
 
-:::
-
-## Installing "Fast Checkout" Button to Mini Cart Page
-
-> Note: If your store doesn’t have a mini cart page, you can skip this entire section and go to the section, Installing Checkout Button to Cart Page.
+> NOTE: If your store doesn’t have a mini cart page, you can skip this entire section and go to the section [Installing Fast Checkout Button to Cart Page](#installing-fast-checkout-button-to-cart-page).
 
 1. In the theme files, click "templates" → "components" → "common" → "cart-preview.html."
    <img alt="cart-preview.html file" src="./images/image3.png"/>
@@ -196,18 +191,17 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
    <!------ FAST CHECKOUT BUTTON END ----------->
    {{/if}}
    ```
-4. Click "Save File."
-   > Note: The page might say "Save & apply file" instead of "Save File." If that is the case, click "Save & apply file."
-5. Go to the Mini Cart page on your online store and make sure that the Fast Checkout button, which appears there now, looks good to you. (You may have to refresh the page a few times before the Fast Checkout button appears.)
+4. Click **Save File**, or **Save & apply file**, depending on the page wording.
+5. Go to the Mini Cart page on your online store and make sure that the Fast Checkout button, which appears there now, looks good to you.
+  > You may have to refresh the page a few times before the **Fast Checkout** button appears.
+
    <img alt="mini cart" src="./images/image14.png"/>
 
-:::info Check Styling
+   :::info Button styling
+   If you want to adjust the Fast button appearance, refer to the topic [Styling Fast buttons](/developer-portal/for-developers/bigcommerce/customization/custom-styling/).
+   :::
 
-If you want to adjust how it looks, like make it bigger or less stretched out, follow the steps in the section, [Styling Fast Buttons](/developer-portal/for-developers/bigcommerce/customization/custom-styling/). Then go to the next section.
-
-:::
-
-## Installing "Fast Checkout" Button to Cart Page
+## Installing **Fast Checkout** Button to Cart Page
 
 1. In the theme files, click "templates" → "pages" → "cart.html."
    <img alt="cart.html file" src="./images/image22.png"/>
@@ -218,7 +212,7 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
 {{#if cart.show_primary_checkout_button}}
 ```
 
-3. **BELOW this line**}, copy and paste the following code. When you do this, you will need to replace the `REPLACE-WITH-YOUR-APP-ID` placeholder with your Fast App ID.
+3. Below this line, copy and paste the following code. When you do this, you will need to replace the `REPLACE-WITH-YOUR-APP-ID` placeholder with your Fast App ID.
 
 ```html
 {{#if customer.name '===' 'Fast Testing'}}
@@ -279,26 +273,22 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
 {{/if}}
 ```
 
-4. Click "Save File."
+4. Click **Save File**, or **Save & apply file**, depending on the page wording.
+5. Go to the Cart page on your online store and make sure that the Fast Checkout button, which appears there now, looks good to you.
+    > You may have to refresh the page a few times before the Fast Checkout button appears.
 
-   > Note: The page might say "Save & apply file" instead of "Save File." If that is the case, click "Save & apply file."
-
-5. Go to the Cart page on your online store and make sure that the Fast Checkout button, which appears there now, looks good to you. (You may have to refresh the page a few times before the Fast Checkout button appears.)
    <img alt="cart page" src="./images/image37.png"/>
-
-:::info Check Styling
-
-If you want to adjust how it looks, like make it bigger or less stretched out, follow the steps in the section, [Styling Fast Buttons](/developer-portal/for-developers/bigcommerce/customization/custom-styling/). Then go to the next section.
-
-:::
+   :::info Button styling
+   If you want to adjust the Fast button appearance, refer to the topic [Styling Fast buttons](/developer-portal/for-developers/bigcommerce/customization/custom-styling/).
+   :::
 
 ## Installing "Fast Checkout" Button to Checkout Page
 
-1. In the theme files, click "templates" → "pages" → "checkout.html."
+1. In the theme files, click **templates > pages > checkout.html**.
    <img alt="checkout.html file" src="./images/image11.png"/>
-2. Use command-F to find the line:
+2. Find the line:
    `{{{ checkout.checkout_content }}}`
-3. **ABOVE this line**, copy and paste the following code. When you do this, you will need to replace the `REPLACE-WITH-YOUR-APP-ID` placeholder with your Fast App ID.
+3. Above this line, copy and paste the following code. When you do this, you will need to replace the `REPLACE-WITH-YOUR-APP-ID` placeholder with your Fast App ID.
    ```html
    {{#if customer.name '===' 'Fast Testing'}}
    <!------ FAST CHECKOUT BUTTON START ----------->
@@ -379,12 +369,11 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
    <!------ FAST CHECKOUT BUTTON END ----------->
    {{/if}}
    ```
-4. Click "Save File."
-   > Note: The page might say "Save & apply file" instead of "Save File." If that is the case, click "Save & apply file."
+4. Click **Save File**, or **Save & apply file**, depending on the page wording.
 5. Go to the homepage of your BigCommerce account.
-6. On the sidebar, click "Storefront" → "Script Manager."
+6. On the sidebar, click **Storefront > Script Manager**.
    <img alt="selecting script manager in the storefront sidebar" src="./images/image9.png"/>
-7. Click "Create a Script."
+7. Click **Create a Script**.
    <img alt="clicking create a script button" src="./images/image31.png"/>
 8. Fill out the script with the following fields:
    - **Name of Script**: Fast Checkout Placement
@@ -394,16 +383,15 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
    - **Script category**: Essential
    - **Script type**: Script
      <img alt="script form" src="./images/image5.png"/>
-9. Copy and paste this script into the section, "Script Contents."
+9. Copy and paste this script into the _Script Contents_ section.
    ```javascript
    <script type="text/javascript"> const oldOnload = window.onload; window.onload = () => { if (typeof oldOnload == 'function') { oldOnload(); } const fw = document.getElementsByClassName("fast-wrapper")[0]; const lm = document.getElementsByClassName("layout-main")[0]; if (typeof fw !== 'undefined') { lm.prepend(fw); } } </script>
    ```
-10. Click "Save."
-11. Go to the Checkout page on your online store and make sure that the Fast Checkout button, which appears there now, looks good to you. (You may have to refresh the page a few times before the Fast Checkout button appears.)
+10. Click **Save**.
+11. Go to the Checkout page on your online store and make sure that the Fast Checkout button, which appears there now, looks good to you.
+  > You may have to refresh the page a few times before the Fast Checkout button appears.
+
     <img alt="checkout page" src="./images/image7.png"/>
-
-:::info Check Styling
-
-If you want to adjust how it looks, like make it bigger or less stretched out, follow the steps in the section, [Styling Fast Buttons](/developer-portal/for-developers/bigcommerce/customization/custom-styling/). Then go to the next section.
-
-:::
+    :::info Button styling
+    If you want to adjust the Fast button appearance, refer to the topic [Styling Fast buttons](/developer-portal/for-developers/bigcommerce/customization/custom-styling/).
+    :::

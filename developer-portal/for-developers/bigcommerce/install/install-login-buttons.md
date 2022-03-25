@@ -9,18 +9,18 @@ redirectFrom:
   - /developer-portal/fast-login-bigcommerce-examples/
 ---
 
-# Install Step 4: Installing "Fast Login" Buttons on BigCommerce
+# Install Step 4: Installing Fast Login Buttons on BigCommerce
 
-There are **2 different pages you can install our "Fast Login" button**:
+There are 2 different pages where you can install our **Fast Login** button:
 
 - Login Page
 - Create Account Page
 
-Let's get started -->
+Let's get started:
 
-## Installing "Fast Login" Button to Login Page
+## Installing Fast Login Button to Login Page
 
-1. In the theme files, click "templates" → "pages" → "auth" → "login.html."
+1. In the theme files, click **templates > pages > auth > login.html**.
    <img alt="login.html file" src="./images/image6.png"/>
 2. Use command-F to find the line:
 
@@ -28,7 +28,7 @@ Let's get started -->
 <h1 class="page-heading">{{lang 'login.heading' }}</h1>
 ```
 
-3. **BELOW this line**, copy and paste the following code. When you do this, you will need to replace the `REPLACE-WITH-YOUR-APP-ID` placeholder with your Fast App ID.
+3. Below this line, copy and paste the following code. When you do this, you will need to replace the `REPLACE-WITH-YOUR-APP-ID` placeholder with your Fast App ID.
 
 <embed src="/reusables/for-developers/_fast_app_id.md" />
 
@@ -75,28 +75,25 @@ Let's get started -->
 {{/if}}
 ```
 
-4. Click "Save File."
+4. Click **Save File**, or **Save & apply file** depending on the wording of the page.
+5. Go to the Login page on your online store and make sure that the Fast Login button, which appears there now, looks good to you.
+  > You may have to refresh the page a few times before the Fast Login button appears.
 
-   > Note: The page might say "Save & apply file" instead of "Save File." If that is the case, click "Save & apply file."
-
-5. Go to the Login page on your online store and make sure that the Fast Login button, which appears there now, looks good to you. (You may have to refresh the page a few times before the Fast Login button appears.)
    <img alt="login page" src="./images/image27.png"/>
 
-:::info Check Styling
+   :::info Button Styling
+   If you want to adjust the appearance of the Fast button, refer to [Styling Fast buttons](/developer-portal/for-developers/bigcommerce/customization/custom-styling/).
+   :::
 
-If you want to adjust how it looks, like make it bigger or less stretched out, follow the steps in the section, [Styling Fast Buttons](/developer-portal/for-developers/bigcommerce/customization/custom-styling/). Then go to the next section.
+## Installing Fast Login Button to Create Account Page
 
-:::
-
-## Installing "Fast Login" Button to Create Account Page
-
-1. In the theme files, click "templates" → "pages" → "auth" → "create-account.html."
+1. In the theme files, click **templates > pages > auth > create-account.html**.
    <img alt="create-account.html file" src="./images/image15.png"/>
-2. Use command-F to find the line:
+2. Find the line:
    ```javascript
    <h1 class="page-heading">{{lang 'create_account.heading' }}</h1>
    ```
-3. **BELOW this line**, copy and paste the following code. When you do this, you will need to replace the `REPLACE-WITH-YOUR-APP-ID` placeholder with your Fast App ID.
+3. Below this line, copy and paste the following code. When you do this, you will need to replace the `REPLACE-WITH-YOUR-APP-ID` placeholder with your Fast App ID.
 
    ```html
    {{#if customer.name '===' 'Fast Testing'}}
@@ -141,13 +138,12 @@ If you want to adjust how it looks, like make it bigger or less stretched out, f
    {{/if}}
    ```
 
-4. Click "Save File."
-   > Note: The page might say "Save & apply file" instead of "Save File." If that is the case, click "Save & apply file."
-5. Go to the Create Account page on your online store and make sure that the Fast Login button, which appears there now, looks good to you. (You may have to refresh the page a few times before the Fast Login button appears.)
+4. Click **Save File**, or **Save & apply file** depending on the wording of the page.
+5. Go to the Create Account page on your online store and make sure that the Fast Login button, which appears there now, looks good to you.   
+  > You may have to refresh the page a few times before the Fast Login button appears.
+
    <img alt="create account page" src="./images/image36.png"/>
 
-:::info Check Styling
-
-If you want to adjust how it looks, like make it bigger or less stretched out, follow the steps in the section, [Styling Fast Buttons](/developer-portal/for-developers/bigcommerce/customization/custom-styling/). Then go to the next section.
-
-:::
+   :::info Button Styling
+   If you want to adjust the appearance of the Fast button, refer to [Styling Fast buttons](/developer-portal/for-developers/bigcommerce/customization/custom-styling/).
+   :::
