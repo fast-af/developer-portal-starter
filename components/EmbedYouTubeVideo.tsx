@@ -2,20 +2,20 @@ import React from "react";
 import PropTypes from "prop-types";
 
 export default function YouTubeVideoEmbed({ embedId, start, end, videoTitle }) {
-  const startBool = Number.isInteger(start);
-  const endBool = Number.isInteger(end);
+  const startBool = Number.isInteger(parseInt(start, 10));
+  const endBool = Number.isInteger(parseInt(end, 10));
 
   var finalEmbedString = embedId;
   if (startBool || endBool) {
     finalEmbedString = finalEmbedString.concat("?");
     if (startBool) {
-      finalEmbedString = finalEmbedString.concat(start);
+      finalEmbedString = finalEmbedString.concat("start=", start);
     }
 
     if (endBool) {
       finalEmbedString = startBool
-        ? finalEmbedString.concat("&", end)
-        : finalEmbedString.concat(end);
+        ? finalEmbedString.concat("&end=", end)
+        : finalEmbedString.concat("end=", end);
     }
   }
   return (
