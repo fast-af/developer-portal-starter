@@ -15,6 +15,6 @@
 
    ![Bank details](images/bcwc08.png)
 
-2. Click “Continue”
+2. Click "Continue"
 
    ![continue to dashboard pop up](images/bcwc09.png)

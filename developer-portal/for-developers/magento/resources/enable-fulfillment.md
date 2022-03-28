@@ -25,7 +25,7 @@ These orders will be labeled with Fast as a payment method, so that you can iden
 
 ## Invoices
 
-**New orders will be created with the default order status matching the regular checkout flow**. When invoices are created (including for stores that capture payment up front), the order status will change to what is listed under Store Configuration -> Services -> Fast in the “Order Status Invoice Paid” dropdown menu.
+**New orders will be created with the default order status matching the regular checkout flow**. When invoices are created (including for stores that capture payment up front), the order status will change to what is listed under Store Configuration -> Services -> Fast in the "Order Status Invoice Paid" dropdown menu.
 
 ## Shipped Orders
 
