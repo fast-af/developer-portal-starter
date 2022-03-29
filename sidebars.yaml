@@ -212,7 +212,7 @@ salesforce:
       - label: "Step 3: Specify Products"
         page: developer-portal/for-developers/salesforce/install/specify-products.md
       - label: "Step 4: Activate Storefront"
-        page: developer-portal/for-developers/salesforce/install/activate-storefront.md
+        page: developer-portal/for-developers/salesforce/install/activate-storefront.mdx
 
 woocommerce:
   - page: developer-portal/for-developers/woocommerce.md
