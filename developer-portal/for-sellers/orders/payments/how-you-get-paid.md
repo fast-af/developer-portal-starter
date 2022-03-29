@@ -4,6 +4,6 @@ description: How you get paid as a Fast Seller
 keywords: Fast Seller payment
 ---
 
-# How you get paid
+# How You Get Paid
 
 <embed src="/reusables/for-sellers/_how-you-get-paid.md" />
