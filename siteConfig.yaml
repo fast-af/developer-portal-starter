@@ -3,8 +3,14 @@ seo:
   description: Documentation, resources & support integrating Fast products.
   siteUrl: https://fast.co/docs
   image: ./images/fastDocsLogo.svg
-  keywords: Fast button, Fast install, Fast login, Fast docs
+  keywords: Fast button, Fast install, Fast Checkout, Fast Login, Fast Docs
   lang: en-US
+copyCodeSnippet:
+  enable: true
+  buttonText: Copy
+  tooltipText: Copy this code snippet
+  toasterText: Copied to Clipboard
+  toasterDuration: 1500
 disableLastModified: true
 linkChecker:
   severity: warning

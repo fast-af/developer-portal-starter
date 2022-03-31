@@ -4,7 +4,7 @@
 
 This diagram covers the high level flow for when a new Shopper clicks the Fast checkout button.
 
-![New buyer clicks Fast Checkout](images/new-buyer-clicks.png)
+![New shopper clicks Fast Checkout](images/new-buyer-clicks.png)
 
 ## Shopper Interacts With Fast Checkout
 

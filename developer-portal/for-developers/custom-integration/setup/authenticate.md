@@ -6,35 +6,39 @@ keywords: Fast Custom Integration Quickstart
 enableToc: true
 redirectFrom:
   - /developer-portal/fast-api-reference-authentication/
+  - /developer-portal/for-developers/custom-integration/resources/authentication/
 ---
 
 # Setup Step 1: All Things Authentication
 
 ## Onboarding Overview of Terms
 
-Authentication will be a part of everything! Before we can get started we need to go over a few terms:
+Fast's Custom Integration is intended for merchants who have custom-built their own eCommerce site and want to use Fast Checkout to eliminate the friction during the checkout experience for their users and reduce cart abandonment.
+
+Custom Integrations with Fast require some development work to properly ingest calls from Fast for new orders or updates, as well as occasional calls to Fast for things like refunds. Authentication will be a part of everything! Technical integration steps and key term definitions can be found below.
 
 ### Merchant API URL
 
-**We will ask you to provide your "Merchant API URL"**. This URL should look something like: `https://api.your-store.com`.
+**Fast will ask you to provide your "Merchant API URL"**. This URL should look something like:
+`https://api.your-store.com`.
 
-This is the base URL we will use for sending API requests for the defined APIs that need to be implemented as part of this integration.
+This is the base URL Fast will use to send API requests for the APIs that need to be implemented as part of the integration.
 
 > For example, if you have used `https://api.your-store.com` as your Merchant URL then when we call the defined `fast/v1/create` API we will send the request as `https://api.your-store.com/fast/v1/create`
 
 ### API Access Token
 
-**We will generate an API Access Token during onboarding**. You can view this token in the **Install** section of your [Fast Seller Dashboard](https://fast.co/business/dash/install) only once, so be sure to copy and store this in a safe place where you normally store your credentials (i.e. AWS Secret Store). This API Token will be used to authenticate your calls to Fast.
+**Fast will generate an API Access Token during Seller onboarding**. You can view this token in the ["Install" tab of the Fast Seller Dashboard](https://fast.co/business/dash/install) only once, so be sure to copy and store it in a safe place where you normally store your credentials (e.g. AWS Secret Store). This API Token will be used to authenticate your calls to Fast.
 
 ### Fast App ID
 
-**We will assign your app a unique identifier during onboarding**. This ID will be included in every call you make to Fast in the Headers, discussed below.
+**Fast will assign your app a Fast App ID (`app_id`) during Seller onboarding**. The Fast App ID is a unique identifier included in every call you make to Fast (as shown in the [Headers](#headers) section below).
 
 <embed src="/reusables/for-developers/_fast_app_id.md" />
 
 ### App Secret
 
-**This secret is only required for programmatically revoking or rotating your API Access Token via our APIs**. We also provide the option to perform those actions in the Fast UI. If you are planning on revoking or rotating via the APIs reach out to Fast customer support and they will be able to provide you with the App Secret to perform this action programmatically.
+**This secret is only required for programmatically revoking or rotating your API Access Token via our APIs**. We also provide the option to perform those actions in the Fast UI. If you plan to revoke or rotate API Tokens using the APIs, contact Customer Success at [seller-support@fast.co](mailto:seller-support@fast.co) to be provided with the App Secret to perform these actions programmatically.
 
 ## Authenticating Calls to Fast
 
@@ -52,7 +56,7 @@ The initial access token provided during onboarding does not have an expiration,
 
 ### Rotating Your Token
 
-Rotating your token sets a **48 hour expiry for your current token**, and generates a new token. During the expiry window both the old and new API Tokens will be considered valid by Fast. Once the expiry window is over, the old API Token will cease to be valid and Fast will reject all calls using that token as Unauthorized.
+Rotating your token sets a **48-hour expiry for your current token**, and generates a new token. During the expiry window both the old and new API Tokens will be considered valid by Fast. Once the expiry window is over, the old API Token will cease to be valid and Fast will reject all calls using that token as Unauthorized.
 
 You can rotate your token via the ["Install" tab in the Fast Seller Dashboard](https://fast.co/business/dash/install), or programmatically via the `/v1/apps/<app_id>/token/rotate` API.
 
@@ -75,7 +79,7 @@ Response
 
 Revoking your token is provided as an option in case your existing API Token has been compromised. This will cause all calls to Fast using the old token to immediately be rejected as Unauthorized, and should only be used in situations where it is absolutely necessary.
 
-You can revoke your token via the Fast dashboard, or programmatically via the `/v1/apps/<app_id>/revoke` and `/v1/apps/<app_id>/create` API. Both APIs require that the `app_secret` be passed as part of the body of the request
+You can revoke your token via the ["Install" tab in the Fast Seller Dashboard](https://fast.co/business/dash/install), or programmatically via the `/v1/apps/<app_id>/revoke` and `/v1/apps/<app_id>/create` APIs. Both APIs require that the `app_secret` be passed as part of the body of the request
 
 ```json
 POST /v1/apps/<app_id>/token/revoke
@@ -108,29 +112,30 @@ Response
 
 ## Validating Calls From Fast
 
-In order to allow you to verify that calls to your server are in fact, from Fast, we will be including a signed JWT with our calls as the Authorization header of the call. The JWT will be signed via RSA256 with one of Fast's private keys. The key used for signing will be referenced by the key identified (`kid`) in the header of the JWT. We provide an API for fetching Fast's JWKs (`/v1/oauth2/jwks`) which provides a map of Key Identifiers to the public key needed to verify the signature.
+In order to allow you to verify that calls to your server are in fact from Fast, we will include a signed JWT (JSON Web Token) with our calls as the Authorization header of the call. The JWT will be signed via RSA256 with one of Fast's private keys. The key used for signing will be referenced by the Key ID (`kid`) in the header of the JWT. To fetch Fast's JWKs (JSON Web Keys), we provide an API (`/v1/oauth2/jwks`) that provides a map of Key IDs to the public key needed to verify the signature.
 
-**Headers**
+### Headers
 
 ```python
 Authorization: Bearer <jwt_token>
 ```
 
-**JWT Format**
+### JWT Format
 
-```json
-HEADER
+```json HEADER
+
 {
  "alg": "RSA256",
  "kid": "vK-TF3bs-EY7zyp_Hke8-1Md-NrFeq0WY45HECHzqSE" // the Key Identifier to determine the public key to verify the signature
  "typ": "JWT"
 }
+```
 
-PAYLOAD
+```json PAYLOAD
 {
-    "iss": "api.fast.co", // should also be the origin of the request
-    "aud": "a2c74070-c22a-42e8-a0b2-adce2210a3a7", // your Fast App ID
-    "exp": "1611362912", // UNIX time of expiration. Must be less than current time
+  "iss": "api.fast.co", // should also be the origin of the request
+  "aud": "a2c74070-c22a-42e8-a0b2-adce2210a3a7", // your Fast App ID
+  "exp": "1611362912", // UNIX time of expiration. Must be less than current time
   "iat": "1611251846" // UNIX time of issue
 }
 ```
