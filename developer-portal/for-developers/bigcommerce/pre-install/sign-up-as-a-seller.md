@@ -39,12 +39,12 @@ Before you begin this process, you’ll need an online store hosted by BigCommer
 
    ![Connect to BigCommerce pop up](images/bc-connectplatform.png)
 
-2. Click “Log in” and log into your BigCommerce account.
-   **Note**: You need BigCommerce Store Owner access to do this.
+2. Click **Log in** and log into your BigCommerce account.
+   > NOTE: You need BigCommerce Store Owner access to do this.
 
    ![BigCommerce Login](images/big22.png)
 
-3. Click the checkbox and click “Confirm.”
+3. Click the checkbox and click "Confirm."
    ![Confirm](images/bc-confirm.png)
 
 ## Verification

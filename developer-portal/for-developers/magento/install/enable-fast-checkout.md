@@ -27,16 +27,16 @@ The module includes the necessary code for Fast buttons to appear and work on th
 
    <img alt="configuration form" src="./images/image4.png"/>
 
-6. **Set the module to “enabled” on the appropriate store(s)**. This is a store-level configuration setting that allows you to quickly enable or disable Fast.
+6. **Set the module to "enabled" on the appropriate store(s)**. This is a store-level configuration setting that allows you to quickly enable or disable Fast.
 7. **Enter your Access Token and Fast App ID given to you from Fast**. This should be the sandbox credentials for initial testing.
 
 <embed src="/reusables/for-developers/_fast_app_id.md" />
 
-   > Select dark theme if your site has a dark/black background.
+> Select dark theme if your site has a dark/black background.
 
-   > If capturing up front, select Enable Auth+Capture.
+> If capturing up front, select Enable Auth+Capture.
 
-   > Only select Production mode when ready to go live.
+> Only select Production mode when ready to go live.
 
 8. **Save Config**.
 9. **Press the activate button**. A successful activation is indicated in green and will fill in the App Secret.

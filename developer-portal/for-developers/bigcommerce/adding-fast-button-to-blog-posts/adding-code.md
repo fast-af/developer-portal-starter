@@ -35,10 +35,12 @@ To add Fast Checkout to your blog posts, you will need to:
    </form>
    ```
 
-2. In the blog post text editor section, **click on `</>` and paste the code snippet here**:
+2. In the blog post text editor section, click on `</>` and paste the code snippet here:
+
    ![Blog post sample](images/blog_post1.png)
 
 3. **Save**. When you save the blog post,`<p>` tags will automatically appear around the `fast-checkout-button' line.
+
    ![Blog post sample](images/blog_post2.png)
 
 ## Adding Code to your Theme Files
@@ -194,7 +196,8 @@ Same code snippet, but without the optional fields:
 {{/if}}
 ```
 
-6. **Make sure to update the `/blog/di-test/` within the script above with the blog url path found on blog post under SEO**:
+6. Make sure to update the `/blog/di-test/` within the script above with the blog url path found on blog post under SEO:
+
    ![Blog post url sample](images/blog_post_url.png)
 
-7. **Click on "Save & apply file"**.
+7. Click on **Save & apply file**.

@@ -25,7 +25,7 @@ Before you begin this process, you’ll need an online store hosted by WooCommer
 
 ## Provide Platform Details
 
-1. Select “WooCommerce” for your platform type and click "Continue."
+1. Select "WooCommerce" for your platform type and click "Continue."
 
 <embed src="/reusables/for-developers/_platform_all_sign_up_as_a_seller_platform_details.md" />
 
@@ -44,7 +44,7 @@ Before you begin this process, you’ll need an online store hosted by WooCommer
 
    ![WooCommerce Login form](images/woocommerce-signup-7.png)
 
-3. Click the checkbox and click “Confirm.”
+3. Click the checkbox and click "Confirm."
    ![Confirm](images/wc-confirm.png)
 
 ## Verification
