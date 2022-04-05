@@ -27,29 +27,30 @@ Before proceeding with storefront configuration, ensure that you have already [d
    - In the Settings tab, **add `int_fast_sfra` to the Effective Cartridge Path** (e.g. `int_fast_sfra:app_storefront_base`, as Cartridge names must be provided as a colon-separated list)
      ![cartridge path](./images/cartridge_path.png)
    - **Click "Apply"**
-   - The following video outlines how to update the effective Cartridge path:
-     <YouTubeVideoEmbed
-       embedId="MVnZudopLMI"
-       start="178"
-       end="210"
-       videoTitle="Add Fast Cartridge Path"
-     />
+3. The following video outlines how to update the effective Cartridge path:
+   <YouTubeVideoEmbed
+     embedId="MVnZudopLMI"
+     start="178"
+     end="210"
+     videoTitle="Add Fast Cartridge Path"
+   />
 
 ## Import Fast's metadata XML file to enable custom attributes
 
 1. Navigate to **Administration > Site Development > Import & Export > Manage Import Files**
 2. In the _Import & Export Files_ section, click **Upload**, then **Choose File**.
 3. Find the `system-objecttype-extensions.xml` under `/metadata/fast-meta-import/meta`.
-   > For reference, this is the location of the file in [Fast's SFCC Integration GitHub repository](https://github.com/fast-af/sfcc-integration/tree/master/sfcc_cartridge/metadata/fast-meta-import/meta).
-4. Click **Upload**.\
-   You will see the XML file uploaded in _Manage Import Files_.
-5. Navigate back to _Import & Export_, and in the _Meta Data_ section, click **Import**.
-   - Select the file that you just imported and click **Next**.
-   - Click **Refresh** if you do not see a completed result here.\
-     You will see that the XML validation has completed.
+   - For reference, this is the location of the file in [Fast's SFCC Integration GitHub repository](https://github.com/fast-af/sfcc-integration/tree/master/sfcc_cartridge/metadata/fast-meta-import/meta).
+4. Click **Upload**.
+   - You should see the XML file uploaded in _Manage Import Files_.
+5. Navigate back to _Import & Export_ > _Meta Data_ section.
    - Click **Import**.
-   - In the _Status_ section, click the **Refresh** button.\
-     You will see that the imports are successfully completed.
+   - Select the file that you just imported and click **Next**.
+   - You should see that the XML validation has completed.
+     - Click **Refresh** if you do not see a completed result here.
+   - Click **Import**.
+   - You should see that the imports have successfully completed.
+     - Click **Refresh** in the _Status_ section if you do not see a successful import status.
 6. The following video outlines how to import custom attributes:
    <YouTubeVideoEmbed
      embedId="MVnZudopLMI"
@@ -68,8 +69,8 @@ Please limit changes to Sandbox configuration settings so that Fast can evaluate
 
 1. In the Commerce Cloud Business Manager, navigate to **Merchant Tools > Ordering > Payment Processors**.
    - Click **New**.
-   - In the _New Payment Processor_ section, enter `FAST_CHECKOUT` for the **ID** and a **Description** such as "Fast Checkout", then click **Apply**.\
-     Navigate back to the _Payment Processors_ page, where you will see "Fast Checkout" added to the list.
+   - In the _New Payment Processor_ section, enter `FAST_CHECKOUT` for the **ID** and a **Description** such as "Fast Checkout", then click **Apply**.
+     - Navigate back to the _Payment Processors_ page, where you should see "Fast Checkout" added to the list.
 2. Navigate to **Merchant Tools > Ordering > Import & Export**.
    - Click **Upload**
    - Select the previously downloaded Cartridge file
@@ -95,7 +96,7 @@ Please limit changes to Sandbox configuration settings so that Fast can evaluate
 A Business Manager user is needed to connect the Open Commerce API (OCAPI) to Fast.
 
 1. Navigate to **Administration > Users**.
-   - If you have the proper permissions you will see a **Create Users** button here.
+   - If you have the proper permissions you should see a **Create Users** button here.
 2. Follow the instructions [described here](https://trailhead.salesforce.com/content/learn/modules/b2c-configure-users-roles-permissions/b2c-admin-configure-business-manager-users) to create a new user.
 3. The following video outlines how to create a Business Manager User for our storefront:
    <YouTubeVideoEmbed
@@ -122,21 +123,26 @@ A Business Manager user is needed to connect the Open Commerce API (OCAPI) to Fa
 
 ### Configure Fast Checkout button settings
 
-1. Navigate to **Merchant Tools > Custom Preferences > Fast Configs**. You will see a number of existing preferences.\
-   ![Fast config](./images/fast-configs.png)
+1. Navigate to **Merchant Tools > Custom Preferences > Fast Configs**.
+   - You should see a number of existing preferences.
+     ![Fast config](./images/fast-configs.png)
 2. Set the following values:
-   - **Instance Type**
-   - During initial testing, set Instance Type to "Sandbox". Instance Type should only be changed to "Production" after Fast has evaluated your Sandbox setup and you are ready to go live with your changes.
+   - **Instance Type**:
+     - During initial testing, set Instance Type to "Sandbox".
+     - Instance Type should only be changed to "Production" after Fast has evaluated your Sandbox setup and you are ready to go live with your changes.
    - **Fast JS URL**:
      - Sandbox: "https://js.sandbox.fast.co/fast.js"
      - Production: "https://js.fast.co/fast.js"
-   - **Fast Enabled** - set to "Enabled".\
-     This is a store-level setting that allows you to quickly enable or disable Fast.
-   - **Fast App ID** - enter the Sandbox App ID (`app_id`) provided to you previously by Fast.\
-     You must have already [created an API client](#create-an-api-client-for-fast) so that the Fast Delivery Team can generate a Fast App ID (or Sandbox App ID) for your store. You will not obtain a production `app_id` until your Sandbox setup has been validated by Fast.\
-     <embed src="/reusables/for-developers/_fast_app_id.md" />
-   - **Fast Theme** - if you set the theme to Dark, it will make the button appear white.
-     ![Fast theme](./images/fast-theme.png)
+   - **Fast Enabled**:
+     - Set to "Enabled."
+     - This is a store-level setting that allows you to quickly enable or disable Fast.
+   - **Fast App ID**:
+     - Enter the Sandbox App ID (`app_id`) provided to you previously by Fast.
+     - You must have already [created an API client](#create-an-api-client-for-fast) so that the Fast Delivery Team can generate a Sandbox App ID for your store. You will not obtain a production Fast App ID (`app_id`) until your Sandbox setup has been validated by Fast.
+       <embed src="/reusables/for-developers/_fast_app_id.md" />
+   - **Fast Theme**:
+     - If you set the theme to Dark, it will make the button appear white.
+       ![Fast theme](./images/fast-theme.png)
 3. Click **Save Config**.
 4. The following video outlines how to configure Fast Checkout from the "Fast Configs" settings page:
    <YouTubeVideoEmbed
