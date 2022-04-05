@@ -30,7 +30,9 @@ stylesheets:
   - ./static/global-styles.css
 analytics:
   ga:
-    trackingId: "G-RKYNE4TEVK"
+    trackingId: {{process.env.DOCS_GA_ANALYTICS_ID}}
+  fullstory:
+    fs_org: {{process.env.DOCS_FS_ANALYTICS_ID}}
 disableImagesOptimization: true
 #scripts:
 #  - ./static/intercom.js
