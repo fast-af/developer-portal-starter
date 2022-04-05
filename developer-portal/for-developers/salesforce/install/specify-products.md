@@ -14,6 +14,8 @@ Once you have enabled Fast Checkout sitewide, you can make exclusions at the pro
 
 <img alt="show fast button input set to no" src="./images/image2.png"/>
 
-:::info Heads up
-**The Fast Checkout button will only appear on the Product Detail Page (PDP) for products that are Fast-enabled.** If a Shopper includes one or more Fast-disabled product in their cart, the Fast Checkout button will no longer appear for them when viewing Cart pages.
+:::attention Expected Behavior for Fast-Disabled Products
+**The Fast Checkout button will only appear on the Product Detail Page (PDP) for products that are Fast-enabled.**
+
+The Fast Checkout button will similarly not appear on Cart pages when a Shopper includes one or more Fast-disabled products in their cart.
 :::
